@@ -1,0 +1,1045 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#1F3A5F">
+<title>統測字彙練習</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon-192.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<style>
+:root{
+  --navy:#1F3A5F; --blue:#4A7BC8; --sky:#ECF3FB;
+  --green:#2E9E5B; --red:#C0392B; --amber:#B8860B;
+  --ink:#1a2230; --mut:#5b6577; --line:#d8e0ec; --bg:#f4f7fc;
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;overflow-x:hidden}
+body{
+  font-family:"PingFang TC","Heiti TC","Microsoft JhengHei","Noto Sans CJK TC",sans-serif;
+  background:var(--bg); color:var(--ink); font-size:16px; line-height:1.5;
+  -webkit-text-size-adjust:100%;
+}
+.wrap{max-width:760px;margin:0 auto;padding:0 14px 90px}
+header.top{
+  background:var(--navy); color:#fff; padding:12px 14px;
+  display:flex; align-items:center; gap:10px; position:sticky; top:0; z-index:10;
+}
+header.top h1{font-size:17px;margin:0;font-weight:700;letter-spacing:.5px;flex:1}
+header.top .back{background:rgba(255,255,255,.16);border:0;color:#fff;font-size:14px;padding:6px 12px;border-radius:8px;cursor:pointer}
+.badge{background:rgba(255,255,255,.16);color:#fff;font-size:12px;padding:5px 9px;border-radius:20px;cursor:pointer;white-space:nowrap}
+.badge.ok{background:#2E9E5B}
+.badge.off{background:#B8860B}
+
+h2{font-size:16px;color:var(--navy);margin:18px 0 8px;border-left:4px solid var(--blue);padding-left:8px}
+.mut{color:var(--mut);font-size:13px}
+.card{background:#fff;border:1px solid var(--line);border-radius:12px;padding:14px;margin:10px 0;box-shadow:0 1px 3px rgba(31,58,95,.05)}
+
+button{font-family:inherit}
+.btn{display:inline-block;background:var(--navy);color:#fff;border:0;border-radius:10px;padding:11px 16px;font-size:15px;cursor:pointer}
+.btn:active{opacity:.85}
+.btn.blue{background:var(--blue)}
+.btn.ghost{background:#fff;color:var(--navy);border:1.5px solid var(--navy)}
+.btn.sm{padding:7px 11px;font-size:13px;border-radius:8px}
+.btn.wide{display:block;width:100%;text-align:center;margin:8px 0}
+.btn:disabled{opacity:.5;cursor:not-allowed}
+
+input,select{font-family:inherit;font-size:15px;padding:10px;border:1.5px solid var(--line);border-radius:9px;width:100%;background:#fff;color:var(--ink)}
+label.fld{display:block;margin:10px 0 4px;font-size:13px;color:var(--mut)}
+.row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.row>*{flex:0 0 auto}
+.grow{flex:1 1 auto}
+
+/* 首頁大按鈕 */
+.home-hero{text-align:center;padding:26px 0 8px}
+.home-hero .logo{width:76px;height:76px;border-radius:18px;background:var(--navy);color:#fff;display:inline-flex;align-items:center;justify-content:center;font-size:26px;font-weight:800;letter-spacing:1px}
+.home-hero h1{color:var(--navy);margin:12px 0 2px;font-size:22px}
+.bigbtn{display:block;width:100%;border:0;border-radius:16px;padding:22px;margin:12px 0;font-size:19px;font-weight:700;color:#fff;cursor:pointer;text-align:left}
+.bigbtn small{display:block;font-size:13px;font-weight:400;opacity:.9;margin-top:4px}
+.bigbtn.teacher{background:var(--navy)}
+.bigbtn.student{background:var(--blue)}
+
+/* tabs */
+.tabs{display:flex;gap:6px;overflow-x:auto;padding:10px 0 2px}
+.tab{flex:0 0 auto;background:#fff;border:1.5px solid var(--line);color:var(--mut);padding:8px 12px;border-radius:20px;font-size:14px;cursor:pointer;white-space:nowrap}
+.tab.on{background:var(--navy);color:#fff;border-color:var(--navy)}
+
+/* 對答案卡片 */
+.gq{border:1px solid var(--line);border-radius:12px;padding:12px;margin:10px 0;background:#fff}
+.gq .qh{font-size:13px;color:var(--blue);font-weight:700;margin-bottom:4px}
+.gq .stem{font-size:15px;margin-bottom:2px}
+.gq .ans{font-size:14px;color:var(--navy);background:var(--sky);border-radius:7px;padding:6px 9px;margin:6px 0}
+.gq .exp{font-size:13px;color:var(--mut)}
+.markbtns{display:flex;gap:10px;margin-top:10px}
+.mk{flex:1;border:2px solid var(--line);background:#fff;border-radius:12px;padding:14px;font-size:18px;font-weight:800;cursor:pointer;color:var(--mut)}
+.mk.ok.on{background:var(--green);color:#fff;border-color:var(--green)}
+.mk.no.on{background:var(--red);color:#fff;border-color:var(--red)}
+
+/* 學生作答 */
+.opt{display:block;width:100%;text-align:left;border:1.5px solid var(--line);background:#fff;border-radius:10px;padding:11px 13px;margin:6px 0;font-size:15px;cursor:pointer}
+.opt.pick{border-color:var(--blue);background:var(--sky)}
+.opt.right{border-color:var(--green);background:#e8f6ee}
+.opt.wrong{border-color:var(--red);background:#fbeceb}
+.codebtns{display:flex;gap:6px;flex-wrap:wrap;margin-top:6px}
+.cbtn{width:38px;height:38px;border:1.5px solid var(--line);background:#fff;border-radius:9px;font-weight:700;cursor:pointer;font-size:15px}
+.cbtn.pick{background:var(--blue);color:#fff;border-color:var(--blue)}
+.mrow{display:flex;align-items:center;gap:8px;padding:7px 0;border-bottom:1px dashed var(--line)}
+.mrow .w{font-weight:700;min-width:96px}
+
+.pill{display:inline-block;background:var(--sky);color:var(--navy);border-radius:20px;padding:3px 10px;font-size:12px;margin:2px 4px 2px 0}
+.big-score{font-size:44px;font-weight:800;color:var(--navy);text-align:center}
+.streak{text-align:center;font-size:15px;color:var(--amber);font-weight:700;margin:6px 0}
+.toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%);background:var(--navy);color:#fff;padding:10px 18px;border-radius:22px;font-size:14px;z-index:50;opacity:0;transition:opacity .25s}
+.toast.show{opacity:1}
+table.stat{width:100%;border-collapse:collapse;font-size:14px}
+table.stat td,table.stat th{border:1px solid var(--line);padding:6px 8px;text-align:left}
+table.stat th{background:var(--sky);color:var(--navy)}
+.hidden{display:none!important}
+.empty{color:var(--mut);text-align:center;padding:26px 0}
+a{color:var(--blue)}
+.codebox{font-family:ui-monospace,Menlo,monospace;font-size:26px;font-weight:800;letter-spacing:4px;color:var(--navy);background:var(--sky);border-radius:10px;padding:12px;text-align:center}
+</style>
+</head>
+<body>
+<header class="top">
+  <button class="back hidden" id="backBtn">← 返回</button>
+  <h1 id="title">統測字彙練習</h1>
+  <span class="badge" id="badge" title="點我看同步狀態">本機模式</span>
+</header>
+<div class="wrap"><div id="view"></div></div>
+<div class="toast" id="toast"></div>
+
+<script>
+/* ============================================================
+   統測字彙練習 App — 單檔 PWA + Supabase 同步
+   本機模式（CONFIG 兩值留空）＝ 純 localStorage，全功能可用。
+   ============================================================ */
+
+/* ---- Supabase 設定：留空＝本機模式；填入後＝雲端同步 ---- */
+const CONFIG = { SUPABASE_URL: "", SUPABASE_ANON_KEY: "" };
+// SDK 改用本地 vendored 檔（vendor/supabase.js）：解決 CDN 投毒面、離線也載得到
+const SDK_URL = "vendor/supabase.js";
+
+const LS = { db: "tsvt_db", outbox: "tsvt_outbox", anonOutbox: "tsvt_anon_outbox", teacher: "tsvt_teacher_mode" };
+const PAPER_NAME = { review: "複習卷", quiz: "小考卷" };
+const SECTION_NAME = { matching: "配合", "mc-vocab": "單字", "mc-phrase": "片語", dialogue: "對話" };
+
+const $ = (id) => document.getElementById(id);
+// 主鍵用 UUID（schema 三表主鍵是 uuid 型別，雲端 insert 才不會炸）
+const genId = () => {
+  if (window.crypto && crypto.randomUUID) return crypto.randomUUID();
+  // 舊瀏覽器 fallback：手刻 UUID v4
+  return "xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx".replace(/[xy]/g, (c) => {
+    const r = (crypto && crypto.getRandomValues ? crypto.getRandomValues(new Uint8Array(1))[0] : Math.floor(Math.random() * 256)) & 15;
+    return (c === "x" ? r : (r & 3) | 8).toString(16);
+  });
+};
+const isUuid = (s) => /^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i.test(String(s || ""));
+const nowIso = () => new Date().toISOString();
+const esc = (s) => String(s == null ? "" : s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const letterIdx = (ch) => ch.toUpperCase().charCodeAt(0) - 65;   // 'A'->0
+const idxLetter = (i) => String.fromCharCode(65 + i);            // 0->'A'
+function taipeiDate(d) {
+  return new Intl.DateTimeFormat("en-CA", { timeZone: "Asia/Taipei", year: "numeric", month: "2-digit", day: "2-digit" }).format(d || new Date());
+}
+function fmtTaipei(d) {
+  if (!d) return "還沒有成功同步過";
+  try { return new Date(d).toLocaleString("zh-TW", { timeZone: "Asia/Taipei", hour12: false }); }
+  catch (e) { return String(d); }
+}
+function toast(msg) {
+  const t = $("toast"); t.textContent = msg; t.classList.add("show");
+  clearTimeout(toast._t); toast._t = setTimeout(() => t.classList.remove("show"), 1800);
+}
+
+/* ============================================================
+   本機資料層
+   ============================================================ */
+let students = [], assignments = [], attempts = [];
+function loadLocal() {
+  let db = {};
+  try { db = JSON.parse(localStorage.getItem(LS.db)) || {}; } catch (e) { db = {}; }
+  students = db.students || []; assignments = db.assignments || []; attempts = db.attempts || [];
+}
+function persistLocal() {
+  localStorage.setItem(LS.db, JSON.stringify({ students, assignments, attempts }));
+}
+const stuById = (id) => students.find((s) => s.id === id);
+
+/* ============================================================
+   雲端層（Supabase）— 照 scheduler 模式
+   ============================================================ */
+const cloudMode = !!(CONFIG.SUPABASE_URL && CONFIG.SUPABASE_ANON_KEY);
+let sb = null, loggedIn = false;
+let syncStatus = { lastSuccessAt: null, tables: {}, lastWriteError: null };
+
+const stuToDb = (s) => ({ id: s.id, name: s.name, archived: !!s.archived, updated_at: s.updated_at });
+const stuFromDb = (r) => ({ id: r.id, name: r.name, archived: !!r.archived, updated_at: r.updated_at });
+const asgToDb = (a) => ({ id: a.id, code: a.code, student_id: a.studentId || null, title: a.title, question_ids: a.questionIds, created_at: a.createdAt, updated_at: a.updated_at });
+const asgFromDb = (r) => ({ id: r.id, code: r.code, studentId: r.student_id, title: r.title, questionIds: r.question_ids || [], createdAt: r.created_at, updated_at: r.updated_at });
+const attToDb = (a) => ({ id: a.id, student_id: a.studentId, question_id: a.questionId, word: a.word, paper_ref: a.paperRef, correct: !!a.correct, mode: a.mode, answered_at: a.answeredAt, updated_at: a.updated_at });
+const attFromDb = (r) => ({ id: r.id, studentId: r.student_id, questionId: r.question_id, word: r.word, paperRef: r.paper_ref, correct: !!r.correct, mode: r.mode, answeredAt: r.answered_at, updated_at: r.updated_at });
+
+const TABLES = [
+  { table: "students",    label: "學生",   fromDb: stuFromDb, toDb: stuToDb, get: () => students,    set: (v) => { students = v; } },
+  { table: "assignments", label: "線上卷", fromDb: asgFromDb, toDb: asgToDb, get: () => assignments, set: (v) => { assignments = v; } },
+  { table: "attempts",    label: "作答",   fromDb: attFromDb, toDb: attToDb, get: () => attempts,    set: (v) => { attempts = v; } },
+];
+
+function setBadge(mode) {
+  const b = $("badge"); b.className = "badge";
+  if (mode === "local") b.textContent = "本機模式";
+  else if (mode === "ok") { b.textContent = "雲端已同步"; b.classList.add("ok"); }
+  else if (mode === "login") { b.textContent = "未登入雲端"; b.classList.add("off"); }
+  else { b.textContent = "離線待送"; b.classList.add("off"); }
+}
+function getOutbox() { try { return JSON.parse(localStorage.getItem(LS.outbox)) || []; } catch (e) { return []; } }
+function setOutbox(l) { localStorage.setItem(LS.outbox, JSON.stringify(l)); }
+function enqueue(op) { const b = getOutbox(); b.push(op); setOutbox(b); if (cloudMode) setBadge("off"); }
+
+async function runOp(item) {
+  if (item.kind === "replacePaper") {
+    const d = await sb.from("attempts").delete().eq("student_id", item.sid).eq("paper_ref", item.paperRef).eq("mode", "paper");
+    if (d.error) throw d.error;
+    if (item.rows.length) { const i = await sb.from("attempts").insert(item.rows); if (i.error) throw i.error; }
+    return;
+  }
+  const q = item.op === "delete" ? await sb.from(item.table).delete().eq("id", item.payload)
+    : item.op === "insert" ? await sb.from(item.table).insert(item.payload)
+    : await sb.from(item.table).upsert(item.payload);
+  if (q.error) throw q.error;
+}
+async function cloudOp(op) {                    // op: {table,op,payload} | {kind:'replacePaper',...}
+  if (!cloudMode) return;
+  if (!sb || !loggedIn || !navigator.onLine) { enqueue(op); return; }
+  try { await runOp(op); setBadge("ok"); }
+  catch (e) { syncStatus.lastWriteError = { reason: String(e.message || e) }; enqueue(op); }
+}
+async function flushOutbox() {
+  if (!cloudMode || !sb || !loggedIn) return;
+  const box = getOutbox(); if (!box.length) { setBadge("ok"); return; }
+  const remain = [];
+  for (const it of box) { try { await runOp(it); } catch (e) { syncStatus.lastWriteError = { reason: String(e.message || e) }; remain.push(it); } }
+  setOutbox(remain); if (!remain.length) syncStatus.lastWriteError = null;
+  setBadge(remain.length ? "off" : "ok");
+}
+function mergeLWW(localArr, remoteArr) {
+  const map = new Map(localArr.map((x) => [x.id, x]));
+  remoteArr.forEach((r) => {
+    const l = map.get(r.id); const rt = Date.parse(r.updated_at || 0) || 0; const lt = l ? (Date.parse(l.updated_at || 0) || 0) : -1;
+    if (!l || rt >= lt) map.set(r.id, r);
+  });
+  return [...map.values()];
+}
+function humanizeErr(reason) {
+  const r = String(reason || "");
+  if (/column .* does not exist|PGRST204/i.test(r)) return "資料表缺欄位：請到 Supabase SQL Editor 補跑 schema.sql 檔尾的 alter table";
+  if (/does not exist|schema cache|PGRST205/i.test(r)) return "資料表還沒建立：請到 Supabase SQL Editor 執行 schema.sql";
+  if (/jwt|token|expired|unauthorized|401/i.test(r)) return "登入逾期，請重新登入";
+  if (/failed to fetch|network|offline/i.test(r)) return "連不上網路";
+  return r || "未知錯誤";
+}
+function refreshBadge() {
+  if (!cloudMode) { setBadge("local"); return; }
+  if (!loggedIn) { setBadge("login"); return; }
+  const anyFail = TABLES.some((t) => syncStatus.tables[t.table] && !syncStatus.tables[t.table].ok);
+  setBadge(!anyFail && getOutbox().length === 0 ? "ok" : "off");
+}
+function showSyncReport() {
+  if (!cloudMode) { alert("目前是本機模式：資料只存在這台裝置的瀏覽器（localStorage），沒有接雲端，也不用登入。\n\n要跨裝置同步，請看 README 的 Supabase 設定步驟。"); return; }
+  const L = ["【雲端同步狀態】", ""];
+  if (!loggedIn) L.push("尚未登入雲端（老師端請到「設定」登入）。", "");
+  L.push("上次成功同步：" + fmtTaipei(syncStatus.lastSuccessAt));
+  L.push("等待送上雲端：" + getOutbox().length + " 筆");
+  if (getOutbox().length && syncStatus.lastWriteError) L.push("最近失敗原因：" + humanizeErr(syncStatus.lastWriteError.reason));
+  L.push("", "各資料表：");
+  TABLES.forEach((t) => { const st = syncStatus.tables[t.table]; L.push("・" + t.label + "：" + (!st ? "尚未同步" : st.ok ? "正常" : "⚠ " + humanizeErr(st.reason))); });
+  alert(L.join("\n"));
+}
+async function syncFromCloud() {
+  if (!cloudMode || !sb || !loggedIn) return;
+  await flushOutbox();
+  for (const t of TABLES) {
+    try {
+      const q = await sb.from(t.table).select("*"); if (q.error) throw q.error;
+      t.set(mergeLWW(t.get(), q.data.map(t.fromDb)));
+      const remoteIds = new Set(q.data.map((r) => r.id));
+      const up = t.get().filter((x) => !remoteIds.has(x.id)).map(t.toDb);
+      if (up.length) await cloudOp({ table: t.table, op: "upsert", payload: up });
+      syncStatus.tables[t.table] = { ok: true, reason: "" };
+    } catch (e) { syncStatus.tables[t.table] = { ok: false, reason: e.message || String(e) }; }
+  }
+  persistLocal(); refreshBadge();
+  const anyFail = TABLES.some((t) => !syncStatus.tables[t.table] || !syncStatus.tables[t.table].ok);
+  if (!anyFail && getOutbox().length === 0) syncStatus.lastSuccessAt = new Date();
+}
+function loadScript(src) { return new Promise((ok, no) => { const s = document.createElement("script"); s.src = src; s.onload = ok; s.onerror = () => no(new Error("SDK 載入失敗")); document.head.appendChild(s); }); }
+async function initCloud() {
+  if (!cloudMode) { setBadge("local"); return; }
+  try {
+    await loadScript(SDK_URL);
+    sb = supabase.createClient(CONFIG.SUPABASE_URL, CONFIG.SUPABASE_ANON_KEY);
+    const { data: { session } } = await sb.auth.getSession();
+    loggedIn = !!session;
+    if (loggedIn) await syncFromCloud(); else refreshBadge();
+  } catch (e) { console.warn(e); setBadge("off"); }
+}
+
+/* CRUD（本機優先、雲端跟上）*/
+function saveStudent(stu) {
+  stu.updated_at = nowIso();
+  const i = students.findIndex((s) => s.id === stu.id);
+  if (i >= 0) students[i] = stu; else students.push(stu);
+  persistLocal(); cloudOp({ table: "students", op: "upsert", payload: stuToDb(stu) });
+}
+function saveAssignment(a) {
+  a.updated_at = nowIso();
+  const i = assignments.findIndex((x) => x.id === a.id);
+  if (i >= 0) assignments[i] = a; else assignments.push(a);
+  persistLocal(); cloudOp({ table: "assignments", op: "upsert", payload: asgToDb(a) });
+}
+// 紙本批改：同學生同卷重存，先刪舊 paper attempts 再插入
+function savePaperAttempts(sid, paperRef, results) {
+  attempts = attempts.filter((a) => !(a.studentId === sid && a.paperRef === paperRef && a.mode === "paper"));
+  const now = nowIso();
+  const rows = results.map((r) => ({ id: genId(), studentId: sid, questionId: r.qid, word: r.word, paperRef, correct: !!r.correct, mode: "paper", answeredAt: now, updated_at: now }));
+  attempts = attempts.concat(rows); persistLocal();
+  cloudOp({ kind: "replacePaper", sid, paperRef, rows: rows.map(attToDb) });
+  return rows.length;
+}
+// ---- 學生端（anon）雲端查詢：寫成純函式，吃一個 supabase-like client，方便單測 ----
+async function queryStudentsRemote(client) {
+  const q = await client.from("students").select("id,name").eq("archived", false);
+  if (q.error) throw q.error;
+  return (q.data || []).map((r) => ({ id: r.id, name: r.name }));
+}
+async function queryAssignmentRemote(client, code) {
+  const q = await client.from("assignments").select("*").eq("code", code).maybeSingle();
+  if (q.error) throw q.error;
+  return q.data ? asgFromDb(q.data) : null;
+}
+// 學生挑名字用的名單：雲端模式走 anon select，本機模式讀本機
+async function studentPickerList() {
+  if (cloudMode && sb) return await queryStudentsRemote(sb);
+  return students.filter((s) => !s.archived).map((s) => ({ id: s.id, name: s.name }));
+}
+// 用代碼找卷：雲端模式走 anon select，本機模式查本機陣列
+async function findAssignmentByCode(code) {
+  if (cloudMode && sb) return await queryAssignmentRemote(sb, code);
+  return assignments.find((a) => a.code === code) || null;
+}
+
+// anon 待送佇列（學生自己手機沒老師登入，交卷失敗先存這裡，連線後補送）
+function getAnonOutbox() { try { return JSON.parse(localStorage.getItem(LS.anonOutbox)) || []; } catch (e) { return []; } }
+function setAnonOutbox(l) { localStorage.setItem(LS.anonOutbox, JSON.stringify(l)); }
+async function flushAnonOutbox() {
+  if (!(cloudMode && sb) || !navigator.onLine) return;
+  const box = getAnonOutbox(); if (!box.length) return;
+  const remain = [];
+  for (const batch of box) { try { const q = await sb.from("attempts").insert(batch); if (q.error) throw q.error; } catch (e) { remain.push(batch); } }
+  setAnonOutbox(remain);
+}
+
+// 線上交卷。本機模式：存本機。雲端模式：anon insert，失敗存 anon 佇列。
+// 一律也寫本機一份供交卷畫面即時算分／streak。回傳 {rows, synced}
+async function recordOnlineAttempts(sid, paperRef, results) {
+  const now = nowIso();
+  const rows = results.map((r) => ({ id: genId(), studentId: sid, questionId: r.qid, word: r.word, paperRef, correct: !!r.correct, mode: "online", answeredAt: now, updated_at: now }));
+  attempts = attempts.concat(rows); persistLocal();
+  let synced = true;
+  if (cloudMode && sb) {
+    try { const q = await sb.from("attempts").insert(rows.map(attToDb)); if (q.error) throw q.error; }
+    catch (e) { synced = false; const box = getAnonOutbox(); box.push(rows.map(attToDb)); setAnonOutbox(box); }
+  }
+  return { rows, synced };
+}
+
+/* ============================================================
+   題庫層
+   ============================================================ */
+let BANK = { manifest: [], files: {}, qIndex: {} };  // qIndex: rawId -> {q,file,paper,meta}
+let bankReady = null;
+async function loadBank() {
+  if (bankReady) return bankReady;
+  bankReady = (async () => {
+    const man = await (await fetch("data/manifest.json")).json();
+    BANK.manifest = man;
+    for (const m of man) {
+      const data = await (await fetch("data/" + m.file)).json();
+      BANK.files[m.file] = data;
+      data.questions.forEach((q) => { BANK.qIndex[q.id] = { q, file: m.file, paper: q.paper, meta: m }; });
+    }
+  })();
+  return bankReady;
+}
+const paperRefOf = (file, paper) => file.replace(/\.json$/, "") + ":" + paper;
+function paperLabel(file, paper) {
+  const m = BANK.manifest.find((x) => x.file === file);
+  return (m ? m.label : file) + " " + (PAPER_NAME[paper] || paper);
+}
+function paperLabelByRef(ref) {
+  const [base, paper] = ref.split(":");
+  if (base === "assign") {
+    const a = assignments.find((x) => x.code === paper);
+    return a ? "線上卷「" + a.title + "」" : "線上卷 " + paper;
+  }
+  return paperLabel(base + ".json", paper);
+}
+// 取某卷的原始題目（依 num 排序）
+function paperQuestions(file, paper) {
+  return (BANK.files[file].questions || []).filter((q) => q.paper === paper).sort((a, b) => a.num - b.num);
+}
+// 把一題展開成可批改的原子單元
+function atomsOf(q) {
+  if (q.section === "matching") {
+    return q.left.map((w, i) => ({
+      qid: q.id + "#" + (i + 1), kind: "match", word: w,
+      correctCode: q.answer[i], correctText: q.right[letterIdx(q.answer[i])],
+      section: q.section, explain: q.explain, num: q.num,
+    }));
+  }
+  return [{
+    qid: q.id, kind: "mc", word: q.word, stem: q.stem, options: q.options, answerIdx: q.answer,
+    correctText: q.options[q.answer], section: q.section, explain: q.explain, num: q.num,
+  }];
+}
+const sectionOfQid = (qid) => { const base = qid.split("#")[0]; const e = BANK.qIndex[base]; return e ? e.q.section : "?"; };
+const explainOfQid = (qid) => { const base = qid.split("#")[0]; const e = BANK.qIndex[base]; return e ? e.q.explain : ""; };
+
+/* ============================================================
+   統計：錯題聚合 / streak / 進步
+   ============================================================ */
+function mistakeStats(sid) {
+  const list = attempts.filter((a) => a.studentId === sid);
+  const byWord = {};
+  list.forEach((a) => {
+    const w = a.word || "?";
+    (byWord[w] = byWord[w] || { word: w, total: 0, wrong: 0, items: [] });
+    byWord[w].total++; if (!a.correct) byWord[w].wrong++; byWord[w].items.push(a);
+  });
+  const words = Object.values(byWord).filter((x) => x.wrong > 0)
+    .sort((a, b) => (b.wrong / b.total) - (a.wrong / a.total) || b.wrong - a.wrong);
+  const sec = {};
+  list.forEach((a) => {
+    const s = sectionOfQid(a.questionId);
+    (sec[s] = sec[s] || { total: 0, correct: 0 });
+    sec[s].total++; if (a.correct) sec[s].correct++;
+  });
+  return { words, sections: sec, all: list };
+}
+const mistakeWordSet = (sid) => new Set(mistakeStats(sid).words.map((w) => w.word));
+function streakDays(sid) {
+  const days = [...new Set(attempts.filter((a) => a.studentId === sid).map((a) => taipeiDate(new Date(a.answeredAt))))].sort().reverse();
+  if (!days.length) return 0;
+  let streak = 1;
+  for (let i = 1; i < days.length; i++) {
+    const prev = new Date(days[i - 1] + "T00:00:00"); const cur = new Date(days[i] + "T00:00:00");
+    if (Math.round((prev - cur) / 86400000) === 1) streak++; else break;
+  }
+  return streak;
+}
+// 回傳一句進步描述（比較最近一次與之前的線上正確率）
+function progressLine(sid) {
+  const online = attempts.filter((a) => a.studentId === sid && a.mode === "online").sort((a, b) => a.answeredAt.localeCompare(b.answeredAt));
+  if (online.length < 2) return "繼續加油，持續練習就會進步！";
+  const half = Math.floor(online.length / 2);
+  const early = online.slice(0, half), late = online.slice(half);
+  const rate = (arr) => arr.filter((a) => a.correct).length / arr.length;
+  const diff = Math.round((rate(late) - rate(early)) * 100);
+  if (diff > 0) return "答對率進步了 " + diff + "%，很棒！";
+  if (diff === 0) return "答對率持平，再接再厲！";
+  return "這次稍微退步，複習錯題再挑戰一次吧！";
+}
+
+/* ============================================================
+   出卷產生器
+   ============================================================ */
+// scopes: [{file,paper}] ; 只從非配合題抽（配合題為 10 字題組，不混入）
+function buildPool(scopes) {
+  const pool = [];
+  scopes.forEach((s) => paperQuestions(s.file, s.paper).forEach((q) => { if (q.section !== "matching") pool.push({ q, file: s.file, paper: s.paper }); }));
+  return pool;
+}
+function generateQuestionIds(scopes, count, weighting, sid) {
+  const pool = buildPool(scopes);
+  const seenWord = new Set(); const uniq = [];
+  pool.forEach((p) => { if (!seenWord.has(p.q.word)) { seenWord.add(p.q.word); uniq.push(p); } });
+  const mset = weighting && sid ? mistakeWordSet(sid) : new Set();
+  const bag = [];
+  uniq.forEach((p) => { const w = mset.has(p.q.word) ? 3 : 1; for (let i = 0; i < w; i++) bag.push(p); });
+  const picked = []; const used = new Set();
+  const n = Math.min(count, uniq.length);
+  let guard = 0;
+  while (picked.length < n && guard < 5000) {
+    guard++;
+    const p = bag[Math.floor(Math.random() * bag.length)];
+    if (used.has(p.q.id)) continue;
+    used.add(p.q.id); picked.push(p.q.id);
+  }
+  return picked;
+}
+function genCode() {
+  const A = "ABCDEFGHJKLMNPQRSTUVWXYZ23456789"; // 去掉易混 0O1I
+  let c = ""; for (let i = 0; i < 6; i++) c += A[Math.floor(Math.random() * A.length)];
+  return c;
+}
+function createOnlineAssignment(title, questionIds, sid) {
+  let code = genCode(); let guard = 0;
+  while (assignments.some((a) => a.code === code) && guard++ < 50) code = genCode();
+  const a = { id: genId(), code, studentId: sid || null, title: title || "線上練習", questionIds, createdAt: nowIso(), updated_at: nowIso() };
+  saveAssignment(a); return a;
+}
+
+/* 列印卷（黑白灰 A4）*/
+function buildPrintHTML(title, questionIds) {
+  const qs = questionIds.map((id) => BANK.qIndex[id]).filter(Boolean).map((e) => e.q);
+  const date = taipeiDate();
+  let body = "", ans = "", exp = "";
+  qs.forEach((q, i) => {
+    const n = i + 1;
+    const opts = q.options.map((o, k) => "(" + idxLetter(k) + ") " + esc(o)).join("　");
+    const dlg = q.section === "dialogue" ? " dlg" : "";
+    body += '<div class="q' + dlg + '"><span class="brk">&nbsp;</span><span class="stem"><span class="qn">' + n + '.</span> ' +
+      esc(q.stem).replace(/___+/, '<span class="blank"></span>') + '</span><span class="opts">' + opts + '</span></div>';
+    ans += n + ".<b>" + idxLetter(q.answer) + "</b>　";
+    exp += '<div class="row"><b>' + n + '.</b> ' + esc(q.explain) + '</div>';
+  });
+  return '<!DOCTYPE html><html lang="zh-TW"><head><meta charset="UTF-8"><title>' + esc(title) + '</title><style>' +
+    '@page{size:A4;margin:1cm 1.2cm}*{box-sizing:border-box}body{font-family:"PingFang TC","Heiti TC","Microsoft JhengHei",sans-serif;font-size:11.5pt;line-height:1.5;color:#1a1a1a;margin:0}' +
+    '.title-bar{background:#1a1a1a;color:#fff;padding:10px 16px;margin-bottom:8px;display:flex;justify-content:space-between;align-items:flex-end}' +
+    '.title-bar h1{margin:0;font-size:17pt;letter-spacing:1px}.title-bar .meta{font-size:9pt;color:#ddd;text-align:right;line-height:1.7}' +
+    '.section-header{background:#444;color:#fff;padding:5px 12px;margin:12px 0 7px;font-size:12pt;font-weight:bold}' +
+    '.q{margin:0 0 9px;break-inside:avoid}.q .brk{display:inline-block;width:30px;text-align:center;border:1px solid #999;background:#f0f0f0;margin-right:6px;font-weight:bold}' +
+    '.q .qn{font-weight:bold;margin-right:3px}.q .blank{display:inline-block;min-width:60px;border-bottom:1.3px solid #1a1a1a;margin:0 4px}' +
+    '.q .opts{display:block;margin:2px 0 0 36px;color:#333}.q.dlg .opts span{display:inline-block;min-width:47%}' +
+    '.ans-page{page-break-before:always}.ans-box{background:#f0f0f0;border-left:5px solid #1a1a1a;padding:8px 14px;margin:6px 0 12px;font-size:12pt;line-height:1.9}' +
+    '.exp-list .row{font-size:10pt;line-height:1.5;margin-bottom:3px;color:#333}.foot{margin-top:10px;font-size:8pt;color:#999;text-align:right}</style></head><body>' +
+    '<div class="page"><div class="title-bar"><h1>' + esc(title) + '</h1><div class="meta">姓名：__________　日期：______<br>得分：__________</div></div>' +
+    '<div class="section-header">選出最適合的答案</div>' + body +
+    '<div class="foot">統測字彙練習 · 題目頁 · ' + date + '</div></div>' +
+    '<div class="ans-page"><div class="section-header">答案與詳解</div><div class="ans-box">' + ans + '</div><div class="exp-list">' + exp + '</div>' +
+    '<div class="foot">統測字彙練習 · 答案詳解 · ' + date + '</div></div></body></html>';
+}
+function openPrint(title, questionIds) {
+  const w = window.open("", "_blank");
+  if (!w) { alert("瀏覽器擋掉了新視窗，請允許彈出視窗後再試。"); return; }
+  w.document.write(buildPrintHTML(title, questionIds));
+  w.document.close();
+  setTimeout(() => { try { w.focus(); w.print(); } catch (e) {} }, 400);
+}
+
+function exportJSON() {
+  return { app: "統測字彙練習", exportedAt: nowIso(), taipei: fmtTaipei(new Date()), students, assignments, attempts };
+}
+
+/* ============================================================
+   UI 路由
+   ============================================================ */
+let route = { name: "home", stack: [] };
+function go(name, opts) { route.stack.push(route.name); route.name = name; render(name, opts); }
+function back() { const p = route.stack.pop() || "home"; route.name = p; render(p); }
+function render(name, opts) {
+  const v = $("view");
+  $("backBtn").classList.toggle("hidden", name === "home");
+  const titles = { home: "統測字彙練習", teacher: "老師模式", student: "學生練習" };
+  $("title").textContent = titles[name] || "統測字彙練習";
+  if (name === "home") renderHome(v);
+  else if (name === "teacher") renderTeacher(v, opts);
+  else if (name === "student") renderStudent(v, opts);
+}
+
+/* ---- 首頁 ---- */
+function renderHome(v) {
+  v.innerHTML =
+    '<div class="home-hero"><div class="logo">統測</div><h1>統測字彙練習</h1><div class="mut">紙本批改記錄 · 線上寫題 · 錯題追蹤</div></div>' +
+    '<button class="bigbtn teacher" id="hTeacher">老師模式<small>對答案、錯題總覽、出卷（需登入；本機模式免登入）</small></button>' +
+    '<button class="bigbtn student" id="hStudent">學生練習<small>輸入卷代碼或自由練習，交卷即批改</small></button>';
+  $("hTeacher").onclick = () => go("teacher");
+  $("hStudent").onclick = () => go("student");
+}
+
+/* ---- 老師模式 ---- */
+const TT = ["對答案", "錯題總覽", "出卷", "學生", "設定"];
+let teacherTab = 0;
+async function renderTeacher(v, opts) {
+  if (cloudMode && !loggedIn) { renderTeacherLogin(v); return; }
+  localStorage.setItem(LS.teacher, "1");
+  await loadBank();
+  v.innerHTML = '<div class="tabs" id="ttabs"></div><div id="tbody"></div>';
+  const tabs = $("ttabs");
+  TT.forEach((t, i) => { const b = document.createElement("button"); b.className = "tab" + (i === teacherTab ? " on" : ""); b.textContent = t; b.onclick = () => { teacherTab = i; renderTeacher(v); }; tabs.appendChild(b); });
+  const body = $("tbody");
+  if (teacherTab === 0) teacherGrade(body);
+  else if (teacherTab === 1) teacherMistakes(body);
+  else if (teacherTab === 2) teacherGenerate(body);
+  else if (teacherTab === 3) teacherStudents(body);
+  else teacherSettings(body);
+}
+function renderTeacherLogin(v) {
+  v.innerHTML = '<div class="card"><h2 style="margin-top:0">老師登入</h2><div class="mut">雲端模式需登入才能批改與出卷。</div>' +
+    '<label class="fld">Email</label><input id="lEmail" type="email" autocomplete="username">' +
+    '<label class="fld">密碼</label><input id="lPw" type="password" autocomplete="current-password">' +
+    '<div id="lErr" class="mut" style="color:var(--red);min-height:18px;margin-top:6px"></div>' +
+    '<button class="btn wide" id="lBtn">登入</button></div>';
+  $("lBtn").onclick = async () => {
+    const email = $("lEmail").value.trim(), pw = $("lPw").value;
+    if (!email || !pw) { $("lErr").textContent = "請輸入 Email 與密碼"; return; }
+    $("lBtn").disabled = true;
+    try { const { error } = await sb.auth.signInWithPassword({ email, password: pw }); if (error) throw error; loggedIn = true; await syncFromCloud(); renderTeacher(v); }
+    catch (e) { $("lErr").textContent = "登入失敗：" + (e.message || e); }
+    $("lBtn").disabled = false;
+  };
+}
+
+/* 老師：學生下拉 */
+function studentSelectHTML(id, includeNone) {
+  const active = students.filter((s) => !s.archived);
+  return '<select id="' + id + '">' + (includeNone ? '<option value="">（不指定學生）</option>' : (active.length ? "" : '<option value="">尚無學生，請先到「學生」新增</option>')) +
+    active.map((s) => '<option value="' + s.id + '">' + esc(s.name) + '</option>').join("") + '</select>';
+}
+function paperSelectHTML(id) {
+  let opts = "";
+  BANK.manifest.forEach((m) => m.papers.forEach((p) => { opts += '<option value="' + m.file + '|' + p + '">' + esc(paperLabel(m.file, p)) + '</option>'; }));
+  return '<select id="' + id + '">' + opts + '</select>';
+}
+
+/* 老師 Tab1：對答案 */
+function teacherGrade(body) {
+  body.innerHTML = '<div class="card"><label class="fld">選學生</label>' + studentSelectHTML("gStu", false) +
+    '<label class="fld">選卷</label>' + paperSelectHTML("gPaper") +
+    '<button class="btn wide" id="gLoad">開始批改</button></div><div id="gArea"></div>';
+  $("gLoad").onclick = () => {
+    const sid = $("gStu").value; if (!sid) { toast("請先選學生"); return; }
+    const [file, paper] = $("gPaper").value.split("|");
+    renderGradeArea(sid, file, paper);
+  };
+}
+let gradeState = null;
+function renderGradeArea(sid, file, paper) {
+  const ref = paperRefOf(file, paper);
+  const atoms = [];
+  paperQuestions(file, paper).forEach((q) => atomsOf(q).forEach((a) => atoms.push(a)));
+  // 若已批改過，帶出上次結果
+  const prev = {}; attempts.filter((a) => a.studentId === sid && a.paperRef === ref && a.mode === "paper").forEach((a) => { prev[a.questionId] = a.correct; });
+  gradeState = { sid, file, paper, ref, atoms, marks: {} };
+  atoms.forEach((a) => { if (a.qid in prev) gradeState.marks[a.qid] = prev[a.qid]; });
+  const area = $("gArea");
+  let h = '<div class="card"><b>' + esc(paperLabel(file, paper)) + '</b> · ' + esc(stuById(sid).name) + '<div class="mut">逐題點「✓ 對／✗ 錯」，最後按儲存。' + (Object.keys(prev).length ? '（已帶出上次批改）' : '') + '</div></div>';
+  atoms.forEach((a) => {
+    const stem = a.kind === "match" ? (esc(a.word) + " ＝ ？（配合題）") : esc(a.stem);
+    const ansT = a.kind === "match" ? (a.correctCode + "　" + esc(a.correctText)) : ("(" + idxLetter(a.answerIdx) + ") " + esc(a.correctText));
+    h += '<div class="gq" data-qid="' + a.qid + '">' +
+      '<div class="qh">第 ' + a.num + ' 題' + (a.kind === "match" ? "（配合）" : "") + ' · ' + (SECTION_NAME[a.section] || a.section) + '</div>' +
+      '<div class="stem">' + stem + '</div>' +
+      '<div class="ans">正解：' + ansT + '</div>' +
+      '<div class="exp">' + esc(a.explain) + '</div>' +
+      '<div class="markbtns"><button class="mk ok" data-v="1">✓ 對</button><button class="mk no" data-v="0">✗ 錯</button></div></div>';
+  });
+  h += '<button class="btn wide" id="gSave">儲存批改（' + atoms.length + ' 題）</button>';
+  area.innerHTML = h;
+  // 還原已選狀態
+  area.querySelectorAll(".gq").forEach((el) => {
+    const qid = el.dataset.qid;
+    if (qid in gradeState.marks) el.querySelector(gradeState.marks[qid] ? ".mk.ok" : ".mk.no").classList.add("on");
+    el.querySelectorAll(".mk").forEach((btn) => btn.onclick = () => {
+      const v = btn.dataset.v === "1"; gradeState.marks[qid] = v;
+      el.querySelector(".mk.ok").classList.toggle("on", v);
+      el.querySelector(".mk.no").classList.toggle("on", !v);
+    });
+  });
+  $("gSave").onclick = () => {
+    const results = atoms.filter((a) => a.qid in gradeState.marks).map((a) => ({ qid: a.qid, word: a.word, correct: gradeState.marks[a.qid] }));
+    if (!results.length) { toast("還沒批改任何一題"); return; }
+    const n = savePaperAttempts(sid, gradeState.ref, results);
+    toast("已儲存 " + n + " 題");
+  };
+  area.scrollIntoView({ behavior: "smooth" });
+}
+
+/* 老師 Tab2：錯題總覽 */
+function teacherMistakes(body) {
+  body.innerHTML = '<div class="card"><label class="fld">選學生</label>' + studentSelectHTML("mStu", false) + '<button class="btn wide" id="mLoad">查看</button></div><div id="mArea"></div>';
+  $("mLoad").onclick = () => { const sid = $("mStu").value; if (!sid) { toast("請先選學生"); return; } renderMistakes(sid); };
+}
+function renderMistakes(sid) {
+  const st = mistakeStats(sid); const area = $("mArea");
+  if (!st.all.length) { area.innerHTML = '<div class="empty">這位學生還沒有作答紀錄。</div>'; return; }
+  let sec = '<div class="card"><h2 style="margin-top:0">依題型正確率</h2><table class="stat"><tr><th>題型</th><th>正確</th><th>總數</th><th>正確率</th></tr>';
+  Object.keys(SECTION_NAME).forEach((k) => { const s = st.sections[k]; if (!s) return; sec += '<tr><td>' + SECTION_NAME[k] + '</td><td>' + s.correct + '</td><td>' + s.total + '</td><td>' + Math.round(s.correct / s.total * 100) + '%</td></tr>'; });
+  sec += '</table></div>';
+  let words = '<div class="card"><h2 style="margin-top:0">錯題單字（錯誤率排序）</h2>';
+  if (!st.words.length) words += '<div class="mut">目前沒有錯題，全部答對！</div>';
+  st.words.forEach((w, i) => {
+    words += '<div style="border-top:1px solid var(--line);padding:8px 0"><div class="row"><b class="grow">' + esc(w.word) + '</b>' +
+      '<span class="pill" style="background:#fbeceb;color:var(--red)">錯 ' + w.wrong + '／' + w.total + '</span>' +
+      '<button class="btn sm ghost" data-x="' + i + '">明細</button></div><div class="mut hidden" id="wd' + i + '"></div></div>';
+  });
+  words += '</div>';
+  area.innerHTML = sec + words;
+  area.querySelectorAll("[data-x]").forEach((btn) => btn.onclick = () => {
+    const i = +btn.dataset.x, box = $("wd" + i);
+    if (!box.classList.contains("hidden")) { box.classList.add("hidden"); return; }
+    box.innerHTML = st.words[i].items.map((a) =>
+      '<div style="padding:4px 0;border-top:1px dashed var(--line)">' + (a.correct ? "✓" : "✗") + " " +
+      esc(explainOfQid(a.questionId)) + '<br><span class="mut">' + esc(paperLabelByRef(a.paperRef)) + " · " + (a.mode === "paper" ? "紙本" : "線上") + " · " + taipeiDate(new Date(a.answeredAt)) + '</span></div>').join("");
+    box.classList.remove("hidden");
+  });
+}
+
+/* 老師 Tab3：出卷 */
+function teacherGenerate(body) {
+  let scopeH = "";
+  BANK.manifest.forEach((m) => m.papers.forEach((p) => { const val = m.file + "|" + p; scopeH += '<label style="display:block;padding:4px 0"><input type="checkbox" class="scope" value="' + val + '"> ' + esc(paperLabel(m.file, p)) + '</label>'; }));
+  body.innerHTML = '<div class="card"><h2 style="margin-top:0">出卷產生器</h2>' +
+    '<label class="fld">範圍（可多選）</label>' + scopeH +
+    '<label class="fld">題數</label><input id="gnCount" type="number" value="10" min="1" max="50">' +
+    '<label class="fld">錯題加權（需選學生，錯過的字權重 ×3）</label><label style="display:block;padding:4px 0"><input type="checkbox" id="gnWeight"> 開啟錯題加權</label>' +
+    '<label class="fld">學生（線上卷指定對象、加權依據；可不選）</label>' + studentSelectHTML("gnStu", true) +
+    '<label class="fld">卷標題</label><input id="gnTitle" type="text" placeholder="例：Unit 1 隨堂練習">' +
+    '<button class="btn wide" id="gnMake">產生題目</button></div><div id="gnArea"></div>';
+  $("gnMake").onclick = () => {
+    const scopes = [...body.querySelectorAll(".scope:checked")].map((c) => { const [file, paper] = c.value.split("|"); return { file, paper }; });
+    if (!scopes.length) { toast("請至少選一個範圍"); return; }
+    const count = Math.max(1, +$("gnCount").value || 10);
+    const weight = $("gnWeight").checked; const sid = $("gnStu").value || null;
+    const ids = generateQuestionIds(scopes, count, weight, sid);
+    if (!ids.length) { toast("抽不到題目"); return; }
+    renderGenResult(ids, sid);
+  };
+}
+function renderGenResult(ids, sid) {
+  const area = $("gnArea");
+  let list = ids.map((id, i) => { const q = BANK.qIndex[id].q; return '<div style="padding:5px 0;border-top:1px dashed var(--line)"><b>' + (i + 1) + '.</b> ' + esc(q.stem) + '　<span class="mut">→ ' + esc(q.word) + '</span></div>'; }).join("");
+  area.innerHTML = '<div class="card"><b>抽出 ' + ids.length + ' 題</b>' + list +
+    '<div class="row" style="margin-top:12px"><button class="btn" id="gnOnline">建線上卷</button><button class="btn blue" id="gnPrint">列印卷</button><button class="btn ghost" id="gnRe">重抽</button></div></div><div id="gnOut"></div>';
+  $("gnRe").onclick = () => $("gnMake").click();
+  $("gnPrint").onclick = () => openPrint($("gnTitle").value.trim() || "統測字彙練習卷", ids);
+  $("gnOnline").onclick = () => {
+    const a = createOnlineAssignment($("gnTitle").value.trim() || "線上練習", ids, sid);
+    const url = location.origin + location.pathname + "?code=" + a.code;
+    $("gnOut").innerHTML = '<div class="card"><div class="mut">把代碼或網址給學生：學生模式輸入代碼即可作答。</div>' +
+      '<div class="codebox">' + a.code + '</div><label class="fld">網址</label><input readonly value="' + esc(url) + '" onclick="this.select()"></div>';
+    toast("已建立線上卷 " + a.code);
+  };
+}
+
+/* 老師 Tab4：學生管理 */
+function teacherStudents(body) {
+  let rows = students.map((s) =>
+    '<div class="row" style="border-top:1px solid var(--line);padding:8px 0"><b class="grow"' + (s.archived ? ' style="color:var(--mut)"' : '') + '>' + esc(s.name) + (s.archived ? '（封存）' : '') + '</b>' +
+    '<button class="btn sm ghost" data-r="' + s.id + '">改名</button>' +
+    '<button class="btn sm ghost" data-a="' + s.id + '">' + (s.archived ? "取消封存" : "封存") + '</button></div>').join("");
+  body.innerHTML = '<div class="card"><div class="row"><input class="grow" id="nsName" placeholder="新增學生（建議用暱稱）"><button class="btn" id="nsAdd">新增</button></div></div>' +
+    '<div class="card"><h2 style="margin-top:0">學生名單</h2>' + (rows || '<div class="mut">尚無學生</div>') + '</div>' +
+    '<div class="card"><h2 style="margin-top:0">資料備份</h2><div class="row"><button class="btn blue" id="expBtn">匯出 JSON</button>' +
+    (cloudMode ? "" : '<button class="btn ghost" id="impBtn">匯入 JSON</button><input type="file" id="impFile" accept="application/json" class="hidden">') + '</div>' +
+    '<div class="mut" style="margin-top:6px">學生名字建議用暱稱：學生端（未登入）看得到名單，用暱稱較不會外洩全名。</div></div>';
+  $("nsAdd").onclick = () => { const n = $("nsName").value.trim(); if (!n) return; saveStudent({ id: genId(), name: n, archived: false }); renderTeacher($("view")); };
+  body.querySelectorAll("[data-r]").forEach((b) => b.onclick = () => { const s = stuById(b.dataset.r); const n = prompt("改名：", s.name); if (n && n.trim()) { s.name = n.trim(); saveStudent(s); renderTeacher($("view")); } });
+  body.querySelectorAll("[data-a]").forEach((b) => b.onclick = () => { const s = stuById(b.dataset.a); s.archived = !s.archived; saveStudent(s); renderTeacher($("view")); });
+  $("expBtn").onclick = () => {
+    const blob = new Blob([JSON.stringify(exportJSON(), null, 2)], { type: "application/json" });
+    const a = document.createElement("a"); a.href = URL.createObjectURL(blob); a.download = "tsvt_backup_" + taipeiDate() + ".json"; a.click();
+  };
+  if (!cloudMode) {
+    $("impBtn").onclick = () => $("impFile").click();
+    $("impFile").onchange = (e) => {
+      const f = e.target.files[0]; if (!f) return; const rd = new FileReader();
+      rd.onload = () => {
+        try {
+          const d = JSON.parse(rd.result);
+          if (!confirm("匯入將覆蓋目前本機資料，確定？")) return;
+          students = d.students || []; assignments = d.assignments || []; attempts = d.attempts || [];
+          persistLocal(); renderTeacher($("view")); toast("匯入完成");
+        } catch (err) { alert("檔案格式錯誤：" + err); }
+      };
+      rd.readAsText(f);
+    };
+  }
+}
+
+/* 老師 Tab5：設定 */
+function teacherSettings(body) {
+  body.innerHTML = '<div class="card"><h2 style="margin-top:0">同步與帳號</h2>' +
+    '<div class="mut">目前模式：<b>' + (cloudMode ? "雲端模式" : "本機模式") + '</b></div>' +
+    (cloudMode
+      ? '<div class="mut">登入狀態：' + (loggedIn ? "已登入" : "未登入") + '</div><div class="row" style="margin-top:10px">' +
+        '<button class="btn" id="setSync">手動同步</button>' + (loggedIn ? '<button class="btn ghost" id="setOut">登出</button>' : '') + '</div>'
+      : '<div class="mut" style="margin-top:8px">本機模式免登入。資料存在這台裝置的瀏覽器；要跨裝置同步請看 README 設定 Supabase。</div>') +
+    '</div>' +
+    '<div class="card"><h2 style="margin-top:0">狀態</h2><button class="btn ghost" id="setReport">看同步狀態</button></div>';
+  $("setReport").onclick = showSyncReport;
+  if (cloudMode) {
+    if ($("setSync")) $("setSync").onclick = async () => { await syncFromCloud(); toast("同步完成"); renderTeacher($("view")); };
+    if ($("setOut")) $("setOut").onclick = async () => { await sb.auth.signOut(); loggedIn = false; renderTeacher($("view")); };
+  }
+}
+
+/* ---- 學生模式 ---- */
+async function renderStudent(v, opts) {
+  await loadBank();
+  const preCode = opts && opts.code;
+  v.innerHTML = '<div class="card"><h2 style="margin-top:0">輸入卷代碼</h2>' +
+    '<div class="row"><input class="grow" id="stCode" placeholder="例：A3F7KQ" maxlength="6" style="text-transform:uppercase" value="' + (preCode ? esc(preCode) : "") + '"><button class="btn" id="stGo">開始</button></div></div>' +
+    '<div class="card"><h2 style="margin-top:0">或自由練習</h2><label class="fld">選範圍</label>' + paperSelectHTML("stPaper") +
+    '<label class="fld">題數</label><input id="stN" type="number" value="8" min="1" max="30"><button class="btn blue wide" id="stFree">開始自由練習</button></div>';
+  $("stGo").onclick = async () => {
+    const code = $("stCode").value.trim().toUpperCase(); if (!code) { toast("請輸入代碼"); return; }
+    $("stGo").disabled = true;
+    try {
+      const a = await findAssignmentByCode(code);
+      if (!a) { toast("找不到這個代碼"); return; }
+      await startStudentQuiz({ title: a.title, questionIds: a.questionIds, paperRef: "assign:" + a.code, presetSid: a.studentId });
+    } catch (e) { toast("連線失敗：" + (e.message || e)); }
+    finally { const b = $("stGo"); if (b) b.disabled = false; }
+  };
+  $("stFree").onclick = async () => {
+    const [file, paper] = $("stPaper").value.split("|");
+    const n = Math.max(1, +$("stN").value || 8);
+    const qs = paperQuestions(file, paper);
+    const shuffled = qs.slice().sort(() => Math.random() - 0.5).slice(0, n);
+    await startStudentQuiz({ title: paperLabel(file, paper) + " 自由練習", questionIds: shuffled.map((q) => q.id), paperRef: paperRefOf(file, paper) });
+  };
+  if (preCode) $("stGo").click();
+}
+async function startStudentQuiz(cfg) {
+  const v = $("view");
+  let list = [];
+  try { list = await studentPickerList(); }
+  catch (e) { v.innerHTML = '<div class="card"><div class="mut">讀取名單失敗：' + esc(e.message || e) + '</div></div>'; return; }
+  const preset = cfg.presetSid;
+  v.innerHTML = '<div class="card"><h2 style="margin-top:0">' + esc(cfg.title) + '</h2><label class="fld">選你的名字</label>' +
+    '<select id="sqStu">' + list.map((s) => '<option value="' + esc(s.id) + '"' + (preset && preset === s.id ? " selected" : "") + '>' + esc(s.name) + '</option>').join("") + '</select>' +
+    (list.length ? '<button class="btn wide" id="sqStart">開始作答</button>' : '<div class="mut" style="margin-top:8px">名單還沒有學生，請老師先新增。</div>') + '</div>';
+  if (!list.length) return;
+  $("sqStart").onclick = () => {
+    const sel = $("sqStu"); const sid = sel.value; const sname = sel.options[sel.selectedIndex].text;
+    renderQuizItems(cfg, sid, sname);
+  };
+}
+let quizState = null;
+function renderQuizItems(cfg, sid, sname) {
+  const qs = cfg.questionIds.map((id) => BANK.qIndex[id]).filter(Boolean).map((e) => e.q);
+  quizState = { cfg, sid, sname: sname || (stuById(sid) ? stuById(sid).name : "同學"), qs, answers: {} };
+  const v = $("view");
+  let h = '<div class="card"><b>' + esc(cfg.title) + '</b> · ' + esc(quizState.sname) + '</div>';
+  qs.forEach((q, qi) => {
+    if (q.section === "matching") {
+      h += '<div class="card" data-q="' + qi + '"><div class="qh" style="color:var(--blue);font-weight:700">配合題：把每個字配到中文代號</div>' +
+        '<div class="mut" style="margin:4px 0">選項：' + q.right.map((r, k) => idxLetter(k) + "." + esc(r)).join("　") + '</div>';
+      q.left.forEach((w, ri) => {
+        h += '<div class="mrow"><span class="w">' + esc(w) + '</span><span class="codebtns" data-row="' + ri + '">' +
+          q.right.map((r, k) => '<button class="cbtn" data-code="' + idxLetter(k) + '">' + idxLetter(k) + '</button>').join("") + '</span></div>';
+      });
+      h += '</div>';
+    } else {
+      h += '<div class="card" data-q="' + qi + '"><div class="stem"><b>' + (qi + 1) + '.</b> ' + esc(q.stem) + '</div><div class="opts">' +
+        q.options.map((o, k) => '<button class="opt" data-opt="' + k + '">(' + idxLetter(k) + ") " + esc(o) + '</button>').join("") + '</div></div>';
+    }
+  });
+  h += '<button class="btn blue wide" id="sqSubmit">交卷</button>';
+  v.innerHTML = h;
+  v.querySelectorAll("[data-q]").forEach((card) => {
+    const qi = +card.dataset.q, q = qs[qi];
+    if (q.section === "matching") {
+      card.querySelectorAll(".codebtns").forEach((grp) => {
+        const ri = +grp.dataset.row;
+        grp.querySelectorAll(".cbtn").forEach((b) => b.onclick = () => {
+          grp.querySelectorAll(".cbtn").forEach((x) => x.classList.remove("pick")); b.classList.add("pick");
+          quizState.answers[q.id] = quizState.answers[q.id] || {}; quizState.answers[q.id][ri] = b.dataset.code;
+        });
+      });
+    } else {
+      card.querySelectorAll(".opt").forEach((b) => b.onclick = () => {
+        card.querySelectorAll(".opt").forEach((x) => x.classList.remove("pick")); b.classList.add("pick");
+        quizState.answers[q.id] = +b.dataset.opt;
+      });
+    }
+  });
+  $("sqSubmit").onclick = () => submitQuiz();
+}
+function gradeQuiz(qs, answers) {
+  const results = []; let correctCnt = 0, total = 0;
+  qs.forEach((q) => {
+    atomsOf(q).forEach((a, i) => {
+      total++;
+      let ok = false;
+      if (a.kind === "mc") ok = answers[q.id] === a.answerIdx;
+      else { const picked = (answers[q.id] || {})[i]; ok = picked === a.correctCode; }
+      if (ok) correctCnt++;
+      results.push({ qid: a.qid, word: a.word, correct: ok });
+    });
+  });
+  return { results, correctCnt, total };
+}
+async function submitQuiz() {
+  const { cfg, sid, sname, qs, answers } = quizState;
+  const btn = $("sqSubmit"); if (btn) btn.disabled = true;
+  const { results, correctCnt, total } = gradeQuiz(qs, answers);
+  const out = await recordOnlineAttempts(sid, cfg.paperRef, results);
+  const pct = total ? Math.round(correctCnt / total * 100) : 0;
+  const streak = streakDays(sid);
+  const v = $("view");
+  let h = '<div class="card" style="text-align:center"><div class="mut">' + esc(sname) + ' · ' + esc(cfg.title) + '</div>' +
+    '<div class="big-score">' + correctCnt + ' / ' + total + '</div><div class="mut">答對率 ' + pct + '%</div>' +
+    '<div class="streak">🔥 連續練習 ' + streak + ' 天</div><div class="mut">' + esc(progressLine(sid)) + '</div>' +
+    (out.synced ? "" : '<div class="mut" style="color:var(--amber);margin-top:6px">成績已存這支手機，連上網路後會自動補傳。</div>') + '</div>';
+  qs.forEach((q, qi) => {
+    if (q.section === "matching") {
+      h += '<div class="card"><div class="qh" style="color:var(--blue);font-weight:700">配合題</div>';
+      q.left.forEach((w, ri) => {
+        const picked = (answers[q.id] || {})[ri]; const ok = picked === q.answer[ri];
+        h += '<div class="mrow"><span class="w">' + esc(w) + '</span><span>你選 ' + (picked || "－") + ' ' + (ok ? "✓" : "✗ 正解 " + q.answer[ri] + "（" + esc(q.right[letterIdx(q.answer[ri])]) + "）") + '</span></div>';
+      });
+      h += '<div class="exp" style="color:var(--mut);font-size:13px;margin-top:6px">' + esc(q.explain) + '</div></div>';
+    } else {
+      const picked = answers[q.id];
+      h += '<div class="card"><div class="stem"><b>' + (qi + 1) + '.</b> ' + esc(q.stem) + '</div><div class="opts">' +
+        q.options.map((o, k) => {
+          let cls = "opt"; if (k === q.answer) cls += " right"; else if (k === picked) cls += " wrong";
+          return '<div class="' + cls + '">(' + idxLetter(k) + ") " + esc(o) + (k === q.answer ? " ✓" : (k === picked ? " ✗" : "")) + '</div>';
+        }).join("") + '</div><div class="exp" style="color:var(--mut);font-size:13px;margin-top:4px">' + esc(q.explain) + '</div></div>';
+    }
+  });
+  h += '<button class="btn wide" id="sqAgain">再練一份</button>';
+  v.innerHTML = h;
+  $("sqAgain").onclick = () => { route.name = "student"; render("student"); };
+}
+
+/* ============================================================
+   啟動
+   ============================================================ */
+$("backBtn").onclick = back;
+$("badge").onclick = showSyncReport;
+window.addEventListener("online", () => { flushAnonOutbox(); if (cloudMode && loggedIn) syncFromCloud(); });
+
+async function boot() {
+  loadLocal();
+  const params = new URLSearchParams(location.search);
+  await initCloud();
+  if (params.get("selftest") === "1") { await runSelfTest(); return; }
+  flushAnonOutbox();
+  if ("serviceWorker" in navigator) { try { navigator.serviceWorker.register("sw.js"); } catch (e) {} }
+  const code = params.get("code");
+  if (code) { route.name = "student"; render("student", { code: code.toUpperCase() }); }
+  else render("home");
+}
+
+/* ============================================================
+   Self-test（?selftest=1）：直接呼叫核心邏輯跑完整流程
+   ============================================================ */
+async function runSelfTest() {
+  const log = []; let pass = 0, fail = 0;
+  const ok = (name, cond) => { (cond ? pass++ : fail++); log.push((cond ? "PASS" : "FAIL") + " · " + name); if (!cond) console.error("FAIL:", name); };
+  try {
+    await loadBank();
+    ok("題庫載入（manifest ≥ 2 卷）", BANK.manifest.length >= 2);
+    ok("qIndex 有題目", Object.keys(BANK.qIndex).length > 20);
+
+    // 清掉舊測試資料
+    students = students.filter((s) => s.name !== "自我測試生");
+    const before = attempts.length;
+
+    // 0. genId 產合法 UUID（雲端主鍵是 uuid 型別）
+    ok("genId() 為合法 UUID v4", isUuid(genId()));
+
+    // 1. 建學生
+    const stu = { id: genId(), name: "自我測試生", archived: false }; saveStudent(stu);
+    ok("建立學生", !!stuById(stu.id));
+    ok("學生 id 為 UUID", isUuid(stu.id));
+
+    // 2. 對答案存 5 題（3 對 2 錯）
+    const atoms = []; paperQuestions("u1_upper.json", "review").forEach((q) => atomsOf(q).forEach((a) => atoms.push(a)));
+    ok("展開配合題成小題（atoms > 15）", atoms.length > 15);
+    const ref = paperRefOf("u1_upper.json", "review");
+    const five = atoms.slice(0, 5).map((a, i) => ({ qid: a.qid, word: a.word, correct: i < 3 }));
+    const n = savePaperAttempts(stu.id, ref, five);
+    ok("儲存紙本批改 5 題", n === 5 && attempts.filter((a) => a.studentId === stu.id && a.mode === "paper").length === 5);
+
+    // 重存同卷 → 應覆蓋不重複
+    savePaperAttempts(stu.id, ref, five);
+    ok("重存同卷覆蓋（仍 5 題）", attempts.filter((a) => a.studentId === stu.id && a.paperRef === ref && a.mode === "paper").length === 5);
+
+    // 3. 錯題總覽有資料
+    const st = mistakeStats(stu.id);
+    ok("錯題總覽有錯字（wrong words ≥ 1）", st.words.length >= 1);
+    ok("題型統計有配合題", !!st.sections["matching"]);
+
+    // 4. 出卷（線上代碼 + 列印 HTML）
+    const ids = generateQuestionIds([{ file: "u1_upper.json", paper: "review" }], 5, true, stu.id);
+    ok("出卷抽到題目（同字去重）", ids.length >= 1 && new Set(ids).size === ids.length);
+    const asg = createOnlineAssignment("測試線上卷", ids, stu.id);
+    ok("建立線上卷代碼（6 碼）", /^[A-Z0-9]{6}$/.test(asg.code) && assignments.some((a) => a.id === asg.id));
+    ok("線上卷 id 為 UUID", isUuid(asg.id));
+    const printHtml = buildPrintHTML("測試列印卷", ids);
+    ok("列印 HTML 產出（含答案頁）", printHtml.indexOf("答案與詳解") > -1 && printHtml.length > 500);
+
+    // 5. 學生線上寫卷 → 交卷寫 attempts
+    const asgQs = asg.questionIds.map((id) => BANK.qIndex[id].q);
+    const onlineResults = [];
+    asgQs.forEach((q, qi) => atomsOf(q).forEach((a, i) => onlineResults.push({ qid: a.qid, word: a.word, correct: qi % 2 === 0 })));
+    const beforeOnline = attempts.filter((a) => a.studentId === stu.id && a.mode === "online").length;
+    const rec = await recordOnlineAttempts(stu.id, "assign:" + asg.code, onlineResults);
+    const afterOnline = attempts.filter((a) => a.studentId === stu.id && a.mode === "online").length;
+    ok("線上交卷累加 attempts", afterOnline === beforeOnline + onlineResults.length && onlineResults.length > 0);
+    ok("本機模式交卷回報 synced", rec.synced === true);
+    ok("交卷 attempt id 為 UUID", rec.rows.every((r) => isUuid(r.id)));
+
+    // 5b. 學生端雲端查詢純函式（用 stub client 驗證分支，不需真的連 Supabase）
+    const stub = (() => {
+      const rows = {
+        students: [{ id: genId(), name: "雲端小明", archived: false }, { id: genId(), name: "封存生", archived: true }],
+        assignments: [asgToDb({ id: genId(), code: "CLOUD9", studentId: stu.id, title: "雲端卷", questionIds: ids, createdAt: nowIso(), updated_at: nowIso() })],
+      };
+      const builder = (data) => {
+        const st = { _d: data, select() { return st; }, eq() { return st; },
+          maybeSingle() { return Promise.resolve({ data: st._d[0] || null, error: null }); },
+          then(res, rej) { return Promise.resolve({ data: st._d, error: null }).then(res, rej); } };
+        return st;
+      };
+      return { from: (t) => builder(rows[t] || []) };
+    })();
+    const remoteStus = await queryStudentsRemote(stub);
+    ok("queryStudentsRemote 回名單", Array.isArray(remoteStus) && remoteStus.length === 2 && remoteStus[0].name === "雲端小明");
+    const remoteAsg = await queryAssignmentRemote(stub, "CLOUD9");
+    ok("queryAssignmentRemote 解出卷（camelCase）", remoteAsg && remoteAsg.code === "CLOUD9" && Array.isArray(remoteAsg.questionIds));
+
+    // 5c. anon 待送佇列（交卷失敗時暫存、連線後補送的機制）
+    setAnonOutbox([[{ id: genId() }]]);
+    ok("anon 佇列可存取", getAnonOutbox().length === 1);
+    await flushAnonOutbox();   // 本機模式（無 sb）應安全略過、不丟例外、保留佇列
+    ok("flushAnonOutbox 無雲端時安全略過", getAnonOutbox().length === 1);
+    setAnonOutbox([]);
+    ok("清空 anon 佇列", getAnonOutbox().length === 0);
+
+    // 6. streak
+    ok("streak ≥ 1", streakDays(stu.id) >= 1);
+    ok("progressLine 有輸出", typeof progressLine(stu.id) === "string");
+
+    // 7. 匯出 JSON
+    const ex = exportJSON();
+    ok("匯出 JSON 結構完整", Array.isArray(ex.students) && Array.isArray(ex.assignments) && Array.isArray(ex.attempts) && ex.attempts.length > before);
+
+    // 清理測試資料，避免污染真實 localStorage
+    students = students.filter((s) => s.id !== stu.id);
+    assignments = assignments.filter((a) => a.id !== asg.id);
+    attempts = attempts.filter((a) => a.studentId !== stu.id);
+    persistLocal();
+    ok("清理測試資料", !stuById(stu.id));
+  } catch (e) {
+    fail++; log.push("FAIL · 例外：" + (e.message || e)); console.error(e);
+  }
+  const summary = "SELFTEST " + (fail === 0 ? "ALL PASS" : "HAS FAILURES") + " — " + pass + " passed, " + fail + " failed";
+  console.log("=== SELFTEST RESULT ===");
+  log.forEach((l) => console.log(l));
+  console.log(summary);
+  document.getElementById("view").innerHTML = '<div class="card"><h2 style="margin-top:0">Self-test</h2><pre style="white-space:pre-wrap;font-size:13px">' +
+    esc(log.join("\n")) + "\n\n" + esc(summary) + '</pre></div>';
+  window.__selftest = { pass, fail, log };
+}
+
+boot();
+</script>
+</body>
+</html>
