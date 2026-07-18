@@ -1,6 +1,6 @@
 // 離線快取：把 app 核心檔案快取起來，沒網路也開得起來。
 // 改版時把 CACHE 版本號 +1，舊快取會自動清掉。
-const CACHE = "tsvt-v3";
+const CACHE = "tsvt-v4";
 const ASSETS = [
   "./", "./index.html", "./manifest.webmanifest",
   "./icon-192.png", "./icon-512.png", "./apple-touch-icon.png",

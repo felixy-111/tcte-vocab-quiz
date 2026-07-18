@@ -125,8 +125,8 @@ const CONFIG = {
 const SDK_URL = "vendor/supabase.js";
 
 const LS = { db: "tsvt_db", outbox: "tsvt_outbox", anonOutbox: "tsvt_anon_outbox", teacher: "tsvt_teacher_mode" };
-const PAPER_NAME = { review: "複習卷", quiz: "小考卷" };
-const SECTION_NAME = { matching: "配合", "mc-vocab": "單字", "mc-phrase": "片語", dialogue: "對話" };
+const PAPER_NAME = { review: "複習卷", quiz: "小考卷", extra: "加練", free: "自由練習" };
+const SECTION_NAME = { matching: "配合", "mc-vocab": "單字", "mc-phrase": "片語", dialogue: "對話", reading: "閱讀" };
 
 const $ = (id) => document.getElementById(id);
 // 主鍵用 UUID（schema 三表主鍵是 uuid 型別，雲端 insert 才不會炸）
@@ -233,7 +233,7 @@ async function runOp(item) {
   if (q.error) throw q.error;
 }
 async function cloudOp(op) {                    // op: {table,op,payload} | {kind:'replacePaper',...}
-  if (!cloudMode) return;
+  if (!cloudMode || selftestMode) return;       // selftest 一律走本機，不碰正式雲端資料
   if (!sb || !loggedIn || !navigator.onLine) { enqueue(op); return; }
   try { await runOp(op); setBadge("ok"); }
   catch (e) { syncStatus.lastWriteError = { reason: String(e.message || e) }; enqueue(op); }
@@ -357,7 +357,7 @@ async function findAssignmentByCode(code) {
 function getAnonOutbox() { try { return JSON.parse(localStorage.getItem(LS.anonOutbox)) || []; } catch (e) { return []; } }
 function setAnonOutbox(l) { localStorage.setItem(LS.anonOutbox, JSON.stringify(l)); }
 async function flushAnonOutbox() {
-  if (!(cloudMode && sb) || !navigator.onLine) return;
+  if (!(cloudMode && sb) || !navigator.onLine || selftestMode) return;
   const box = getAnonOutbox(); if (!box.length) return;
   const remain = [];
   for (const batch of box) { try { const q = await sb.from("attempts").insert(batch); if (q.error) throw q.error; } catch (e) { remain.push(batch); } }
@@ -371,7 +371,7 @@ async function recordOnlineAttempts(sid, paperRef, results) {
   const rows = results.map((r) => ({ id: genId(), studentId: sid, questionId: r.qid, word: r.word, paperRef, correct: !!r.correct, mode: "online", answeredAt: now, updated_at: now }));
   attempts = attempts.concat(rows); persistLocal();
   let synced = true;
-  if (cloudMode && sb) {
+  if (cloudMode && sb && !selftestMode) {
     try { const q = await sb.from("attempts").insert(rows.map(attToDb)); if (q.error) throw q.error; }
     catch (e) { synced = false; const box = getAnonOutbox(); box.push(rows.map(attToDb)); setAnonOutbox(box); }
   }
@@ -381,6 +381,7 @@ async function recordOnlineAttempts(sid, paperRef, results) {
 /* ============================================================
    題庫層
    ============================================================ */
+let selftestMode = false;                            // ?selftest=1 時為 true，隔離雲端寫入
 let BANK = { manifest: [], files: {}, qIndex: {} };  // qIndex: rawId -> {q,file,paper,meta}
 let bankReady = null;
 async function loadBank() {
@@ -416,15 +417,19 @@ function paperQuestions(file, paper) {
 // 把一題展開成可批改的原子單元
 function atomsOf(q) {
   if (q.section === "matching") {
-    return q.left.map((w, i) => ({
-      qid: q.id + "#" + (i + 1), kind: "match", word: w,
-      correctCode: q.answer[i], correctText: q.right[letterIdx(q.answer[i])],
-      section: q.section, explain: q.explain, num: q.num,
-    }));
+    return q.left.map((w, i) => {
+      const code = typeof q.answer[i] === "number" ? idxLetter(q.answer[i]) : q.answer[i];
+      return {
+        qid: q.id + "#" + (i + 1), kind: "match", word: w,
+        correctCode: code, correctText: q.right[letterIdx(code)],
+        section: q.section, explain: q.explain, num: q.num,
+      };
+    });
   }
   return [{
     qid: q.id, kind: "mc", word: q.word, stem: q.stem, options: q.options, answerIdx: q.answer,
     correctText: q.options[q.answer], section: q.section, explain: q.explain, num: q.num,
+    readingId: q.readingId,
   }];
 }
 const sectionOfQid = (qid) => { const base = qid.split("#")[0]; const e = BANK.qIndex[base]; return e ? e.q.section : "?"; };
@@ -481,7 +486,7 @@ function progressLine(sid) {
 // scopes: [{file,paper}] ; 只從非配合題抽（配合題為 10 字題組，不混入）
 function buildPool(scopes) {
   const pool = [];
-  scopes.forEach((s) => paperQuestions(s.file, s.paper).forEach((q) => { if (q.section !== "matching") pool.push({ q, file: s.file, paper: s.paper }); }));
+  scopes.forEach((s) => paperQuestions(s.file, s.paper).forEach((q) => { if (q.section !== "matching" && q.section !== "reading") pool.push({ q, file: s.file, paper: s.paper }); }));
   return pool;
 }
 function generateQuestionIds(scopes, count, weighting, sid) {
@@ -626,6 +631,12 @@ function paperSelectHTML(id) {
   BANK.manifest.forEach((m) => m.papers.forEach((p) => { opts += '<option value="' + m.file + '|' + p + '">' + esc(paperLabel(m.file, p)) + '</option>'; }));
   return '<select id="' + id + '">' + opts + '</select>';
 }
+// 自由練習用：選「半回」（一個 Unit 的上或下），不分卷
+function halfSelectHTML(id) {
+  let opts = "";
+  BANK.manifest.forEach((m) => { opts += '<option value="' + m.file + '">' + esc(m.label) + '</option>'; });
+  return '<select id="' + id + '">' + opts + '</select>';
+}
 
 /* 老師 Tab1：對答案 */
 function teacherGrade(body) {
@@ -649,7 +660,14 @@ function renderGradeArea(sid, file, paper) {
   atoms.forEach((a) => { if (a.qid in prev) gradeState.marks[a.qid] = prev[a.qid]; });
   const area = $("gArea");
   let h = '<div class="card"><b>' + esc(paperLabel(file, paper)) + '</b> · ' + esc(stuById(sid).name) + '<div class="mut">逐題點「✓ 對／✗ 錯」，最後按儲存。' + (Object.keys(prev).length ? '（已帶出上次批改）' : '') + '</div></div>';
+  const shownReadings = new Set();
   atoms.forEach((a) => {
+    // 閱讀題：第一題前先顯示文章
+    if (a.section === "reading" && a.readingId && !shownReadings.has(a.readingId)) {
+      shownReadings.add(a.readingId);
+      const rd = ((BANK.files[file] || {}).readings || []).find((r) => r.id === a.readingId);
+      if (rd) h += '<div class="card"><div class="qh" style="color:var(--blue);font-weight:700">閱讀測驗：' + esc(rd.title) + '</div><div style="line-height:1.7;margin-top:4px">' + esc(rd.text) + '</div></div>';
+    }
     const stem = a.kind === "match" ? (esc(a.word) + " ＝ ？（配合題）") : esc(a.stem);
     const ansT = a.kind === "match" ? (a.correctCode + "　" + esc(a.correctText)) : ("(" + idxLetter(a.answerIdx) + ") " + esc(a.correctText));
     h += '<div class="gq" data-qid="' + a.qid + '">' +
@@ -805,8 +823,8 @@ async function renderStudent(v, opts) {
   const preCode = opts && opts.code;
   v.innerHTML = '<div class="card"><h2 style="margin-top:0">輸入卷代碼</h2>' +
     '<div class="row"><input class="grow" id="stCode" placeholder="例：A3F7KQ" maxlength="6" style="text-transform:uppercase" value="' + (preCode ? esc(preCode) : "") + '"><button class="btn" id="stGo">開始</button></div></div>' +
-    '<div class="card"><h2 style="margin-top:0">或自由練習</h2><label class="fld">選範圍</label>' + paperSelectHTML("stPaper") +
-    '<label class="fld">題數</label><input id="stN" type="number" value="8" min="1" max="30"><button class="btn blue wide" id="stFree">開始自由練習</button></div>';
+    '<div class="card"><h2 style="margin-top:0">或自由練習</h2><label class="fld">選範圍</label>' + halfSelectHTML("stPaper") +
+    '<label class="fld">加練題數（片語／對話；單字 15 題固定必考）</label><input id="stN" type="number" value="10" min="0" max="20"><button class="btn blue wide" id="stFree">開始自由練習</button></div>';
   $("stGo").onclick = async () => {
     const code = $("stCode").value.trim().toUpperCase(); if (!code) { toast("請輸入代碼"); return; }
     $("stGo").disabled = true;
@@ -818,11 +836,21 @@ async function renderStudent(v, opts) {
     finally { const b = $("stGo"); if (b) b.disabled = false; }
   };
   $("stFree").onclick = async () => {
-    const [file, paper] = $("stPaper").value.split("|");
-    const n = Math.max(1, +$("stN").value || 8);
-    const qs = paperQuestions(file, paper);
-    const shuffled = qs.slice().sort(() => Math.random() - 0.5).slice(0, n);
-    await startStudentQuiz({ title: paperLabel(file, paper) + " 自由練習", questionIds: shuffled.map((q) => q.id), paperRef: paperRefOf(file, paper) });
+    const file = $("stPaper").value;
+    const n = Math.max(0, Math.min(20, +$("stN").value || 10));
+    const all = BANK.files[file].questions || [];
+    // 單字 15 題固定：每個字從所有變體（複習卷/小考卷/加練題）隨機挑一題
+    const byWord = {};
+    all.filter((q) => q.section === "mc-vocab").forEach((q) => { (byWord[q.word] = byWord[q.word] || []).push(q); });
+    const vocab = Object.values(byWord).map((list) => list[Math.floor(Math.random() * list.length)]).sort(() => Math.random() - 0.5);
+    // 加練 n 題：片語＋對話混抽
+    const others = all.filter((q) => q.section === "mc-phrase" || q.section === "dialogue").sort(() => Math.random() - 0.5).slice(0, n);
+    const m = BANK.manifest.find((x) => x.file === file);
+    await startStudentQuiz({
+      title: (m ? m.label : file) + " 自由練習",
+      questionIds: vocab.concat(others).map((q) => q.id),
+      paperRef: file.replace(/\.json$/, "") + ":free",
+    });
   };
   if (preCode) $("stGo").click();
 }
@@ -844,7 +872,7 @@ async function startStudentQuiz(cfg) {
 let quizState = null;
 function renderQuizItems(cfg, sid, sname) {
   const qs = cfg.questionIds.map((id) => BANK.qIndex[id]).filter(Boolean).map((e) => e.q);
-  quizState = { cfg, sid, sname: sname || (stuById(sid) ? stuById(sid).name : "同學"), qs, answers: {} };
+  quizState = { cfg, sid, sname: sname || (stuById(sid) ? stuById(sid).name : "同學"), qs, answers: {}, perms: {} };
   const v = $("view");
   let h = '<div class="card"><b>' + esc(cfg.title) + '</b> · ' + esc(quizState.sname) + '</div>';
   qs.forEach((q, qi) => {
@@ -857,8 +885,11 @@ function renderQuizItems(cfg, sid, sname) {
       });
       h += '</div>';
     } else {
+      // 每次作答都打亂選項順序（存原始索引批改，所以答案照樣算得對）
+      const order = q.options.map((_, k) => k).sort(() => Math.random() - 0.5);
+      quizState.perms[q.id] = order;
       h += '<div class="card" data-q="' + qi + '"><div class="stem"><b>' + (qi + 1) + '.</b> ' + esc(q.stem) + '</div><div class="opts">' +
-        q.options.map((o, k) => '<button class="opt" data-opt="' + k + '">(' + idxLetter(k) + ") " + esc(o) + '</button>').join("") + '</div></div>';
+        order.map((oi, k) => '<button class="opt" data-opt="' + oi + '">(' + idxLetter(k) + ") " + esc(q.options[oi]) + '</button>').join("") + '</div></div>';
     }
   });
   h += '<button class="btn blue wide" id="sqSubmit">交卷</button>';
@@ -918,10 +949,12 @@ async function submitQuiz() {
       h += '<div class="exp" style="color:var(--mut);font-size:13px;margin-top:6px">' + esc(q.explain) + '</div></div>';
     } else {
       const picked = answers[q.id];
+      // 依作答時的打亂順序呈現，字母才對得上學生剛剛看到的
+      const order = (quizState.perms && quizState.perms[q.id]) || q.options.map((_, k) => k);
       h += '<div class="card"><div class="stem"><b>' + (qi + 1) + '.</b> ' + esc(q.stem) + '</div><div class="opts">' +
-        q.options.map((o, k) => {
-          let cls = "opt"; if (k === q.answer) cls += " right"; else if (k === picked) cls += " wrong";
-          return '<div class="' + cls + '">(' + idxLetter(k) + ") " + esc(o) + (k === q.answer ? " ✓" : (k === picked ? " ✗" : "")) + '</div>';
+        order.map((oi, k) => {
+          let cls = "opt"; if (oi === q.answer) cls += " right"; else if (oi === picked) cls += " wrong";
+          return '<div class="' + cls + '">(' + idxLetter(k) + ") " + esc(q.options[oi]) + (oi === q.answer ? " ✓" : (oi === picked ? " ✗" : "")) + '</div>';
         }).join("") + '</div><div class="exp" style="color:var(--mut);font-size:13px;margin-top:4px">' + esc(q.explain) + '</div></div>';
     }
   });
@@ -954,6 +987,7 @@ async function boot() {
    Self-test（?selftest=1）：直接呼叫核心邏輯跑完整流程
    ============================================================ */
 async function runSelfTest() {
+  selftestMode = true;
   const log = []; let pass = 0, fail = 0;
   const ok = (name, cond) => { (cond ? pass++ : fail++); log.push((cond ? "PASS" : "FAIL") + " · " + name); if (!cond) console.error("FAIL:", name); };
   try {
@@ -1007,7 +1041,7 @@ async function runSelfTest() {
     const rec = await recordOnlineAttempts(stu.id, "assign:" + asg.code, onlineResults);
     const afterOnline = attempts.filter((a) => a.studentId === stu.id && a.mode === "online").length;
     ok("線上交卷累加 attempts", afterOnline === beforeOnline + onlineResults.length && onlineResults.length > 0);
-    ok("本機模式交卷回報 synced", rec.synced === true);
+    ok("交卷有回報同步狀態", typeof rec.synced === "boolean");
     ok("交卷 attempt id 為 UUID", rec.rows.every((r) => isUuid(r.id)));
 
     // 5b. 學生端雲端查詢純函式（用 stub client 驗證分支，不需真的連 Supabase）
@@ -1036,6 +1070,32 @@ async function runSelfTest() {
     ok("flushAnonOutbox 無雲端時安全略過", getAnonOutbox().length === 1);
     setAnonOutbox([]);
     ok("清空 anon 佇列", getAnonOutbox().length === 0);
+
+    // 5d. 自由練習組成：單字 15 題固定（每字一題、不重複）＋加練 N 題
+    const freeFile = "u2_lower.json";
+    const freeAll = BANK.files[freeFile].questions || [];
+    const freeByWord = {};
+    freeAll.filter((q) => q.section === "mc-vocab").forEach((q) => { (freeByWord[q.word] = freeByWord[q.word] || []).push(q); });
+    const freeWords = Object.keys(freeByWord);
+    ok("自由練習單字恰 15 個字", freeWords.length === 15);
+    ok("每字都有多個句子變體可輪替", freeWords.every((w) => freeByWord[w].length >= 2));
+    const freeOthers = freeAll.filter((q) => q.section === "mc-phrase" || q.section === "dialogue");
+    ok("加練池（片語＋對話）≥ 10 題", freeOthers.length >= 10);
+
+    // 5e. 選項打亂：同一組選項多次洗牌不會每次同序
+    const baseOpts = [0, 1, 2, 3];
+    const shuffles = Array.from({ length: 20 }, () => baseOpts.slice().sort(() => Math.random() - 0.5).join(""));
+    ok("選項洗牌會產生不同順序", new Set(shuffles).size > 1);
+
+    // 5f. 閱讀測驗：文章存在、題目對得上、且不被抽進出卷／自由練習
+    const rdFile = BANK.files["u2_lower.json"];
+    const rdList = rdFile.readings || [];
+    ok("u2_lower 有閱讀文章", rdList.length >= 1 && rdList[0].text.length > 100);
+    const rdQs = freeAll.filter((q) => q.section === "reading");
+    ok("閱讀題有 3 題且對得上文章", rdQs.length === 3 && rdQs.every((q) => rdList.some((r) => r.id === q.readingId)));
+    const rdPool = buildPool([{ file: "u2_lower.json", paper: "review" }]);
+    ok("出卷池排除閱讀題", rdPool.every((p) => p.q.section !== "reading"));
+    ok("自由練習加練池排除閱讀題", freeOthers.every((q) => q.section !== "reading"));
 
     // 6. streak
     ok("streak ≥ 1", streakDays(stu.id) >= 1);

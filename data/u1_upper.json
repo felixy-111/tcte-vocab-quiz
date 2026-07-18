@@ -373,6 +373,248 @@
       "answer": 3,
       "word": "What（問地點）",
       "explain": "問「你想去哪個國家」，答一個國家：I want to visit Japan（我想去日本）。"
+    },
+    {
+      "id": "U1U-E-01",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 1,
+      "stem": "No one will ___ his strange story.",
+      "options": ["greet", "happen", "visit", "believe"],
+      "answer": 3,
+      "word": "believe",
+      "explain": "沒有人會相信他奇怪的故事。believe＝相信"
+    },
+    {
+      "id": "U1U-E-02",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 2,
+      "stem": "Accidents often ___ on rainy days.",
+      "options": ["happen", "taste", "greet", "visit"],
+      "answer": 0,
+      "word": "happen",
+      "explain": "意外常在雨天發生。happen＝發生"
+    },
+    {
+      "id": "U1U-E-03",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 3,
+      "stem": "The kind ___ next door helps us a lot.",
+      "options": ["meal", "scientist", "neighbor", "engineer"],
+      "answer": 2,
+      "word": "neighbor",
+      "explain": "隔壁那位親切的鄰居幫了我們很多。neighbor＝鄰居"
+    },
+    {
+      "id": "U1U-E-04",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 4,
+      "stem": "My coach is ___ during every game.",
+      "options": ["country", "serious", "address", "meal"],
+      "answer": 1,
+      "word": "serious",
+      "explain": "我的教練在每場比賽中都很認真。serious＝認真的；嚴重的"
+    },
+    {
+      "id": "U1U-E-05",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 5,
+      "stem": "My father was born in a small ___.",
+      "options": ["country", "meal", "diet", "address"],
+      "answer": 0,
+      "word": "country",
+      "explain": "我爸爸出生在一個小鄉村。country＝國家；鄉村"
+    },
+    {
+      "id": "U1U-E-06",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 6,
+      "stem": "We ___ our teacher every morning.",
+      "options": ["greet", "taste", "happen", "believe"],
+      "answer": 0,
+      "word": "greet",
+      "explain": "我們每天早上向老師打招呼。greet＝問候；打招呼"
+    },
+    {
+      "id": "U1U-E-07",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 7,
+      "stem": "Music is her main ___ after school.",
+      "options": ["traffic", "interest", "meal", "address"],
+      "answer": 1,
+      "word": "interest",
+      "explain": "音樂是她放學後主要的興趣。interest＝興趣"
+    },
+    {
+      "id": "U1U-E-08",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 8,
+      "stem": "We often ___ the old temple in town.",
+      "options": ["greet", "taste", "visit", "happen"],
+      "answer": 2,
+      "word": "visit",
+      "explain": "我們常去參觀鎮上的老廟。visit＝拜訪；參觀"
+    },
+    {
+      "id": "U1U-E-09",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 9,
+      "stem": "A ___ studies plants and animals.",
+      "options": ["engineer", "neighbor", "meal", "scientist"],
+      "answer": 3,
+      "word": "scientist",
+      "explain": "科學家研究植物和動物。scientist＝科學家"
+    },
+    {
+      "id": "U1U-E-10",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 10,
+      "stem": "We eat a big ___ on New Year's Day.",
+      "options": ["country", "meal", "address", "diet"],
+      "answer": 1,
+      "word": "meal",
+      "explain": "我們在新年吃一頓大餐。meal＝餐點"
+    },
+    {
+      "id": "U1U-E-11",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 11,
+      "stem": "I forgot the ___ of the new shop.",
+      "options": ["diet", "traffic", "address", "meal"],
+      "answer": 2,
+      "word": "address",
+      "explain": "我忘了那家新店的地址。address＝地址"
+    },
+    {
+      "id": "U1U-E-12",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 12,
+      "stem": "Vegetables are important in a healthy ___.",
+      "options": ["diet", "country", "traffic", "address"],
+      "answer": 0,
+      "word": "diet",
+      "explain": "蔬菜在健康飲食中很重要。diet＝飲食"
+    },
+    {
+      "id": "U1U-E-13",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 13,
+      "stem": "The heavy ___ makes me late for school.",
+      "options": ["meal", "diet", "traffic", "address"],
+      "answer": 2,
+      "word": "traffic",
+      "explain": "嚴重的交通讓我上學遲到。traffic＝交通"
+    },
+    {
+      "id": "U1U-E-14",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 14,
+      "stem": "The hot soup ___ a little salty.",
+      "options": ["visits", "greets", "happens", "tastes"],
+      "answer": 3,
+      "word": "taste",
+      "explain": "這碗熱湯嚐起來有點鹹。taste＝嚐起來（主詞單數用 tastes）"
+    },
+    {
+      "id": "U1U-E-15",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 15,
+      "stem": "My brother fixes machines. He is an ___.",
+      "options": ["scientist", "neighbor", "engineer", "meal"],
+      "answer": 2,
+      "word": "engineer",
+      "explain": "我哥哥修機器，他是一位工程師。engineer＝工程師"
+    },
+    {
+      "id": "U1U-E-16",
+      "paper": "extra",
+      "section": "mc-phrase",
+      "num": 16,
+      "stem": "My brother ___ sports, especially basketball.",
+      "options": ["feels like", "is good at", "for example", "is good on"],
+      "answer": 1,
+      "word": "be good at",
+      "explain": "我哥哥擅長運動，特別是籃球。be good at＝擅長"
+    },
+    {
+      "id": "U1U-E-17",
+      "paper": "extra",
+      "section": "mc-phrase",
+      "num": 17,
+      "stem": "It is so hot. I ___ eating ice cream.",
+      "options": ["am good at", "for example", "feel like", "am afraid of"],
+      "answer": 2,
+      "word": "feel like + Ving",
+      "explain": "天氣好熱，我想要吃冰淇淋。feel like + Ving＝想要"
+    },
+    {
+      "id": "U1U-E-18",
+      "paper": "extra",
+      "section": "mc-phrase",
+      "num": 18,
+      "stem": "Some animals can swim, ___, ducks and fish.",
+      "options": ["be good at", "feel like", "for sure", "for example"],
+      "answer": 3,
+      "word": "for example",
+      "explain": "有些動物會游泳，舉例來說，鴨子和魚。for example＝舉例來說"
+    },
+    {
+      "id": "U1U-E-19",
+      "paper": "extra",
+      "section": "dialogue",
+      "num": 19,
+      "stem": "A: What do you do in the morning? B: ___",
+      "options": ["Yes, I do.", "I read the news.", "It is a book.", "She is tall."],
+      "answer": 1,
+      "word": "What（問事情）",
+      "explain": "問「早上做什麼」，答做的事情：I read the news（我看新聞）。"
+    },
+    {
+      "id": "U1U-E-20",
+      "paper": "extra",
+      "section": "dialogue",
+      "num": 20,
+      "stem": "A: What is that under the chair? B: ___",
+      "options": ["It is my bag.", "They are here.", "He is a cook.", "I am fine."],
+      "answer": 0,
+      "word": "What（問物品）",
+      "explain": "問「椅子下那個是什麼」，that 用 It 回答：It is my bag（是我的包包）。"
+    },
+    {
+      "id": "U1U-E-21",
+      "paper": "extra",
+      "section": "dialogue",
+      "num": 21,
+      "stem": "A: What is your shirt size? B: ___",
+      "options": ["It is Monday.", "I come from Taipei.", "I wear size S.", "Yes, please."],
+      "answer": 2,
+      "word": "What（問尺寸）",
+      "explain": "問「你的襯衫幾號」，答 I wear size S（我穿 S 號）。"
+    },
+    {
+      "id": "U1U-E-22",
+      "paper": "extra",
+      "section": "dialogue",
+      "num": 22,
+      "stem": "A: What place do you want to visit? B: ___",
+      "options": ["I go by MRT.", "It is three o'clock.", "No, thanks.", "I want to visit Kenting."],
+      "answer": 3,
+      "word": "What（問地點）",
+      "explain": "問「你想去哪個地方」，答一個地點：I want to visit Kenting（我想去墾丁）。"
     }
   ]
 }

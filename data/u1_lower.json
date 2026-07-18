@@ -373,6 +373,248 @@
       "answer": 3,
       "word": "What（問地點）",
       "explain": "問「你想參觀哪個博物館」，答一個地點：I want to visit the science museum（科學博物館）。"
+    },
+    {
+      "id": "U1L-E-01",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 1,
+      "stem": "She spoke with great ___ on stage.",
+      "options": ["muscle", "confidence", "fever", "truth"],
+      "answer": 1,
+      "word": "confidence",
+      "explain": "她在台上很有信心地說話。confidence＝信心"
+    },
+    {
+      "id": "U1L-E-02",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 2,
+      "stem": "He lifts weights to build ___.",
+      "options": ["muscle", "fever", "photo", "jam"],
+      "answer": 0,
+      "word": "muscle",
+      "explain": "他舉重來鍛鍊肌肉。muscle＝肌肉"
+    },
+    {
+      "id": "U1L-E-03",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 3,
+      "stem": "The sick boy has a high ___.",
+      "options": ["muscle", "photo", "fever", "jam"],
+      "answer": 2,
+      "word": "fever",
+      "explain": "那個生病的男孩發高燒。fever＝發燒"
+    },
+    {
+      "id": "U1L-E-04",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 4,
+      "stem": "This story is a good ___ for kids.",
+      "options": ["robot", "fever", "muscle", "example"],
+      "answer": 3,
+      "word": "example",
+      "explain": "這個故事是給小孩的好榜樣。example＝例子；榜樣"
+    },
+    {
+      "id": "U1L-E-05",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 5,
+      "stem": "This brand sells its shoes ___.",
+      "options": ["worldwide", "muscle", "fever", "pilot"],
+      "answer": 0,
+      "word": "worldwide",
+      "explain": "這個品牌在全世界賣鞋子。worldwide＝全世界地"
+    },
+    {
+      "id": "U1L-E-06",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 6,
+      "stem": "The ___ can clean the floor by itself.",
+      "options": ["actress", "fever", "robot", "jam"],
+      "answer": 2,
+      "word": "robot",
+      "explain": "這個機器人可以自己打掃地板。robot＝機器人"
+    },
+    {
+      "id": "U1L-E-07",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 7,
+      "stem": "Would you like to ___ our band?",
+      "options": ["throw", "join", "tell", "greet"],
+      "answer": 1,
+      "word": "join",
+      "explain": "你想加入我們的樂團嗎？join＝加入"
+    },
+    {
+      "id": "U1L-E-08",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 8,
+      "stem": "The ___ plays with the kids at night.",
+      "options": ["pilot", "actress", "robot", "babysitter"],
+      "answer": 3,
+      "word": "babysitter",
+      "explain": "褓姆晚上陪孩子們玩。babysitter＝褓姆"
+    },
+    {
+      "id": "U1L-E-09",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 9,
+      "stem": "The ___ won a prize for her movie.",
+      "options": ["actress", "pilot", "robot", "babysitter"],
+      "answer": 0,
+      "word": "actress",
+      "explain": "那位女演員因她的電影得獎。actress＝女演員"
+    },
+    {
+      "id": "U1L-E-10",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 10,
+      "stem": "I like bread with butter and ___.",
+      "options": ["truth", "photo", "jam", "muscle"],
+      "answer": 2,
+      "word": "jam",
+      "explain": "我喜歡塗奶油和果醬的麵包。jam＝果醬"
+    },
+    {
+      "id": "U1L-E-11",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 11,
+      "stem": "I know you are hiding the ___.",
+      "options": ["fever", "truth", "robot", "stair"],
+      "answer": 1,
+      "word": "truth",
+      "explain": "我知道你在隱瞞真相。truth＝真相；事實"
+    },
+    {
+      "id": "U1L-E-12",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 12,
+      "stem": "She put my ___ in a nice frame.",
+      "options": ["stair", "jam", "muscle", "photo"],
+      "answer": 3,
+      "word": "photo",
+      "explain": "她把我的相片放進漂亮的相框。photo＝相片"
+    },
+    {
+      "id": "U1L-E-13",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 13,
+      "stem": "Do not ___ trash on the ground.",
+      "options": ["throw", "join", "catch", "tell"],
+      "answer": 0,
+      "word": "throw",
+      "explain": "不要把垃圾丟在地上。throw＝丟"
+    },
+    {
+      "id": "U1L-E-14",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 14,
+      "stem": "There is a toy on the top ___.",
+      "options": ["photo", "muscle", "stair", "jam"],
+      "answer": 2,
+      "word": "stair",
+      "explain": "最上面一階樓梯上有一個玩具。stair＝樓梯"
+    },
+    {
+      "id": "U1L-E-15",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 15,
+      "stem": "The ___ lands the plane very well.",
+      "options": ["actress", "pilot", "robot", "babysitter"],
+      "answer": 1,
+      "word": "pilot",
+      "explain": "這位飛行員飛機降落得很好。pilot＝飛行員"
+    },
+    {
+      "id": "U1L-E-16",
+      "paper": "extra",
+      "section": "mc-phrase",
+      "num": 16,
+      "stem": "Let's ___ for dinner next Friday.",
+      "options": ["no longer", "get together", "a pair of", "feel like"],
+      "answer": 1,
+      "word": "get together",
+      "explain": "下週五我們一起聚餐吧。get together＝聚會"
+    },
+    {
+      "id": "U1L-E-17",
+      "paper": "extra",
+      "section": "mc-phrase",
+      "num": 17,
+      "stem": "The old shop is ___ open.",
+      "options": ["no longer", "get together", "a pair of", "for example"],
+      "answer": 0,
+      "word": "no longer",
+      "explain": "那家老店不再營業了。no longer＝不再（放在 be 動詞後）"
+    },
+    {
+      "id": "U1L-E-18",
+      "paper": "extra",
+      "section": "mc-phrase",
+      "num": 18,
+      "stem": "I need ___ socks for the trip.",
+      "options": ["get together", "no longer", "a pair of", "for example"],
+      "answer": 2,
+      "word": "a pair of",
+      "explain": "我這趟旅行需要一雙襪子。a pair of＝一雙（後接複數名詞 socks）"
+    },
+    {
+      "id": "U1L-E-19",
+      "paper": "extra",
+      "section": "dialogue",
+      "num": 19,
+      "stem": "A: What do you do before bed? B: ___",
+      "options": ["Yes, I do.", "I brush my teeth.", "It is a toy.", "He is kind."],
+      "answer": 1,
+      "word": "What（問事情）",
+      "explain": "問「睡前做什麼」，答做的事情：I brush my teeth（我刷牙）。"
+    },
+    {
+      "id": "U1L-E-20",
+      "paper": "extra",
+      "section": "dialogue",
+      "num": 20,
+      "stem": "A: What are these in the box? B: ___",
+      "options": ["They are my toys.", "It is Sunday.", "He is here.", "I am tall."],
+      "answer": 0,
+      "word": "What（問物品）",
+      "explain": "問「盒子裡這些是什麼」，these 是複數，答 They are my toys（是我的玩具）。"
+    },
+    {
+      "id": "U1L-E-21",
+      "paper": "extra",
+      "section": "dialogue",
+      "num": 21,
+      "stem": "A: What size do you need? B: ___",
+      "options": ["It is red.", "Yes, please.", "I need size M.", "I am from Tainan."],
+      "answer": 2,
+      "word": "What（問尺寸）",
+      "explain": "問「你需要幾號」，答 I need size M（我要 M 號）。"
+    },
+    {
+      "id": "U1L-E-22",
+      "paper": "extra",
+      "section": "dialogue",
+      "num": 22,
+      "stem": "A: What park do you want to visit? B: ___",
+      "options": ["I go by bike.", "It is noon.", "No, thanks.", "I want to visit Daan Park."],
+      "answer": 3,
+      "word": "What（問地點）",
+      "explain": "問「你想去哪個公園」，答一個地點：I want to visit Daan Park（大安公園）。"
     }
   ]
 }
