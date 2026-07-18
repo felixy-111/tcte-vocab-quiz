@@ -170,6 +170,25 @@ function persistLocal() {
 }
 const stuById = (id) => students.find((s) => s.id === id);
 
+// 舊版 app（uuid 改版前）建立的資料 id 不是 uuid，雲端 upsert 會被拒收。
+// 開機時一次性把舊 id 換成新 uuid（連同 studentId 關聯一起改），
+// 並清空 outbox（裡面是壞 id 的 payload）；syncFromCloud 會把改好的資料整批重新上傳。
+function migrateLegacyIds() {
+  const idMap = {};
+  let changed = false;
+  students.forEach((s) => {
+    if (!isUuid(s.id)) { const nid = genId(); idMap[s.id] = nid; s.id = nid; s.updated_at = nowIso(); changed = true; }
+  });
+  const remap = (x) => {
+    if (!isUuid(x.id)) { x.id = genId(); x.updated_at = nowIso(); changed = true; }
+    if (x.studentId && idMap[x.studentId]) { x.studentId = idMap[x.studentId]; x.updated_at = nowIso(); changed = true; }
+  };
+  assignments.forEach(remap);
+  attempts.forEach(remap);
+  if (changed) { setOutbox([]); persistLocal(); }
+  return changed;
+}
+
 /* ============================================================
    雲端層（Supabase）— 照 scheduler 模式
    ============================================================ */
@@ -276,6 +295,7 @@ async function syncFromCloud() {
   persistLocal(); refreshBadge();
   const anyFail = TABLES.some((t) => !syncStatus.tables[t.table] || !syncStatus.tables[t.table].ok);
   if (!anyFail && getOutbox().length === 0) syncStatus.lastSuccessAt = new Date();
+  else toast("⚠ 部分資料未同步：點右上角徽章看原因");
 }
 function loadScript(src) { return new Promise((ok, no) => { const s = document.createElement("script"); s.src = src; s.onload = ok; s.onerror = () => no(new Error("SDK 載入失敗")); document.head.appendChild(s); }); }
 async function initCloud() {
@@ -919,6 +939,7 @@ window.addEventListener("online", () => { flushAnonOutbox(); if (cloudMode && lo
 
 async function boot() {
   loadLocal();
+  migrateLegacyIds();
   const params = new URLSearchParams(location.search);
   await initCloud();
   if (params.get("selftest") === "1") { await runSelfTest(); return; }
