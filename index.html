@@ -117,7 +117,10 @@ a{color:var(--blue)}
    ============================================================ */
 
 /* ---- Supabase 設定：留空＝本機模式；填入後＝雲端同步 ---- */
-const CONFIG = { SUPABASE_URL: "", SUPABASE_ANON_KEY: "" };
+const CONFIG = {
+  SUPABASE_URL: "https://knsdpvmhloobfduhfwyk.supabase.co",
+  SUPABASE_ANON_KEY: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imtuc2Rwdm1obG9vYmZkdWhmd3lrIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODQyNzMyMTMsImV4cCI6MjA5OTg0OTIxM30.HiH0OjKi1CllfM31YL2ETn3bxM9omzAtAF3QSQqnK80"
+};
 // SDK 改用本地 vendored 檔（vendor/supabase.js）：解決 CDN 投毒面、離線也載得到
 const SDK_URL = "vendor/supabase.js";
 

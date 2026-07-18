@@ -1,4 +1,6 @@
 [
   { "file": "u1_upper.json", "unit": 1, "half": "upper", "label": "Unit 1（上）", "papers": ["review", "quiz"] },
-  { "file": "u1_lower.json", "unit": 1, "half": "lower", "label": "Unit 1（下）", "papers": ["review", "quiz"] }
+  { "file": "u1_lower.json", "unit": 1, "half": "lower", "label": "Unit 1（下）", "papers": ["review", "quiz"] },
+  { "file": "u2_upper.json", "unit": 2, "half": "upper", "label": "Unit 2（上）", "papers": ["review", "quiz"] },
+  { "file": "u2_lower.json", "unit": 2, "half": "lower", "label": "Unit 2（下）", "papers": ["review", "quiz"] }
 ]
