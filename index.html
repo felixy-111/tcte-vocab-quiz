@@ -588,7 +588,7 @@ function renderHome(v) {
 }
 
 /* ---- 老師模式 ---- */
-const TT = ["對答案", "錯題總覽", "出卷", "學生", "設定"];
+const TT = ["對答案", "看卷", "錯題總覽", "出卷", "學生", "設定"];
 let teacherTab = 0;
 async function renderTeacher(v, opts) {
   if (cloudMode && !loggedIn) { renderTeacherLogin(v); return; }
@@ -599,9 +599,10 @@ async function renderTeacher(v, opts) {
   TT.forEach((t, i) => { const b = document.createElement("button"); b.className = "tab" + (i === teacherTab ? " on" : ""); b.textContent = t; b.onclick = () => { teacherTab = i; renderTeacher(v); }; tabs.appendChild(b); });
   const body = $("tbody");
   if (teacherTab === 0) teacherGrade(body);
-  else if (teacherTab === 1) teacherMistakes(body);
-  else if (teacherTab === 2) teacherGenerate(body);
-  else if (teacherTab === 3) teacherStudents(body);
+  else if (teacherTab === 1) teacherViewPaper(body);
+  else if (teacherTab === 2) teacherMistakes(body);
+  else if (teacherTab === 3) teacherGenerate(body);
+  else if (teacherTab === 4) teacherStudents(body);
   else teacherSettings(body);
 }
 function renderTeacherLogin(v) {
@@ -649,6 +650,57 @@ function teacherGrade(body) {
     renderGradeArea(sid, file, paper);
   };
 }
+/* 老師 Tab2：看卷（檢視整份卷的原始題目，可切換顯示答案）*/
+let viewPaperState = { showAns: false };
+function teacherViewPaper(body) {
+  body.innerHTML = '<div class="card"><label class="fld">選卷</label>' + paperSelectHTML("vPaper") +
+    '<label style="display:block;padding:6px 0"><input type="checkbox" id="vAns"' + (viewPaperState.showAns ? " checked" : "") + '> 顯示答案與詳解</label>' +
+    '<div class="row"><button class="btn grow" id="vLoad">檢視</button><button class="btn blue" id="vPrint">列印版</button></div></div><div id="vArea"></div>';
+  const load = () => {
+    viewPaperState.showAns = $("vAns").checked;
+    renderViewPaper($("vPaper").value.split("|"));
+  };
+  $("vLoad").onclick = load;
+  $("vAns").onchange = () => { if ($("vArea").innerHTML) load(); };
+  $("vPrint").onclick = () => {
+    const [file, paper] = $("vPaper").value.split("|");
+    const ids = paperQuestions(file, paper).map((q) => q.id);
+    openPrint(paperLabel(file, paper), ids);
+  };
+}
+function renderViewPaper([file, paper]) {
+  const area = $("vArea");
+  const qs = paperQuestions(file, paper);
+  const showAns = viewPaperState.showAns;
+  const readings = (BANK.files[file] || {}).readings || [];
+  const shown = new Set();
+  const total = qs.reduce((n, q) => n + atomsOf(q).length, 0);
+  let h = '<div class="card"><b>' + esc(paperLabel(file, paper)) + '</b><div class="mut">共 ' + total + ' 題' +
+    (showAns ? '（含答案與詳解）' : '（純題目，可對照學生的紙本卷）') + '</div></div>';
+  qs.forEach((q) => {
+    if (q.section === "reading" && q.readingId && !shown.has(q.readingId)) {
+      shown.add(q.readingId);
+      const rd = readings.find((r) => r.id === q.readingId);
+      if (rd) h += '<div class="card"><div class="qh" style="color:var(--blue);font-weight:700">閱讀測驗：' + esc(rd.title) + '</div><div style="line-height:1.7;margin-top:4px">' + esc(rd.text) + '</div></div>';
+    }
+    if (q.section === "matching") {
+      h += '<div class="card"><div class="qh" style="color:var(--blue);font-weight:700">第 ' + q.num + ' 題　英中配合</div><div class="mut" style="margin:4px 0">選項：' +
+        q.right.map((r, k) => idxLetter(k) + "." + esc(r)).join("　") + '</div>';
+      q.left.forEach((w, i) => {
+        const code = typeof q.answer[i] === "number" ? idxLetter(q.answer[i]) : q.answer[i];
+        h += '<div class="mrow"><span class="w">' + (i + 1) + ". " + esc(w) + '</span>' +
+          (showAns ? '<span>→ <b>' + code + '</b>　' + esc(q.right[letterIdx(code)]) + '</span>' : '<span class="mut">＿＿</span>') + '</div>';
+      });
+      h += '</div>';
+    } else {
+      h += '<div class="card"><div class="stem"><b>' + q.num + '.</b> ' + esc(q.stem) + '</div><div class="opts">' +
+        q.options.map((o, k) => '<div class="opt' + (showAns && k === q.answer ? " right" : "") + '">(' + idxLetter(k) + ") " + esc(o) + (showAns && k === q.answer ? " ✓" : "") + '</div>').join("") + '</div>' +
+        (showAns ? '<div class="exp" style="color:var(--mut);font-size:13px;margin-top:4px">' + esc(q.explain) + '</div>' : '') + '</div>';
+    }
+  });
+  area.innerHTML = h;
+}
+
 let gradeState = null;
 function renderGradeArea(sid, file, paper) {
   const ref = paperRefOf(file, paper);
