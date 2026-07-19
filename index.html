@@ -489,6 +489,16 @@ function buildPool(scopes) {
   scopes.forEach((s) => paperQuestions(s.file, s.paper).forEach((q) => { if (q.section !== "matching" && q.section !== "reading") pool.push({ q, file: s.file, paper: s.paper }); }));
   return pool;
 }
+// 各範圍的配合題（一個範圍最多取一組，避免同一回出兩組重複的字）
+function matchingIdsOf(scopes) {
+  const seen = new Set(); const out = [];
+  scopes.forEach((s) => {
+    if (seen.has(s.file)) return;
+    const m = paperQuestions(s.file, s.paper).filter((q) => q.section === "matching");
+    if (m.length) { out.push(m[0].id); seen.add(s.file); }
+  });
+  return out;
+}
 function generateQuestionIds(scopes, count, weighting, sid) {
   const pool = buildPool(scopes);
   const seenWord = new Set(); const uniq = [];
@@ -523,11 +533,26 @@ function createOnlineAssignment(title, questionIds, sid) {
 function buildPrintHTML(title, questionIds) {
   const qs = questionIds.map((id) => BANK.qIndex[id]).filter(Boolean).map((e) => e.q);
   const date = taipeiDate();
-  let body = "", ans = "", exp = "";
-  qs.forEach((q, i) => {
-    const n = i + 1;
+  let body = "", ans = "", exp = "", n = 0;
+  // 配合題（整組）排最前面，版面同紙本卷：英文與中文各三欄、上下對齊
+  qs.filter((q) => q.section === "matching").forEach((q) => {
+    const en = q.left.map((w, i) => '<div class="cell"><span class="box"></span><span class="no">' + (i + 1) + '.</span><span class="en">' + esc(w) + '</span></div>').join("");
+    const cn = q.right.map((c, i) => '<div class="cell"><b>' + idxLetter(i) + '</b>' + esc(c) + '</div>').join("");
+    body += '<div class="section-header">英中配合題　把右邊代號填入格子</div>' +
+      '<div class="match-v2"><div class="match-en">' + en + '</div><div class="match-cn">' + cn + '</div></div>';
+    ans += q.left.map((w, i) => {
+      const code = typeof q.answer[i] === "number" ? idxLetter(q.answer[i]) : q.answer[i];
+      return (i + 1) + ".<b>" + code + "</b>　";
+    }).join("");
+    ans += "<br>";
+    n = q.left.length;
+  });
+  const rest = qs.filter((q) => q.section !== "matching");
+  if (rest.length) body += '<div class="section-header">選出最適合的答案</div>';
+  rest.forEach((q) => {
+    n += 1;
     const opts = q.options.map((o, k) => "(" + idxLetter(k) + ") " + esc(o)).join("　");
-    const dlg = q.section === "dialogue" ? " dlg" : "";
+    const dlg = q.section === "dialogue" || q.section === "reading" ? " dlg" : "";
     body += '<div class="q' + dlg + '"><span class="brk">&nbsp;</span><span class="stem"><span class="qn">' + n + '.</span> ' +
       esc(q.stem).replace(/___+/, '<span class="blank"></span>') + '</span><span class="opts">' + opts + '</span></div>';
     ans += n + ".<b>" + idxLetter(q.answer) + "</b>　";
@@ -541,10 +566,18 @@ function buildPrintHTML(title, questionIds) {
     '.q{margin:0 0 9px;break-inside:avoid}.q .brk{display:inline-block;width:30px;text-align:center;border:1px solid #999;background:#f0f0f0;margin-right:6px;font-weight:bold}' +
     '.q .qn{font-weight:bold;margin-right:3px}.q .blank{display:inline-block;min-width:60px;border-bottom:1.3px solid #1a1a1a;margin:0 4px}' +
     '.q .opts{display:block;margin:2px 0 0 36px;color:#333}.q.dlg .opts span{display:inline-block;min-width:47%}' +
+    '.match-v2{border:1.3px solid #1a1a1a;break-inside:avoid}' +
+    '.match-en,.match-cn{display:grid;grid-template-columns:repeat(3,1fr);grid-auto-flow:column;grid-template-rows:repeat(5,auto)}' +
+    '.match-en .cell{display:flex;align-items:center;gap:6px;padding:4px 8px;border-right:1px solid #ccc;border-bottom:1px solid #ccc}' +
+    '.match-en .cell:nth-child(5n){border-bottom:1px solid #999}.match-en .cell:nth-child(n+11){border-right:none}' +
+    '.match-en .box{display:inline-block;width:25px;height:16px;border:1px solid #999;background:#fff;flex:none}' +
+    '.match-en .no{width:18px;text-align:right;color:#555;font-size:9pt;flex:none}.match-en .en{font-weight:bold}' +
+    '.match-cn{background:#f0f0f0}.match-cn .cell{padding:3px 8px;font-size:9.5pt;white-space:nowrap;border-right:1px solid #ccc}' +
+    '.match-cn .cell:nth-child(n+11){border-right:none}.match-cn .cell b{display:inline-block;width:16px}' +
     '.ans-page{page-break-before:always}.ans-box{background:#f0f0f0;border-left:5px solid #1a1a1a;padding:8px 14px;margin:6px 0 12px;font-size:12pt;line-height:1.9}' +
     '.exp-list .row{font-size:10pt;line-height:1.5;margin-bottom:3px;color:#333}.foot{margin-top:10px;font-size:8pt;color:#999;text-align:right}</style></head><body>' +
     '<div class="page"><div class="title-bar"><h1>' + esc(title) + '</h1><div class="meta">姓名：__________　日期：______<br>得分：__________</div></div>' +
-    '<div class="section-header">選出最適合的答案</div>' + body +
+    body +
     '<div class="foot">統測字彙練習 · 題目頁 · ' + date + '</div></div>' +
     '<div class="ans-page"><div class="section-header">答案與詳解</div><div class="ans-box">' + ans + '</div><div class="exp-list">' + exp + '</div>' +
     '<div class="foot">統測字彙練習 · 答案詳解 · ' + date + '</div></div></body></html>';
@@ -786,7 +819,8 @@ function teacherGenerate(body) {
   BANK.manifest.forEach((m) => m.papers.forEach((p) => { const val = m.file + "|" + p; scopeH += '<label style="display:block;padding:4px 0"><input type="checkbox" class="scope" value="' + val + '"> ' + esc(paperLabel(m.file, p)) + '</label>'; }));
   body.innerHTML = '<div class="card"><h2 style="margin-top:0">出卷產生器</h2>' +
     '<label class="fld">範圍（可多選）</label>' + scopeH +
-    '<label class="fld">題數</label><input id="gnCount" type="number" value="10" min="1" max="50">' +
+    '<label class="fld">題數（不含配合題）</label><input id="gnCount" type="number" value="10" min="1" max="50">' +
+    '<label style="display:block;padding:4px 0"><input type="checkbox" id="gnMatch" checked> 含配合題（該回 15 個字一次考完）</label>' +
     '<label class="fld">錯題加權（需選學生，錯過的字權重 ×3）</label><label style="display:block;padding:4px 0"><input type="checkbox" id="gnWeight"> 開啟錯題加權</label>' +
     '<label class="fld">學生（線上卷指定對象、加權依據；可不選）</label>' + studentSelectHTML("gnStu", true) +
     '<label class="fld">卷標題</label><input id="gnTitle" type="text" placeholder="例：Unit 1 隨堂練習">' +
@@ -798,13 +832,25 @@ function teacherGenerate(body) {
     const weight = $("gnWeight").checked; const sid = $("gnStu").value || null;
     const ids = generateQuestionIds(scopes, count, weight, sid);
     if (!ids.length) { toast("抽不到題目"); return; }
-    renderGenResult(ids, sid);
+    // 配合題整組放最前面（每個範圍各挑一組，跟紙本卷一樣當暖身）
+    const head = $("gnMatch").checked ? matchingIdsOf(scopes) : [];
+    renderGenResult(head.concat(ids), sid);
   };
 }
 function renderGenResult(ids, sid) {
   const area = $("gnArea");
-  let list = ids.map((id, i) => { const q = BANK.qIndex[id].q; return '<div style="padding:5px 0;border-top:1px dashed var(--line)"><b>' + (i + 1) + '.</b> ' + esc(q.stem) + '　<span class="mut">→ ' + esc(q.word) + '</span></div>'; }).join("");
-  area.innerHTML = '<div class="card"><b>抽出 ' + ids.length + ' 題</b>' + list +
+  let n = 0;
+  let list = ids.map((id) => {
+    const q = BANK.qIndex[id].q;
+    if (q.section === "matching") {
+      n += q.left.length;
+      return '<div style="padding:5px 0;border-top:1px dashed var(--line)"><b>配合題</b> ' +
+        esc(q.left.join("、")) + '　<span class="mut">→ ' + q.left.length + ' 個字</span></div>';
+    }
+    n += 1;
+    return '<div style="padding:5px 0;border-top:1px dashed var(--line)"><b>' + n + '.</b> ' + esc(q.stem) + '　<span class="mut">→ ' + esc(q.word) + '</span></div>';
+  }).join("");
+  area.innerHTML = '<div class="card"><b>抽出 ' + n + ' 題</b>' + list +
     '<div class="row" style="margin-top:12px"><button class="btn" id="gnOnline">建線上卷</button><button class="btn blue" id="gnPrint">列印卷</button><button class="btn ghost" id="gnRe">重抽</button></div></div><div id="gnOut"></div>';
   $("gnRe").onclick = () => $("gnMake").click();
   $("gnPrint").onclick = () => openPrint($("gnTitle").value.trim() || "統測字彙練習卷", ids);
@@ -891,6 +937,9 @@ async function renderStudent(v, opts) {
     const file = $("stPaper").value;
     const n = Math.max(0, Math.min(20, +$("stN").value || 10));
     const all = BANK.files[file].questions || [];
+    // 配合題：隨機挑一組（複習卷版或小考卷版），跟紙本一樣放最前面暖身
+    const matchings = all.filter((q) => q.section === "matching");
+    const head = matchings.length ? [matchings[Math.floor(Math.random() * matchings.length)]] : [];
     // 單字 15 題固定：每個字從所有變體（複習卷/小考卷/加練題）隨機挑一題
     const byWord = {};
     all.filter((q) => q.section === "mc-vocab").forEach((q) => { (byWord[q.word] = byWord[q.word] || []).push(q); });
@@ -900,7 +949,7 @@ async function renderStudent(v, opts) {
     const m = BANK.manifest.find((x) => x.file === file);
     await startStudentQuiz({
       title: (m ? m.label : file) + " 自由練習",
-      questionIds: vocab.concat(others).map((q) => q.id),
+      questionIds: head.concat(vocab, others).map((q) => q.id),
       paperRef: file.replace(/\.json$/, "") + ":free",
     });
   };

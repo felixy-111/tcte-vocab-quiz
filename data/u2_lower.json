@@ -132,38 +132,54 @@
         "fashion",
         "proud",
         "explain",
-        "sail"
+        "sail",
+        "talent",
+        "bottom",
+        "mystery",
+        "easygoing",
+        "junk"
       ],
       "right": [
-        "速度",
-        "解釋；說明",
-        "節省；儲存",
-        "公尺；儀表",
-        "驕傲的；自豪的",
-        "安全的；保險箱",
-        "航行；帆",
         "流行；時尚",
+        "節省；儲存",
+        "垃圾",
+        "公尺；儀表",
+        "神秘；神秘事件",
+        "安全的；保險箱",
+        "底部",
+        "速度",
+        "天份；才能",
         "克",
-        "安全的；確保"
+        "隨和的",
+        "解釋；說明",
+        "安全的；確保",
+        "航行；帆",
+        "驕傲的；自豪的"
       ],
       "answer": [
-        "C",
-        "F",
-        "J",
-        "D",
-        "I",
-        "A",
-        "H",
-        "E",
         "B",
-        "G"
-      ]
+        "F",
+        "M",
+        "D",
+        "J",
+        "H",
+        "A",
+        "O",
+        "L",
+        "N",
+        "I",
+        "G",
+        "E",
+        "K",
+        "C"
+      ],
+      "explain": "英中配合（第 1–15 題）：save節省、safe安全的、secure確保、meter公尺、gram克、speed速度、fashion流行、proud驕傲的、explain解釋、sail航行、talent天份、bottom底部、mystery神秘、easygoing隨和的、junk垃圾"
     },
     {
       "id": "U2L-R-11",
       "paper": "review",
       "section": "mc-vocab",
-      "num": 11,
+      "num": 16,
       "stem": "This bridge is very ___ to walk on.",
       "options": [
         "safety",
@@ -180,7 +196,7 @@
       "id": "U2L-R-12",
       "paper": "review",
       "section": "mc-vocab",
-      "num": 12,
+      "num": 17,
       "stem": "The airport has very tight ___.",
       "options": [
         "secure",
@@ -197,7 +213,7 @@
       "id": "U2L-R-13",
       "paper": "review",
       "section": "mc-vocab",
-      "num": 13,
+      "num": 18,
       "stem": "The swimming pool is fifty ___ long.",
       "options": [
         "meter",
@@ -214,7 +230,7 @@
       "id": "U2L-R-14",
       "paper": "review",
       "section": "mc-vocab",
-      "num": 14,
+      "num": 19,
       "stem": "This watermelon weighs about three ___.",
       "options": [
         "gram",
@@ -231,7 +247,7 @@
       "id": "U2L-R-15",
       "paper": "review",
       "section": "mc-vocab",
-      "num": 15,
+      "num": 20,
       "stem": "This kind of hat is in ___ now.",
       "options": [
         "fashion",
@@ -248,7 +264,7 @@
       "id": "U2L-R-16",
       "paper": "review",
       "section": "mc-vocab",
-      "num": 16,
+      "num": 21,
       "stem": "My mom is ___ of my good grades.",
       "options": [
         "proud",
@@ -265,7 +281,7 @@
       "id": "U2L-R-17",
       "paper": "review",
       "section": "mc-vocab",
-      "num": 17,
+      "num": 22,
       "stem": "The teacher gave a clear ___.",
       "options": [
         "explain",
@@ -282,7 +298,7 @@
       "id": "U2L-R-18",
       "paper": "review",
       "section": "mc-vocab",
-      "num": 18,
+      "num": 23,
       "stem": "A ___ works hard on the big ship.",
       "options": [
         "sail",
@@ -299,7 +315,7 @@
       "id": "U2L-R-19",
       "paper": "review",
       "section": "mc-vocab",
-      "num": 19,
+      "num": 24,
       "stem": "She is a ___ young singer.",
       "options": [
         "talent",
@@ -316,7 +332,7 @@
       "id": "U2L-R-20",
       "paper": "review",
       "section": "mc-vocab",
-      "num": 20,
+      "num": 25,
       "stem": "The old house looks very ___ at night.",
       "options": [
         "mystery",
@@ -333,7 +349,7 @@
       "id": "U2L-R-21",
       "paper": "review",
       "section": "mc-vocab",
-      "num": 21,
+      "num": 26,
       "stem": "I want to ___ some money in the bank.",
       "options": [
         "spend",
@@ -349,7 +365,7 @@
       "id": "U2L-R-22",
       "paper": "review",
       "section": "mc-vocab",
-      "num": 22,
+      "num": 27,
       "stem": "The car drives at a very high ___.",
       "options": [
         "price",
@@ -365,7 +381,7 @@
       "id": "U2L-R-23",
       "paper": "review",
       "section": "mc-vocab",
-      "num": 23,
+      "num": 28,
       "stem": "There is some sand at the ___ of the sea.",
       "options": [
         "top",
@@ -381,7 +397,7 @@
       "id": "U2L-R-24",
       "paper": "review",
       "section": "mc-vocab",
-      "num": 24,
+      "num": 29,
       "stem": "My uncle is kind and ___ to everyone.",
       "options": [
         "nervous",
@@ -397,7 +413,7 @@
       "id": "U2L-R-25",
       "paper": "review",
       "section": "mc-vocab",
-      "num": 25,
+      "num": 30,
       "stem": "People call old and useless things ___.",
       "options": [
         "food",
@@ -413,7 +429,7 @@
       "id": "U2L-R-26",
       "paper": "review",
       "section": "mc-phrase",
-      "num": 26,
+      "num": 31,
       "stem": "The rain made them ___ the game until Sunday.",
       "options": [
         "put off",
@@ -429,7 +445,7 @@
       "id": "U2L-R-27",
       "paper": "review",
       "section": "mc-phrase",
-      "num": 27,
+      "num": 32,
       "stem": "It is hot, so please ___ your jacket.",
       "options": [
         "put on",
@@ -445,7 +461,7 @@
       "id": "U2L-R-28",
       "paper": "review",
       "section": "mc-phrase",
-      "num": 28,
+      "num": 33,
       "stem": "My dad will take a day ___ to rest at home.",
       "options": [
         "off",
@@ -461,7 +477,7 @@
       "id": "U2L-R-29",
       "paper": "review",
       "section": "dialogue",
-      "num": 29,
+      "num": 34,
       "stem": "A: What time do you have? B: ___",
       "options": [
         "It is Monday.",
@@ -476,7 +492,7 @@
       "id": "U2L-R-30",
       "paper": "review",
       "section": "dialogue",
-      "num": 30,
+      "num": 35,
       "stem": "A: What day comes after Monday? B: ___",
       "options": [
         "It is Tuesday.",
@@ -491,7 +507,7 @@
       "id": "U2L-R-31",
       "paper": "review",
       "section": "dialogue",
-      "num": 31,
+      "num": 36,
       "stem": "A: What is the date this Sunday? B: ___",
       "options": [
         "It is Friday.",
@@ -506,7 +522,7 @@
       "id": "U2L-R-32",
       "paper": "review",
       "section": "dialogue",
-      "num": 32,
+      "num": 37,
       "stem": "A: What is the weather like this morning? B: ___",
       "options": [
         "It is snowy.",
@@ -524,46 +540,62 @@
       "num": 1,
       "left": [
         "talent",
-        "bottom",
-        "mystery",
-        "easygoing",
         "junk",
-        "save",
         "speed",
-        "secure",
         "proud",
-        "sail"
+        "safe",
+        "mystery",
+        "gram",
+        "easygoing",
+        "sail",
+        "bottom",
+        "meter",
+        "explain",
+        "save",
+        "fashion",
+        "secure"
       ],
       "right": [
         "隨和的",
-        "垃圾",
-        "航行；帆",
-        "天份；才能",
+        "克",
         "驕傲的；自豪的",
         "底部",
-        "節省；儲存",
-        "神秘；神秘事件",
         "速度",
-        "安全的；確保"
+        "安全的；確保",
+        "天份；才能",
+        "解釋；說明",
+        "垃圾",
+        "航行；帆",
+        "公尺；儀表",
+        "安全的；保險箱",
+        "流行；時尚",
+        "神秘；神秘事件",
+        "節省；儲存"
       ],
       "answer": [
-        "D",
-        "F",
-        "H",
-        "A",
-        "B",
         "G",
         "I",
-        "J",
         "E",
-        "C"
-      ]
+        "C",
+        "L",
+        "N",
+        "B",
+        "A",
+        "J",
+        "D",
+        "K",
+        "H",
+        "O",
+        "M",
+        "F"
+      ],
+      "explain": "英中配合（第 1–15 題）：talent天份、junk垃圾、speed速度、proud驕傲的、safe安全的、mystery神秘、gram克、easygoing隨和的、sail航行、bottom底部、meter公尺、explain解釋、save節省、fashion流行、secure確保"
     },
     {
       "id": "U2L-Q-11",
       "paper": "quiz",
       "section": "mc-vocab",
-      "num": 11,
+      "num": 16,
       "stem": "The factory cares about the ___ of every worker.",
       "options": [
         "safe",
@@ -580,7 +612,7 @@
       "id": "U2L-Q-12",
       "paper": "quiz",
       "section": "mc-vocab",
-      "num": 12,
+      "num": 17,
       "stem": "This lock will keep your bike ___.",
       "options": [
         "security",
@@ -597,7 +629,7 @@
       "id": "U2L-Q-13",
       "paper": "quiz",
       "section": "mc-vocab",
-      "num": 13,
+      "num": 18,
       "stem": "Taipei is about two hundred ___ from Kaohsiung.",
       "options": [
         "meter",
@@ -614,7 +646,7 @@
       "id": "U2L-Q-14",
       "paper": "quiz",
       "section": "mc-vocab",
-      "num": 14,
+      "num": 19,
       "stem": "This gold ring weighs only five ___.",
       "options": [
         "kilogram",
@@ -631,7 +663,7 @@
       "id": "U2L-Q-15",
       "paper": "quiz",
       "section": "mc-vocab",
-      "num": 15,
+      "num": 20,
       "stem": "Her new dress is very ___.",
       "options": [
         "fashion",
@@ -648,7 +680,7 @@
       "id": "U2L-Q-16",
       "paper": "quiz",
       "section": "mc-vocab",
-      "num": 16,
+      "num": 21,
       "stem": "She said it with great ___.",
       "options": [
         "proud",
@@ -665,7 +697,7 @@
       "id": "U2L-Q-17",
       "paper": "quiz",
       "section": "mc-vocab",
-      "num": 17,
+      "num": 22,
       "stem": "Can you ___ this hard question to me?",
       "options": [
         "explanation",
@@ -682,7 +714,7 @@
       "id": "U2L-Q-18",
       "paper": "quiz",
       "section": "mc-vocab",
-      "num": 18,
+      "num": 23,
       "stem": "They will ___ across the sea next week.",
       "options": [
         "sailor",
@@ -699,7 +731,7 @@
       "id": "U2L-Q-19",
       "paper": "quiz",
       "section": "mc-vocab",
-      "num": 19,
+      "num": 24,
       "stem": "He has a special ___ for drawing.",
       "options": [
         "talent",
@@ -716,7 +748,7 @@
       "id": "U2L-Q-20",
       "paper": "quiz",
       "section": "mc-vocab",
-      "num": 20,
+      "num": 25,
       "stem": "No one can solve this strange ___.",
       "options": [
         "mysterious",
@@ -733,7 +765,7 @@
       "id": "U2L-Q-21",
       "paper": "quiz",
       "section": "mc-vocab",
-      "num": 21,
+      "num": 26,
       "stem": "We should ___ water to protect the earth.",
       "options": [
         "waste",
@@ -749,7 +781,7 @@
       "id": "U2L-Q-22",
       "paper": "quiz",
       "section": "mc-vocab",
-      "num": 22,
+      "num": 27,
       "stem": "The train runs at full ___.",
       "options": [
         "time",
@@ -765,7 +797,7 @@
       "id": "U2L-Q-23",
       "paper": "quiz",
       "section": "mc-vocab",
-      "num": 23,
+      "num": 28,
       "stem": "My name is last, at the ___ of the list.",
       "options": [
         "top",
@@ -781,7 +813,7 @@
       "id": "U2L-Q-24",
       "paper": "quiz",
       "section": "mc-vocab",
-      "num": 24,
+      "num": 29,
       "stem": "She is so ___ that she never gets angry.",
       "options": [
         "strict",
@@ -797,7 +829,7 @@
       "id": "U2L-Q-25",
       "paper": "quiz",
       "section": "mc-vocab",
-      "num": 25,
+      "num": 30,
       "stem": "We put all the ___ and trash in one bag.",
       "options": [
         "food",
@@ -813,7 +845,7 @@
       "id": "U2L-Q-26",
       "paper": "quiz",
       "section": "mc-phrase",
-      "num": 26,
+      "num": 31,
       "stem": "Do not ___ today's work until tomorrow.",
       "options": [
         "put off",
@@ -829,7 +861,7 @@
       "id": "U2L-Q-27",
       "paper": "quiz",
       "section": "mc-phrase",
-      "num": 27,
+      "num": 32,
       "stem": "The plane will ___ in ten minutes.",
       "options": [
         "put on",
@@ -845,7 +877,7 @@
       "id": "U2L-Q-28",
       "paper": "quiz",
       "section": "mc-phrase",
-      "num": 28,
+      "num": 33,
       "stem": "She wants to take two days ___ for the trip.",
       "options": [
         "off",
@@ -861,7 +893,7 @@
       "id": "U2L-Q-29",
       "paper": "quiz",
       "section": "dialogue",
-      "num": 29,
+      "num": 34,
       "stem": "A: What time is it by your watch? B: ___",
       "options": [
         "It is Wednesday.",
@@ -876,7 +908,7 @@
       "id": "U2L-Q-30",
       "paper": "quiz",
       "section": "dialogue",
-      "num": 30,
+      "num": 35,
       "stem": "A: What day comes before Friday? B: ___",
       "options": [
         "It is Thursday.",
@@ -891,7 +923,7 @@
       "id": "U2L-Q-31",
       "paper": "quiz",
       "section": "dialogue",
-      "num": 31,
+      "num": 36,
       "stem": "A: What is the date next Monday? B: ___",
       "options": [
         "It is Sunday.",
@@ -906,7 +938,7 @@
       "id": "U2L-Q-32",
       "paper": "quiz",
       "section": "dialogue",
-      "num": 32,
+      "num": 37,
       "stem": "A: What is the weather like in the mountains? B: ___",
       "options": [
         "It is windy.",
@@ -1280,7 +1312,7 @@
       "paper": "review",
       "section": "reading",
       "readingId": "U2L-READ-1",
-      "num": 33,
+      "num": 38,
       "stem": "What is this reading mainly about?",
       "options": [
         "Ken's school life and his plan",
@@ -1297,7 +1329,7 @@
       "paper": "review",
       "section": "reading",
       "readingId": "U2L-READ-1",
-      "num": 34,
+      "num": 39,
       "stem": "Why did Ken stop buying junk food and drinks?",
       "options": [
         "He does not like the taste.",
@@ -1314,7 +1346,7 @@
       "paper": "review",
       "section": "reading",
       "readingId": "U2L-READ-1",
-      "num": 35,
+      "num": 40,
       "stem": "Which is true about Ken?",
       "options": [
         "He is not good at cooking.",
