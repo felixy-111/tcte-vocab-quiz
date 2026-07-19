@@ -1,0 +1,1350 @@
+{
+  "unit": 3,
+  "half": "lower",
+  "words": [
+    {
+      "en": "pleasant",
+      "zh": "愉快的；怡人的",
+      "derivatives": [
+        "pleased"
+      ]
+    },
+    {
+      "en": "heat",
+      "zh": "熱；酷熱；加熱",
+      "derivatives": [
+        "heater"
+      ]
+    },
+    {
+      "en": "lack",
+      "zh": "缺少；缺乏；不足"
+    },
+    {
+      "en": "warn",
+      "zh": "警告",
+      "derivatives": [
+        "warning"
+      ]
+    },
+    {
+      "en": "bear",
+      "zh": "忍受；生（小孩）；熊"
+    },
+    {
+      "en": "coach",
+      "zh": "教練；四輪馬車；車廂；遊覽車",
+      "derivatives": [
+        "couch"
+      ]
+    },
+    {
+      "en": "Greenpeace",
+      "zh": "綠色和平（組織名）",
+      "derivatives": [
+        "greenhouse"
+      ]
+    },
+    {
+      "en": "enterprise",
+      "zh": "事業；公司；進取心"
+    },
+    {
+      "en": "symbol",
+      "zh": "象徵；標誌；記號",
+      "derivatives": [
+        "symbolize"
+      ]
+    },
+    {
+      "en": "lantern",
+      "zh": "燈籠"
+    },
+    {
+      "en": "goal",
+      "zh": "目標；終點線；足球門"
+    },
+    {
+      "en": "target",
+      "zh": "目標；標靶；對象；瞄準"
+    },
+    {
+      "en": "foreign",
+      "zh": "外國的；外來的；陌生的",
+      "derivatives": [
+        "foreigner"
+      ]
+    },
+    {
+      "en": "crowd",
+      "zh": "群眾；聚集",
+      "derivatives": [
+        "crowded",
+        "coward"
+      ]
+    },
+    {
+      "en": "tough",
+      "zh": "堅韌的；困難的；嚴格的"
+    }
+  ],
+  "phrases": [
+    {
+      "en": "go on",
+      "zh": "繼續"
+    },
+    {
+      "en": "give a big hand",
+      "zh": "拍手；鼓掌"
+    },
+    {
+      "en": "get up",
+      "zh": "起床；起身"
+    }
+  ],
+  "readings": [
+    {
+      "id": "U3L-READ-1",
+      "paper": "review",
+      "title": "Mina's Last Game",
+      "text": "Mina is the point guard of our school team. Her coach is tough but kind. Before the city game, he warned the players about the hot weather. The heat was terrible that day, and some of them felt tired. Mina had to bear the pain in her knee, but she did not stop. Her goal was simple. She wanted to win for her school. In the second half, our team lacked energy. Then a big crowd of students began to shout. They gave the team a big hand after every point. Mina hit her target and made the last shot. Everyone got up from their seats. It was a pleasant evening for all of us. To many students, Mina is now a symbol of courage."
+    }
+  ],
+  "questions": [
+    {
+      "id": "U3L-R-01",
+      "paper": "review",
+      "section": "matching",
+      "num": 1,
+      "left": [
+        "pleasant",
+        "heat",
+        "lack",
+        "warn",
+        "bear",
+        "coach",
+        "Greenpeace",
+        "enterprise",
+        "symbol",
+        "lantern",
+        "goal",
+        "target",
+        "foreign",
+        "crowd",
+        "tough"
+      ],
+      "right": [
+        "燈籠",
+        "事業；公司",
+        "警告",
+        "群眾；聚集",
+        "熱；加熱",
+        "堅韌的；困難的",
+        "象徵；標誌",
+        "教練；遊覽車",
+        "愉快的；怡人的",
+        "外國的",
+        "缺少；不足",
+        "目標；終點線",
+        "綠色和平",
+        "忍受；熊",
+        "標靶；瞄準"
+      ],
+      "answer": [
+        "I",
+        "E",
+        "K",
+        "C",
+        "N",
+        "H",
+        "M",
+        "B",
+        "G",
+        "A",
+        "L",
+        "O",
+        "J",
+        "D",
+        "F"
+      ],
+      "explain": "英中配合（第 1–15 題）：pleasant愉快的、heat熱、lack缺少、warn警告、bear忍受、coach教練、Greenpeace綠色和平、enterprise事業、symbol象徵、lantern燈籠、goal目標、target標靶、foreign外國的、crowd群眾、tough堅韌的"
+    },
+    {
+      "id": "U3L-R-11",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 16,
+      "stem": "It was a ___ trip to the east coast.",
+      "options": [
+        "pleasure",
+        "pleased",
+        "please",
+        "pleasant"
+      ],
+      "answer": 3,
+      "word": "pleasant",
+      "form": "pleasant",
+      "explain": "那是一趟愉快的東海岸旅行。a ___ trip 中間要用形容詞 pleasant＝愉快的（pleased 用來形容人）。"
+    },
+    {
+      "id": "U3L-R-12",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 17,
+      "stem": "Please ___ the soup before you eat it.",
+      "options": [
+        "heated",
+        "heating",
+        "heater",
+        "heat"
+      ],
+      "answer": 3,
+      "word": "heat",
+      "form": "heat",
+      "explain": "吃之前請把湯加熱。Please 後面接原形動詞 heat＝加熱。"
+    },
+    {
+      "id": "U3L-R-13",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 18,
+      "stem": "Many old people ___ exercise in the winter.",
+      "options": [
+        "bear",
+        "lack",
+        "warn",
+        "crowd"
+      ],
+      "answer": 1,
+      "word": "lack",
+      "explain": "許多老人在冬天缺少運動。lack＝缺少。"
+    },
+    {
+      "id": "U3L-R-14",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 19,
+      "stem": "The teacher will ___ him one more time.",
+      "options": [
+        "warn",
+        "warned",
+        "warning",
+        "warns"
+      ],
+      "answer": 0,
+      "word": "warn",
+      "form": "warn",
+      "explain": "老師會再警告他一次。will 後面接原形動詞 warn＝警告。"
+    },
+    {
+      "id": "U3L-R-15",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 20,
+      "stem": "I cannot ___ the noise from the street.",
+      "options": [
+        "target",
+        "lack",
+        "bear",
+        "warn"
+      ],
+      "answer": 2,
+      "word": "bear",
+      "explain": "我無法忍受街上的噪音。bear＝忍受。"
+    },
+    {
+      "id": "U3L-R-16",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 21,
+      "stem": "Our ___ told us to run ten more rounds.",
+      "options": [
+        "goal",
+        "coach",
+        "lantern",
+        "couch"
+      ],
+      "answer": 1,
+      "word": "coach",
+      "form": "coach",
+      "explain": "我們的教練叫我們再跑十圈。coach＝教練（couch 是「沙發」，別搞混）。"
+    },
+    {
+      "id": "U3L-R-17",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 22,
+      "stem": "___ works hard to protect the ocean.",
+      "options": [
+        "Greenpeace",
+        "Greenhouse",
+        "Enterprise",
+        "Symbol"
+      ],
+      "answer": 0,
+      "word": "Greenpeace",
+      "form": "Greenpeace",
+      "explain": "綠色和平努力保護海洋。Greenpeace＝綠色和平（環保組織名）；greenhouse 是「溫室」。"
+    },
+    {
+      "id": "U3L-R-18",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 23,
+      "stem": "My father works for a small ___ in Taichung.",
+      "options": [
+        "enterprise",
+        "lantern",
+        "goal",
+        "symbol"
+      ],
+      "answer": 0,
+      "word": "enterprise",
+      "explain": "我爸爸在台中一家小公司上班。enterprise＝事業；公司。"
+    },
+    {
+      "id": "U3L-R-19",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 24,
+      "stem": "The dove is a ___ of peace.",
+      "options": [
+        "symbolized",
+        "symbolizing",
+        "symbolize",
+        "symbol"
+      ],
+      "answer": 3,
+      "word": "symbol",
+      "form": "symbol",
+      "explain": "鴿子是和平的象徵。a ___ of 中間要用名詞 symbol＝象徵。"
+    },
+    {
+      "id": "U3L-R-20",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 25,
+      "stem": "We made a paper ___ for the festival.",
+      "options": [
+        "goal",
+        "symbol",
+        "lantern",
+        "coach"
+      ],
+      "answer": 2,
+      "word": "lantern",
+      "explain": "我們為了那個節慶做了一個紙燈籠。lantern＝燈籠。"
+    },
+    {
+      "id": "U3L-R-21",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 26,
+      "stem": "The player kicked the ball into the ___.",
+      "options": [
+        "goal",
+        "target",
+        "symbol",
+        "lantern"
+      ],
+      "answer": 0,
+      "word": "goal",
+      "explain": "那位球員把球踢進球門。goal＝足球門；終點線。"
+    },
+    {
+      "id": "U3L-R-22",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 27,
+      "stem": "In archery class, she hit the ___ every time.",
+      "options": [
+        "coach",
+        "target",
+        "lantern",
+        "goal"
+      ],
+      "answer": 1,
+      "word": "target",
+      "explain": "在射箭課上，她每次都射中標靶。target＝標靶。"
+    },
+    {
+      "id": "U3L-R-23",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 28,
+      "stem": "Many ___ students study Chinese in Taiwan.",
+      "options": [
+        "foreigner",
+        "foreign",
+        "foreigners",
+        "tough"
+      ],
+      "answer": 1,
+      "word": "foreign",
+      "form": "foreign",
+      "explain": "許多外國學生在台灣學中文。students 前面要用形容詞 foreign＝外國的（foreigner 是名詞「外國人」）。"
+    },
+    {
+      "id": "U3L-R-24",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 29,
+      "stem": "A big ___ waited outside the concert hall.",
+      "options": [
+        "crowds",
+        "coward",
+        "crowd",
+        "crowded"
+      ],
+      "answer": 2,
+      "word": "crowd",
+      "form": "crowd",
+      "explain": "一大群人在音樂廳外面等。A big 後面接單數名詞 crowd＝群眾（coward 是「膽小者」）。"
+    },
+    {
+      "id": "U3L-R-25",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 30,
+      "stem": "The math test last week was really ___.",
+      "options": [
+        "crowded",
+        "pleasant",
+        "tough",
+        "foreign"
+      ],
+      "answer": 2,
+      "word": "tough",
+      "explain": "上週的數學考試真的很難。tough＝困難的。"
+    },
+    {
+      "id": "U3L-R-26",
+      "paper": "review",
+      "section": "mc-phrase",
+      "num": 31,
+      "stem": "The show will ___ after a short break.",
+      "options": [
+        "get up",
+        "give a big hand",
+        "go on",
+        "watch out"
+      ],
+      "answer": 2,
+      "word": "go on",
+      "explain": "短暫休息後表演將繼續。go on＝繼續。"
+    },
+    {
+      "id": "U3L-R-27",
+      "paper": "review",
+      "section": "mc-phrase",
+      "num": 32,
+      "stem": "Let's ___ to the winner of the contest.",
+      "options": [
+        "go on",
+        "give a big hand",
+        "get up",
+        "watch out"
+      ],
+      "answer": 1,
+      "word": "give a big hand",
+      "explain": "讓我們為比賽的優勝者鼓掌。give a big hand＝拍手；鼓掌。"
+    },
+    {
+      "id": "U3L-R-28",
+      "paper": "review",
+      "section": "mc-phrase",
+      "num": 33,
+      "stem": "I have to ___ at five for the school trip.",
+      "options": [
+        "get up",
+        "watch out",
+        "go on",
+        "give a big hand"
+      ],
+      "answer": 0,
+      "word": "get up",
+      "explain": "為了校外教學我必須五點起床。get up＝起床。"
+    },
+    {
+      "id": "U3L-R-29",
+      "paper": "review",
+      "section": "dialogue",
+      "num": 34,
+      "stem": "A: What is your uncle's job? B: ___",
+      "options": [
+        "He is forty years old.",
+        "He is a firefighter.",
+        "He works very late.",
+        "He is my mother's brother."
+      ],
+      "answer": 1,
+      "explain": "問叔叔的職業，答：他是消防員。(C) 是回答關係，不是職業。"
+    },
+    {
+      "id": "U3L-R-30",
+      "paper": "review",
+      "section": "dialogue",
+      "num": 35,
+      "stem": "A: What does Anna do at the hotel? B: ___",
+      "options": [
+        "She is a room cleaner.",
+        "She stays there often.",
+        "She is very friendly.",
+        "She goes there by bus."
+      ],
+      "answer": 0,
+      "explain": "問安娜在飯店做什麼工作，答：她是房務清潔人員。"
+    },
+    {
+      "id": "U3L-R-31",
+      "paper": "review",
+      "section": "dialogue",
+      "num": 36,
+      "stem": "A: What does Mr. Wang do for a living? B: ___",
+      "options": [
+        "He lives near the market.",
+        "He likes fresh fruit.",
+        "He gets up very early.",
+        "He sells fruit at the market."
+      ],
+      "answer": 3,
+      "explain": "do for a living 問的是謀生的工作，答：他在市場賣水果。"
+    },
+    {
+      "id": "U3L-R-32",
+      "paper": "review",
+      "section": "dialogue",
+      "num": 37,
+      "stem": "A: What is Kevin's job in the team? B: ___",
+      "options": [
+        "He plays every weekend.",
+        "He joined last year.",
+        "He is the coach.",
+        "He is the tallest one."
+      ],
+      "answer": 2,
+      "explain": "問凱文在隊上擔任什麼職務，答：他是教練。"
+    },
+    {
+      "id": "U3L-R-33",
+      "paper": "review",
+      "section": "reading",
+      "readingId": "U3L-READ-1",
+      "num": 38,
+      "stem": "What is this reading mainly about?",
+      "options": [
+        "The hot weather in the city",
+        "Mina's game with her school team",
+        "Why students love sports",
+        "How to play basketball well"
+      ],
+      "answer": 1,
+      "word": "閱讀理解",
+      "explain": "全文在講 Mina 和校隊打的那場比賽，主旨選 (A)。"
+    },
+    {
+      "id": "U3L-R-34",
+      "paper": "review",
+      "section": "reading",
+      "readingId": "U3L-READ-1",
+      "num": 39,
+      "stem": "What did the coach warn the players about?",
+      "options": [
+        "Mina's knee.",
+        "The strong other team.",
+        "The hot weather.",
+        "The noisy crowd."
+      ],
+      "answer": 2,
+      "word": "閱讀理解",
+      "explain": "文中說 he warned the players about the hot weather，教練警告的是天氣很熱。"
+    },
+    {
+      "id": "U3L-R-35",
+      "paper": "review",
+      "section": "reading",
+      "readingId": "U3L-READ-1",
+      "num": 40,
+      "stem": "Which one is TRUE about the game?",
+      "options": [
+        "The students cheered for the team.",
+        "Mina stopped because of her knee.",
+        "Mina missed the last shot.",
+        "The team had a lot of energy at the end."
+      ],
+      "answer": 0,
+      "word": "閱讀理解",
+      "explain": "文中說學生們大喊、還為球隊鼓掌，所以 (C) 對。(A) 她沒停、(B) 球隊沒體力、(D) 她投進了最後一球。"
+    },
+    {
+      "id": "U3L-Q-01",
+      "paper": "quiz",
+      "section": "matching",
+      "num": 1,
+      "left": [
+        "crowd",
+        "goal",
+        "bear",
+        "symbol",
+        "tough",
+        "heat",
+        "lantern",
+        "foreign",
+        "warn",
+        "coach",
+        "target",
+        "pleasant",
+        "enterprise",
+        "lack",
+        "Greenpeace"
+      ],
+      "right": [
+        "忍受；熊",
+        "外國的",
+        "綠色和平",
+        "群眾；聚集",
+        "標靶；瞄準",
+        "熱；加熱",
+        "堅韌的；困難的",
+        "缺少；不足",
+        "事業；公司",
+        "象徵；標誌",
+        "教練；遊覽車",
+        "愉快的；怡人的",
+        "目標；終點線",
+        "燈籠",
+        "警告"
+      ],
+      "answer": [
+        "D",
+        "M",
+        "A",
+        "J",
+        "G",
+        "F",
+        "N",
+        "B",
+        "O",
+        "K",
+        "E",
+        "L",
+        "I",
+        "H",
+        "C"
+      ],
+      "explain": "英中配合（第 1–15 題）：crowd群眾、goal目標、bear忍受、symbol象徵、tough堅韌的、heat熱、lantern燈籠、foreign外國的、warn警告、coach教練、target標靶、pleasant愉快的、enterprise事業、lack缺少、Greenpeace綠色和平"
+    },
+    {
+      "id": "U3L-Q-11",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 16,
+      "stem": "I am very ___ to meet you again.",
+      "options": [
+        "pleasant",
+        "pleasure",
+        "pleased",
+        "please"
+      ],
+      "answer": 2,
+      "word": "pleasant",
+      "form": "pleased",
+      "explain": "我很高興再次見到你。形容「人」的心情用 pleased＝愉快的（pleasant 用來形容事物）。"
+    },
+    {
+      "id": "U3L-Q-12",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 17,
+      "stem": "We turned on the ___ because the room was cold.",
+      "options": [
+        "heater",
+        "heat",
+        "heating",
+        "heated"
+      ],
+      "answer": 0,
+      "word": "heat",
+      "form": "heater",
+      "explain": "因為房間很冷，我們打開了暖爐。the 後面接名詞 heater＝暖爐。"
+    },
+    {
+      "id": "U3L-Q-13",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 18,
+      "stem": "The plants died because of a ___ of water.",
+      "options": [
+        "goal",
+        "bear",
+        "crowd",
+        "lack"
+      ],
+      "answer": 3,
+      "word": "lack",
+      "explain": "那些植物因為缺水而死了。a lack of＝缺乏。"
+    },
+    {
+      "id": "U3L-Q-14",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 19,
+      "stem": "The police gave him a ___ about his speed.",
+      "options": [
+        "warned",
+        "warns",
+        "warning",
+        "warn"
+      ],
+      "answer": 2,
+      "word": "warn",
+      "form": "warning",
+      "explain": "警察就他的車速給了他一個警告。a 後面接名詞 warning＝警告。"
+    },
+    {
+      "id": "U3L-Q-15",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 20,
+      "stem": "Some people cannot ___ the smell of durian.",
+      "options": [
+        "warn",
+        "target",
+        "bear",
+        "lack"
+      ],
+      "answer": 2,
+      "word": "bear",
+      "explain": "有些人無法忍受榴槤的味道。bear＝忍受。"
+    },
+    {
+      "id": "U3L-Q-16",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 21,
+      "stem": "My cat sleeps on the ___ every afternoon.",
+      "options": [
+        "coach",
+        "couch",
+        "lantern",
+        "goal"
+      ],
+      "answer": 1,
+      "word": "coach",
+      "form": "couch",
+      "explain": "我的貓每天下午都睡在沙發上。couch＝沙發（coach 是「教練」，拼字很像要小心）。"
+    },
+    {
+      "id": "U3L-Q-17",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 22,
+      "stem": "Many countries want to cut ___ gases.",
+      "options": [
+        "symbol",
+        "Greenpeace",
+        "enterprise",
+        "greenhouse"
+      ],
+      "answer": 3,
+      "word": "Greenpeace",
+      "form": "greenhouse",
+      "explain": "許多國家想減少溫室氣體。greenhouse gases＝溫室氣體（Greenpeace 是環保組織名）。"
+    },
+    {
+      "id": "U3L-Q-18",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 23,
+      "stem": "That ___ hires more than five hundred workers.",
+      "options": [
+        "lantern",
+        "heat",
+        "enterprise",
+        "crowd"
+      ],
+      "answer": 2,
+      "word": "enterprise",
+      "explain": "那家公司雇用超過五百名員工。enterprise＝事業；公司。"
+    },
+    {
+      "id": "U3L-Q-19",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 24,
+      "stem": "Red lanterns can ___ good luck in Taiwan.",
+      "options": [
+        "symbolized",
+        "symbolize",
+        "symbolizes",
+        "symbol"
+      ],
+      "answer": 1,
+      "word": "symbol",
+      "form": "symbolize",
+      "explain": "在台灣紅燈籠可以象徵好運。can 後面接原形動詞 symbolize＝象徵。"
+    },
+    {
+      "id": "U3L-Q-20",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 25,
+      "stem": "People write wishes on a sky ___ in Pingxi.",
+      "options": [
+        "symbol",
+        "lantern",
+        "target",
+        "coach"
+      ],
+      "answer": 1,
+      "word": "lantern",
+      "explain": "人們在平溪的天燈上寫願望。sky lantern＝天燈。"
+    },
+    {
+      "id": "U3L-Q-21",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 26,
+      "stem": "The player scored a ___ in the last minute.",
+      "options": [
+        "goal",
+        "crowd",
+        "heat",
+        "target"
+      ],
+      "answer": 0,
+      "word": "goal",
+      "explain": "那位球員在最後一分鐘進了一球。score a goal＝得分；進球。"
+    },
+    {
+      "id": "U3L-Q-22",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 27,
+      "stem": "The soldier aimed at the ___ and then fired.",
+      "options": [
+        "crowd",
+        "lantern",
+        "goal",
+        "target"
+      ],
+      "answer": 3,
+      "word": "target",
+      "explain": "那位士兵瞄準標靶然後開槍。aim at the target＝瞄準標靶。"
+    },
+    {
+      "id": "U3L-Q-23",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 28,
+      "stem": "A ___ asked me for directions on the MRT.",
+      "options": [
+        "foreigner",
+        "tough",
+        "foreign",
+        "foreigners"
+      ],
+      "answer": 0,
+      "word": "foreign",
+      "form": "foreigner",
+      "explain": "一位外國人在捷運上向我問路。A 後面接單數名詞 foreigner＝外國人。"
+    },
+    {
+      "id": "U3L-Q-24",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 29,
+      "stem": "People call him a ___ because he ran away.",
+      "options": [
+        "crowds",
+        "coward",
+        "crowd",
+        "crowded"
+      ],
+      "answer": 1,
+      "word": "crowd",
+      "form": "coward",
+      "explain": "大家叫他膽小鬼，因為他逃跑了。coward＝膽小者（跟 crowd 群眾拼字很像）。"
+    },
+    {
+      "id": "U3L-Q-25",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 30,
+      "stem": "This meat is too ___ to chew.",
+      "options": [
+        "tough",
+        "pleasant",
+        "foreign",
+        "crowded"
+      ],
+      "answer": 0,
+      "word": "tough",
+      "explain": "這塊肉太韌了，咬不動。tough＝堅韌的。"
+    },
+    {
+      "id": "U3L-Q-26",
+      "paper": "quiz",
+      "section": "mc-phrase",
+      "num": 31,
+      "stem": "Please ___ with your story. I am listening.",
+      "options": [
+        "go on",
+        "give a big hand",
+        "watch out",
+        "get up"
+      ],
+      "answer": 0,
+      "word": "go on",
+      "explain": "請繼續說你的故事，我在聽。go on with＝繼續。"
+    },
+    {
+      "id": "U3L-Q-27",
+      "paper": "quiz",
+      "section": "mc-phrase",
+      "num": 32,
+      "stem": "The teacher asked us to ___ to the speaker.",
+      "options": [
+        "watch out",
+        "get up",
+        "give a big hand",
+        "go on"
+      ],
+      "answer": 2,
+      "word": "give a big hand",
+      "explain": "老師要我們為那位講者鼓掌。give a big hand＝拍手；鼓掌。"
+    },
+    {
+      "id": "U3L-Q-28",
+      "paper": "quiz",
+      "section": "mc-phrase",
+      "num": 33,
+      "stem": "I usually ___ at six thirty on school days.",
+      "options": [
+        "watch out",
+        "get up",
+        "give a big hand",
+        "go on"
+      ],
+      "answer": 1,
+      "word": "get up",
+      "explain": "上學日我通常六點半起床。get up＝起床。"
+    },
+    {
+      "id": "U3L-Q-29",
+      "paper": "quiz",
+      "section": "dialogue",
+      "num": 34,
+      "stem": "A: What does your sister do? B: ___",
+      "options": [
+        "She is a bank clerk.",
+        "She is my twin sister.",
+        "She is in Taipei now.",
+        "She works from Monday to Friday."
+      ],
+      "answer": 0,
+      "explain": "問姊姊的職業，答：她是銀行行員。"
+    },
+    {
+      "id": "U3L-Q-30",
+      "paper": "quiz",
+      "section": "dialogue",
+      "num": 35,
+      "stem": "A: What is Mr. Chen's job? B: ___",
+      "options": [
+        "He is over fifty.",
+        "He is our neighbor.",
+        "He is a high school teacher.",
+        "He drives a nice car."
+      ],
+      "answer": 2,
+      "explain": "問陳先生的職業，答：他是高中老師。"
+    },
+    {
+      "id": "U3L-Q-31",
+      "paper": "quiz",
+      "section": "dialogue",
+      "num": 36,
+      "stem": "A: What do you do at that restaurant? B: ___",
+      "options": [
+        "The food is really good.",
+        "I go there with my friends.",
+        "I eat there on Sundays.",
+        "I am a waiter there."
+      ],
+      "answer": 3,
+      "explain": "問在那家餐廳做什麼工作，答：我在那裡當服務生。"
+    },
+    {
+      "id": "U3L-Q-32",
+      "paper": "quiz",
+      "section": "dialogue",
+      "num": 37,
+      "stem": "A: What does your cousin do in Japan? B: ___",
+      "options": [
+        "She has been there for years.",
+        "She works as a tour guide.",
+        "She speaks Japanese well.",
+        "She will come back in May."
+      ],
+      "answer": 1,
+      "explain": "問表姊在日本從事什麼工作，答：她當導遊。"
+    },
+    {
+      "id": "U3L-E-01",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 1,
+      "stem": "It is my ___ to help you with the boxes.",
+      "options": [
+        "pleasure",
+        "pleasant",
+        "please",
+        "pleased"
+      ],
+      "answer": 0,
+      "word": "pleasant",
+      "form": "pleasure",
+      "explain": "幫你搬箱子是我的榮幸。my 後面接名詞 pleasure＝樂事；榮幸。"
+    },
+    {
+      "id": "U3L-E-02",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 2,
+      "stem": "The ___ of the sun is very strong at noon.",
+      "options": [
+        "heater",
+        "heating",
+        "heat",
+        "heated"
+      ],
+      "answer": 2,
+      "word": "heat",
+      "form": "heat",
+      "explain": "中午太陽的熱度非常強。The ___ of 中間用名詞 heat＝熱。"
+    },
+    {
+      "id": "U3L-E-03",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 3,
+      "stem": "We ___ enough chairs for all the guests.",
+      "options": [
+        "bear",
+        "lack",
+        "warn",
+        "crowd"
+      ],
+      "answer": 1,
+      "word": "lack",
+      "explain": "我們缺少足夠的椅子給所有客人。lack＝缺少。"
+    },
+    {
+      "id": "U3L-E-04",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 4,
+      "stem": "The guard ___ us not to swim there yesterday.",
+      "options": [
+        "warn",
+        "warned",
+        "warning",
+        "warns"
+      ],
+      "answer": 1,
+      "word": "warn",
+      "form": "warned",
+      "explain": "警衛昨天警告我們不要在那裡游泳。yesterday 是過去，用過去式 warned＝警告。"
+    },
+    {
+      "id": "U3L-E-05",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 5,
+      "stem": "The ___ in the zoo eats a lot of fish.",
+      "options": [
+        "crowd",
+        "coach",
+        "goal",
+        "bear"
+      ],
+      "answer": 3,
+      "word": "bear",
+      "explain": "動物園裡的那隻熊吃很多魚。bear＝熊。"
+    },
+    {
+      "id": "U3L-E-06",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 6,
+      "stem": "The team took a ___ to the game in Taichung.",
+      "options": [
+        "couch",
+        "target",
+        "lantern",
+        "coach"
+      ],
+      "answer": 3,
+      "word": "coach",
+      "form": "coach",
+      "explain": "球隊搭遊覽車去台中比賽。coach＝遊覽車（也可以指「教練」）。"
+    },
+    {
+      "id": "U3L-E-07",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 7,
+      "stem": "___ often sends ships to stop whale hunting.",
+      "options": [
+        "Greenhouse",
+        "Enterprise",
+        "Lantern",
+        "Greenpeace"
+      ],
+      "answer": 3,
+      "word": "Greenpeace",
+      "form": "Greenpeace",
+      "explain": "綠色和平常派船去阻止捕鯨。Greenpeace＝綠色和平（環保組織名）。"
+    },
+    {
+      "id": "U3L-E-08",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 8,
+      "stem": "Starting an ___ takes both money and courage.",
+      "options": [
+        "lantern",
+        "crowd",
+        "enterprise",
+        "symbol"
+      ],
+      "answer": 2,
+      "word": "enterprise",
+      "explain": "創立一個事業需要金錢和勇氣。enterprise＝事業；公司。"
+    },
+    {
+      "id": "U3L-E-09",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 9,
+      "stem": "The heart is a ___ of love.",
+      "options": [
+        "symbolize",
+        "symbolized",
+        "symbol",
+        "symbolizes"
+      ],
+      "answer": 2,
+      "word": "symbol",
+      "form": "symbol",
+      "explain": "愛心是愛的象徵。a ___ of 中間要用名詞 symbol＝象徵。"
+    },
+    {
+      "id": "U3L-E-10",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 10,
+      "stem": "They hung a red ___ in front of the shop.",
+      "options": [
+        "lantern",
+        "coach",
+        "goal",
+        "target"
+      ],
+      "answer": 0,
+      "word": "lantern",
+      "explain": "他們在店門口掛了一個紅燈籠。lantern＝燈籠。"
+    },
+    {
+      "id": "U3L-E-11",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 11,
+      "stem": "Our team did not score a single ___ today.",
+      "options": [
+        "goal",
+        "crowd",
+        "symbol",
+        "target"
+      ],
+      "answer": 0,
+      "word": "goal",
+      "explain": "我們隊今天一球都沒進。score a goal＝進球得分。"
+    },
+    {
+      "id": "U3L-E-12",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 12,
+      "stem": "The new phone's ___ buyers are young people.",
+      "options": [
+        "target",
+        "goal",
+        "heat",
+        "lantern"
+      ],
+      "answer": 0,
+      "word": "target",
+      "explain": "這支新手機的目標客群是年輕人。target buyers＝目標客群。"
+    },
+    {
+      "id": "U3L-E-13",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 13,
+      "stem": "I love to try ___ food at the night market.",
+      "options": [
+        "foreigner",
+        "tough",
+        "foreign",
+        "foreigners"
+      ],
+      "answer": 2,
+      "word": "foreign",
+      "form": "foreign",
+      "explain": "我喜歡在夜市嘗試外國食物。food 前面用形容詞 foreign＝外國的。"
+    },
+    {
+      "id": "U3L-E-14",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 14,
+      "stem": "The train was very ___ this morning.",
+      "options": [
+        "crowd",
+        "crowded",
+        "coward",
+        "crowds"
+      ],
+      "answer": 1,
+      "word": "crowd",
+      "form": "crowded",
+      "explain": "今天早上火車非常擁擠。very 後面接形容詞 crowded＝擁擠的。"
+    },
+    {
+      "id": "U3L-E-15",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 15,
+      "stem": "Being a firefighter is a ___ job.",
+      "options": [
+        "foreign",
+        "tough",
+        "pleasant",
+        "crowded"
+      ],
+      "answer": 1,
+      "word": "tough",
+      "explain": "當消防員是一份辛苦的工作。tough＝困難的；辛苦的。"
+    },
+    {
+      "id": "U3L-E-16",
+      "paper": "extra",
+      "section": "mc-phrase",
+      "num": 16,
+      "stem": "The rain will ___ until Friday.",
+      "options": [
+        "go on",
+        "watch out",
+        "get up",
+        "give a big hand"
+      ],
+      "answer": 0,
+      "word": "go on",
+      "explain": "這場雨會持續到星期五。go on＝繼續。"
+    },
+    {
+      "id": "U3L-E-17",
+      "paper": "extra",
+      "section": "mc-phrase",
+      "num": 17,
+      "stem": "Please ___ to our special guest tonight.",
+      "options": [
+        "get up",
+        "give a big hand",
+        "go on",
+        "watch out"
+      ],
+      "answer": 1,
+      "word": "give a big hand",
+      "explain": "請為今晚的特別來賓鼓掌。give a big hand＝拍手；鼓掌。"
+    },
+    {
+      "id": "U3L-E-18",
+      "paper": "extra",
+      "section": "mc-phrase",
+      "num": 18,
+      "stem": "On Sundays I never ___ before ten.",
+      "options": [
+        "watch out",
+        "give a big hand",
+        "get up",
+        "go on"
+      ],
+      "answer": 2,
+      "word": "get up",
+      "explain": "星期天我從來不會在十點前起床。get up＝起床。"
+    },
+    {
+      "id": "U3L-E-19",
+      "paper": "extra",
+      "section": "dialogue",
+      "num": 19,
+      "stem": "A: What is your mother's job? B: ___",
+      "options": [
+        "She cooks very well.",
+        "She is a hair stylist.",
+        "She is thirty-eight.",
+        "She is at home now."
+      ],
+      "answer": 1,
+      "explain": "問媽媽的職業，答：她是髮型設計師。"
+    },
+    {
+      "id": "U3L-E-20",
+      "paper": "extra",
+      "section": "dialogue",
+      "num": 20,
+      "stem": "A: What does John do at the factory? B: ___",
+      "options": [
+        "He is a machine operator.",
+        "He works there with me.",
+        "The factory is very big.",
+        "He goes there by scooter."
+      ],
+      "answer": 0,
+      "explain": "問約翰在工廠做什麼工作，答：他是機器操作員。"
+    },
+    {
+      "id": "U3L-E-21",
+      "paper": "extra",
+      "section": "dialogue",
+      "num": 21,
+      "stem": "A: What job does your aunt have? B: ___",
+      "options": [
+        "She loves her life.",
+        "She is my father's sister.",
+        "She is a flight attendant.",
+        "She travels a lot."
+      ],
+      "answer": 2,
+      "explain": "問阿姨的工作，答：她是空服員。"
+    },
+    {
+      "id": "U3L-E-22",
+      "paper": "extra",
+      "section": "dialogue",
+      "num": 22,
+      "stem": "A: What does Ms. Chen do here? B: ___",
+      "options": [
+        "She is very busy.",
+        "She comes here every day.",
+        "She knows my mother.",
+        "She is the school nurse."
+      ],
+      "answer": 3,
+      "explain": "問陳女士在這裡擔任什麼工作，答：她是學校護理師。"
+    }
+  ]
+}

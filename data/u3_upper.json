@@ -1,0 +1,1368 @@
+{
+  "unit": 3,
+  "half": "upper",
+  "words": [
+    {
+      "en": "order",
+      "zh": "命令；指揮；訂購；點餐",
+      "derivatives": [
+        "disorder"
+      ]
+    },
+    {
+      "en": "differ",
+      "zh": "不同",
+      "derivatives": [
+        "difference",
+        "different"
+      ]
+    },
+    {
+      "en": "last",
+      "zh": "最後的；上一個；持續",
+      "derivatives": [
+        "latest"
+      ]
+    },
+    {
+      "en": "health",
+      "zh": "健康",
+      "derivatives": [
+        "healthy"
+      ]
+    },
+    {
+      "en": "wealth",
+      "zh": "財富；豐富",
+      "derivatives": [
+        "wealthy"
+      ]
+    },
+    {
+      "en": "wonder",
+      "zh": "想知道；驚奇；奇觀",
+      "derivatives": [
+        "wonderful"
+      ]
+    },
+    {
+      "en": "worry",
+      "zh": "擔心；煩惱；憂慮",
+      "derivatives": [
+        "worried"
+      ]
+    },
+    {
+      "en": "chance",
+      "zh": "機會；碰巧"
+    },
+    {
+      "en": "choose",
+      "zh": "選擇；挑選",
+      "derivatives": [
+        "choice"
+      ]
+    },
+    {
+      "en": "decide",
+      "zh": "決定；斷定；下決心",
+      "derivatives": [
+        "decision"
+      ]
+    },
+    {
+      "en": "concern",
+      "zh": "關心；有關；關係"
+    },
+    {
+      "en": "fingerprint",
+      "zh": "指印"
+    },
+    {
+      "en": "active",
+      "zh": "活躍的；主動的",
+      "derivatives": [
+        "activity"
+      ]
+    },
+    {
+      "en": "dress",
+      "zh": "洋裝；服裝；打扮",
+      "derivatives": [
+        "dressing"
+      ]
+    },
+    {
+      "en": "toast",
+      "zh": "土司；乾杯；敬酒"
+    }
+  ],
+  "phrases": [
+    {
+      "en": "watch out",
+      "zh": "小心；提防"
+    },
+    {
+      "en": "be famous for",
+      "zh": "以…著名"
+    },
+    {
+      "en": "be familiar with",
+      "zh": "熟悉"
+    }
+  ],
+  "readings": [
+    {
+      "id": "U3U-READ-1",
+      "paper": "review",
+      "title": "Leo's First Job",
+      "text": "Leo is an active student in the Food and Beverage Department. Last summer he got a chance to work at a night market stall. The stall is famous for its cheese toast. On his first day, the owner told him to watch out for the hot oil. Leo felt worried, but he soon became familiar with the job. His work is simple. He takes each order, makes the toast, and cleans the tables. The pay is not high, so Leo will never build great wealth here. Still, he does not worry about it. He decided to save part of the money for a basketball camp. His parents' only concern is his health, because he sleeps late every night. Leo knows they are right. Next month he will choose an earlier shift."
+    }
+  ],
+  "questions": [
+    {
+      "id": "U3U-R-01",
+      "paper": "review",
+      "section": "matching",
+      "num": 1,
+      "left": [
+        "order",
+        "differ",
+        "last",
+        "health",
+        "wealth",
+        "wonder",
+        "worry",
+        "chance",
+        "choose",
+        "decide",
+        "concern",
+        "fingerprint",
+        "active",
+        "dress",
+        "toast"
+      ],
+      "right": [
+        "機會",
+        "指印",
+        "決定",
+        "健康",
+        "洋裝；穿衣",
+        "命令；訂購",
+        "想知道；奇觀",
+        "土司；乾杯",
+        "財富",
+        "活躍的；主動的",
+        "不同",
+        "擔心；煩惱",
+        "選擇；挑選",
+        "最後的；持續",
+        "關心；關係"
+      ],
+      "answer": [
+        "F",
+        "K",
+        "N",
+        "D",
+        "I",
+        "G",
+        "L",
+        "A",
+        "M",
+        "C",
+        "O",
+        "B",
+        "J",
+        "E",
+        "H"
+      ],
+      "explain": "英中配合（第 1–15 題）：order命令、differ不同、last最後的、health健康、wealth財富、wonder想知道、worry擔心、chance機會、choose選擇、decide決定、concern關心、fingerprint指印、active活躍的、dress洋裝、toast土司"
+    },
+    {
+      "id": "U3U-R-11",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 16,
+      "stem": "The waiter came to take our ___.",
+      "options": [
+        "order",
+        "disorder",
+        "ordering",
+        "ordered"
+      ],
+      "answer": 0,
+      "word": "order",
+      "form": "order",
+      "explain": "服務生來幫我們點餐。our 後面接名詞 order＝點的餐；disorder 是「混亂」，不合。"
+    },
+    {
+      "id": "U3U-R-12",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 17,
+      "stem": "These two phones ___ a lot in price.",
+      "options": [
+        "difference",
+        "differ",
+        "differently",
+        "different"
+      ],
+      "answer": 1,
+      "word": "differ",
+      "form": "differ",
+      "explain": "這兩支手機的價格差很多。主詞後面缺動詞，用 differ＝不同。"
+    },
+    {
+      "id": "U3U-R-13",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 18,
+      "stem": "The movie will ___ for two hours.",
+      "options": [
+        "latest",
+        "lasted",
+        "last",
+        "lastly"
+      ],
+      "answer": 2,
+      "word": "last",
+      "form": "last",
+      "explain": "這部電影會持續兩個小時。will 後面接原形動詞 last＝持續。"
+    },
+    {
+      "id": "U3U-R-14",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 19,
+      "stem": "Too much sugar is bad for our ___.",
+      "options": [
+        "health",
+        "healthier",
+        "healthily",
+        "healthy"
+      ],
+      "answer": 0,
+      "word": "health",
+      "form": "health",
+      "explain": "太多糖對我們的健康不好。our 後面接名詞 health＝健康。"
+    },
+    {
+      "id": "U3U-R-15",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 20,
+      "stem": "The old man gave all his ___ to the school.",
+      "options": [
+        "wealthier",
+        "wealthily",
+        "wealth",
+        "wealthy"
+      ],
+      "answer": 2,
+      "word": "wealth",
+      "form": "wealth",
+      "explain": "那位老先生把他所有的財富捐給學校。his 後面接名詞 wealth＝財富。"
+    },
+    {
+      "id": "U3U-R-16",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 21,
+      "stem": "I ___ why Kevin is late again today.",
+      "options": [
+        "wonderful",
+        "wonder",
+        "wonders",
+        "wonderfully"
+      ],
+      "answer": 1,
+      "word": "wonder",
+      "form": "wonder",
+      "explain": "我想知道凱文今天為什麼又遲到。主詞 I 用原形動詞 wonder＝想知道。"
+    },
+    {
+      "id": "U3U-R-17",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 22,
+      "stem": "Do not ___ about tomorrow's math test.",
+      "options": [
+        "worry",
+        "worries",
+        "worrying",
+        "worried"
+      ],
+      "answer": 0,
+      "word": "worry",
+      "form": "worry",
+      "explain": "不要擔心明天的數學考試。Do not 後面接原形動詞 worry＝擔心。"
+    },
+    {
+      "id": "U3U-R-18",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 23,
+      "stem": "This is your last ___ to join the team.",
+      "options": [
+        "wealth",
+        "dress",
+        "order",
+        "chance"
+      ],
+      "answer": 3,
+      "word": "chance",
+      "explain": "這是你加入球隊的最後機會。chance＝機會。"
+    },
+    {
+      "id": "U3U-R-19",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 24,
+      "stem": "You can ___ any drink on the menu.",
+      "options": [
+        "chosen",
+        "chose",
+        "choose",
+        "choice"
+      ],
+      "answer": 2,
+      "word": "choose",
+      "form": "choose",
+      "explain": "菜單上任何飲料你都可以挑。can 後面接原形動詞 choose＝選擇。"
+    },
+    {
+      "id": "U3U-R-20",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 25,
+      "stem": "We must ___ where to eat tonight.",
+      "options": [
+        "decision",
+        "decided",
+        "deciding",
+        "decide"
+      ],
+      "answer": 3,
+      "word": "decide",
+      "form": "decide",
+      "explain": "我們必須決定今晚去哪裡吃。must 後面接原形動詞 decide＝決定。"
+    },
+    {
+      "id": "U3U-R-21",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 26,
+      "stem": "The safety of the students is our main ___.",
+      "options": [
+        "dress",
+        "toast",
+        "chance",
+        "concern"
+      ],
+      "answer": 3,
+      "word": "concern",
+      "explain": "學生的安全是我們主要關心的事。concern＝關心的事。"
+    },
+    {
+      "id": "U3U-R-22",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 27,
+      "stem": "The police found a ___ on the glass.",
+      "options": [
+        "wealth",
+        "fingerprint",
+        "chance",
+        "order"
+      ],
+      "answer": 1,
+      "word": "fingerprint",
+      "explain": "警方在玻璃杯上找到一枚指印。fingerprint＝指印。"
+    },
+    {
+      "id": "U3U-R-23",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 28,
+      "stem": "Tom is very ___ in every school club.",
+      "options": [
+        "activities",
+        "actively",
+        "active",
+        "activity"
+      ],
+      "answer": 2,
+      "word": "active",
+      "form": "active",
+      "explain": "湯姆在每個社團都很活躍。very 後面接形容詞 active＝活躍的。"
+    },
+    {
+      "id": "U3U-R-24",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 29,
+      "stem": "She bought a new ___ for the party.",
+      "options": [
+        "dress",
+        "dresses",
+        "dressing",
+        "dressed"
+      ],
+      "answer": 0,
+      "word": "dress",
+      "form": "dress",
+      "explain": "她為了派對買了一件新洋裝。a new 後面接單數名詞 dress＝洋裝。"
+    },
+    {
+      "id": "U3U-R-25",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 30,
+      "stem": "I eat two pieces of ___ for breakfast.",
+      "options": [
+        "order",
+        "toast",
+        "chance",
+        "dress"
+      ],
+      "answer": 1,
+      "word": "toast",
+      "explain": "我早餐吃兩片土司。toast＝土司。"
+    },
+    {
+      "id": "U3U-R-26",
+      "paper": "review",
+      "section": "mc-phrase",
+      "num": 31,
+      "stem": "___! A car is coming from the right.",
+      "options": [
+        "Watch out",
+        "Get up",
+        "Go on",
+        "Give up"
+      ],
+      "answer": 0,
+      "word": "watch out",
+      "explain": "小心！有車從右邊過來。watch out＝小心；提防。"
+    },
+    {
+      "id": "U3U-R-27",
+      "paper": "review",
+      "section": "mc-phrase",
+      "num": 32,
+      "stem": "Tainan ___ its delicious beef soup.",
+      "options": [
+        "watches out for",
+        "is famous for",
+        "is familiar with",
+        "gives up"
+      ],
+      "answer": 1,
+      "word": "be famous for",
+      "explain": "台南以美味的牛肉湯著名。be famous for＝以…著名。"
+    },
+    {
+      "id": "U3U-R-28",
+      "paper": "review",
+      "section": "mc-phrase",
+      "num": 33,
+      "stem": "Jenny ___ every MRT station in Taipei.",
+      "options": [
+        "gets up",
+        "is famous for",
+        "is familiar with",
+        "watches out"
+      ],
+      "answer": 2,
+      "word": "be familiar with",
+      "explain": "珍妮熟悉台北每一個捷運站。be familiar with＝熟悉。"
+    },
+    {
+      "id": "U3U-R-29",
+      "paper": "review",
+      "section": "dialogue",
+      "num": 34,
+      "stem": "A: What do you do for a living? B: ___",
+      "options": [
+        "I go to work by bus.",
+        "I work very hard every day.",
+        "I am twenty years old.",
+        "I am a cook at a small restaurant."
+      ],
+      "answer": 3,
+      "explain": "What do you do for a living? 是問職業，要回答工作身分：我是小餐廳的廚師。"
+    },
+    {
+      "id": "U3U-R-30",
+      "paper": "review",
+      "section": "dialogue",
+      "num": 35,
+      "stem": "A: What does your mother do? B: ___",
+      "options": [
+        "She is very kind to me.",
+        "She is a nurse at a big hospital.",
+        "She likes to watch TV.",
+        "She gets up at six."
+      ],
+      "answer": 1,
+      "explain": "What does your mother do? 問媽媽的職業，答：她是大醫院的護理師。"
+    },
+    {
+      "id": "U3U-R-31",
+      "paper": "review",
+      "section": "dialogue",
+      "num": 36,
+      "stem": "A: What do you want to be in the future? B: ___",
+      "options": [
+        "I want to go home.",
+        "I will study tonight.",
+        "I want to be a coach.",
+        "I am in Class Three."
+      ],
+      "answer": 2,
+      "explain": "問未來想從事什麼職業，答：我想當教練。"
+    },
+    {
+      "id": "U3U-R-32",
+      "paper": "review",
+      "section": "dialogue",
+      "num": 37,
+      "stem": "A: What does Peter do at that store? B: ___",
+      "options": [
+        "He is a clerk there.",
+        "He is my good friend.",
+        "He is very tall.",
+        "He is not at home now."
+      ],
+      "answer": 0,
+      "explain": "問彼得在那家店做什麼工作，答：他在那裡當店員。"
+    },
+    {
+      "id": "U3U-R-33",
+      "paper": "review",
+      "section": "reading",
+      "readingId": "U3U-READ-1",
+      "num": 38,
+      "stem": "What is this reading mainly about?",
+      "options": [
+        "Leo's summer job at a night market",
+        "How to make cheese toast",
+        "Why night markets are famous",
+        "The best basketball camp in Taiwan"
+      ],
+      "answer": 0,
+      "word": "閱讀理解",
+      "explain": "全文在講 Leo 暑假在夜市攤位打工的事，主旨選 (A)。抓大意先看第一句和最後一句。"
+    },
+    {
+      "id": "U3U-R-34",
+      "paper": "review",
+      "section": "reading",
+      "readingId": "U3U-READ-1",
+      "num": 39,
+      "stem": "Why did the owner tell Leo to watch out?",
+      "options": [
+        "Because Leo came late.",
+        "Because the oil was hot.",
+        "Because the stall was crowded.",
+        "Because the tables were dirty."
+      ],
+      "answer": 1,
+      "word": "閱讀理解",
+      "explain": "文中說 the owner told him to watch out for the hot oil，因為油很燙。細節題回原文找關鍵字 watch out。"
+    },
+    {
+      "id": "U3U-R-35",
+      "paper": "review",
+      "section": "reading",
+      "readingId": "U3U-READ-1",
+      "num": 40,
+      "stem": "Which one is TRUE about Leo?",
+      "options": [
+        "His parents worry about his grades.",
+        "He is not familiar with the job now.",
+        "He will save money for a basketball camp.",
+        "He makes a lot of money at the stall."
+      ],
+      "answer": 2,
+      "word": "閱讀理解",
+      "explain": "文中說他決定存一部分的錢去籃球營，所以 (C) 對。(A) 薪水不高、(B) 他已經熟悉工作、(D) 父母擔心的是健康。"
+    },
+    {
+      "id": "U3U-Q-01",
+      "paper": "quiz",
+      "section": "matching",
+      "num": 1,
+      "left": [
+        "toast",
+        "decide",
+        "health",
+        "chance",
+        "dress",
+        "order",
+        "worry",
+        "concern",
+        "active",
+        "last",
+        "choose",
+        "wealth",
+        "fingerprint",
+        "differ",
+        "wonder"
+      ],
+      "right": [
+        "決定",
+        "關心；關係",
+        "土司；乾杯",
+        "不同",
+        "財富",
+        "選擇；挑選",
+        "健康",
+        "最後的；持續",
+        "想知道；奇觀",
+        "命令；訂購",
+        "指印",
+        "機會",
+        "活躍的；主動的",
+        "洋裝；穿衣",
+        "擔心；煩惱"
+      ],
+      "answer": [
+        "C",
+        "A",
+        "G",
+        "L",
+        "N",
+        "J",
+        "O",
+        "B",
+        "M",
+        "H",
+        "F",
+        "E",
+        "K",
+        "D",
+        "I"
+      ],
+      "explain": "英中配合（第 1–15 題）：toast土司、decide決定、health健康、chance機會、dress洋裝、order命令、worry擔心、concern關心、active活躍的、last最後的、choose選擇、wealth財富、fingerprint指印、differ不同、wonder想知道"
+    },
+    {
+      "id": "U3U-Q-11",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 16,
+      "stem": "My uncle has a sleep ___ and cannot sleep well.",
+      "options": [
+        "orderly",
+        "order",
+        "ordering",
+        "disorder"
+      ],
+      "answer": 3,
+      "word": "order",
+      "form": "disorder",
+      "explain": "我叔叔有睡眠失調，睡不好。sleep disorder＝睡眠失調（order 是「順序」，不合）。"
+    },
+    {
+      "id": "U3U-Q-12",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 17,
+      "stem": "There is a big ___ between the two brothers.",
+      "options": [
+        "difference",
+        "differ",
+        "different",
+        "differently"
+      ],
+      "answer": 0,
+      "word": "differ",
+      "form": "difference",
+      "explain": "那兩兄弟之間有很大的差別。a big 後面接名詞 difference＝差別。"
+    },
+    {
+      "id": "U3U-Q-13",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 18,
+      "stem": "I read the ___ news on my phone every night.",
+      "options": [
+        "lasting",
+        "latest",
+        "lastly",
+        "last"
+      ],
+      "answer": 1,
+      "word": "last",
+      "form": "latest",
+      "explain": "我每天晚上用手機看最新的新聞。latest＝最新的（last 是「最後的」，語意不合）。"
+    },
+    {
+      "id": "U3U-Q-14",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 19,
+      "stem": "Eating vegetables every day keeps us ___.",
+      "options": [
+        "healthy",
+        "health",
+        "healthily",
+        "healthier"
+      ],
+      "answer": 0,
+      "word": "health",
+      "form": "healthy",
+      "explain": "每天吃蔬菜讓我們保持健康。keep us 後面接形容詞 healthy＝健康的。"
+    },
+    {
+      "id": "U3U-Q-15",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 20,
+      "stem": "Her uncle is a ___ man with three houses.",
+      "options": [
+        "wealthily",
+        "wealthy",
+        "wealth",
+        "wealthier"
+      ],
+      "answer": 1,
+      "word": "wealth",
+      "form": "wealthy",
+      "explain": "她叔叔是個有三棟房子的有錢人。a ___ man 中間要用形容詞 wealthy＝有錢的。"
+    },
+    {
+      "id": "U3U-Q-16",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 21,
+      "stem": "We had a ___ time at the beach last Sunday.",
+      "options": [
+        "wonder",
+        "wonderful",
+        "wonders",
+        "wonderfully"
+      ],
+      "answer": 1,
+      "word": "wonder",
+      "form": "wonderful",
+      "explain": "上週日我們在海邊度過很棒的時光。a ___ time 中間要用形容詞 wonderful＝很棒的。"
+    },
+    {
+      "id": "U3U-Q-17",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 22,
+      "stem": "Mom looked ___ when I came home late.",
+      "options": [
+        "worry",
+        "worrying",
+        "worried",
+        "worries"
+      ],
+      "answer": 2,
+      "word": "worry",
+      "form": "worried",
+      "explain": "我很晚回家時，媽媽看起來很擔心。looked 後面接形容詞 worried＝擔心的。"
+    },
+    {
+      "id": "U3U-Q-18",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 23,
+      "stem": "I never got the ___ to say sorry to him.",
+      "options": [
+        "wealth",
+        "toast",
+        "chance",
+        "order"
+      ],
+      "answer": 2,
+      "word": "chance",
+      "explain": "我一直沒得到跟他說對不起的機會。chance＝機會。"
+    },
+    {
+      "id": "U3U-Q-19",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 24,
+      "stem": "It is a hard ___ between the two schools.",
+      "options": [
+        "choose",
+        "chose",
+        "choice",
+        "choosing"
+      ],
+      "answer": 2,
+      "word": "choose",
+      "form": "choice",
+      "explain": "在這兩所學校之間是個困難的選擇。a hard 後面接名詞 choice＝選擇。"
+    },
+    {
+      "id": "U3U-Q-20",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 25,
+      "stem": "His ___ to quit the team surprised us all.",
+      "options": [
+        "decided",
+        "decision",
+        "deciding",
+        "decide"
+      ],
+      "answer": 1,
+      "word": "decide",
+      "form": "decision",
+      "explain": "他退出球隊的決定讓我們都很驚訝。His 後面接名詞 decision＝決定。"
+    },
+    {
+      "id": "U3U-Q-21",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 26,
+      "stem": "The teacher showed great ___ for the sick student.",
+      "options": [
+        "concern",
+        "dress",
+        "order",
+        "chance"
+      ],
+      "answer": 0,
+      "word": "concern",
+      "explain": "老師對那位生病的學生表現出很大的關心。concern＝關心。"
+    },
+    {
+      "id": "U3U-Q-22",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 27,
+      "stem": "You can open this phone with your ___.",
+      "options": [
+        "chance",
+        "order",
+        "toast",
+        "fingerprint"
+      ],
+      "answer": 3,
+      "word": "fingerprint",
+      "explain": "你可以用指紋打開這支手機。fingerprint＝指印；指紋。"
+    },
+    {
+      "id": "U3U-Q-23",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 28,
+      "stem": "Swimming is my favorite summer ___.",
+      "options": [
+        "actively",
+        "activities",
+        "activity",
+        "active"
+      ],
+      "answer": 2,
+      "word": "active",
+      "form": "activity",
+      "explain": "游泳是我最喜歡的夏日活動。my favorite summer 後面接單數名詞 activity＝活動。"
+    },
+    {
+      "id": "U3U-Q-24",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 29,
+      "stem": "She put some ___ on the salad.",
+      "options": [
+        "dressing",
+        "dresses",
+        "dressed",
+        "dress"
+      ],
+      "answer": 0,
+      "word": "dress",
+      "form": "dressing",
+      "explain": "她在沙拉上加了一些沙拉醬。some 後面接不可數名詞 dressing＝調味醬料。"
+    },
+    {
+      "id": "U3U-Q-25",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 30,
+      "stem": "He had a cup of milk and some ___ this morning.",
+      "options": [
+        "chance",
+        "order",
+        "dress",
+        "toast"
+      ],
+      "answer": 3,
+      "word": "toast",
+      "explain": "他今天早上喝了一杯牛奶、吃了一些土司。toast＝土司。"
+    },
+    {
+      "id": "U3U-Q-26",
+      "paper": "quiz",
+      "section": "mc-phrase",
+      "num": 31,
+      "stem": "___ for the hot pot on the table.",
+      "options": [
+        "Watch out",
+        "Get up",
+        "Go on",
+        "Give up"
+      ],
+      "answer": 0,
+      "word": "watch out",
+      "explain": "小心桌上那個燙的鍋子。watch out for＝小心；提防某物。"
+    },
+    {
+      "id": "U3U-Q-27",
+      "paper": "quiz",
+      "section": "mc-phrase",
+      "num": 32,
+      "stem": "Japan ___ its beautiful cherry blossoms.",
+      "options": [
+        "is familiar with",
+        "is famous for",
+        "gets up",
+        "watches out for"
+      ],
+      "answer": 1,
+      "word": "be famous for",
+      "explain": "日本以美麗的櫻花著名。be famous for＝以…著名。"
+    },
+    {
+      "id": "U3U-Q-28",
+      "paper": "quiz",
+      "section": "mc-phrase",
+      "num": 33,
+      "stem": "I am not ___ this new computer game.",
+      "options": [
+        "famous for",
+        "watching out",
+        "familiar with",
+        "getting up"
+      ],
+      "answer": 2,
+      "word": "be familiar with",
+      "explain": "我對這個新的電腦遊戲不熟。be familiar with＝熟悉。"
+    },
+    {
+      "id": "U3U-Q-29",
+      "paper": "quiz",
+      "section": "dialogue",
+      "num": 34,
+      "stem": "A: What is your job? B: ___",
+      "options": [
+        "I live near the school.",
+        "I have two brothers.",
+        "I am a bus driver.",
+        "I am fine today."
+      ],
+      "answer": 2,
+      "explain": "What is your job? 問職業，答：我是公車司機。"
+    },
+    {
+      "id": "U3U-Q-30",
+      "paper": "quiz",
+      "section": "dialogue",
+      "num": 35,
+      "stem": "A: What does your brother do? B: ___",
+      "options": [
+        "He is a coach at a high school.",
+        "He is my older brother.",
+        "He is very busy.",
+        "He runs every morning."
+      ],
+      "answer": 0,
+      "explain": "問哥哥的職業，答：他在一所高中當教練。(C) 是回答關係，不是職業。"
+    },
+    {
+      "id": "U3U-Q-31",
+      "paper": "quiz",
+      "section": "dialogue",
+      "num": 36,
+      "stem": "A: What do you want to be after you graduate? B: ___",
+      "options": [
+        "I am in the tenth grade.",
+        "I want to go abroad.",
+        "I will call you later.",
+        "I want to be a chef."
+      ],
+      "answer": 3,
+      "explain": "問畢業後想做什麼職業，答：我想當廚師。"
+    },
+    {
+      "id": "U3U-Q-32",
+      "paper": "quiz",
+      "section": "dialogue",
+      "num": 37,
+      "stem": "A: What does Ms. Lin do at this school? B: ___",
+      "options": [
+        "She is very kind.",
+        "She is our English teacher.",
+        "She came here last year.",
+        "She lives in Kaohsiung."
+      ],
+      "answer": 1,
+      "explain": "問林老師在這所學校擔任什麼工作，答：她是我們的英文老師。"
+    },
+    {
+      "id": "U3U-E-01",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 1,
+      "stem": "Kevin gave his ___ to the clerk at the counter.",
+      "options": [
+        "order",
+        "ordered",
+        "disorder",
+        "ordering"
+      ],
+      "answer": 0,
+      "word": "order",
+      "form": "order",
+      "explain": "凱文向櫃台的店員點餐。his 後面接名詞 order＝點的餐。"
+    },
+    {
+      "id": "U3U-E-02",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 2,
+      "stem": "My brother and I like ___ kinds of music.",
+      "options": [
+        "difference",
+        "differs",
+        "different",
+        "differ"
+      ],
+      "answer": 2,
+      "word": "differ",
+      "form": "different",
+      "explain": "我哥哥和我喜歡不同種類的音樂。kinds 前面用形容詞 different＝不同的。"
+    },
+    {
+      "id": "U3U-E-03",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 3,
+      "stem": "The show ___ about three hours last night.",
+      "options": [
+        "lasted",
+        "lastly",
+        "last",
+        "latest"
+      ],
+      "answer": 0,
+      "word": "last",
+      "form": "lasted",
+      "explain": "昨晚那場表演持續了大約三小時。last night 是過去，用過去式 lasted＝持續。"
+    },
+    {
+      "id": "U3U-E-04",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 4,
+      "stem": "Smoking will harm your ___.",
+      "options": [
+        "healthily",
+        "health",
+        "healthy",
+        "healthier"
+      ],
+      "answer": 1,
+      "word": "health",
+      "form": "health",
+      "explain": "抽菸會傷害你的健康。your 後面接名詞 health＝健康。"
+    },
+    {
+      "id": "U3U-E-05",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 5,
+      "stem": "The family shared its ___ with poor children.",
+      "options": [
+        "wealth",
+        "wealthily",
+        "wealthier",
+        "wealthy"
+      ],
+      "answer": 0,
+      "word": "wealth",
+      "form": "wealth",
+      "explain": "那個家族把財富分給貧窮的孩子。its 後面接名詞 wealth＝財富。"
+    },
+    {
+      "id": "U3U-E-06",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 6,
+      "stem": "Many fans ___ how the team won the game.",
+      "options": [
+        "wonderful",
+        "wonderfully",
+        "wondered",
+        "wonder"
+      ],
+      "answer": 3,
+      "word": "wonder",
+      "form": "wonder",
+      "explain": "許多球迷想知道那支球隊怎麼贏得比賽。主詞是複數 fans，用原形 wonder＝想知道。"
+    },
+    {
+      "id": "U3U-E-07",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 7,
+      "stem": "Her biggest ___ is the coming entrance exam.",
+      "options": [
+        "worries",
+        "worry",
+        "worried",
+        "worrying"
+      ],
+      "answer": 1,
+      "word": "worry",
+      "form": "worry",
+      "explain": "她最大的煩惱是即將到來的入學考試。Her biggest 後面接單數名詞 worry＝煩惱。"
+    },
+    {
+      "id": "U3U-E-08",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 8,
+      "stem": "Please give me one more ___ to finish it.",
+      "options": [
+        "toast",
+        "wealth",
+        "chance",
+        "dress"
+      ],
+      "answer": 2,
+      "word": "chance",
+      "explain": "請再給我一次機會把它做完。chance＝機會。"
+    },
+    {
+      "id": "U3U-E-09",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 9,
+      "stem": "Amy ___ the red bag in the store yesterday.",
+      "options": [
+        "choose",
+        "choosing",
+        "chose",
+        "choice"
+      ],
+      "answer": 2,
+      "word": "choose",
+      "form": "chose",
+      "explain": "艾咪昨天在店裡挑了那個紅色包包。yesterday 是過去，用過去式 chose＝選擇。"
+    },
+    {
+      "id": "U3U-E-10",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 10,
+      "stem": "They ___ to go to Hualien by train last week.",
+      "options": [
+        "decision",
+        "deciding",
+        "decide",
+        "decided"
+      ],
+      "answer": 3,
+      "word": "decide",
+      "form": "decided",
+      "explain": "他們上週決定搭火車去花蓮。last week 是過去，用過去式 decided＝決定。"
+    },
+    {
+      "id": "U3U-E-11",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 11,
+      "stem": "Your safety is my only ___ right now.",
+      "options": [
+        "concern",
+        "chance",
+        "order",
+        "dress"
+      ],
+      "answer": 0,
+      "word": "concern",
+      "explain": "現在你的安全是我唯一關心的事。concern＝關心的事。"
+    },
+    {
+      "id": "U3U-E-12",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 12,
+      "stem": "Every person in the world has a different ___.",
+      "options": [
+        "toast",
+        "chance",
+        "fingerprint",
+        "order"
+      ],
+      "answer": 2,
+      "word": "fingerprint",
+      "explain": "世界上每個人的指紋都不一樣。fingerprint＝指印；指紋。"
+    },
+    {
+      "id": "U3U-E-13",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 13,
+      "stem": "Our club holds many ___ after school.",
+      "options": [
+        "actively",
+        "activities",
+        "activity",
+        "active"
+      ],
+      "answer": 1,
+      "word": "active",
+      "form": "activities",
+      "explain": "我們社團在放學後舉辦許多活動。many 後面接複數名詞 activities＝活動。"
+    },
+    {
+      "id": "U3U-E-14",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 14,
+      "stem": "The girl in the blue ___ is my cousin.",
+      "options": [
+        "dresses",
+        "dressing",
+        "dressed",
+        "dress"
+      ],
+      "answer": 3,
+      "word": "dress",
+      "form": "dress",
+      "explain": "那個穿藍色洋裝的女孩是我的表妹。the blue 後面接單數名詞 dress＝洋裝。"
+    },
+    {
+      "id": "U3U-E-15",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 15,
+      "stem": "Do you want butter on your ___?",
+      "options": [
+        "chance",
+        "toast",
+        "dress",
+        "order"
+      ],
+      "answer": 1,
+      "word": "toast",
+      "explain": "你的土司要加奶油嗎？toast＝土司。"
+    },
+    {
+      "id": "U3U-E-16",
+      "paper": "extra",
+      "section": "mc-phrase",
+      "num": 16,
+      "stem": "___! That big dog may bite you.",
+      "options": [
+        "Get up",
+        "Take off",
+        "Watch out",
+        "Go on"
+      ],
+      "answer": 2,
+      "word": "watch out",
+      "explain": "小心！那隻大狗可能會咬你。watch out＝小心；提防。"
+    },
+    {
+      "id": "U3U-E-17",
+      "paper": "extra",
+      "section": "mc-phrase",
+      "num": 17,
+      "stem": "Tainan ___ its old temples and night markets.",
+      "options": [
+        "is famous for",
+        "is familiar with",
+        "watches out for",
+        "gets up"
+      ],
+      "answer": 0,
+      "word": "be famous for",
+      "explain": "台南以古老的廟宇和夜市著名。be famous for＝以…著名。"
+    },
+    {
+      "id": "U3U-E-18",
+      "paper": "extra",
+      "section": "mc-phrase",
+      "num": 18,
+      "stem": "Are you ___ this new shopping app?",
+      "options": [
+        "going on",
+        "familiar with",
+        "watching out",
+        "famous for"
+      ],
+      "answer": 1,
+      "word": "be familiar with",
+      "explain": "你熟悉這個新的購物 app 嗎？be familiar with＝熟悉。"
+    },
+    {
+      "id": "U3U-E-19",
+      "paper": "extra",
+      "section": "dialogue",
+      "num": 19,
+      "stem": "A: What do you do? B: ___",
+      "options": [
+        "I go to work at eight.",
+        "I am hungry now.",
+        "I like my job a lot.",
+        "I am a nurse."
+      ],
+      "answer": 3,
+      "explain": "What do you do? 問職業，答：我是護理師。"
+    },
+    {
+      "id": "U3U-E-20",
+      "paper": "extra",
+      "section": "dialogue",
+      "num": 20,
+      "stem": "A: What is your father's job? B: ___",
+      "options": [
+        "He is forty-five years old.",
+        "He is a taxi driver.",
+        "He is very tired today.",
+        "He drives to work."
+      ],
+      "answer": 1,
+      "explain": "問爸爸的職業，答：他是計程車司機。"
+    },
+    {
+      "id": "U3U-E-21",
+      "paper": "extra",
+      "section": "dialogue",
+      "num": 21,
+      "stem": "A: What does Amy do in that shop? B: ___",
+      "options": [
+        "She is the manager.",
+        "She is very busy now.",
+        "She is my aunt.",
+        "She works all day long."
+      ],
+      "answer": 0,
+      "explain": "問艾咪在那家店擔任什麼工作，答：她是店長。"
+    },
+    {
+      "id": "U3U-E-22",
+      "paper": "extra",
+      "section": "dialogue",
+      "num": 22,
+      "stem": "A: What is your dream job? B: ___",
+      "options": [
+        "I am good at math.",
+        "I play games every day.",
+        "I want to be a game designer.",
+        "My dream came true."
+      ],
+      "answer": 2,
+      "explain": "問夢想的職業，答：我想當遊戲設計師。"
+    }
+  ]
+}
