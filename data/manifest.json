@@ -6,5 +6,6 @@
   { "file": "u3_upper.json", "unit": 3, "half": "upper", "label": "Unit 3（上）", "papers": ["review", "quiz"] },
   { "file": "u3_lower.json", "unit": 3, "half": "lower", "label": "Unit 3（下）", "papers": ["review", "quiz"] },
   { "file": "u4_upper.json", "unit": 4, "half": "upper", "label": "Unit 4（上）", "papers": ["review", "quiz"] },
-  { "file": "u4_lower.json", "unit": 4, "half": "lower", "label": "Unit 4（下）", "papers": ["review", "quiz"] }
+  { "file": "u4_lower.json", "unit": 4, "half": "lower", "label": "Unit 4（下）", "papers": ["review", "quiz"] },
+  { "file": "u5_upper.json", "unit": 5, "half": "upper", "label": "Unit 5（上）", "papers": ["review", "quiz"] }
 ]
