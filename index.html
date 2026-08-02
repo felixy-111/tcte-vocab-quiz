@@ -599,9 +599,9 @@ function buildPrintHTML(title, questionIds) {
     '.exp-list .row{font-size:10pt;line-height:1.5;margin-bottom:3px;color:#333}.foot{margin-top:10px;font-size:8pt;color:#999;text-align:right}</style></head><body>' +
     '<div class="page"><div class="title-bar"><h1>' + esc(title) + '</h1><div class="meta">姓名：__________　日期：______<br>得分：__________</div></div>' +
     body +
-    '<div class="foot">統測字彙練習 · 題目頁 · ' + date + '</div></div>' +
+    '</div>' +
     '<div class="ans-page"><div class="section-header">答案與詳解</div><div class="ans-box">' + ans + '</div><div class="exp-list">' + exp + '</div>' +
-    '<div class="foot">統測字彙練習 · 答案詳解 · ' + date + '</div></div></body></html>';
+    '</div></body></html>';
 }
 function openPrint(title, questionIds) {
   const w = window.open("", "_blank");
