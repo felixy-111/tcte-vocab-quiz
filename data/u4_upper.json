@@ -1,0 +1,1247 @@
+{
+  "unit": 4,
+  "half": "upper",
+  "words": [
+    {
+      "en": "mean",
+      "zh": "意指；用意",
+      "derivatives": [
+        "meaning",
+        "meaningless",
+        "meaningful"
+      ]
+    },
+    {
+      "en": "education",
+      "zh": "教育"
+    },
+    {
+      "en": "provide",
+      "zh": "提供；供應"
+    },
+    {
+      "en": "supply",
+      "zh": "供應；供給品"
+    },
+    {
+      "en": "harm",
+      "zh": "危害；損害",
+      "derivatives": [
+        "harmful"
+      ]
+    },
+    {
+      "en": "damage",
+      "zh": "破壞；損害"
+    },
+    {
+      "en": "interview",
+      "zh": "面試；採訪",
+      "derivatives": [
+        "interviewer",
+        "interviewee"
+      ]
+    },
+    {
+      "en": "boast",
+      "zh": "自誇；誇耀"
+    },
+    {
+      "en": "chain",
+      "zh": "連鎖；鎖鏈"
+    },
+    {
+      "en": "stomach",
+      "zh": "胃",
+      "derivatives": [
+        "stomachache"
+      ]
+    },
+    {
+      "en": "honor",
+      "zh": "榮譽"
+    },
+    {
+      "en": "gold",
+      "zh": "金；金牌",
+      "derivatives": [
+        "golden"
+      ]
+    },
+    {
+      "en": "honesty",
+      "zh": "誠實",
+      "derivatives": [
+        "honest"
+      ]
+    },
+    {
+      "en": "perhaps",
+      "zh": "也許；可能"
+    },
+    {
+      "en": "gain",
+      "zh": "獲得；增加"
+    }
+  ],
+  "phrases": [
+    {
+      "en": "be about to",
+      "zh": "即將；正準備要"
+    },
+    {
+      "en": "out of work",
+      "zh": "失業"
+    },
+    {
+      "en": "in order",
+      "zh": "整齊；按順序"
+    }
+  ],
+  "readings": [
+    {
+      "id": "U4U-READ-1",
+      "paper": "review",
+      "title": "Ken's First Job",
+      "text": "Ken finished his education last summer, but for months he was out of work. He did not boast about himself. He was honest and worked hard every day. One morning, a chain store called him for an interview. Ken was about to leave home when his mother gave him a gold pen for luck. At the interview, the interviewer asked many questions. Ken kept his answers in order and did not talk too much, because too much talk can do harm. His honesty soon gained the manager's trust. \"Perhaps you are the one we need,\" the manager said. The store would provide good training and supply a free lunch every day. Ken felt no more pain in his stomach. It was a great honor to get his first real job."
+    }
+  ],
+  "questions": [
+    {
+      "id": "U4U-R-01",
+      "paper": "review",
+      "section": "matching",
+      "num": 1,
+      "left": [
+        "mean",
+        "education",
+        "provide",
+        "supply",
+        "harm",
+        "damage",
+        "interview",
+        "boast",
+        "chain",
+        "stomach",
+        "honor",
+        "gold",
+        "honesty",
+        "perhaps",
+        "gain"
+      ],
+      "right": [
+        "教育",
+        "胃",
+        "提供；供應",
+        "誠實",
+        "危害；損害",
+        "連鎖；鎖鏈",
+        "意指；用意",
+        "金；金牌",
+        "供應；供給品",
+        "自誇；誇耀",
+        "面試；採訪",
+        "榮譽",
+        "破壞；損害",
+        "也許；可能",
+        "獲得；增加"
+      ],
+      "answer": [
+        "G",
+        "A",
+        "C",
+        "I",
+        "E",
+        "M",
+        "K",
+        "J",
+        "F",
+        "B",
+        "L",
+        "H",
+        "D",
+        "N",
+        "O"
+      ],
+      "explain": "英中配合（第 1–15 題）：mean意指、education教育、provide提供、supply供應、harm危害、damage破壞、interview面試、boast自誇、chain連鎖、stomach胃、honor榮譽、gold金、honesty誠實、perhaps也許、gain獲得"
+    },
+    {
+      "id": "U4U-R-11",
+      "paper": "review",
+      "section": "mc-vocab",
+      "mode": "spell",
+      "num": 16,
+      "prompt": "教育",
+      "word": "education",
+      "explain": "education＝教育。首 e 尾 n，共 9 個字母。"
+    },
+    {
+      "id": "U4U-R-12",
+      "paper": "review",
+      "section": "mc-vocab",
+      "mode": "spell",
+      "num": 17,
+      "prompt": "提供；供應",
+      "word": "provide",
+      "explain": "provide＝提供；供應。首 p 尾 e，共 7 個字母。"
+    },
+    {
+      "id": "U4U-R-13",
+      "paper": "review",
+      "section": "mc-vocab",
+      "mode": "spell",
+      "num": 18,
+      "prompt": "供應；供給品",
+      "word": "supply",
+      "explain": "supply＝供應；供給品。首 s 尾 y，共 6 個字母。"
+    },
+    {
+      "id": "U4U-R-14",
+      "paper": "review",
+      "section": "mc-vocab",
+      "mode": "spell",
+      "num": 19,
+      "prompt": "破壞；損害",
+      "word": "damage",
+      "explain": "damage＝破壞；損害。首 d 尾 e，共 6 個字母。"
+    },
+    {
+      "id": "U4U-R-15",
+      "paper": "review",
+      "section": "mc-vocab",
+      "mode": "spell",
+      "num": 20,
+      "prompt": "自誇；誇耀",
+      "word": "boast",
+      "explain": "boast＝自誇；誇耀。首 b 尾 t，共 5 個字母。"
+    },
+    {
+      "id": "U4U-R-16",
+      "paper": "review",
+      "section": "mc-vocab",
+      "mode": "spell",
+      "num": 21,
+      "prompt": "連鎖；鎖鏈",
+      "word": "chain",
+      "explain": "chain＝連鎖；鎖鏈。首 c 尾 n，共 5 個字母。"
+    },
+    {
+      "id": "U4U-R-17",
+      "paper": "review",
+      "section": "mc-vocab",
+      "mode": "spell",
+      "num": 22,
+      "prompt": "榮譽",
+      "word": "honor",
+      "explain": "honor＝榮譽。首 h 尾 r，共 5 個字母。"
+    },
+    {
+      "id": "U4U-R-18",
+      "paper": "review",
+      "section": "mc-vocab",
+      "mode": "spell",
+      "num": 23,
+      "prompt": "也許；可能",
+      "word": "perhaps",
+      "explain": "perhaps＝也許；可能。首 p 尾 s，共 7 個字母。"
+    },
+    {
+      "id": "U4U-R-19",
+      "paper": "review",
+      "section": "mc-vocab",
+      "mode": "spell",
+      "num": 24,
+      "prompt": "獲得；增加",
+      "word": "gain",
+      "explain": "gain＝獲得；增加。首 g 尾 n，共 4 個字母。"
+    },
+    {
+      "id": "U4U-R-20",
+      "paper": "review",
+      "section": "mc-vocab",
+      "mode": "mc",
+      "num": 25,
+      "stem": "What is the ___ of this new word?",
+      "options": [
+        "meaningless",
+        "mean",
+        "means",
+        "meaning"
+      ],
+      "answer": 3,
+      "word": "mean",
+      "form": "meaning",
+      "explain": "這個新單字的意思是什麼？the ___ of 中間用名詞 meaning＝意思。"
+    },
+    {
+      "id": "U4U-R-21",
+      "paper": "review",
+      "section": "mc-vocab",
+      "mode": "mc",
+      "num": 26,
+      "stem": "Too much sugar is ___ to your teeth.",
+      "options": [
+        "harmful",
+        "harmed",
+        "harm",
+        "harmless"
+      ],
+      "answer": 0,
+      "word": "harm",
+      "form": "harmful",
+      "explain": "太多糖對你的牙齒有害。be 動詞 is 後面接形容詞 harmful＝有害的。"
+    },
+    {
+      "id": "U4U-R-22",
+      "paper": "review",
+      "section": "mc-vocab",
+      "mode": "mc",
+      "num": 27,
+      "stem": "The ___ asked me many hard questions.",
+      "options": [
+        "interviewer",
+        "interviewee",
+        "interview",
+        "interviews"
+      ],
+      "answer": 0,
+      "word": "interview",
+      "form": "interviewer",
+      "explain": "主考官問了我很多難題。做動作的人用 interviewer＝主考官；interviewee 是被面試者。"
+    },
+    {
+      "id": "U4U-R-23",
+      "paper": "review",
+      "section": "mc-vocab",
+      "mode": "mc",
+      "num": 28,
+      "stem": "I ate too much, so I have a ___.",
+      "options": [
+        "stomach",
+        "stomachache",
+        "backache",
+        "headache"
+      ],
+      "answer": 1,
+      "word": "stomach",
+      "form": "stomachache",
+      "explain": "我吃太多，所以肚子痛。stomach（胃）＋ache（痛）＝stomachache 胃痛。"
+    },
+    {
+      "id": "U4U-R-24",
+      "paper": "review",
+      "section": "mc-vocab",
+      "mode": "mc",
+      "num": 29,
+      "stem": "The baby has soft ___ hair.",
+      "options": [
+        "gold",
+        "golden",
+        "goldsmith",
+        "golds"
+      ],
+      "answer": 1,
+      "word": "gold",
+      "form": "golden",
+      "explain": "那個寶寶有柔軟的金色頭髮。形容顏色用 golden＝金色的；gold 是「金製的；黃金」。"
+    },
+    {
+      "id": "U4U-R-25",
+      "paper": "review",
+      "section": "mc-vocab",
+      "mode": "mc",
+      "num": 30,
+      "stem": "He is an ___ boy and never tells a lie.",
+      "options": [
+        "honestly",
+        "honesty",
+        "honest",
+        "honests"
+      ],
+      "answer": 2,
+      "word": "honesty",
+      "form": "honest",
+      "explain": "他是個誠實的男孩，從不說謊。boy 前面用形容詞 honest＝誠實的；honesty 是名詞「誠實」。"
+    },
+    {
+      "id": "U4U-R-26",
+      "paper": "review",
+      "section": "mc-phrase",
+      "num": 31,
+      "stem": "The train ___ leave when I jumped on it.",
+      "options": [
+        "was out of",
+        "was about to",
+        "gave up",
+        "was in"
+      ],
+      "answer": 1,
+      "word": "be about to",
+      "explain": "我跳上車時火車正要開走。be about to＝即將；正準備要（後接原形動詞）。"
+    },
+    {
+      "id": "U4U-R-27",
+      "paper": "review",
+      "section": "mc-phrase",
+      "num": 32,
+      "stem": "Many workers were ___ after the factory closed.",
+      "options": [
+        "in time",
+        "in order",
+        "out of work",
+        "about to"
+      ],
+      "answer": 2,
+      "word": "out of work",
+      "explain": "工廠倒閉後許多工人失業了。out of work＝失業。"
+    },
+    {
+      "id": "U4U-R-28",
+      "paper": "review",
+      "section": "mc-phrase",
+      "num": 33,
+      "stem": "Please keep the tools ___ after you use them.",
+      "options": [
+        "in order",
+        "about to",
+        "out of work",
+        "out of date"
+      ],
+      "answer": 0,
+      "word": "in order",
+      "explain": "用完工具後請保持整齊。in order＝整齊；按順序。"
+    },
+    {
+      "id": "U4U-R-29",
+      "paper": "review",
+      "section": "dialogue",
+      "num": 34,
+      "stem": "A: What is your name? B: ___",
+      "options": [
+        "I live in Tainan.",
+        "I am fine, thank you.",
+        "I am twelve years old.",
+        "My name is David Lin."
+      ],
+      "answer": 3,
+      "explain": "What is your name? 問名字，答：我叫林大衛。其他選項答的是年齡、住處、心情。"
+    },
+    {
+      "id": "U4U-R-30",
+      "paper": "review",
+      "section": "dialogue",
+      "num": 35,
+      "stem": "A: May I have your name, please? B: ___",
+      "options": [
+        "Sure. It's Amy Wang.",
+        "Yes, I have a pen.",
+        "No, I am busy now.",
+        "It is on the desk."
+      ],
+      "answer": 0,
+      "explain": "禮貌詢問對方名字，答：好的，我是王艾米。"
+    },
+    {
+      "id": "U4U-R-31",
+      "paper": "review",
+      "section": "dialogue",
+      "num": 36,
+      "stem": "A: Who is the man in the blue shirt? B: ___",
+      "options": [
+        "It is a nice shirt.",
+        "He is my uncle.",
+        "He runs very fast.",
+        "The shirt is blue."
+      ],
+      "answer": 1,
+      "explain": "Who 問「人是誰」，答關係：他是我叔叔。"
+    },
+    {
+      "id": "U4U-R-32",
+      "paper": "review",
+      "section": "dialogue",
+      "num": 37,
+      "stem": "A: Who are these flowers for? B: ___",
+      "options": [
+        "They are roses.",
+        "I bought them today.",
+        "They are for my mother.",
+        "They smell good."
+      ],
+      "answer": 2,
+      "explain": "Who ... for 問「給誰」，答對象：這些花是給我媽媽的。"
+    },
+    {
+      "id": "U4U-R-33",
+      "paper": "review",
+      "section": "reading",
+      "readingId": "U4U-READ-1",
+      "num": 38,
+      "stem": "What is this reading mainly about?",
+      "options": [
+        "Why education is important",
+        "How Ken got his first job",
+        "A gold pen from Ken's mother",
+        "How to write a good resume"
+      ],
+      "answer": 1,
+      "word": "閱讀理解",
+      "explain": "全文在講 Ken 怎麼得到他的第一份工作，主旨這樣選。抓大意先看頭尾句。"
+    },
+    {
+      "id": "U4U-R-34",
+      "paper": "review",
+      "section": "reading",
+      "readingId": "U4U-READ-1",
+      "num": 39,
+      "stem": "What did Ken's mother give him before the interview?",
+      "options": [
+        "A gold pen",
+        "A new shirt",
+        "A cup of coffee",
+        "A free lunch"
+      ],
+      "answer": 0,
+      "word": "閱讀理解",
+      "explain": "文中說 his mother gave him a gold pen for luck，媽媽給的是一支金筆。細節題回原文找關鍵字 gave。"
+    },
+    {
+      "id": "U4U-R-35",
+      "paper": "review",
+      "section": "reading",
+      "readingId": "U4U-READ-1",
+      "num": 40,
+      "stem": "Which one is TRUE about Ken?",
+      "options": [
+        "He talked a lot at the interview.",
+        "He felt pain in his stomach after the job.",
+        "He was honest and worked hard.",
+        "He had a job before the interview."
+      ],
+      "answer": 2,
+      "word": "閱讀理解",
+      "explain": "文中說他誠實又努力，所以這個對。他沒多說話、面試前失業、拿到工作後胃不再痛。"
+    },
+    {
+      "id": "U4U-Q-01",
+      "paper": "quiz",
+      "section": "matching",
+      "num": 1,
+      "left": [
+        "honor",
+        "gain",
+        "damage",
+        "mean",
+        "supply",
+        "boast",
+        "gold",
+        "chain",
+        "education",
+        "honesty",
+        "stomach",
+        "perhaps",
+        "harm",
+        "interview",
+        "provide"
+      ],
+      "right": [
+        "獲得；增加",
+        "面試；採訪",
+        "榮譽",
+        "破壞；損害",
+        "誠實",
+        "供應；供給品",
+        "連鎖；鎖鏈",
+        "意指；用意",
+        "胃",
+        "教育",
+        "金；金牌",
+        "自誇；誇耀",
+        "危害；損害",
+        "也許；可能",
+        "提供；供應"
+      ],
+      "answer": [
+        "C",
+        "A",
+        "D",
+        "H",
+        "F",
+        "L",
+        "K",
+        "G",
+        "J",
+        "E",
+        "I",
+        "N",
+        "M",
+        "B",
+        "O"
+      ],
+      "explain": "英中配合（第 1–15 題）：honor榮譽、gain獲得、damage破壞、mean意指、supply供應、boast自誇、gold金、chain連鎖、education教育、honesty誠實、stomach胃、perhaps也許、harm危害、interview面試、provide提供"
+    },
+    {
+      "id": "U4U-Q-11",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "mode": "spell",
+      "num": 16,
+      "prompt": "教育",
+      "word": "education",
+      "explain": "education＝教育。首 e 尾 n，共 9 個字母。"
+    },
+    {
+      "id": "U4U-Q-12",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "mode": "spell",
+      "num": 17,
+      "prompt": "提供；供應",
+      "word": "provide",
+      "explain": "provide＝提供；供應。首 p 尾 e，共 7 個字母。"
+    },
+    {
+      "id": "U4U-Q-13",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "mode": "spell",
+      "num": 18,
+      "prompt": "供應；供給品",
+      "word": "supply",
+      "explain": "supply＝供應；供給品。首 s 尾 y，共 6 個字母。"
+    },
+    {
+      "id": "U4U-Q-14",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "mode": "spell",
+      "num": 19,
+      "prompt": "破壞；損害",
+      "word": "damage",
+      "explain": "damage＝破壞；損害。首 d 尾 e，共 6 個字母。"
+    },
+    {
+      "id": "U4U-Q-15",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "mode": "spell",
+      "num": 20,
+      "prompt": "自誇；誇耀",
+      "word": "boast",
+      "explain": "boast＝自誇；誇耀。首 b 尾 t，共 5 個字母。"
+    },
+    {
+      "id": "U4U-Q-16",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "mode": "spell",
+      "num": 21,
+      "prompt": "連鎖；鎖鏈",
+      "word": "chain",
+      "explain": "chain＝連鎖；鎖鏈。首 c 尾 n，共 5 個字母。"
+    },
+    {
+      "id": "U4U-Q-17",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "mode": "spell",
+      "num": 22,
+      "prompt": "榮譽",
+      "word": "honor",
+      "explain": "honor＝榮譽。首 h 尾 r，共 5 個字母。"
+    },
+    {
+      "id": "U4U-Q-18",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "mode": "spell",
+      "num": 23,
+      "prompt": "也許；可能",
+      "word": "perhaps",
+      "explain": "perhaps＝也許；可能。首 p 尾 s，共 7 個字母。"
+    },
+    {
+      "id": "U4U-Q-19",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "mode": "spell",
+      "num": 24,
+      "prompt": "獲得；增加",
+      "word": "gain",
+      "explain": "gain＝獲得；增加。首 g 尾 n，共 4 個字母。"
+    },
+    {
+      "id": "U4U-Q-20",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "mode": "mc",
+      "num": 25,
+      "stem": "The long, boring speech was ___ to us.",
+      "options": [
+        "mean",
+        "meaning",
+        "means",
+        "meaningless"
+      ],
+      "answer": 3,
+      "word": "mean",
+      "form": "meaningless",
+      "explain": "那場又長又無聊的演講對我們毫無意義。be 動詞後接形容詞 meaningless＝無意義的。"
+    },
+    {
+      "id": "U4U-Q-21",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "mode": "mc",
+      "num": 26,
+      "stem": "The heavy storm did great ___ to the farms.",
+      "options": [
+        "harm",
+        "harmful",
+        "harmfully",
+        "harms"
+      ],
+      "answer": 0,
+      "word": "harm",
+      "form": "harm",
+      "explain": "強烈的暴風雨對農田造成很大的傷害。do great ___ 中間用名詞 harm＝傷害。"
+    },
+    {
+      "id": "U4U-Q-22",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "mode": "mc",
+      "num": 27,
+      "stem": "I have a job ___ next Monday morning.",
+      "options": [
+        "interviewer",
+        "interviewed",
+        "interview",
+        "interviewee"
+      ],
+      "answer": 2,
+      "word": "interview",
+      "form": "interview",
+      "explain": "我下週一早上有一場工作面試。a job ___ 用名詞 interview＝面試。"
+    },
+    {
+      "id": "U4U-Q-23",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "mode": "mc",
+      "num": 28,
+      "stem": "The food goes down to your ___ after you eat.",
+      "options": [
+        "stomachache",
+        "stomach",
+        "headache",
+        "backache"
+      ],
+      "answer": 1,
+      "word": "stomach",
+      "form": "stomach",
+      "explain": "你吃下後食物會往下進到胃。stomach＝胃；stomachache 是「胃痛」。"
+    },
+    {
+      "id": "U4U-Q-24",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "mode": "mc",
+      "num": 29,
+      "stem": "This ring is made of pure ___.",
+      "options": [
+        "golds",
+        "gold",
+        "goldsmith",
+        "golden"
+      ],
+      "answer": 1,
+      "word": "gold",
+      "form": "gold",
+      "explain": "這只戒指是純金做的。材質用 gold＝黃金；golden 是「金色的」。"
+    },
+    {
+      "id": "U4U-Q-25",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "mode": "mc",
+      "num": 30,
+      "stem": "___ is the best policy in business.",
+      "options": [
+        "Honesty",
+        "Honesties",
+        "Honest",
+        "Honestly"
+      ],
+      "answer": 0,
+      "word": "honesty",
+      "form": "honesty",
+      "explain": "誠實是做生意最好的原則。當主詞用名詞 Honesty＝誠實；honest 是形容詞。"
+    },
+    {
+      "id": "U4U-Q-26",
+      "paper": "quiz",
+      "section": "mc-phrase",
+      "num": 31,
+      "stem": "I ___ call you when you knocked on the door.",
+      "options": [
+        "was out of",
+        "was about to",
+        "gave up",
+        "was in"
+      ],
+      "answer": 1,
+      "word": "be about to",
+      "explain": "你敲門時我正準備打電話給你。be about to＝即將；正準備要。"
+    },
+    {
+      "id": "U4U-Q-27",
+      "paper": "quiz",
+      "section": "mc-phrase",
+      "num": 32,
+      "stem": "My uncle has been ___ since last month.",
+      "options": [
+        "out of work",
+        "about to",
+        "in order",
+        "on time"
+      ],
+      "answer": 0,
+      "word": "out of work",
+      "explain": "我叔叔從上個月起就失業了。out of work＝失業。"
+    },
+    {
+      "id": "U4U-Q-28",
+      "paper": "quiz",
+      "section": "mc-phrase",
+      "num": 33,
+      "stem": "The teacher asked us to line up ___.",
+      "options": [
+        "out of work",
+        "out of date",
+        "in order",
+        "about to"
+      ],
+      "answer": 2,
+      "word": "in order",
+      "explain": "老師要我們按順序排隊。in order＝整齊；按順序。"
+    },
+    {
+      "id": "U4U-Q-29",
+      "paper": "quiz",
+      "section": "dialogue",
+      "num": 34,
+      "stem": "A: What is your English name? B: ___",
+      "options": [
+        "I am from Taiwan.",
+        "I am a student.",
+        "It's Kevin.",
+        "Nice to meet you."
+      ],
+      "answer": 2,
+      "explain": "問英文名字，答：我叫 Kevin。"
+    },
+    {
+      "id": "U4U-Q-30",
+      "paper": "quiz",
+      "section": "dialogue",
+      "num": 35,
+      "stem": "A: Excuse me, what is your last name? B: ___",
+      "options": [
+        "See you later.",
+        "My last name is Chen.",
+        "I like English very much.",
+        "I am thirteen years old."
+      ],
+      "answer": 1,
+      "explain": "問姓氏，答：我姓陳。last name＝姓。"
+    },
+    {
+      "id": "U4U-Q-31",
+      "paper": "quiz",
+      "section": "dialogue",
+      "num": 36,
+      "stem": "A: Who is the girl next to Tom? B: ___",
+      "options": [
+        "Tom is my friend.",
+        "She likes music.",
+        "She is very tall.",
+        "She is his sister."
+      ],
+      "answer": 3,
+      "explain": "Who 問「人是誰」，答關係：她是湯姆的妹妹。"
+    },
+    {
+      "id": "U4U-Q-32",
+      "paper": "quiz",
+      "section": "dialogue",
+      "num": 37,
+      "stem": "A: Who broke the window? B: ___",
+      "options": [
+        "I have no idea.",
+        "The window is broken.",
+        "Yes, it is.",
+        "It is a big window."
+      ],
+      "answer": 0,
+      "explain": "Who 問「是誰做的」，答：我不知道。"
+    },
+    {
+      "id": "U4U-E-01",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "mode": "spell",
+      "num": 1,
+      "prompt": "教育",
+      "word": "education",
+      "explain": "education＝教育。首 e 尾 n，共 9 個字母。"
+    },
+    {
+      "id": "U4U-E-02",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "mode": "spell",
+      "num": 2,
+      "prompt": "提供；供應",
+      "word": "provide",
+      "explain": "provide＝提供；供應。首 p 尾 e，共 7 個字母。"
+    },
+    {
+      "id": "U4U-E-03",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "mode": "spell",
+      "num": 3,
+      "prompt": "供應；供給品",
+      "word": "supply",
+      "explain": "supply＝供應；供給品。首 s 尾 y，共 6 個字母。"
+    },
+    {
+      "id": "U4U-E-04",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "mode": "spell",
+      "num": 4,
+      "prompt": "破壞；損害",
+      "word": "damage",
+      "explain": "damage＝破壞；損害。首 d 尾 e，共 6 個字母。"
+    },
+    {
+      "id": "U4U-E-05",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "mode": "spell",
+      "num": 5,
+      "prompt": "自誇；誇耀",
+      "word": "boast",
+      "explain": "boast＝自誇；誇耀。首 b 尾 t，共 5 個字母。"
+    },
+    {
+      "id": "U4U-E-06",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "mode": "spell",
+      "num": 6,
+      "prompt": "連鎖；鎖鏈",
+      "word": "chain",
+      "explain": "chain＝連鎖；鎖鏈。首 c 尾 n，共 5 個字母。"
+    },
+    {
+      "id": "U4U-E-07",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "mode": "spell",
+      "num": 7,
+      "prompt": "榮譽",
+      "word": "honor",
+      "explain": "honor＝榮譽。首 h 尾 r，共 5 個字母。"
+    },
+    {
+      "id": "U4U-E-08",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "mode": "spell",
+      "num": 8,
+      "prompt": "也許；可能",
+      "word": "perhaps",
+      "explain": "perhaps＝也許；可能。首 p 尾 s，共 7 個字母。"
+    },
+    {
+      "id": "U4U-E-09",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "mode": "spell",
+      "num": 9,
+      "prompt": "獲得；增加",
+      "word": "gain",
+      "explain": "gain＝獲得；增加。首 g 尾 n，共 4 個字母。"
+    },
+    {
+      "id": "U4U-E-10",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "mode": "mc",
+      "num": 10,
+      "stem": "A good speech should be short and ___.",
+      "options": [
+        "meaningful",
+        "mean",
+        "meaningless",
+        "means"
+      ],
+      "answer": 0,
+      "word": "mean",
+      "form": "meaningful",
+      "explain": "一場好的演講應該簡短又有意義。and 後接形容詞 meaningful＝有意義的。"
+    },
+    {
+      "id": "U4U-E-11",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "mode": "mc",
+      "num": 11,
+      "stem": "Plastic bags are ___ to sea animals.",
+      "options": [
+        "harm",
+        "harmful",
+        "harmless",
+        "harmed"
+      ],
+      "answer": 1,
+      "word": "harm",
+      "form": "harmful",
+      "explain": "塑膠袋對海洋動物有害。be 動詞後接形容詞 harmful＝有害的。"
+    },
+    {
+      "id": "U4U-E-12",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "mode": "mc",
+      "num": 12,
+      "stem": "As an ___, you should stay calm and polite.",
+      "options": [
+        "interviewer",
+        "interviews",
+        "interviewee",
+        "interview"
+      ],
+      "answer": 2,
+      "word": "interview",
+      "form": "interviewee",
+      "explain": "身為被面試者，你應該保持冷靜有禮。被面試的人用 interviewee。"
+    },
+    {
+      "id": "U4U-E-13",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "mode": "mc",
+      "num": 13,
+      "stem": "A cow has more than one ___.",
+      "options": [
+        "stomachache",
+        "headache",
+        "backache",
+        "stomach"
+      ],
+      "answer": 3,
+      "word": "stomach",
+      "form": "stomach",
+      "explain": "一頭牛有不只一個胃。stomach＝胃。"
+    },
+    {
+      "id": "U4U-E-14",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "mode": "mc",
+      "num": 14,
+      "stem": "The old temple has a shiny ___ roof.",
+      "options": [
+        "golden",
+        "golds",
+        "gold",
+        "goldsmith"
+      ],
+      "answer": 0,
+      "word": "gold",
+      "form": "golden",
+      "explain": "那座古廟有閃亮的金色屋頂。形容顏色用 golden＝金色的。"
+    },
+    {
+      "id": "U4U-E-15",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "mode": "mc",
+      "num": 15,
+      "stem": "We all admire her ___ and courage.",
+      "options": [
+        "honestly",
+        "honesty",
+        "honesties",
+        "honest"
+      ],
+      "answer": 1,
+      "word": "honesty",
+      "form": "honesty",
+      "explain": "我們都佩服她的誠實和勇氣。her 後面接名詞 honesty＝誠實。"
+    },
+    {
+      "id": "U4U-E-16",
+      "paper": "extra",
+      "section": "mc-phrase",
+      "num": 16,
+      "stem": "The movie ___ start, so please sit down.",
+      "options": [
+        "is about to",
+        "is out of",
+        "gives up",
+        "is in"
+      ],
+      "answer": 0,
+      "word": "be about to",
+      "explain": "電影即將開始，請坐下。be about to＝即將；正準備要。"
+    },
+    {
+      "id": "U4U-E-17",
+      "paper": "extra",
+      "section": "mc-phrase",
+      "num": 17,
+      "stem": "After losing his job, my father is ___ now.",
+      "options": [
+        "in time",
+        "in order",
+        "out of work",
+        "about to"
+      ],
+      "answer": 2,
+      "word": "out of work",
+      "explain": "丟了工作後，我爸爸現在失業了。out of work＝失業。"
+    },
+    {
+      "id": "U4U-E-18",
+      "paper": "extra",
+      "section": "mc-phrase",
+      "num": 18,
+      "stem": "Keep your books ___ on the desk.",
+      "options": [
+        "out of work",
+        "in order",
+        "about to",
+        "out of date"
+      ],
+      "answer": 1,
+      "word": "in order",
+      "explain": "把你的書在桌上擺整齊。in order＝整齊；按順序。"
+    },
+    {
+      "id": "U4U-E-19",
+      "paper": "extra",
+      "section": "dialogue",
+      "num": 19,
+      "stem": "A: What is your full name? B: ___",
+      "options": [
+        "I am fifteen years old.",
+        "I am a little tired.",
+        "I go to school by bus.",
+        "I'm Sarah Wu."
+      ],
+      "answer": 3,
+      "explain": "問全名，答：我是吳莎拉。full name＝全名。"
+    },
+    {
+      "id": "U4U-E-20",
+      "paper": "extra",
+      "section": "dialogue",
+      "num": 20,
+      "stem": "A: Who is your homeroom teacher? B: ___",
+      "options": [
+        "Mr. Huang is.",
+        "He is very kind.",
+        "School starts at eight.",
+        "I like my class."
+      ],
+      "answer": 0,
+      "explain": "Who 問「是誰」，答：黃老師。homeroom teacher＝導師。"
+    },
+    {
+      "id": "U4U-E-21",
+      "paper": "extra",
+      "section": "dialogue",
+      "num": 21,
+      "stem": "A: Who is this present for? B: ___",
+      "options": [
+        "It is red.",
+        "I love presents.",
+        "It is for you.",
+        "It is a nice gift."
+      ],
+      "answer": 2,
+      "explain": "Who ... for 問「給誰」，答：這是給你的。"
+    },
+    {
+      "id": "U4U-E-22",
+      "paper": "extra",
+      "section": "dialogue",
+      "num": 22,
+      "stem": "A: What should I call you? B: ___",
+      "options": [
+        "No, thank you.",
+        "Just call me Leo.",
+        "It is over there.",
+        "I am busy now."
+      ],
+      "answer": 1,
+      "explain": "問「該怎麼稱呼你」，答：叫我里歐就好。"
+    },
+    {
+      "id": "U4U-Q-33",
+      "paper": "quiz",
+      "section": "vocab-plus",
+      "num": 38,
+      "stem": "What is the ___ of this red sign?",
+      "options": [
+        "mean",
+        "meaning",
+        "meaningless",
+        "means"
+      ],
+      "answer": 1,
+      "word": "mean",
+      "form": "meaning",
+      "explain": "這個紅色標誌的意思是什麼？the ___ of 中間用名詞 meaning＝意思。"
+    },
+    {
+      "id": "U4U-Q-34",
+      "paper": "quiz",
+      "section": "vocab-plus",
+      "num": 39,
+      "stem": "The ___ shook hands with me before we started.",
+      "options": [
+        "interviewer",
+        "interview",
+        "interviewee",
+        "interviews"
+      ],
+      "answer": 0,
+      "word": "interview",
+      "form": "interviewer",
+      "explain": "面試開始前主考官和我握手。做動作的人用 interviewer＝主考官。"
+    },
+    {
+      "id": "U4U-Q-35",
+      "paper": "quiz",
+      "section": "vocab-plus",
+      "num": 40,
+      "stem": "The temple gate is painted a shiny ___ color.",
+      "options": [
+        "goldsmith",
+        "gold",
+        "golden",
+        "golds"
+      ],
+      "answer": 2,
+      "word": "gold",
+      "form": "golden",
+      "explain": "廟門漆成閃亮的金色。形容顏色用 golden＝金色的；gold 是「黃金；金製的」。"
+    }
+  ]
+}

@@ -84,6 +84,11 @@ label.fld{display:block;margin:10px 0 4px;font-size:13px;color:var(--mut)}
 .codebtns{display:flex;gap:6px;flex-wrap:wrap;margin-top:6px}
 .cbtn{width:38px;height:38px;border:1.5px solid var(--line);background:#fff;border-radius:9px;font-weight:700;cursor:pointer;font-size:15px}
 .cbtn.pick{background:var(--blue);color:#fff;border-color:var(--blue)}
+.spell-row{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-top:8px}
+.spell-row .cn{font-weight:700;min-width:64px;color:var(--navy)}
+.spell-row .shint{font-family:"Courier New",monospace;font-weight:700;color:var(--mut);white-space:nowrap}
+.spell-row .shint .sund{display:inline-block;width:70px;border-bottom:2px solid var(--mut);vertical-align:middle;margin:0 2px}
+.spell-in{flex:1;min-width:130px;width:auto}
 .mrow{display:flex;align-items:center;gap:8px;padding:7px 0;border-bottom:1px dashed var(--line)}
 .mrow .w{font-weight:700;min-width:96px}
 
@@ -126,7 +131,7 @@ const SDK_URL = "vendor/supabase.js";
 
 const LS = { db: "tsvt_db", outbox: "tsvt_outbox", anonOutbox: "tsvt_anon_outbox", teacher: "tsvt_teacher_mode" };
 const PAPER_NAME = { review: "複習卷", quiz: "小考卷", extra: "加練", free: "自由練習" };
-const SECTION_NAME = { matching: "配合", "mc-vocab": "單字", "mc-phrase": "片語", dialogue: "對話", reading: "閱讀" };
+const SECTION_NAME = { matching: "配合", "mc-vocab": "單字", "mc-phrase": "片語", dialogue: "對話", reading: "閱讀", "vocab-plus": "詞形" };
 
 const $ = (id) => document.getElementById(id);
 // 主鍵用 UUID（schema 三表主鍵是 uuid 型別，雲端 insert 才不會炸）
@@ -426,12 +431,20 @@ function atomsOf(q) {
       };
     });
   }
+  if (q.section === "mc-vocab" && q.mode === "spell") {
+    return [{
+      qid: q.id, kind: "spell", word: q.word, prompt: q.prompt, answerText: q.word,
+      section: q.section, explain: q.explain, num: q.num,
+    }];
+  }
   return [{
     qid: q.id, kind: "mc", word: q.word, stem: q.stem, options: q.options, answerIdx: q.answer,
     correctText: q.options[q.answer], section: q.section, explain: q.explain, num: q.num,
     readingId: q.readingId,
   }];
 }
+// 拼寫題批改：去頭尾空白、統一小寫（大小寫與前後空白不計較）
+const normSpell = (s) => String(s == null ? "" : s).trim().toLowerCase();
 const sectionOfQid = (qid) => { const base = qid.split("#")[0]; const e = BANK.qIndex[base]; return e ? e.q.section : "?"; };
 const explainOfQid = (qid) => { const base = qid.split("#")[0]; const e = BANK.qIndex[base]; return e ? e.q.explain : ""; };
 
@@ -551,6 +564,14 @@ function buildPrintHTML(title, questionIds) {
   if (rest.length) body += '<div class="section-header">選出最適合的答案</div>';
   rest.forEach((q) => {
     n += 1;
+    if (q.section === "mc-vocab" && q.mode === "spell") {
+      const w = q.word;
+      body += '<div class="q"><span class="brk">&nbsp;</span><span class="stem"><span class="qn">' + n + '.</span> ' +
+        esc(q.prompt) + '　<b>' + esc(w[0]) + '</b> <span class="blank" style="min-width:120px"></span> <b>' + esc(w[w.length - 1]) + '</b></span></div>';
+      ans += n + ".<b>" + esc(w) + "</b>　";
+      exp += '<div class="row"><b>' + n + '.</b> ' + esc(q.explain) + '</div>';
+      return;
+    }
     const opts = q.options.map((o, k) => "(" + idxLetter(k) + ") " + esc(o)).join("　");
     const dlg = q.section === "dialogue" || q.section === "reading" ? " dlg" : "";
     body += '<div class="q' + dlg + '"><span class="brk">&nbsp;</span><span class="stem"><span class="qn">' + n + '.</span> ' +
@@ -725,6 +746,10 @@ function renderViewPaper([file, paper]) {
           (showAns ? '<span>→ <b>' + code + '</b>　' + esc(q.right[letterIdx(code)]) + '</span>' : '<span class="mut">＿＿</span>') + '</div>';
       });
       h += '</div>';
+    } else if (q.section === "mc-vocab" && q.mode === "spell") {
+      const w = q.word;
+      h += '<div class="card"><div class="stem"><b>' + q.num + '.</b> ' + esc(q.prompt) + '　' + esc(w[0]) + ' ___ ' + esc(w[w.length - 1]) + '</div>' +
+        (showAns ? '<div class="opt right">✓ ' + esc(w) + '</div><div class="exp" style="color:var(--mut);font-size:13px;margin-top:4px">' + esc(q.explain) + '</div>' : '') + '</div>';
     } else {
       h += '<div class="card"><div class="stem"><b>' + q.num + '.</b> ' + esc(q.stem) + '</div><div class="opts">' +
         q.options.map((o, k) => '<div class="opt' + (showAns && k === q.answer ? " right" : "") + '">(' + idxLetter(k) + ") " + esc(o) + (showAns && k === q.answer ? " ✓" : "") + '</div>').join("") + '</div>' +
@@ -848,7 +873,7 @@ function renderGenResult(ids, sid) {
         esc(q.left.join("、")) + '　<span class="mut">→ ' + q.left.length + ' 個字</span></div>';
     }
     n += 1;
-    return '<div style="padding:5px 0;border-top:1px dashed var(--line)"><b>' + n + '.</b> ' + esc(q.stem) + '　<span class="mut">→ ' + esc(q.word) + '</span></div>';
+    return '<div style="padding:5px 0;border-top:1px dashed var(--line)"><b>' + n + '.</b> ' + esc(q.stem || q.prompt || "") + '　<span class="mut">→ ' + esc(q.word) + '</span></div>';
   }).join("");
   area.innerHTML = '<div class="card"><b>抽出 ' + n + ' 題</b>' + list +
     '<div class="row" style="margin-top:12px"><button class="btn" id="gnOnline">建線上卷</button><button class="btn blue" id="gnPrint">列印卷</button><button class="btn ghost" id="gnRe">重抽</button></div></div><div id="gnOut"></div>';
@@ -985,6 +1010,12 @@ function renderQuizItems(cfg, sid, sname) {
           q.right.map((r, k) => '<button class="cbtn" data-code="' + idxLetter(k) + '">' + idxLetter(k) + '</button>').join("") + '</span></div>';
       });
       h += '</div>';
+    } else if (q.mode === "spell") {
+      const w = q.word;
+      h += '<div class="card" data-q="' + qi + '"><div class="stem"><b>' + (qi + 1) + '.</b> 看中文，拼出完整英文</div>' +
+        '<div class="spell-row"><span class="cn">' + esc(q.prompt) + '</span>' +
+        '<span class="shint">' + esc(w[0]) + ' <span class="sund"></span> ' + esc(w[w.length - 1]) + '</span>' +
+        '<input class="spell-in" type="text" inputmode="latin" autocapitalize="off" autocomplete="off" spellcheck="false" placeholder="拼出這個字"></div></div>';
     } else {
       // 每次作答都打亂選項順序（存原始索引批改，所以答案照樣算得對）
       const order = q.options.map((_, k) => k).sort(() => Math.random() - 0.5);
@@ -1005,6 +1036,9 @@ function renderQuizItems(cfg, sid, sname) {
           quizState.answers[q.id] = quizState.answers[q.id] || {}; quizState.answers[q.id][ri] = b.dataset.code;
         });
       });
+    } else if (q.mode === "spell") {
+      const inp = card.querySelector(".spell-in");
+      inp.oninput = () => { quizState.answers[q.id] = inp.value; };
     } else {
       card.querySelectorAll(".opt").forEach((b) => b.onclick = () => {
         card.querySelectorAll(".opt").forEach((x) => x.classList.remove("pick")); b.classList.add("pick");
@@ -1020,7 +1054,8 @@ function gradeQuiz(qs, answers) {
     atomsOf(q).forEach((a, i) => {
       total++;
       let ok = false;
-      if (a.kind === "mc") ok = answers[q.id] === a.answerIdx;
+      if (a.kind === "spell") ok = normSpell(answers[q.id]) === normSpell(a.answerText) && normSpell(answers[q.id]) !== "";
+      else if (a.kind === "mc") ok = answers[q.id] === a.answerIdx;
       else { const picked = (answers[q.id] || {})[i]; ok = picked === a.correctCode; }
       if (ok) correctCnt++;
       results.push({ qid: a.qid, word: a.word, correct: ok });
@@ -1048,6 +1083,13 @@ async function submitQuiz() {
         h += '<div class="mrow"><span class="w">' + esc(w) + '</span><span>你選 ' + (picked || "－") + ' ' + (ok ? "✓" : "✗ 正解 " + q.answer[ri] + "（" + esc(q.right[letterIdx(q.answer[ri])]) + "）") + '</span></div>';
       });
       h += '<div class="exp" style="color:var(--mut);font-size:13px;margin-top:6px">' + esc(q.explain) + '</div></div>';
+    } else if (q.mode === "spell") {
+      const picked = answers[q.id];
+      const ok = normSpell(picked) === normSpell(q.word) && normSpell(picked) !== "";
+      h += '<div class="card"><div class="stem"><b>' + (qi + 1) + '.</b> ' + esc(q.prompt) +
+        '　<span class="mut">' + esc(q.word[0]) + ' ___ ' + esc(q.word[q.word.length - 1]) + '</span></div>' +
+        '<div class="opt ' + (ok ? "right" : "wrong") + '">你拼：' + esc(picked || "－") + '　' + (ok ? "✓" : "✗　正解 " + esc(q.word)) + '</div>' +
+        '<div class="exp" style="color:var(--mut);font-size:13px;margin-top:4px">' + esc(q.explain) + '</div></div>';
     } else {
       const picked = answers[q.id];
       // 依作答時的打亂順序呈現，字母才對得上學生剛剛看到的
@@ -1133,6 +1175,13 @@ async function runSelfTest() {
     ok("線上卷 id 為 UUID", isUuid(asg.id));
     const printHtml = buildPrintHTML("測試列印卷", ids);
     ok("列印 HTML 產出（含答案頁）", printHtml.indexOf("答案與詳解") > -1 && printHtml.length > 500);
+
+    // 4b. 拼寫題（mode:spell）批改：大小寫/空白容錯、拼錯與未作答判錯
+    const spellQ = { id: "SPELL-TEST", section: "mc-vocab", mode: "spell", word: "gain", prompt: "獲得", explain: "" };
+    ok("拼寫題 atom 為 kind:spell", atomsOf(spellQ)[0].kind === "spell");
+    ok("拼寫題批改：大小寫＋前後空白容錯判對", gradeQuiz([spellQ], { "SPELL-TEST": "  Gain " }).correctCnt === 1);
+    ok("拼寫題批改：拼錯判錯", gradeQuiz([spellQ], { "SPELL-TEST": "gian" }).correctCnt === 0);
+    ok("拼寫題批改：未作答判錯", gradeQuiz([spellQ], {}).correctCnt === 0);
 
     // 5. 學生線上寫卷 → 交卷寫 attempts
     const asgQs = asg.questionIds.map((id) => BANK.qIndex[id].q);
