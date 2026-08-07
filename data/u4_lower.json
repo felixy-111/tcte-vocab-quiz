@@ -741,7 +741,7 @@
       "id": "U4L-Q-26",
       "paper": "quiz",
       "section": "mc-phrase",
-      "num": 31,
+      "num": 34,
       "stem": "I hope to ___ you again after you move abroad.",
       "options": [
         "hear from",
@@ -757,7 +757,7 @@
       "id": "U4L-Q-27",
       "paper": "quiz",
       "section": "mc-phrase",
-      "num": 32,
+      "num": 35,
       "stem": "___ what happens, we will stay together.",
       "options": [
         "Look for",
@@ -773,7 +773,7 @@
       "id": "U4L-Q-28",
       "paper": "quiz",
       "section": "mc-phrase",
-      "num": 33,
+      "num": 36,
       "stem": "The police are ___ the missing boy now.",
       "options": [
         "getting up",
@@ -789,7 +789,7 @@
       "id": "U4L-Q-29",
       "paper": "quiz",
       "section": "dialogue",
-      "num": 34,
+      "num": 37,
       "stem": "A: What may I call you? B: ___",
       "options": [
         "I am a nurse.",
@@ -804,7 +804,7 @@
       "id": "U4L-Q-30",
       "paper": "quiz",
       "section": "dialogue",
-      "num": 35,
+      "num": 38,
       "stem": "A: Who is that boy in the red cap? B: ___",
       "options": [
         "It is bright red.",
@@ -819,7 +819,7 @@
       "id": "U4L-Q-31",
       "paper": "quiz",
       "section": "dialogue",
-      "num": 36,
+      "num": 39,
       "stem": "A: What is your dog's name? B: ___",
       "options": [
         "His name is Lucky.",
@@ -834,7 +834,7 @@
       "id": "U4L-Q-32",
       "paper": "quiz",
       "section": "dialogue",
-      "num": 37,
+      "num": 40,
       "stem": "A: Who broke this glass? B: ___",
       "options": [
         "The glass was cheap.",
@@ -848,8 +848,8 @@
     {
       "id": "U4L-Q-33",
       "paper": "quiz",
-      "section": "vocab-plus",
-      "num": 38,
+      "section": "mc-vocab",
+      "num": 31,
       "stem": "Our ___ about the show lasted for an hour.",
       "options": [
         "discussed",
@@ -860,13 +860,14 @@
       "answer": 2,
       "word": "discuss",
       "form": "discussion",
-      "explain": "我們關於表演的討論持續了一小時。Our ___ 用名詞 discussion＝討論。"
+      "explain": "我們關於表演的討論持續了一小時。Our ___ 用名詞 discussion＝討論。",
+      "mode": "mc"
     },
     {
       "id": "U4L-Q-34",
       "paper": "quiz",
-      "section": "vocab-plus",
-      "num": 39,
+      "section": "mc-vocab",
+      "num": 32,
       "stem": "We will ___ the cake into six equal parts.",
       "options": [
         "division",
@@ -877,13 +878,14 @@
       "answer": 1,
       "word": "divide",
       "form": "divide",
-      "explain": "我們會把蛋糕平分成六等份。will 後面接原形動詞 divide＝分。"
+      "explain": "我們會把蛋糕平分成六等份。will 後面接原形動詞 divide＝分。",
+      "mode": "mc"
     },
     {
       "id": "U4L-Q-35",
       "paper": "quiz",
-      "section": "vocab-plus",
-      "num": 40,
+      "section": "mc-vocab",
+      "num": 33,
       "stem": "A good ___ needs many years of practice.",
       "options": [
         "magician",
@@ -894,7 +896,8 @@
       "answer": 0,
       "word": "magic",
       "form": "magician",
-      "explain": "一個好的魔術師需要多年練習。做動作的人用 magician＝魔術師。"
+      "explain": "一個好的魔術師需要多年練習。做動作的人用 magician＝魔術師。",
+      "mode": "mc"
     },
     {
       "id": "U4L-E-01",

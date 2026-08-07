@@ -800,7 +800,7 @@
       "id": "U5U-Q-26",
       "paper": "quiz",
       "section": "mc-phrase",
-      "num": 31,
+      "num": 34,
       "stem": "The test looked easy, but ___ it was very hard.",
       "options": [
         "in fact",
@@ -816,7 +816,7 @@
       "id": "U5U-Q-27",
       "paper": "quiz",
       "section": "mc-phrase",
-      "num": 32,
+      "num": 35,
       "stem": "A white flag often ___ peace.",
       "options": [
         "in fact",
@@ -832,7 +832,7 @@
       "id": "U5U-Q-28",
       "paper": "quiz",
       "section": "mc-phrase",
-      "num": 33,
+      "num": 36,
       "stem": "His tall body makes him ___ on the team.",
       "options": [
         "in fact",
@@ -848,7 +848,7 @@
       "id": "U5U-Q-29",
       "paper": "quiz",
       "section": "dialogue",
-      "num": 34,
+      "num": 37,
       "stem": "A: Why are you learning Japanese? B: ___",
       "options": [
         "Because I want to work in Japan.",
@@ -863,7 +863,7 @@
       "id": "U5U-Q-30",
       "paper": "quiz",
       "section": "dialogue",
-      "num": 35,
+      "num": 38,
       "stem": "A: Why did the team lose the game? B: ___",
       "options": [
         "The game was very long.",
@@ -878,7 +878,7 @@
       "id": "U5U-Q-31",
       "paper": "quiz",
       "section": "dialogue",
-      "num": 36,
+      "num": 39,
       "stem": "A: How come you did not answer my call? B: ___",
       "options": [
         "I call you very often.",
@@ -893,7 +893,7 @@
       "id": "U5U-Q-32",
       "paper": "quiz",
       "section": "dialogue",
-      "num": 37,
+      "num": 40,
       "stem": "A: How come she is crying? B: ___",
       "options": [
         "She cries quite often.",
@@ -907,8 +907,8 @@
     {
       "id": "U5U-Q-33",
       "paper": "quiz",
-      "section": "vocab-plus",
-      "num": 38,
+      "section": "mc-vocab",
+      "num": 31,
       "stem": "The ___ of his old dog made him cry.",
       "options": [
         "lose",
@@ -919,13 +919,14 @@
       "answer": 2,
       "word": "loss",
       "form": "loss",
-      "explain": "他的老狗過世讓他哭了。The ___ of 用名詞 loss＝失去。"
+      "explain": "他的老狗過世讓他哭了。The ___ of 用名詞 loss＝失去。",
+      "mode": "mc"
     },
     {
       "id": "U5U-Q-34",
       "paper": "quiz",
-      "section": "vocab-plus",
-      "num": 39,
+      "section": "mc-vocab",
+      "num": 32,
       "stem": "The long line at the bank made him ___.",
       "options": [
         "patience",
@@ -936,13 +937,14 @@
       "answer": 1,
       "word": "patient",
       "form": "impatient",
-      "explain": "銀行大排長龍讓他不耐煩。made him 後接形容詞 impatient＝沒耐心的。"
+      "explain": "銀行大排長龍讓他不耐煩。made him 後接形容詞 impatient＝沒耐心的。",
+      "mode": "mc"
     },
     {
       "id": "U5U-Q-35",
       "paper": "quiz",
-      "section": "vocab-plus",
-      "num": 40,
+      "section": "mc-vocab",
+      "num": 33,
       "stem": "Thank you for being so ___ to the old man.",
       "options": [
         "considerate",
@@ -953,7 +955,8 @@
       "answer": 0,
       "word": "consider",
       "form": "considerate",
-      "explain": "謝謝你對那位老人這麼體貼。be 動詞後接形容詞 considerate＝體貼的。"
+      "explain": "謝謝你對那位老人這麼體貼。be 動詞後接形容詞 considerate＝體貼的。",
+      "mode": "mc"
     },
     {
       "id": "U5U-E-01",

@@ -782,7 +782,7 @@
       "id": "U4U-Q-26",
       "paper": "quiz",
       "section": "mc-phrase",
-      "num": 31,
+      "num": 34,
       "stem": "I ___ call you when you knocked on the door.",
       "options": [
         "was out of",
@@ -798,7 +798,7 @@
       "id": "U4U-Q-27",
       "paper": "quiz",
       "section": "mc-phrase",
-      "num": 32,
+      "num": 35,
       "stem": "My uncle has been ___ since last month.",
       "options": [
         "out of work",
@@ -814,7 +814,7 @@
       "id": "U4U-Q-28",
       "paper": "quiz",
       "section": "mc-phrase",
-      "num": 33,
+      "num": 36,
       "stem": "The teacher asked us to line up ___.",
       "options": [
         "out of work",
@@ -830,7 +830,7 @@
       "id": "U4U-Q-29",
       "paper": "quiz",
       "section": "dialogue",
-      "num": 34,
+      "num": 37,
       "stem": "A: What is your English name? B: ___",
       "options": [
         "I am from Taiwan.",
@@ -845,7 +845,7 @@
       "id": "U4U-Q-30",
       "paper": "quiz",
       "section": "dialogue",
-      "num": 35,
+      "num": 38,
       "stem": "A: Excuse me, what is your last name? B: ___",
       "options": [
         "See you later.",
@@ -860,7 +860,7 @@
       "id": "U4U-Q-31",
       "paper": "quiz",
       "section": "dialogue",
-      "num": 36,
+      "num": 39,
       "stem": "A: Who is the girl next to Tom? B: ___",
       "options": [
         "Tom is my friend.",
@@ -875,7 +875,7 @@
       "id": "U4U-Q-32",
       "paper": "quiz",
       "section": "dialogue",
-      "num": 37,
+      "num": 40,
       "stem": "A: Who broke the window? B: ___",
       "options": [
         "I have no idea.",
@@ -1195,8 +1195,8 @@
     {
       "id": "U4U-Q-33",
       "paper": "quiz",
-      "section": "vocab-plus",
-      "num": 38,
+      "section": "mc-vocab",
+      "num": 31,
       "stem": "What is the ___ of this red sign?",
       "options": [
         "mean",
@@ -1207,13 +1207,14 @@
       "answer": 1,
       "word": "mean",
       "form": "meaning",
-      "explain": "這個紅色標誌的意思是什麼？the ___ of 中間用名詞 meaning＝意思。"
+      "explain": "這個紅色標誌的意思是什麼？the ___ of 中間用名詞 meaning＝意思。",
+      "mode": "mc"
     },
     {
       "id": "U4U-Q-34",
       "paper": "quiz",
-      "section": "vocab-plus",
-      "num": 39,
+      "section": "mc-vocab",
+      "num": 32,
       "stem": "The ___ shook hands with me before we started.",
       "options": [
         "interviewer",
@@ -1224,13 +1225,14 @@
       "answer": 0,
       "word": "interview",
       "form": "interviewer",
-      "explain": "面試開始前主考官和我握手。做動作的人用 interviewer＝主考官。"
+      "explain": "面試開始前主考官和我握手。做動作的人用 interviewer＝主考官。",
+      "mode": "mc"
     },
     {
       "id": "U4U-Q-35",
       "paper": "quiz",
-      "section": "vocab-plus",
-      "num": 40,
+      "section": "mc-vocab",
+      "num": 33,
       "stem": "The temple gate is painted a shiny ___ color.",
       "options": [
         "goldsmith",
@@ -1241,7 +1243,8 @@
       "answer": 2,
       "word": "gold",
       "form": "golden",
-      "explain": "廟門漆成閃亮的金色。形容顏色用 golden＝金色的；gold 是「黃金；金製的」。"
+      "explain": "廟門漆成閃亮的金色。形容顏色用 golden＝金色的；gold 是「黃金；金製的」。",
+      "mode": "mc"
     }
   ]
 }

@@ -347,14 +347,21 @@ async function queryAssignmentRemote(client, code) {
   if (q.error) throw q.error;
   return q.data ? asgFromDb(q.data) : null;
 }
-// 學生挑名字用的名單：雲端模式走 anon select，本機模式讀本機
+// 學生挑名字用的名單：雲端模式走 anon select，連不上就退回本機名單（練習不被雲端拖垮）
 async function studentPickerList() {
-  if (cloudMode && sb) return await queryStudentsRemote(sb);
-  return students.filter((s) => !s.archived).map((s) => ({ id: s.id, name: s.name }));
+  const localList = students.filter((s) => !s.archived).map((s) => ({ id: s.id, name: s.name }));
+  if (cloudMode && sb) {
+    try { return await queryStudentsRemote(sb); }
+    catch (e) { setBadge("off"); return localList; }   // 雲端連不上：改用本機名單，成績先存本機待補傳
+  }
+  return localList;
 }
-// 用代碼找卷：雲端模式走 anon select，本機模式查本機陣列
+// 用代碼找卷：雲端模式走 anon select，連不上就退回查本機陣列
 async function findAssignmentByCode(code) {
-  if (cloudMode && sb) return await queryAssignmentRemote(sb, code);
+  if (cloudMode && sb) {
+    try { return await queryAssignmentRemote(sb, code); }
+    catch (e) { setBadge("off"); return assignments.find((a) => a.code === code) || null; }
+  }
   return assignments.find((a) => a.code === code) || null;
 }
 
