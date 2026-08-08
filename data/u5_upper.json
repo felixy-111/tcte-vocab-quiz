@@ -172,27 +172,47 @@
       "paper": "review",
       "section": "mc-vocab",
       "mode": "spell",
-      "num": 16,
+      "num": 2,
       "prompt": "主要的",
       "word": "main",
       "explain": "main＝主要的。首 m 尾 n，共 4 個字母。"
+    },
+    {
+      "id": "U5U-R-02",
+      "paper": "review",
+      "section": "mc-vocab",
+      "mode": "spell",
+      "num": 3,
+      "prompt": "損失；遺失",
+      "word": "loss",
+      "explain": "loss＝損失；遺失。首 l 尾 s，共 4 個字母。"
     },
     {
       "id": "U5U-R-12",
       "paper": "review",
       "section": "mc-vocab",
       "mode": "spell",
-      "num": 17,
+      "num": 4,
       "prompt": "投擲；音高",
       "word": "pitch",
       "explain": "pitch＝投擲；音高。首 p 尾 h，共 5 個字母。"
+    },
+    {
+      "id": "U5U-R-03",
+      "paper": "review",
+      "section": "mc-vocab",
+      "mode": "spell",
+      "num": 5,
+      "prompt": "有耐心的；病人",
+      "word": "patient",
+      "explain": "patient＝有耐心的；病人。首 p 尾 t，共 7 個字母。"
     },
     {
       "id": "U5U-R-13",
       "paper": "review",
       "section": "mc-vocab",
       "mode": "spell",
-      "num": 18,
+      "num": 6,
       "prompt": "物質；事情",
       "word": "matter",
       "explain": "matter＝物質；事情。首 m 尾 r，共 6 個字母。"
@@ -202,57 +222,107 @@
       "paper": "review",
       "section": "mc-vocab",
       "mode": "spell",
-      "num": 19,
+      "num": 7,
       "prompt": "因素",
       "word": "factor",
       "explain": "factor＝因素。首 f 尾 r，共 6 個字母。"
+    },
+    {
+      "id": "U5U-R-04",
+      "paper": "review",
+      "section": "mc-vocab",
+      "mode": "spell",
+      "num": 8,
+      "prompt": "認為；考慮",
+      "word": "consider",
+      "explain": "consider＝認為；考慮。首 c 尾 r，共 8 個字母。"
     },
     {
       "id": "U5U-R-15",
       "paper": "review",
       "section": "mc-vocab",
       "mode": "spell",
-      "num": 20,
+      "num": 9,
       "prompt": "沸騰；煮",
       "word": "boil",
       "explain": "boil＝沸騰；煮。首 b 尾 l，共 4 個字母。"
+    },
+    {
+      "id": "U5U-R-05",
+      "paper": "review",
+      "section": "mc-vocab",
+      "mode": "spell",
+      "num": 10,
+      "prompt": "研究；調查",
+      "word": "research",
+      "explain": "research＝研究；調查。首 r 尾 h，共 8 個字母。"
     },
     {
       "id": "U5U-R-16",
       "paper": "review",
       "section": "mc-vocab",
       "mode": "spell",
-      "num": 21,
+      "num": 11,
       "prompt": "驚慌",
       "word": "panic",
       "explain": "panic＝驚慌。首 p 尾 c，共 5 個字母。"
+    },
+    {
+      "id": "U5U-R-06",
+      "paper": "review",
+      "section": "mc-vocab",
+      "mode": "spell",
+      "num": 12,
+      "prompt": "痛；努力",
+      "word": "pain",
+      "explain": "pain＝痛；努力。首 p 尾 n，共 4 個字母。"
     },
     {
       "id": "U5U-R-17",
       "paper": "review",
       "section": "mc-vocab",
       "mode": "spell",
-      "num": 22,
+      "num": 13,
       "prompt": "傑出的",
       "word": "outstanding",
       "explain": "outstanding＝傑出的。首 o 尾 g，共 11 個字母。"
+    },
+    {
+      "id": "U5U-R-07",
+      "paper": "review",
+      "section": "mc-vocab",
+      "mode": "spell",
+      "num": 14,
+      "prompt": "技巧；技能",
+      "word": "skill",
+      "explain": "skill＝技巧；技能。首 s 尾 l，共 5 個字母。"
     },
     {
       "id": "U5U-R-18",
       "paper": "review",
       "section": "mc-vocab",
       "mode": "spell",
-      "num": 23,
+      "num": 15,
       "prompt": "行動",
       "word": "action",
       "explain": "action＝行動。首 a 尾 n，共 6 個字母。"
+    },
+    {
+      "id": "U5U-R-08",
+      "paper": "review",
+      "section": "mc-vocab",
+      "mode": "spell",
+      "num": 16,
+      "prompt": "恢復；找回",
+      "word": "recover",
+      "explain": "recover＝恢復；找回。首 r 尾 r，共 7 個字母。"
     },
     {
       "id": "U5U-R-19",
       "paper": "review",
       "section": "mc-vocab",
       "mode": "mc",
-      "num": 24,
+      "num": 17,
       "stem": "The team's ___ in the final made the fans sad.",
       "options": [
         "loss",
@@ -270,7 +340,7 @@
       "paper": "review",
       "section": "mc-vocab",
       "mode": "mc",
-      "num": 25,
+      "num": 18,
       "stem": "The nurse is very ___ with the old patients.",
       "options": [
         "patience",
@@ -288,7 +358,7 @@
       "paper": "review",
       "section": "mc-vocab",
       "mode": "mc",
-      "num": 26,
+      "num": 19,
       "stem": "It was very ___ of you to bring me lunch.",
       "options": [
         "considerate",
@@ -306,7 +376,7 @@
       "paper": "review",
       "section": "mc-vocab",
       "mode": "mc",
-      "num": 27,
+      "num": 20,
       "stem": "The ___ spent ten years studying whales.",
       "options": [
         "research",
@@ -324,7 +394,7 @@
       "paper": "review",
       "section": "mc-vocab",
       "mode": "mc",
-      "num": 28,
+      "num": 21,
       "stem": "My broken arm is really ___ today.",
       "options": [
         "pains",
@@ -342,7 +412,7 @@
       "paper": "review",
       "section": "mc-vocab",
       "mode": "mc",
-      "num": 29,
+      "num": 22,
       "stem": "She is a very ___ piano player.",
       "options": [
         "skillfully",
@@ -360,7 +430,7 @@
       "paper": "review",
       "section": "mc-vocab",
       "mode": "mc",
-      "num": 30,
+      "num": 23,
       "stem": "His ___ after the surgery was very quick.",
       "options": [
         "recovers",
@@ -374,10 +444,100 @@
       "explain": "他手術後恢復得很快。His ___ 用名詞 recovery＝恢復。"
     },
     {
+      "id": "U5U-R-41",
+      "paper": "review",
+      "section": "mc-vocab",
+      "mode": "mc",
+      "num": 24,
+      "word": "loss",
+      "form": "lose",
+      "stem": "If we ___ this game, we cannot join the finals.",
+      "options": [
+        "loss",
+        "lose",
+        "loses",
+        "lost"
+      ],
+      "answer": 1,
+      "explain": "如果我們輸掉這場比賽，就不能參加決賽。if 子句用現在式，lose＝輸；遺失。"
+    },
+    {
+      "id": "U5U-R-42",
+      "paper": "review",
+      "section": "mc-vocab",
+      "mode": "mc",
+      "num": 25,
+      "word": "patient",
+      "form": "impatient",
+      "stem": "Do not be ___ when you wait for your turn.",
+      "options": [
+        "patient",
+        "impatient",
+        "patiently",
+        "patience"
+      ],
+      "answer": 1,
+      "explain": "輪到你之前不要不耐煩。be 動詞後接形容詞，im- 表否定，impatient＝沒耐心的。"
+    },
+    {
+      "id": "U5U-R-43",
+      "paper": "review",
+      "section": "mc-vocab",
+      "mode": "mc",
+      "num": 26,
+      "word": "consider",
+      "form": "considerable",
+      "stem": "The typhoon did ___ damage to the farms.",
+      "options": [
+        "considerate",
+        "considerable",
+        "consider",
+        "considered"
+      ],
+      "answer": 1,
+      "explain": "颱風對農田造成相當大的損害。damage 前用 considerable＝相當大的；considerate 是「體貼的」。"
+    },
+    {
+      "id": "U5U-R-44",
+      "paper": "review",
+      "section": "mc-vocab",
+      "mode": "mc",
+      "num": 27,
+      "word": "pain",
+      "form": "pain",
+      "stem": "He could not walk because of the ___ in his knee.",
+      "options": [
+        "painful",
+        "pain",
+        "pains",
+        "pained"
+      ],
+      "answer": 1,
+      "explain": "他因為膝蓋的疼痛而不能走路。the ___ in 中間用名詞 pain＝痛。"
+    },
+    {
+      "id": "U5U-R-45",
+      "paper": "review",
+      "section": "mc-vocab",
+      "mode": "mc",
+      "num": 28,
+      "word": "skill",
+      "form": "skill",
+      "stem": "Playing the violin needs great ___.",
+      "options": [
+        "skillful",
+        "skill",
+        "skillfully",
+        "skilled"
+      ],
+      "answer": 1,
+      "explain": "拉小提琴需要很高的技巧。needs 後面接名詞 skill＝技巧。"
+    },
+    {
       "id": "U5U-R-26",
       "paper": "review",
       "section": "mc-phrase",
-      "num": 31,
+      "num": 29,
       "stem": "He looks strict, but ___ he is very kind.",
       "options": [
         "stand out",
@@ -393,7 +553,7 @@
       "id": "U5U-R-27",
       "paper": "review",
       "section": "mc-phrase",
-      "num": 32,
+      "num": 30,
       "stem": "In the story, the dragon ___ evil power.",
       "options": [
         "picks up",
@@ -409,7 +569,7 @@
       "id": "U5U-R-28",
       "paper": "review",
       "section": "mc-phrase",
-      "num": 33,
+      "num": 31,
       "stem": "Her red dress makes her ___ in the crowd.",
       "options": [
         "stand out",
@@ -425,7 +585,7 @@
       "id": "U5U-R-29",
       "paper": "review",
       "section": "dialogue",
-      "num": 34,
+      "num": 32,
       "stem": "A: Why did you come to school late? B: ___",
       "options": [
         "The school is far away.",
@@ -440,7 +600,7 @@
       "id": "U5U-R-30",
       "paper": "review",
       "section": "dialogue",
-      "num": 35,
+      "num": 33,
       "stem": "A: How come you look so happy today? B: ___",
       "options": [
         "I am at school now.",
@@ -455,7 +615,7 @@
       "id": "U5U-R-31",
       "paper": "review",
       "section": "dialogue",
-      "num": 36,
+      "num": 34,
       "stem": "A: Why were you so tired last night? B: ___",
       "options": [
         "Because I stayed up late.",
@@ -470,7 +630,7 @@
       "id": "U5U-R-32",
       "paper": "review",
       "section": "dialogue",
-      "num": 37,
+      "num": 35,
       "stem": "A: How come the store is closed today? B: ___",
       "options": [
         "It sells nice books.",
@@ -480,6 +640,38 @@
       ],
       "answer": 1,
       "explain": "How come 問原因，答：因為今天是假日。"
+    },
+    {
+      "id": "U5U-R-46",
+      "paper": "review",
+      "section": "dialogue",
+      "num": 36,
+      "word": "對話應答",
+      "stem": "A: Why are you running so fast? B: ___",
+      "options": [
+        "I am late for class.",
+        "I like running.",
+        "The road is long.",
+        "My shoes are new."
+      ],
+      "answer": 0,
+      "explain": "Why 問原因，答：我上課要遲到了。"
+    },
+    {
+      "id": "U5U-R-47",
+      "paper": "review",
+      "section": "dialogue",
+      "num": 37,
+      "word": "對話應答",
+      "stem": "A: How come the lights are off? B: ___",
+      "options": [
+        "The lights are new.",
+        "Nobody is at home.",
+        "I like the dark.",
+        "It is a big room."
+      ],
+      "answer": 1,
+      "explain": "How come 問「怎麼會」，答：家裡沒人。"
     },
     {
       "id": "U5U-R-33",
@@ -531,6 +723,23 @@
       "answer": 0,
       "word": "閱讀理解",
       "explain": "文中說他從落敗中重新振作、成為明星，選這個。他沒放棄、曾手臂很痛、是努力的球員。"
+    },
+    {
+      "id": "U5U-R-48",
+      "paper": "review",
+      "section": "reading",
+      "num": 41,
+      "word": "閱讀理解",
+      "readingId": "U5U-READ-1",
+      "stem": "What do the letters on Ben's shirt stand for?",
+      "options": [
+        "His own name",
+        "Honor",
+        "The city he lives in",
+        "His player number"
+      ],
+      "answer": 1,
+      "explain": "文中說 the letters on his shirt stand for honor＝代表榮譽。"
     },
     {
       "id": "U5U-Q-01",
@@ -595,27 +804,47 @@
       "paper": "quiz",
       "section": "mc-vocab",
       "mode": "spell",
-      "num": 16,
+      "num": 2,
       "prompt": "主要的",
       "word": "main",
       "explain": "main＝主要的。首 m 尾 n，共 4 個字母。"
+    },
+    {
+      "id": "U5U-Q-09",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "mode": "spell",
+      "num": 3,
+      "prompt": "損失；遺失",
+      "word": "loss",
+      "explain": "loss＝損失；遺失。首 l 尾 s，共 4 個字母。"
     },
     {
       "id": "U5U-Q-12",
       "paper": "quiz",
       "section": "mc-vocab",
       "mode": "spell",
-      "num": 17,
+      "num": 4,
       "prompt": "投擲；音高",
       "word": "pitch",
       "explain": "pitch＝投擲；音高。首 p 尾 h，共 5 個字母。"
+    },
+    {
+      "id": "U5U-Q-10",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "mode": "spell",
+      "num": 5,
+      "prompt": "有耐心的；病人",
+      "word": "patient",
+      "explain": "patient＝有耐心的；病人。首 p 尾 t，共 7 個字母。"
     },
     {
       "id": "U5U-Q-13",
       "paper": "quiz",
       "section": "mc-vocab",
       "mode": "spell",
-      "num": 18,
+      "num": 6,
       "prompt": "物質；事情",
       "word": "matter",
       "explain": "matter＝物質；事情。首 m 尾 r，共 6 個字母。"
@@ -625,57 +854,107 @@
       "paper": "quiz",
       "section": "mc-vocab",
       "mode": "spell",
-      "num": 19,
+      "num": 7,
       "prompt": "因素",
       "word": "factor",
       "explain": "factor＝因素。首 f 尾 r，共 6 個字母。"
+    },
+    {
+      "id": "U5U-Q-36",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "mode": "spell",
+      "num": 8,
+      "prompt": "認為；考慮",
+      "word": "consider",
+      "explain": "consider＝認為；考慮。首 c 尾 r，共 8 個字母。"
     },
     {
       "id": "U5U-Q-15",
       "paper": "quiz",
       "section": "mc-vocab",
       "mode": "spell",
-      "num": 20,
+      "num": 9,
       "prompt": "沸騰；煮",
       "word": "boil",
       "explain": "boil＝沸騰；煮。首 b 尾 l，共 4 個字母。"
+    },
+    {
+      "id": "U5U-Q-37",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "mode": "spell",
+      "num": 10,
+      "prompt": "研究；調查",
+      "word": "research",
+      "explain": "research＝研究；調查。首 r 尾 h，共 8 個字母。"
     },
     {
       "id": "U5U-Q-16",
       "paper": "quiz",
       "section": "mc-vocab",
       "mode": "spell",
-      "num": 21,
+      "num": 11,
       "prompt": "驚慌",
       "word": "panic",
       "explain": "panic＝驚慌。首 p 尾 c，共 5 個字母。"
+    },
+    {
+      "id": "U5U-Q-38",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "mode": "spell",
+      "num": 12,
+      "prompt": "痛；努力",
+      "word": "pain",
+      "explain": "pain＝痛；努力。首 p 尾 n，共 4 個字母。"
     },
     {
       "id": "U5U-Q-17",
       "paper": "quiz",
       "section": "mc-vocab",
       "mode": "spell",
-      "num": 22,
+      "num": 13,
       "prompt": "傑出的",
       "word": "outstanding",
       "explain": "outstanding＝傑出的。首 o 尾 g，共 11 個字母。"
+    },
+    {
+      "id": "U5U-Q-39",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "mode": "spell",
+      "num": 14,
+      "prompt": "技巧；技能",
+      "word": "skill",
+      "explain": "skill＝技巧；技能。首 s 尾 l，共 5 個字母。"
     },
     {
       "id": "U5U-Q-18",
       "paper": "quiz",
       "section": "mc-vocab",
       "mode": "spell",
-      "num": 23,
+      "num": 15,
       "prompt": "行動",
       "word": "action",
       "explain": "action＝行動。首 a 尾 n，共 6 個字母。"
+    },
+    {
+      "id": "U5U-Q-40",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "mode": "spell",
+      "num": 16,
+      "prompt": "恢復；找回",
+      "word": "recover",
+      "explain": "recover＝恢復；找回。首 r 尾 r，共 7 個字母。"
     },
     {
       "id": "U5U-Q-19",
       "paper": "quiz",
       "section": "mc-vocab",
       "mode": "mc",
-      "num": 24,
+      "num": 17,
       "stem": "Be careful, or you will ___ your train ticket.",
       "options": [
         "lose",
@@ -693,7 +972,7 @@
       "paper": "quiz",
       "section": "mc-vocab",
       "mode": "mc",
-      "num": 25,
+      "num": 18,
       "stem": "We waited ___ for the bus in the rain.",
       "options": [
         "patiently",
@@ -711,7 +990,7 @@
       "paper": "quiz",
       "section": "mc-vocab",
       "mode": "mc",
-      "num": 26,
+      "num": 19,
       "stem": "He made a ___ amount of money last year.",
       "options": [
         "considerate",
@@ -729,7 +1008,7 @@
       "paper": "quiz",
       "section": "mc-vocab",
       "mode": "mc",
-      "num": 27,
+      "num": 20,
       "stem": "Scientists ___ new ways to save energy.",
       "options": [
         "researcher",
@@ -747,7 +1026,7 @@
       "paper": "quiz",
       "section": "mc-vocab",
       "mode": "mc",
-      "num": 28,
+      "num": 21,
       "stem": "She felt a sharp ___ in her back this morning.",
       "options": [
         "painful",
@@ -765,7 +1044,7 @@
       "paper": "quiz",
       "section": "mc-vocab",
       "mode": "mc",
-      "num": 29,
+      "num": 22,
       "stem": "Typing fast is a very useful ___.",
       "options": [
         "skillfully",
@@ -783,7 +1062,7 @@
       "paper": "quiz",
       "section": "mc-vocab",
       "mode": "mc",
-      "num": 30,
+      "num": 23,
       "stem": "You will ___ soon if you rest well.",
       "options": [
         "recovered",
@@ -797,10 +1076,28 @@
       "explain": "你好好休息就會很快康復。will 後面接原形動詞 recover＝恢復。"
     },
     {
+      "id": "U5U-Q-34",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 24,
+      "stem": "The long line at the bank made him ___.",
+      "options": [
+        "patience",
+        "impatient",
+        "patiently",
+        "patient"
+      ],
+      "answer": 1,
+      "word": "patient",
+      "form": "impatient",
+      "explain": "銀行大排長龍讓他不耐煩。made him 後接形容詞 impatient＝沒耐心的。",
+      "mode": "mc"
+    },
+    {
       "id": "U5U-Q-26",
       "paper": "quiz",
       "section": "mc-phrase",
-      "num": 34,
+      "num": 25,
       "stem": "The test looked easy, but ___ it was very hard.",
       "options": [
         "in fact",
@@ -816,7 +1113,7 @@
       "id": "U5U-Q-27",
       "paper": "quiz",
       "section": "mc-phrase",
-      "num": 35,
+      "num": 26,
       "stem": "A white flag often ___ peace.",
       "options": [
         "in fact",
@@ -832,7 +1129,7 @@
       "id": "U5U-Q-28",
       "paper": "quiz",
       "section": "mc-phrase",
-      "num": 36,
+      "num": 27,
       "stem": "His tall body makes him ___ on the team.",
       "options": [
         "in fact",
@@ -848,7 +1145,7 @@
       "id": "U5U-Q-29",
       "paper": "quiz",
       "section": "dialogue",
-      "num": 37,
+      "num": 28,
       "stem": "A: Why are you learning Japanese? B: ___",
       "options": [
         "Because I want to work in Japan.",
@@ -863,7 +1160,7 @@
       "id": "U5U-Q-30",
       "paper": "quiz",
       "section": "dialogue",
-      "num": 38,
+      "num": 29,
       "stem": "A: Why did the team lose the game? B: ___",
       "options": [
         "The game was very long.",
@@ -878,7 +1175,7 @@
       "id": "U5U-Q-31",
       "paper": "quiz",
       "section": "dialogue",
-      "num": 39,
+      "num": 30,
       "stem": "A: How come you did not answer my call? B: ___",
       "options": [
         "I call you very often.",
@@ -893,7 +1190,7 @@
       "id": "U5U-Q-32",
       "paper": "quiz",
       "section": "dialogue",
-      "num": 40,
+      "num": 31,
       "stem": "A: How come she is crying? B: ___",
       "options": [
         "She cries quite often.",
@@ -903,60 +1200,6 @@
       ],
       "answer": 3,
       "explain": "How come 問原因，答：因為她掉了錢包。"
-    },
-    {
-      "id": "U5U-Q-33",
-      "paper": "quiz",
-      "section": "mc-vocab",
-      "num": 31,
-      "stem": "The ___ of his old dog made him cry.",
-      "options": [
-        "lose",
-        "lost",
-        "loss",
-        "loses"
-      ],
-      "answer": 2,
-      "word": "loss",
-      "form": "loss",
-      "explain": "他的老狗過世讓他哭了。The ___ of 用名詞 loss＝失去。",
-      "mode": "mc"
-    },
-    {
-      "id": "U5U-Q-34",
-      "paper": "quiz",
-      "section": "mc-vocab",
-      "num": 32,
-      "stem": "The long line at the bank made him ___.",
-      "options": [
-        "patience",
-        "impatient",
-        "patiently",
-        "patient"
-      ],
-      "answer": 1,
-      "word": "patient",
-      "form": "impatient",
-      "explain": "銀行大排長龍讓他不耐煩。made him 後接形容詞 impatient＝沒耐心的。",
-      "mode": "mc"
-    },
-    {
-      "id": "U5U-Q-35",
-      "paper": "quiz",
-      "section": "mc-vocab",
-      "num": 33,
-      "stem": "Thank you for being so ___ to the old man.",
-      "options": [
-        "considerate",
-        "considered",
-        "consider",
-        "considerable"
-      ],
-      "answer": 0,
-      "word": "consider",
-      "form": "considerate",
-      "explain": "謝謝你對那位老人這麼體貼。be 動詞後接形容詞 considerate＝體貼的。",
-      "mode": "mc"
     },
     {
       "id": "U5U-E-01",
@@ -1272,5 +1515,9 @@
       "answer": 1,
       "explain": "How come 問原因，答：因為我們去年見過。"
     }
-  ]
+  ],
+  "spec": {
+    "review": "v7",
+    "quiz": "v7"
+  }
 }

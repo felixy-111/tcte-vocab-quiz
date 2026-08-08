@@ -498,408 +498,6 @@
       "explain": "文中說突然出現一隻真的兔子，所以這個對。蘋果是平滑的、很多學生來道謝、Sam 把計畫記得很清楚。"
     },
     {
-      "id": "U4L-Q-01",
-      "paper": "quiz",
-      "section": "matching",
-      "num": 1,
-      "left": [
-        "subject",
-        "magic",
-        "throat",
-        "code",
-        "feed",
-        "divide",
-        "sharp",
-        "treasure",
-        "sort",
-        "alive",
-        "smooth",
-        "discuss",
-        "rough",
-        "microwave",
-        "shape"
-      ],
-      "right": [
-        "神奇；魔力",
-        "喉嚨",
-        "分；分開",
-        "討論；商量",
-        "主題；科目",
-        "編碼；代號",
-        "種類；分類",
-        "平滑的；平順的",
-        "餵食；飼料",
-        "形狀；體型",
-        "鮮明的；尖銳的",
-        "珍惜；寶物",
-        "微波；微波爐",
-        "活的",
-        "粗糙的"
-      ],
-      "answer": [
-        "E",
-        "A",
-        "B",
-        "F",
-        "I",
-        "C",
-        "K",
-        "L",
-        "G",
-        "N",
-        "H",
-        "D",
-        "O",
-        "M",
-        "J"
-      ],
-      "explain": "英中配合（第 1–15 題）：subject主題、magic神奇、throat喉嚨、code編碼、feed餵食、divide分、sharp鮮明、treasure珍惜、sort種類、alive活的、smooth平滑、discuss討論、rough粗糙、microwave微波、shape形狀"
-    },
-    {
-      "id": "U4L-Q-11",
-      "paper": "quiz",
-      "section": "mc-vocab",
-      "mode": "spell",
-      "num": 16,
-      "prompt": "餵食；飼料",
-      "word": "feed",
-      "explain": "feed＝餵食；飼料。首 f 尾 d，共 4 個字母。"
-    },
-    {
-      "id": "U4L-Q-12",
-      "paper": "quiz",
-      "section": "mc-vocab",
-      "mode": "spell",
-      "num": 17,
-      "prompt": "活的",
-      "word": "alive",
-      "explain": "alive＝活的。首 a 尾 e，共 5 個字母。"
-    },
-    {
-      "id": "U4L-Q-13",
-      "paper": "quiz",
-      "section": "mc-vocab",
-      "mode": "spell",
-      "num": 18,
-      "prompt": "形狀；體型",
-      "word": "shape",
-      "explain": "shape＝形狀；體型。首 s 尾 e，共 5 個字母。"
-    },
-    {
-      "id": "U4L-Q-14",
-      "paper": "quiz",
-      "section": "mc-vocab",
-      "mode": "spell",
-      "num": 19,
-      "prompt": "鮮明的；尖銳的",
-      "word": "sharp",
-      "explain": "sharp＝鮮明的；尖銳的。首 s 尾 p，共 5 個字母。"
-    },
-    {
-      "id": "U4L-Q-15",
-      "paper": "quiz",
-      "section": "mc-vocab",
-      "mode": "spell",
-      "num": 20,
-      "prompt": "編碼；代號",
-      "word": "code",
-      "explain": "code＝編碼；代號。首 c 尾 e，共 4 個字母。"
-    },
-    {
-      "id": "U4L-Q-16",
-      "paper": "quiz",
-      "section": "mc-vocab",
-      "mode": "spell",
-      "num": 21,
-      "prompt": "喉嚨",
-      "word": "throat",
-      "explain": "throat＝喉嚨。首 t 尾 t，共 6 個字母。"
-    },
-    {
-      "id": "U4L-Q-17",
-      "paper": "quiz",
-      "section": "mc-vocab",
-      "mode": "spell",
-      "num": 22,
-      "prompt": "微波；微波爐",
-      "word": "microwave",
-      "explain": "microwave＝微波；微波爐。首 m 尾 e，共 9 個字母。"
-    },
-    {
-      "id": "U4L-Q-18",
-      "paper": "quiz",
-      "section": "mc-vocab",
-      "mode": "spell",
-      "num": 23,
-      "prompt": "珍惜；寶物",
-      "word": "treasure",
-      "explain": "treasure＝珍惜；寶物。首 t 尾 e，共 8 個字母。"
-    },
-    {
-      "id": "U4L-Q-19",
-      "paper": "quiz",
-      "section": "mc-vocab",
-      "mode": "spell",
-      "num": 24,
-      "prompt": "平滑的；平順的",
-      "word": "smooth",
-      "explain": "smooth＝平滑的；平順的。首 s 尾 h，共 6 個字母。"
-    },
-    {
-      "id": "U4L-Q-20",
-      "paper": "quiz",
-      "section": "mc-vocab",
-      "mode": "spell",
-      "num": 25,
-      "prompt": "粗糙的",
-      "word": "rough",
-      "explain": "rough＝粗糙的。首 r 尾 h，共 5 個字母。"
-    },
-    {
-      "id": "U4L-Q-21",
-      "paper": "quiz",
-      "section": "mc-vocab",
-      "mode": "spell",
-      "num": 26,
-      "prompt": "主題；科目",
-      "word": "subject",
-      "explain": "subject＝主題；科目。首 s 尾 t，共 7 個字母。"
-    },
-    {
-      "id": "U4L-Q-22",
-      "paper": "quiz",
-      "section": "mc-vocab",
-      "mode": "mc",
-      "num": 27,
-      "stem": "Let's ___ the plan again after lunch.",
-      "options": [
-        "discuss",
-        "discussed",
-        "discussion",
-        "discusses"
-      ],
-      "answer": 0,
-      "word": "discuss",
-      "form": "discuss",
-      "explain": "午餐後我們再討論一次計畫。Let's 後面接原形動詞 discuss＝討論。"
-    },
-    {
-      "id": "U4L-Q-23",
-      "paper": "quiz",
-      "section": "mc-vocab",
-      "mode": "mc",
-      "num": 28,
-      "stem": "I have a ___ throat and cannot sing today.",
-      "options": [
-        "sorts",
-        "sores",
-        "sort",
-        "sore"
-      ],
-      "answer": 3,
-      "word": "sort",
-      "form": "sore",
-      "explain": "我喉嚨痛，今天不能唱歌。a ___ throat 用形容詞 sore＝疼痛的（sort 是「種類」，拼字很像要小心）。"
-    },
-    {
-      "id": "U4L-Q-24",
-      "paper": "quiz",
-      "section": "mc-vocab",
-      "mode": "mc",
-      "num": 29,
-      "stem": "Long ___ is a little hard for young kids.",
-      "options": [
-        "divides",
-        "division",
-        "divided",
-        "divide"
-      ],
-      "answer": 1,
-      "word": "divide",
-      "form": "division",
-      "explain": "長除法對小小孩有點難。Long ___ 用名詞 division＝除法；分配。"
-    },
-    {
-      "id": "U4L-Q-25",
-      "paper": "quiz",
-      "section": "mc-vocab",
-      "mode": "mc",
-      "num": 30,
-      "stem": "The children love the ___ show at the mall.",
-      "options": [
-        "magical",
-        "magician",
-        "magic",
-        "magics"
-      ],
-      "answer": 2,
-      "word": "magic",
-      "form": "magic",
-      "explain": "孩子們很愛商場的魔術表演。___ show 用名詞當形容詞 magic＝魔術（的）。"
-    },
-    {
-      "id": "U4L-Q-26",
-      "paper": "quiz",
-      "section": "mc-phrase",
-      "num": 34,
-      "stem": "I hope to ___ you again after you move abroad.",
-      "options": [
-        "hear from",
-        "look for",
-        "no matter",
-        "get up"
-      ],
-      "answer": 0,
-      "word": "hear from",
-      "explain": "希望你搬到國外後我還能收到你的消息。hear from＝聽到來自…的消息。"
-    },
-    {
-      "id": "U4L-Q-27",
-      "paper": "quiz",
-      "section": "mc-phrase",
-      "num": 35,
-      "stem": "___ what happens, we will stay together.",
-      "options": [
-        "Look for",
-        "Hear from",
-        "No matter",
-        "In order"
-      ],
-      "answer": 2,
-      "word": "no matter",
-      "explain": "不論發生什麼，我們都會在一起。no matter what＝不論什麼。"
-    },
-    {
-      "id": "U4L-Q-28",
-      "paper": "quiz",
-      "section": "mc-phrase",
-      "num": 36,
-      "stem": "The police are ___ the missing boy now.",
-      "options": [
-        "getting up",
-        "looking for",
-        "no matter",
-        "hearing from"
-      ],
-      "answer": 1,
-      "word": "look for",
-      "explain": "警方正在尋找那個走失的男孩。look for＝尋找。"
-    },
-    {
-      "id": "U4L-Q-29",
-      "paper": "quiz",
-      "section": "dialogue",
-      "num": 37,
-      "stem": "A: What may I call you? B: ___",
-      "options": [
-        "I am a nurse.",
-        "It is a nice day.",
-        "I live nearby.",
-        "Just call me Vicky."
-      ],
-      "answer": 3,
-      "explain": "問怎麼稱呼你，答：叫我 Vicky 就好。"
-    },
-    {
-      "id": "U4L-Q-30",
-      "paper": "quiz",
-      "section": "dialogue",
-      "num": 38,
-      "stem": "A: Who is that boy in the red cap? B: ___",
-      "options": [
-        "It is bright red.",
-        "The cap is nice.",
-        "He is my cousin.",
-        "He runs very fast."
-      ],
-      "answer": 2,
-      "explain": "Who 問「是誰」，答關係：他是我表弟。"
-    },
-    {
-      "id": "U4L-Q-31",
-      "paper": "quiz",
-      "section": "dialogue",
-      "num": 39,
-      "stem": "A: What is your dog's name? B: ___",
-      "options": [
-        "His name is Lucky.",
-        "He is two years old.",
-        "I love my dog.",
-        "He is very cute."
-      ],
-      "answer": 0,
-      "explain": "問狗的名字，答：牠叫 Lucky。"
-    },
-    {
-      "id": "U4L-Q-32",
-      "paper": "quiz",
-      "section": "dialogue",
-      "num": 40,
-      "stem": "A: Who broke this glass? B: ___",
-      "options": [
-        "The glass was cheap.",
-        "My little brother did.",
-        "That is too bad.",
-        "It is broken now."
-      ],
-      "answer": 1,
-      "explain": "Who 問「是誰做的」，答：我弟弟。"
-    },
-    {
-      "id": "U4L-Q-33",
-      "paper": "quiz",
-      "section": "mc-vocab",
-      "num": 31,
-      "stem": "Our ___ about the show lasted for an hour.",
-      "options": [
-        "discussed",
-        "discuss",
-        "discussion",
-        "discusses"
-      ],
-      "answer": 2,
-      "word": "discuss",
-      "form": "discussion",
-      "explain": "我們關於表演的討論持續了一小時。Our ___ 用名詞 discussion＝討論。",
-      "mode": "mc"
-    },
-    {
-      "id": "U4L-Q-34",
-      "paper": "quiz",
-      "section": "mc-vocab",
-      "num": 32,
-      "stem": "We will ___ the cake into six equal parts.",
-      "options": [
-        "division",
-        "divide",
-        "divides",
-        "divided"
-      ],
-      "answer": 1,
-      "word": "divide",
-      "form": "divide",
-      "explain": "我們會把蛋糕平分成六等份。will 後面接原形動詞 divide＝分。",
-      "mode": "mc"
-    },
-    {
-      "id": "U4L-Q-35",
-      "paper": "quiz",
-      "section": "mc-vocab",
-      "num": 33,
-      "stem": "A good ___ needs many years of practice.",
-      "options": [
-        "magician",
-        "magic",
-        "magical",
-        "magics"
-      ],
-      "answer": 0,
-      "word": "magic",
-      "form": "magician",
-      "explain": "一個好的魔術師需要多年練習。做動作的人用 magician＝魔術師。",
-      "mode": "mc"
-    },
-    {
       "id": "U4L-E-01",
       "paper": "extra",
       "section": "mc-vocab",
@@ -1188,6 +786,469 @@
       ],
       "answer": 3,
       "explain": "Who ... for 問「等誰」，答：我在等我媽。"
+    },
+    {
+      "id": "U4L-Q-01",
+      "paper": "quiz",
+      "section": "matching",
+      "num": 1,
+      "left": [
+        "subject",
+        "magic",
+        "throat",
+        "code",
+        "feed",
+        "divide",
+        "sharp",
+        "treasure",
+        "sort",
+        "alive",
+        "smooth",
+        "discuss",
+        "rough",
+        "microwave",
+        "shape"
+      ],
+      "right": [
+        "神奇；魔力",
+        "喉嚨",
+        "分；分開",
+        "討論；商量",
+        "主題；科目",
+        "編碼；代號",
+        "種類；分類",
+        "平滑的；平順的",
+        "餵食；飼料",
+        "形狀；體型",
+        "鮮明的；尖銳的",
+        "珍惜；寶物",
+        "微波；微波爐",
+        "活的",
+        "粗糙的"
+      ],
+      "answer": [
+        "E",
+        "A",
+        "B",
+        "F",
+        "I",
+        "C",
+        "K",
+        "L",
+        "G",
+        "N",
+        "H",
+        "D",
+        "O",
+        "M",
+        "J"
+      ],
+      "explain": "英中配合（第 1–15 題）：subject主題、magic神奇、throat喉嚨、code編碼、feed餵食、divide分、sharp鮮明、treasure珍惜、sort種類、alive活的、smooth平滑、discuss討論、rough粗糙、microwave微波、shape形狀"
+    },
+    {
+      "id": "U4L-Q-11",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "mode": "spell",
+      "num": 2,
+      "prompt": "餵食；飼料",
+      "word": "feed",
+      "explain": "feed＝餵食；飼料。首 f 尾 d，共 4 個字母。"
+    },
+    {
+      "id": "U4L-Q-12",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "mode": "spell",
+      "num": 3,
+      "prompt": "活的",
+      "word": "alive",
+      "explain": "alive＝活的。首 a 尾 e，共 5 個字母。"
+    },
+    {
+      "id": "U4L-Q-02",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "mode": "spell",
+      "num": 4,
+      "prompt": "討論；商量",
+      "word": "discuss",
+      "explain": "discuss＝討論；商量。首 d 尾 s，共 7 個字母。"
+    },
+    {
+      "id": "U4L-Q-13",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "mode": "spell",
+      "num": 5,
+      "prompt": "形狀；體型",
+      "word": "shape",
+      "explain": "shape＝形狀；體型。首 s 尾 e，共 5 個字母。"
+    },
+    {
+      "id": "U4L-Q-14",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "mode": "spell",
+      "num": 6,
+      "prompt": "鮮明的；尖銳的",
+      "word": "sharp",
+      "explain": "sharp＝鮮明的；尖銳的。首 s 尾 p，共 5 個字母。"
+    },
+    {
+      "id": "U4L-Q-03",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "mode": "spell",
+      "num": 7,
+      "prompt": "種類；分類",
+      "word": "sort",
+      "explain": "sort＝種類；分類。首 s 尾 t，共 4 個字母。"
+    },
+    {
+      "id": "U4L-Q-15",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "mode": "spell",
+      "num": 8,
+      "prompt": "編碼；代號",
+      "word": "code",
+      "explain": "code＝編碼；代號。首 c 尾 e，共 4 個字母。"
+    },
+    {
+      "id": "U4L-Q-16",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "mode": "spell",
+      "num": 9,
+      "prompt": "喉嚨",
+      "word": "throat",
+      "explain": "throat＝喉嚨。首 t 尾 t，共 6 個字母。"
+    },
+    {
+      "id": "U4L-Q-17",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "mode": "spell",
+      "num": 10,
+      "prompt": "微波；微波爐",
+      "word": "microwave",
+      "explain": "microwave＝微波；微波爐。首 m 尾 e，共 9 個字母。"
+    },
+    {
+      "id": "U4L-Q-04",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "mode": "spell",
+      "num": 11,
+      "prompt": "分；分開",
+      "word": "divide",
+      "explain": "divide＝分；分開。首 d 尾 e，共 6 個字母。"
+    },
+    {
+      "id": "U4L-Q-18",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "mode": "spell",
+      "num": 12,
+      "prompt": "珍惜；寶物",
+      "word": "treasure",
+      "explain": "treasure＝珍惜；寶物。首 t 尾 e，共 8 個字母。"
+    },
+    {
+      "id": "U4L-Q-19",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "mode": "spell",
+      "num": 13,
+      "prompt": "平滑的；平順的",
+      "word": "smooth",
+      "explain": "smooth＝平滑的；平順的。首 s 尾 h，共 6 個字母。"
+    },
+    {
+      "id": "U4L-Q-20",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "mode": "spell",
+      "num": 14,
+      "prompt": "粗糙的",
+      "word": "rough",
+      "explain": "rough＝粗糙的。首 r 尾 h，共 5 個字母。"
+    },
+    {
+      "id": "U4L-Q-05",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "mode": "spell",
+      "num": 15,
+      "prompt": "神奇；魔力",
+      "word": "magic",
+      "explain": "magic＝神奇；魔力。首 m 尾 c，共 5 個字母。"
+    },
+    {
+      "id": "U4L-Q-21",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "mode": "spell",
+      "num": 16,
+      "prompt": "主題；科目",
+      "word": "subject",
+      "explain": "subject＝主題；科目。首 s 尾 t，共 7 個字母。"
+    },
+    {
+      "id": "U4L-Q-22",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "mode": "mc",
+      "num": 17,
+      "stem": "Let's ___ the plan again after lunch.",
+      "options": [
+        "discuss",
+        "discussed",
+        "discussion",
+        "discusses"
+      ],
+      "answer": 0,
+      "word": "discuss",
+      "form": "discuss",
+      "explain": "午餐後我們再討論一次計畫。Let's 後面接原形動詞 discuss＝討論。"
+    },
+    {
+      "id": "U4L-Q-23",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "mode": "mc",
+      "num": 18,
+      "stem": "I have a ___ throat and cannot sing today.",
+      "options": [
+        "sorts",
+        "sores",
+        "sort",
+        "sore"
+      ],
+      "answer": 3,
+      "word": "sort",
+      "form": "sore",
+      "explain": "我喉嚨痛，今天不能唱歌。a ___ throat 用形容詞 sore＝疼痛的（sort 是「種類」，拼字很像要小心）。"
+    },
+    {
+      "id": "U4L-Q-24",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "mode": "mc",
+      "num": 19,
+      "stem": "Long ___ is a little hard for young kids.",
+      "options": [
+        "divides",
+        "division",
+        "divided",
+        "divide"
+      ],
+      "answer": 1,
+      "word": "divide",
+      "form": "division",
+      "explain": "長除法對小小孩有點難。Long ___ 用名詞 division＝除法；分配。"
+    },
+    {
+      "id": "U4L-Q-25",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "mode": "mc",
+      "num": 20,
+      "stem": "The children love the ___ show at the mall.",
+      "options": [
+        "magical",
+        "magician",
+        "magic",
+        "magics"
+      ],
+      "answer": 2,
+      "word": "magic",
+      "form": "magic",
+      "explain": "孩子們很愛商場的魔術表演。___ show 用名詞當形容詞 magic＝魔術（的）。"
+    },
+    {
+      "id": "U4L-Q-33",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 21,
+      "stem": "Our ___ about the show lasted for an hour.",
+      "options": [
+        "discussed",
+        "discuss",
+        "discussion",
+        "discusses"
+      ],
+      "answer": 2,
+      "word": "discuss",
+      "form": "discussion",
+      "explain": "我們關於表演的討論持續了一小時。Our ___ 用名詞 discussion＝討論。",
+      "mode": "mc"
+    },
+    {
+      "id": "U4L-Q-34",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 22,
+      "stem": "We will ___ the cake into six equal parts.",
+      "options": [
+        "division",
+        "divide",
+        "divides",
+        "divided"
+      ],
+      "answer": 1,
+      "word": "divide",
+      "form": "divide",
+      "explain": "我們會把蛋糕平分成六等份。will 後面接原形動詞 divide＝分。",
+      "mode": "mc"
+    },
+    {
+      "id": "U4L-Q-35",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 23,
+      "stem": "A good ___ needs many years of practice.",
+      "options": [
+        "magician",
+        "magic",
+        "magical",
+        "magics"
+      ],
+      "answer": 0,
+      "word": "magic",
+      "form": "magician",
+      "explain": "一個好的魔術師需要多年練習。做動作的人用 magician＝魔術師。",
+      "mode": "mc"
+    },
+    {
+      "id": "U4L-Q-06",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "mode": "mc",
+      "num": 24,
+      "word": "sort",
+      "form": "sorts",
+      "stem": "The night market sells many ___ of snacks.",
+      "options": [
+        "sort",
+        "sorts",
+        "sore",
+        "sorted"
+      ],
+      "answer": 1,
+      "explain": "夜市賣很多種類的小吃。many 後面要接複數，用 sorts＝種類。"
+    },
+    {
+      "id": "U4L-Q-26",
+      "paper": "quiz",
+      "section": "mc-phrase",
+      "num": 25,
+      "stem": "I hope to ___ you again after you move abroad.",
+      "options": [
+        "hear from",
+        "look for",
+        "no matter",
+        "get up"
+      ],
+      "answer": 0,
+      "word": "hear from",
+      "explain": "希望你搬到國外後我還能收到你的消息。hear from＝聽到來自…的消息。"
+    },
+    {
+      "id": "U4L-Q-27",
+      "paper": "quiz",
+      "section": "mc-phrase",
+      "num": 26,
+      "stem": "___ what happens, we will stay together.",
+      "options": [
+        "Look for",
+        "Hear from",
+        "No matter",
+        "In order"
+      ],
+      "answer": 2,
+      "word": "no matter",
+      "explain": "不論發生什麼，我們都會在一起。no matter what＝不論什麼。"
+    },
+    {
+      "id": "U4L-Q-28",
+      "paper": "quiz",
+      "section": "mc-phrase",
+      "num": 27,
+      "stem": "The police are ___ the missing boy now.",
+      "options": [
+        "getting up",
+        "looking for",
+        "no matter",
+        "hearing from"
+      ],
+      "answer": 1,
+      "word": "look for",
+      "explain": "警方正在尋找那個走失的男孩。look for＝尋找。"
+    },
+    {
+      "id": "U4L-Q-29",
+      "paper": "quiz",
+      "section": "dialogue",
+      "num": 28,
+      "stem": "A: What may I call you? B: ___",
+      "options": [
+        "I am a nurse.",
+        "It is a nice day.",
+        "I live nearby.",
+        "Just call me Vicky."
+      ],
+      "answer": 3,
+      "explain": "問怎麼稱呼你，答：叫我 Vicky 就好。"
+    },
+    {
+      "id": "U4L-Q-30",
+      "paper": "quiz",
+      "section": "dialogue",
+      "num": 29,
+      "stem": "A: Who is that boy in the red cap? B: ___",
+      "options": [
+        "It is bright red.",
+        "The cap is nice.",
+        "He is my cousin.",
+        "He runs very fast."
+      ],
+      "answer": 2,
+      "explain": "Who 問「是誰」，答關係：他是我表弟。"
+    },
+    {
+      "id": "U4L-Q-31",
+      "paper": "quiz",
+      "section": "dialogue",
+      "num": 30,
+      "stem": "A: What is your dog's name? B: ___",
+      "options": [
+        "His name is Lucky.",
+        "He is two years old.",
+        "I love my dog.",
+        "He is very cute."
+      ],
+      "answer": 0,
+      "explain": "問狗的名字，答：牠叫 Lucky。"
+    },
+    {
+      "id": "U4L-Q-32",
+      "paper": "quiz",
+      "section": "dialogue",
+      "num": 31,
+      "stem": "A: Who broke this glass? B: ___",
+      "options": [
+        "The glass was cheap.",
+        "My little brother did.",
+        "That is too bad.",
+        "It is broken now."
+      ],
+      "answer": 1,
+      "explain": "Who 問「是誰做的」，答：我弟弟。"
     }
-  ]
+  ],
+  "spec": {
+    "quiz": "v7"
+  }
 }
