@@ -118,5 +118,25 @@
       "review",
       "quiz"
     ]
+  },
+  {
+    "file": "u7_upper.json",
+    "unit": 7,
+    "half": "upper",
+    "label": "Unit 7（上）",
+    "papers": [
+      "review",
+      "quiz"
+    ]
+  },
+  {
+    "file": "u7_lower.json",
+    "unit": 7,
+    "half": "lower",
+    "label": "Unit 7（下）",
+    "papers": [
+      "review",
+      "quiz"
+    ]
   }
 ]

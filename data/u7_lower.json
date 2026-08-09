@@ -1,0 +1,1547 @@
+{
+  "unit": 7,
+  "half": "lower",
+  "spec": {
+    "review": "v7",
+    "quiz": "v7"
+  },
+  "words": [
+    {
+      "en": "trim",
+      "zh": "修剪；縮減",
+      "derivatives": [
+        "rim"
+      ]
+    },
+    {
+      "en": "injure",
+      "zh": "使受傷",
+      "derivatives": [
+        "injury"
+      ]
+    },
+    {
+      "en": "wound",
+      "zh": "傷口"
+    },
+    {
+      "en": "strike",
+      "zh": "罷工；打擊",
+      "derivatives": [
+        "struck"
+      ]
+    },
+    {
+      "en": "hit",
+      "zh": "碰撞；安打"
+    },
+    {
+      "en": "attack",
+      "zh": "攻擊"
+    },
+    {
+      "en": "attach",
+      "zh": "附加；附上",
+      "derivatives": [
+        "attachment"
+      ]
+    },
+    {
+      "en": "stick",
+      "zh": "黏貼；棍棒",
+      "derivatives": [
+        "stuck",
+        "sticky",
+        "sticker"
+      ]
+    },
+    {
+      "en": "raise",
+      "zh": "提高；舉起",
+      "derivatives": [
+        "rise"
+      ]
+    },
+    {
+      "en": "praise",
+      "zh": "讚揚；表揚"
+    },
+    {
+      "en": "reward",
+      "zh": "獎賞；報酬",
+      "derivatives": [
+        "rewarding"
+      ]
+    },
+    {
+      "en": "local",
+      "zh": "當地的"
+    },
+    {
+      "en": "approach",
+      "zh": "接近；來臨"
+    },
+    {
+      "en": "court",
+      "zh": "法院；球場"
+    },
+    {
+      "en": "judge",
+      "zh": "判斷；法官",
+      "derivatives": [
+        "justice"
+      ]
+    }
+  ],
+  "phrases": [
+    {
+      "en": "look down",
+      "zh": "輕視；瞧不起"
+    },
+    {
+      "en": "look up",
+      "zh": "查字典"
+    },
+    {
+      "en": "not only",
+      "zh": "不但…而且…"
+    }
+  ],
+  "readings": [
+    {
+      "id": "U7L-READ-1",
+      "title": "The Game We Won",
+      "text": "Last Saturday, our school held a local basketball game on the outdoor court. Before the game, our coach told us not to look down on the other team. We were not only tired but also nervous. In the first half, a tall player hit my arm by accident and injured my hand. The wound was small, so I put a bandage on it and kept playing. Our team raised the score little by little. When the last minute approached, I threw the ball hard and it went in. The judge blew the whistle, and everyone stood up to praise us. Our coach gave each of us a small reward after the game. That night I had to look up the word \"champion\" in my dictionary."
+    }
+  ],
+  "questions": [
+    {
+      "id": "U7L-R-01",
+      "paper": "review",
+      "section": "matching",
+      "num": 1,
+      "word": "配合題",
+      "left": [
+        "strike",
+        "reward",
+        "trim",
+        "raise",
+        "judge",
+        "attack",
+        "approach",
+        "injure",
+        "praise",
+        "attach",
+        "court",
+        "wound",
+        "local",
+        "hit",
+        "stick"
+      ],
+      "right": [
+        "黏貼；棍棒",
+        "修剪；縮減",
+        "當地的",
+        "碰撞；安打",
+        "法院；球場",
+        "傷口",
+        "讚揚；表揚",
+        "判斷；法官",
+        "附加；附上",
+        "使受傷",
+        "獎賞；報酬",
+        "罷工；打擊",
+        "接近；來臨",
+        "攻擊",
+        "提高；舉起"
+      ],
+      "answer": [
+        "L",
+        "K",
+        "B",
+        "O",
+        "H",
+        "N",
+        "M",
+        "J",
+        "G",
+        "I",
+        "E",
+        "F",
+        "C",
+        "D",
+        "A"
+      ],
+      "explain": "把每個英文字對到正確的中文意思。"
+    },
+    {
+      "id": "U7L-R-02",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 2,
+      "mode": "spell",
+      "prompt": "攻擊",
+      "word": "attack",
+      "explain": "attack＝攻擊。首 a 尾 k，共 6 個字母（t 要兩個）。"
+    },
+    {
+      "id": "U7L-R-03",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 3,
+      "mode": "spell",
+      "prompt": "接近；來臨",
+      "word": "approach",
+      "explain": "approach＝接近；來臨。首 a 尾 h，共 8 個字母（p 要兩個）。"
+    },
+    {
+      "id": "U7L-R-04",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 4,
+      "mode": "spell",
+      "prompt": "傷口",
+      "word": "wound",
+      "explain": "wound＝傷口。首 w 尾 d，共 5 個字母。"
+    },
+    {
+      "id": "U7L-R-05",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 5,
+      "mode": "spell",
+      "prompt": "讚揚；表揚",
+      "word": "praise",
+      "explain": "praise＝讚揚；表揚。首 p 尾 e，共 6 個字母（比 raise 多一個 p）。"
+    },
+    {
+      "id": "U7L-R-06",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 6,
+      "mode": "spell",
+      "prompt": "修剪；縮減",
+      "word": "trim",
+      "explain": "trim＝修剪；縮減。首 t 尾 m，共 4 個字母。"
+    },
+    {
+      "id": "U7L-R-07",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 7,
+      "mode": "spell",
+      "prompt": "判斷；法官",
+      "word": "judge",
+      "explain": "judge＝判斷；法官。首 j 尾 e，共 5 個字母。"
+    },
+    {
+      "id": "U7L-R-08",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 8,
+      "mode": "spell",
+      "prompt": "黏貼；棍棒",
+      "word": "stick",
+      "explain": "stick＝黏貼；棍棒。首 s 尾 k，共 5 個字母。"
+    },
+    {
+      "id": "U7L-R-09",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 9,
+      "mode": "spell",
+      "prompt": "罷工；打擊",
+      "word": "strike",
+      "explain": "strike＝罷工；打擊。首 s 尾 e，共 6 個字母（三態 strike-struck-struck）。"
+    },
+    {
+      "id": "U7L-R-10",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 10,
+      "mode": "spell",
+      "prompt": "當地的",
+      "word": "local",
+      "explain": "local＝當地的。首 l 尾 l，共 5 個字母。"
+    },
+    {
+      "id": "U7L-R-11",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 11,
+      "mode": "spell",
+      "prompt": "附加；附上",
+      "word": "attach",
+      "explain": "attach＝附加；附上。首 a 尾 h，共 6 個字母（比 attack 只差最後一個字母）。"
+    },
+    {
+      "id": "U7L-R-12",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 12,
+      "mode": "spell",
+      "prompt": "使受傷",
+      "word": "injure",
+      "explain": "injure＝使受傷。首 i 尾 e，共 6 個字母。"
+    },
+    {
+      "id": "U7L-R-13",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 13,
+      "mode": "spell",
+      "prompt": "法院；球場",
+      "word": "court",
+      "explain": "court＝法院；球場。首 c 尾 t，共 5 個字母。"
+    },
+    {
+      "id": "U7L-R-14",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 14,
+      "mode": "spell",
+      "prompt": "提高；舉起",
+      "word": "raise",
+      "explain": "raise＝提高；舉起。首 r 尾 e，共 5 個字母（及物動詞，後面要接受詞）。"
+    },
+    {
+      "id": "U7L-R-15",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 15,
+      "mode": "spell",
+      "prompt": "碰撞；安打",
+      "word": "hit",
+      "explain": "hit＝碰撞；安打。首 h 尾 t，共 3 個字母（三態 hit-hit-hit）。"
+    },
+    {
+      "id": "U7L-R-16",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 16,
+      "mode": "spell",
+      "prompt": "獎賞；報酬",
+      "word": "reward",
+      "explain": "reward＝獎賞；報酬。首 r 尾 d，共 6 個字母。"
+    },
+    {
+      "id": "U7L-R-17",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 17,
+      "mode": "mc",
+      "word": "injure",
+      "form": "injury",
+      "stem": "He got a serious ___ in the car accident.",
+      "options": [
+        "injure",
+        "injured",
+        "injuries",
+        "injury"
+      ],
+      "answer": 3,
+      "explain": "他在車禍中受了重傷。a serious ___ 用單數名詞 injury＝傷害。"
+    },
+    {
+      "id": "U7L-R-18",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 18,
+      "mode": "mc",
+      "word": "injure",
+      "form": "injure",
+      "stem": "Wearing a helmet can stop you from getting ___.",
+      "options": [
+        "injure",
+        "injury",
+        "injured",
+        "injuries"
+      ],
+      "answer": 2,
+      "explain": "戴安全帽可以避免你受傷。get ___ 用過去分詞 injured＝受傷的。"
+    },
+    {
+      "id": "U7L-R-19",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 19,
+      "mode": "mc",
+      "word": "strike",
+      "form": "struck",
+      "stem": "The ball ___ the window and broke it yesterday.",
+      "options": [
+        "strikes",
+        "striking",
+        "struck",
+        "strike"
+      ],
+      "answer": 2,
+      "explain": "球昨天打中窗戶並打破了它。yesterday 表示過去，用 struck（strike 的過去式）。"
+    },
+    {
+      "id": "U7L-R-20",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 20,
+      "mode": "mc",
+      "word": "attach",
+      "form": "attachment",
+      "stem": "Please open the ___ in my e-mail.",
+      "options": [
+        "attach",
+        "attaches",
+        "attachment",
+        "attached"
+      ],
+      "answer": 2,
+      "explain": "請打開我電子郵件裡的附件。the ___ 用名詞 attachment＝附件。"
+    },
+    {
+      "id": "U7L-R-21",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 21,
+      "mode": "mc",
+      "word": "stick",
+      "form": "stuck",
+      "stem": "The car got ___ in the mud after the rain.",
+      "options": [
+        "sticker",
+        "stick",
+        "sticky",
+        "stuck"
+      ],
+      "answer": 3,
+      "explain": "雨後車子陷在泥巴裡動不了。get ___ 用 stuck＝困住的。"
+    },
+    {
+      "id": "U7L-R-22",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 22,
+      "mode": "mc",
+      "word": "stick",
+      "form": "sticky",
+      "stem": "My hands are ___ after eating the candy.",
+      "options": [
+        "sticker",
+        "stick",
+        "stuck",
+        "sticky"
+      ],
+      "answer": 3,
+      "explain": "吃完糖果後我的手黏黏的。be 動詞後接形容詞 sticky＝黏的。"
+    },
+    {
+      "id": "U7L-R-23",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 23,
+      "mode": "mc",
+      "word": "raise",
+      "form": "rise",
+      "stem": "The sun will ___ at six tomorrow morning.",
+      "options": [
+        "raise",
+        "rise",
+        "raises",
+        "raised"
+      ],
+      "answer": 1,
+      "explain": "明天早上六點太陽會升起。太陽自己升起、後面沒有受詞，用 rise＝上升。"
+    },
+    {
+      "id": "U7L-R-24",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 24,
+      "mode": "mc",
+      "word": "reward",
+      "form": "rewarding",
+      "stem": "Teaching children is hard but very ___.",
+      "options": [
+        "rewarded",
+        "rewarding",
+        "rewards",
+        "reward"
+      ],
+      "answer": 1,
+      "explain": "教小孩很辛苦但很有成就感。be 動詞後接形容詞 rewarding＝有報酬的；值得的。"
+    },
+    {
+      "id": "U7L-R-25",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 25,
+      "mode": "mc",
+      "word": "judge",
+      "form": "justice",
+      "stem": "Many people believe there is ___ in the end.",
+      "options": [
+        "judges",
+        "justice",
+        "judged",
+        "judge"
+      ],
+      "answer": 1,
+      "explain": "很多人相信最後會有公道。there is ___ 用不可數名詞 justice＝正義；公正。"
+    },
+    {
+      "id": "U7L-R-26",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 26,
+      "mode": "mc",
+      "word": "trim",
+      "form": "rim",
+      "stem": "There is a small crack on the ___ of the cup.",
+      "options": [
+        "rim",
+        "trim",
+        "trimmed",
+        "trims"
+      ],
+      "answer": 0,
+      "explain": "杯子邊緣有一道小裂痕。the ___ of the cup 用名詞 rim＝邊緣。"
+    },
+    {
+      "id": "U7L-R-27",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 27,
+      "mode": "mc",
+      "word": "stick",
+      "form": "sticker",
+      "stem": "She put a cute ___ on her notebook.",
+      "options": [
+        "sticker",
+        "sticky",
+        "stick",
+        "stuck"
+      ],
+      "answer": 0,
+      "explain": "她在筆記本上貼了一張可愛的貼紙。a cute ___ 用名詞 sticker＝貼紙。"
+    },
+    {
+      "id": "U7L-R-28",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 28,
+      "mode": "mc",
+      "word": "attach",
+      "form": "attach",
+      "stem": "Do not ___ anything to this clean wall.",
+      "options": [
+        "attach",
+        "attachment",
+        "attaches",
+        "attached"
+      ],
+      "answer": 0,
+      "explain": "不要在這面乾淨的牆上貼任何東西。do not 後面接原形 attach＝附加；黏貼。"
+    },
+    {
+      "id": "U7L-R-29",
+      "paper": "review",
+      "section": "mc-phrase",
+      "num": 29,
+      "word": "look down",
+      "stem": "We should never ___ on people who are poor.",
+      "options": [
+        "look over",
+        "look up",
+        "look down",
+        "not only"
+      ],
+      "answer": 2,
+      "explain": "我們絕不應該瞧不起窮人。look down on＝輕視。"
+    },
+    {
+      "id": "U7L-R-30",
+      "paper": "review",
+      "section": "mc-phrase",
+      "num": 30,
+      "word": "look up",
+      "stem": "I had to ___ the new word in a dictionary.",
+      "options": [
+        "look up",
+        "look into",
+        "look down",
+        "not only"
+      ],
+      "answer": 0,
+      "explain": "我得在字典裡查那個生字。look up＝查字典。"
+    },
+    {
+      "id": "U7L-R-31",
+      "paper": "review",
+      "section": "mc-phrase",
+      "num": 31,
+      "word": "not only",
+      "stem": "She is ___ a singer but also a writer.",
+      "options": [
+        "look up",
+        "not only",
+        "look down",
+        "look over"
+      ],
+      "answer": 1,
+      "explain": "她不但是歌手，而且是作家。not only A but also B＝不但…而且…。"
+    },
+    {
+      "id": "U7L-R-32",
+      "paper": "review",
+      "section": "dialogue",
+      "num": 32,
+      "word": "對話應答",
+      "stem": "A: When did you hurt your hand? B: ___",
+      "options": [
+        "At the hospital.",
+        "During the game last night.",
+        "My right hand.",
+        "It hurts a lot."
+      ],
+      "answer": 1,
+      "explain": "主題 7：When 問時間，答：昨晚比賽的時候。"
+    },
+    {
+      "id": "U7L-R-33",
+      "paper": "review",
+      "section": "dialogue",
+      "num": 33,
+      "word": "對話應答",
+      "stem": "A: When will the judge decide? B: ___",
+      "options": [
+        "He is very fair.",
+        "The case is hard.",
+        "In the local court.",
+        "Next Monday morning."
+      ],
+      "answer": 3,
+      "explain": "When 問時間，答：下週一早上。"
+    },
+    {
+      "id": "U7L-R-34",
+      "paper": "review",
+      "section": "dialogue",
+      "num": 34,
+      "word": "對話應答",
+      "stem": "A: When did the workers start the strike? B: ___",
+      "options": [
+        "They want higher pay.",
+        "In front of the factory.",
+        "Three days ago.",
+        "About two hundred people."
+      ],
+      "answer": 2,
+      "explain": "When 問時間，答：三天前。"
+    },
+    {
+      "id": "U7L-R-35",
+      "paper": "review",
+      "section": "dialogue",
+      "num": 35,
+      "word": "對話應答",
+      "stem": "A: When are you going to trim the tree? B: ___",
+      "options": [
+        "This Sunday afternoon.",
+        "With a big saw.",
+        "In the front yard.",
+        "It is very tall."
+      ],
+      "answer": 0,
+      "explain": "When 問時間，答：這週日下午。"
+    },
+    {
+      "id": "U7L-R-36",
+      "paper": "review",
+      "section": "dialogue",
+      "num": 36,
+      "word": "對話應答",
+      "stem": "A: When did you get the reward? B: ___",
+      "options": [
+        "From the principal.",
+        "Right after the contest.",
+        "I was very happy.",
+        "It was a gold medal."
+      ],
+      "answer": 1,
+      "explain": "When 問時間，答：比賽一結束就拿到了。"
+    },
+    {
+      "id": "U7L-R-37",
+      "paper": "review",
+      "section": "dialogue",
+      "num": 37,
+      "word": "對話應答",
+      "stem": "A: When does the local market open? B: ___",
+      "options": [
+        "At five in the morning.",
+        "It sells fresh fish.",
+        "Near my house.",
+        "Many people go there."
+      ],
+      "answer": 0,
+      "explain": "When 問時間，答：早上五點。"
+    },
+    {
+      "id": "U7L-R-38",
+      "paper": "review",
+      "section": "reading",
+      "num": 38,
+      "word": "閱讀理解",
+      "readingId": "U7L-READ-1",
+      "stem": "What is this reading mainly about?",
+      "options": [
+        "How to treat a hand wound",
+        "The rules of a local court",
+        "Why the coach was angry",
+        "A basketball game the writer's team won"
+      ],
+      "answer": 3,
+      "explain": "全文在講一場籃球比賽從緊張到獲勝，選 (A)。"
+    },
+    {
+      "id": "U7L-R-39",
+      "paper": "review",
+      "section": "reading",
+      "num": 39,
+      "word": "閱讀理解",
+      "readingId": "U7L-READ-1",
+      "stem": "What did the coach say before the game?",
+      "options": [
+        "Raise the score in the first half.",
+        "Do not look down on the other team.",
+        "Play faster than the other team.",
+        "Do not get hurt."
+      ],
+      "answer": 1,
+      "explain": "文中說 our coach told us not to look down on the other team。"
+    },
+    {
+      "id": "U7L-R-40",
+      "paper": "review",
+      "section": "reading",
+      "num": 40,
+      "word": "閱讀理解",
+      "readingId": "U7L-READ-1",
+      "stem": "How did the writer hurt his hand?",
+      "options": [
+        "A tall player hit his arm by accident.",
+        "He fell on the court.",
+        "He threw the ball too hard.",
+        "He hit the wall."
+      ],
+      "answer": 0,
+      "explain": "文中說 a tall player hit my arm by accident and injured my hand。"
+    },
+    {
+      "id": "U7L-R-41",
+      "paper": "review",
+      "section": "reading",
+      "num": 41,
+      "word": "閱讀理解",
+      "readingId": "U7L-READ-1",
+      "stem": "Which one is TRUE about the writer?",
+      "options": [
+        "He stopped playing after he got hurt.",
+        "He played on an indoor court.",
+        "He looked up a word that night.",
+        "He got a big reward from the judge."
+      ],
+      "answer": 2,
+      "explain": "文中說 That night I had to look up the word；(A) 文章說 I kept playing。"
+    },
+    {
+      "id": "U7L-Q-01",
+      "paper": "quiz",
+      "section": "matching",
+      "num": 1,
+      "word": "配合題",
+      "left": [
+        "approach",
+        "attack",
+        "judge",
+        "wound",
+        "praise",
+        "trim",
+        "stick",
+        "local",
+        "strike",
+        "court",
+        "raise",
+        "injure",
+        "reward",
+        "attach",
+        "hit"
+      ],
+      "right": [
+        "傷口",
+        "當地的",
+        "攻擊",
+        "法院；球場",
+        "提高；舉起",
+        "修剪；縮減",
+        "獎賞；報酬",
+        "罷工；打擊",
+        "判斷；法官",
+        "附加；附上",
+        "使受傷",
+        "讚揚；表揚",
+        "碰撞；安打",
+        "接近；來臨",
+        "黏貼；棍棒"
+      ],
+      "answer": [
+        "N",
+        "C",
+        "I",
+        "A",
+        "L",
+        "F",
+        "O",
+        "B",
+        "H",
+        "D",
+        "E",
+        "K",
+        "G",
+        "J",
+        "M"
+      ],
+      "explain": "把每個英文字對到正確的中文意思。"
+    },
+    {
+      "id": "U7L-Q-02",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 2,
+      "mode": "spell",
+      "prompt": "當地的",
+      "word": "local",
+      "explain": "local＝當地的。首 l 尾 l，共 5 個字母。"
+    },
+    {
+      "id": "U7L-Q-03",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 3,
+      "mode": "spell",
+      "prompt": "碰撞；安打",
+      "word": "hit",
+      "explain": "hit＝碰撞；安打。首 h 尾 t，共 3 個字母（三態 hit-hit-hit）。"
+    },
+    {
+      "id": "U7L-Q-04",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 4,
+      "mode": "spell",
+      "prompt": "法院；球場",
+      "word": "court",
+      "explain": "court＝法院；球場。首 c 尾 t，共 5 個字母。"
+    },
+    {
+      "id": "U7L-Q-05",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 5,
+      "mode": "spell",
+      "prompt": "附加；附上",
+      "word": "attach",
+      "explain": "attach＝附加；附上。首 a 尾 h，共 6 個字母（比 attack 只差最後一個字母）。"
+    },
+    {
+      "id": "U7L-Q-06",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 6,
+      "mode": "spell",
+      "prompt": "使受傷",
+      "word": "injure",
+      "explain": "injure＝使受傷。首 i 尾 e，共 6 個字母。"
+    },
+    {
+      "id": "U7L-Q-07",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 7,
+      "mode": "spell",
+      "prompt": "讚揚；表揚",
+      "word": "praise",
+      "explain": "praise＝讚揚；表揚。首 p 尾 e，共 6 個字母（比 raise 多一個 p）。"
+    },
+    {
+      "id": "U7L-Q-08",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 8,
+      "mode": "spell",
+      "prompt": "修剪；縮減",
+      "word": "trim",
+      "explain": "trim＝修剪；縮減。首 t 尾 m，共 4 個字母。"
+    },
+    {
+      "id": "U7L-Q-09",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 9,
+      "mode": "spell",
+      "prompt": "判斷；法官",
+      "word": "judge",
+      "explain": "judge＝判斷；法官。首 j 尾 e，共 5 個字母。"
+    },
+    {
+      "id": "U7L-Q-10",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 10,
+      "mode": "spell",
+      "prompt": "攻擊",
+      "word": "attack",
+      "explain": "attack＝攻擊。首 a 尾 k，共 6 個字母（t 要兩個）。"
+    },
+    {
+      "id": "U7L-Q-11",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 11,
+      "mode": "spell",
+      "prompt": "接近；來臨",
+      "word": "approach",
+      "explain": "approach＝接近；來臨。首 a 尾 h，共 8 個字母（p 要兩個）。"
+    },
+    {
+      "id": "U7L-Q-12",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 12,
+      "mode": "spell",
+      "prompt": "罷工；打擊",
+      "word": "strike",
+      "explain": "strike＝罷工；打擊。首 s 尾 e，共 6 個字母（三態 strike-struck-struck）。"
+    },
+    {
+      "id": "U7L-Q-13",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 13,
+      "mode": "spell",
+      "prompt": "獎賞；報酬",
+      "word": "reward",
+      "explain": "reward＝獎賞；報酬。首 r 尾 d，共 6 個字母。"
+    },
+    {
+      "id": "U7L-Q-14",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 14,
+      "mode": "spell",
+      "prompt": "黏貼；棍棒",
+      "word": "stick",
+      "explain": "stick＝黏貼；棍棒。首 s 尾 k，共 5 個字母。"
+    },
+    {
+      "id": "U7L-Q-15",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 15,
+      "mode": "spell",
+      "prompt": "傷口",
+      "word": "wound",
+      "explain": "wound＝傷口。首 w 尾 d，共 5 個字母。"
+    },
+    {
+      "id": "U7L-Q-16",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 16,
+      "mode": "spell",
+      "prompt": "提高；舉起",
+      "word": "raise",
+      "explain": "raise＝提高；舉起。首 r 尾 e，共 5 個字母（及物動詞，後面要接受詞）。"
+    },
+    {
+      "id": "U7L-Q-17",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 17,
+      "mode": "mc",
+      "word": "injure",
+      "form": "injury",
+      "stem": "The player left the game because of a leg ___.",
+      "options": [
+        "injure",
+        "injured",
+        "injury",
+        "injuries"
+      ],
+      "answer": 2,
+      "explain": "那位球員因為腿傷離場。a leg ___ 用單數名詞 injury＝傷害。"
+    },
+    {
+      "id": "U7L-Q-18",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 18,
+      "mode": "mc",
+      "word": "strike",
+      "form": "struck",
+      "stem": "A big storm ___ the island last summer.",
+      "options": [
+        "struck",
+        "striking",
+        "strikes",
+        "strike"
+      ],
+      "answer": 0,
+      "explain": "去年夏天一場大風暴襲擊那座島。last summer 表示過去，用 struck。"
+    },
+    {
+      "id": "U7L-Q-19",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 19,
+      "mode": "mc",
+      "word": "attach",
+      "form": "attachment",
+      "stem": "He forgot to send the ___ with the file.",
+      "options": [
+        "attached",
+        "attaches",
+        "attachment",
+        "attach"
+      ],
+      "answer": 2,
+      "explain": "他忘了把附件跟檔案一起寄出。the ___ 用名詞 attachment＝附件。"
+    },
+    {
+      "id": "U7L-Q-20",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 20,
+      "mode": "mc",
+      "word": "stick",
+      "form": "stuck",
+      "stem": "My little sister got ___ between the chairs.",
+      "options": [
+        "sticky",
+        "stick",
+        "sticker",
+        "stuck"
+      ],
+      "answer": 3,
+      "explain": "我妹妹卡在椅子中間。get ___ 用 stuck＝困住的。"
+    },
+    {
+      "id": "U7L-Q-21",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 21,
+      "mode": "mc",
+      "word": "raise",
+      "form": "rise",
+      "stem": "Prices always ___ before the Lunar New Year.",
+      "options": [
+        "rise",
+        "raise",
+        "raised",
+        "raises"
+      ],
+      "answer": 0,
+      "explain": "物價在農曆年前總是上漲。價格自己上漲、後面沒有受詞，用 rise＝上升。"
+    },
+    {
+      "id": "U7L-Q-22",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 22,
+      "mode": "mc",
+      "word": "reward",
+      "form": "rewarding",
+      "stem": "Helping the old man was a ___ experience.",
+      "options": [
+        "reward",
+        "rewarding",
+        "rewards",
+        "rewarded"
+      ],
+      "answer": 1,
+      "explain": "幫助那位老先生是很值得的經驗。名詞前用形容詞 rewarding＝值得的。"
+    },
+    {
+      "id": "U7L-Q-23",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 23,
+      "mode": "mc",
+      "word": "judge",
+      "form": "justice",
+      "stem": "The lawyer fought for ___ for many years.",
+      "options": [
+        "judged",
+        "judges",
+        "judge",
+        "justice"
+      ],
+      "answer": 3,
+      "explain": "那位律師為了正義奮鬥多年。fought for ___ 用不可數名詞 justice＝正義。"
+    },
+    {
+      "id": "U7L-Q-24",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 24,
+      "mode": "mc",
+      "word": "stick",
+      "form": "sticky",
+      "stem": "The floor is ___ because someone spilled juice.",
+      "options": [
+        "stick",
+        "sticky",
+        "stuck",
+        "sticker"
+      ],
+      "answer": 1,
+      "explain": "有人打翻果汁，所以地板黏黏的。be 動詞後接形容詞 sticky＝黏的。"
+    },
+    {
+      "id": "U7L-Q-25",
+      "paper": "quiz",
+      "section": "mc-phrase",
+      "num": 25,
+      "word": "look down",
+      "stem": "Rich people should not ___ on workers.",
+      "options": [
+        "not only",
+        "look down",
+        "look into",
+        "look up"
+      ],
+      "answer": 1,
+      "explain": "有錢人不應該瞧不起工人。look down on＝輕視。"
+    },
+    {
+      "id": "U7L-Q-26",
+      "paper": "quiz",
+      "section": "mc-phrase",
+      "num": 26,
+      "word": "look up",
+      "stem": "You can ___ the meaning on your phone.",
+      "options": [
+        "look up",
+        "not only",
+        "look over",
+        "look down"
+      ],
+      "answer": 0,
+      "explain": "你可以用手機查意思。look up＝查（字典、資料）。"
+    },
+    {
+      "id": "U7L-Q-27",
+      "paper": "quiz",
+      "section": "mc-phrase",
+      "num": 27,
+      "word": "not only",
+      "stem": "The soup was ___ cheap but also tasty.",
+      "options": [
+        "look down",
+        "look into",
+        "not only",
+        "look up"
+      ],
+      "answer": 2,
+      "explain": "那碗湯不但便宜而且好喝。not only A but also B＝不但…而且…。"
+    },
+    {
+      "id": "U7L-Q-28",
+      "paper": "quiz",
+      "section": "dialogue",
+      "num": 28,
+      "word": "對話應答",
+      "stem": "A: When did the storm hit the town? B: ___",
+      "options": [
+        "In the south.",
+        "Many trees fell.",
+        "Early this morning.",
+        "It was very strong."
+      ],
+      "answer": 2,
+      "explain": "When 問時間，答：今天一大早。"
+    },
+    {
+      "id": "U7L-Q-29",
+      "paper": "quiz",
+      "section": "dialogue",
+      "num": 29,
+      "word": "對話應答",
+      "stem": "A: When will you raise the flag? B: ___",
+      "options": [
+        "It is a big flag.",
+        "At eight o'clock.",
+        "On the playground.",
+        "With my classmates."
+      ],
+      "answer": 1,
+      "explain": "When 問時間，答：八點。"
+    },
+    {
+      "id": "U7L-Q-30",
+      "paper": "quiz",
+      "section": "dialogue",
+      "num": 30,
+      "word": "對話應答",
+      "stem": "A: When did she praise you? B: ___",
+      "options": [
+        "After the speech contest.",
+        "She is my teacher.",
+        "In front of everyone.",
+        "I felt proud."
+      ],
+      "answer": 0,
+      "explain": "When 問時間，答：演講比賽之後。"
+    },
+    {
+      "id": "U7L-Q-31",
+      "paper": "quiz",
+      "section": "dialogue",
+      "num": 31,
+      "word": "對話應答",
+      "stem": "A: When are we going to the court? B: ___",
+      "options": [
+        "By bike.",
+        "It is a new court.",
+        "To play basketball.",
+        "Right after lunch."
+      ],
+      "answer": 3,
+      "explain": "When 問時間，答：午餐後馬上去。"
+    },
+    {
+      "id": "U7L-E-01",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 1,
+      "mode": "spell",
+      "prompt": "傷口",
+      "word": "wound",
+      "explain": "wound＝傷口。首 w 尾 d，共 5 個字母。"
+    },
+    {
+      "id": "U7L-E-02",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 2,
+      "mode": "spell",
+      "prompt": "碰撞；安打",
+      "word": "hit",
+      "explain": "hit＝碰撞；安打。首 h 尾 t，共 3 個字母（三態 hit-hit-hit）。"
+    },
+    {
+      "id": "U7L-E-03",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 3,
+      "mode": "spell",
+      "prompt": "攻擊",
+      "word": "attack",
+      "explain": "attack＝攻擊。首 a 尾 k，共 6 個字母（t 要兩個）。"
+    },
+    {
+      "id": "U7L-E-04",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 4,
+      "mode": "spell",
+      "prompt": "讚揚；表揚",
+      "word": "praise",
+      "explain": "praise＝讚揚；表揚。首 p 尾 e，共 6 個字母（比 raise 多一個 p）。"
+    },
+    {
+      "id": "U7L-E-05",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 5,
+      "mode": "spell",
+      "prompt": "當地的",
+      "word": "local",
+      "explain": "local＝當地的。首 l 尾 l，共 5 個字母。"
+    },
+    {
+      "id": "U7L-E-06",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 6,
+      "mode": "spell",
+      "prompt": "接近；來臨",
+      "word": "approach",
+      "explain": "approach＝接近；來臨。首 a 尾 h，共 8 個字母（p 要兩個）。"
+    },
+    {
+      "id": "U7L-E-07",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 7,
+      "mode": "spell",
+      "prompt": "法院；球場",
+      "word": "court",
+      "explain": "court＝法院；球場。首 c 尾 t，共 5 個字母。"
+    },
+    {
+      "id": "U7L-E-08",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 8,
+      "mode": "mc",
+      "word": "injure",
+      "form": "injury",
+      "stem": "The doctor said the ___ would heal in a week.",
+      "options": [
+        "injure",
+        "injuries",
+        "injury",
+        "injured"
+      ],
+      "answer": 2,
+      "explain": "醫生說這個傷一週就會好。the ___ 用單數名詞 injury＝傷害。"
+    },
+    {
+      "id": "U7L-E-09",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 9,
+      "mode": "mc",
+      "word": "strike",
+      "form": "struck",
+      "stem": "Lightning ___ the tall tree during the storm.",
+      "options": [
+        "struck",
+        "strikes",
+        "striking",
+        "strike"
+      ],
+      "answer": 0,
+      "explain": "暴風雨中閃電擊中那棵高樹。敘述過去用 struck。"
+    },
+    {
+      "id": "U7L-E-10",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 10,
+      "mode": "mc",
+      "word": "attach",
+      "form": "attachment",
+      "stem": "The ___ was too big to send.",
+      "options": [
+        "attach",
+        "attaches",
+        "attached",
+        "attachment"
+      ],
+      "answer": 3,
+      "explain": "那個附件太大寄不出去。The ___ 用名詞 attachment＝附件。"
+    },
+    {
+      "id": "U7L-E-11",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 11,
+      "mode": "mc",
+      "word": "stick",
+      "form": "stuck",
+      "stem": "The old door got ___ and would not open.",
+      "options": [
+        "stuck",
+        "sticker",
+        "stick",
+        "sticky"
+      ],
+      "answer": 0,
+      "explain": "那扇舊門卡住打不開。get ___ 用 stuck＝卡住的。"
+    },
+    {
+      "id": "U7L-E-12",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 12,
+      "mode": "mc",
+      "word": "raise",
+      "form": "rise",
+      "stem": "The river will ___ after three days of rain.",
+      "options": [
+        "raised",
+        "rise",
+        "raise",
+        "raises"
+      ],
+      "answer": 1,
+      "explain": "下了三天雨後河水會上漲。河水自己上漲、沒有受詞，用 rise＝上升。"
+    },
+    {
+      "id": "U7L-E-13",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 13,
+      "mode": "mc",
+      "word": "reward",
+      "form": "rewarding",
+      "stem": "Learning a new language is slow but ___.",
+      "options": [
+        "rewarded",
+        "reward",
+        "rewards",
+        "rewarding"
+      ],
+      "answer": 3,
+      "explain": "學一種新語言很慢但很值得。be 動詞後接形容詞 rewarding。"
+    },
+    {
+      "id": "U7L-E-14",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 14,
+      "mode": "mc",
+      "word": "judge",
+      "form": "justice",
+      "stem": "The story is about a fight for ___.",
+      "options": [
+        "judged",
+        "judge",
+        "justice",
+        "judges"
+      ],
+      "answer": 2,
+      "explain": "這個故事講的是為正義而戰。a fight for ___ 用名詞 justice＝正義。"
+    },
+    {
+      "id": "U7L-E-15",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 15,
+      "mode": "mc",
+      "word": "trim",
+      "form": "rim",
+      "stem": "He held the cup by its ___ and burned his finger.",
+      "options": [
+        "trimmed",
+        "rim",
+        "trim",
+        "trims"
+      ],
+      "answer": 1,
+      "explain": "他抓著杯緣結果燙到手指。by its ___ 用名詞 rim＝邊緣。"
+    },
+    {
+      "id": "U7L-E-16",
+      "paper": "extra",
+      "section": "mc-phrase",
+      "num": 16,
+      "word": "look down",
+      "stem": "Do not ___ on students with lower grades.",
+      "options": [
+        "look up",
+        "look down",
+        "not only",
+        "look over"
+      ],
+      "answer": 1,
+      "explain": "不要瞧不起成績比較差的同學。look down on＝輕視。"
+    },
+    {
+      "id": "U7L-E-17",
+      "paper": "extra",
+      "section": "mc-phrase",
+      "num": 17,
+      "word": "look up",
+      "stem": "She likes to ___ new words after class.",
+      "options": [
+        "look up",
+        "look into",
+        "not only",
+        "look down"
+      ],
+      "answer": 0,
+      "explain": "她喜歡下課後查生字。look up＝查字典。"
+    },
+    {
+      "id": "U7L-E-18",
+      "paper": "extra",
+      "section": "mc-phrase",
+      "num": 18,
+      "word": "not only",
+      "stem": "He ___ washed the dishes but also cleaned the floor.",
+      "options": [
+        "look up",
+        "look down",
+        "not only",
+        "look over"
+      ],
+      "answer": 2,
+      "explain": "他不但洗了碗，還拖了地。not only A but also B。"
+    },
+    {
+      "id": "U7L-E-19",
+      "paper": "extra",
+      "section": "dialogue",
+      "num": 19,
+      "word": "對話應答",
+      "stem": "A: When did you attach the photo? B: ___",
+      "options": [
+        "To my e-mail.",
+        "It is a big file.",
+        "Just five minutes ago.",
+        "The photo is nice."
+      ],
+      "answer": 2,
+      "explain": "When 問時間，答：就在五分鐘前。"
+    },
+    {
+      "id": "U7L-E-20",
+      "paper": "extra",
+      "section": "dialogue",
+      "num": 20,
+      "word": "對話應答",
+      "stem": "A: When does the local bus come? B: ___",
+      "options": [
+        "Every twenty minutes.",
+        "At the corner.",
+        "The driver is kind.",
+        "It is always full."
+      ],
+      "answer": 0,
+      "explain": "When 問時間，答：每二十分鐘一班。"
+    },
+    {
+      "id": "U7L-E-21",
+      "paper": "extra",
+      "section": "dialogue",
+      "num": 21,
+      "word": "對話應答",
+      "stem": "A: When did the dog attack the cat? B: ___",
+      "options": [
+        "The cat ran away.",
+        "Around noon today.",
+        "It is a big dog.",
+        "In the back yard."
+      ],
+      "answer": 1,
+      "explain": "When 問時間，答：今天中午左右。"
+    },
+    {
+      "id": "U7L-E-22",
+      "paper": "extra",
+      "section": "dialogue",
+      "num": 22,
+      "word": "對話應答",
+      "stem": "A: When will the typhoon approach Taiwan? B: ___",
+      "options": [
+        "From the east.",
+        "Winds and heavy rain.",
+        "It is very strong.",
+        "Late tomorrow night."
+      ],
+      "answer": 3,
+      "explain": "When 問時間，答：明天深夜。"
+    }
+  ]
+}

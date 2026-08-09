@@ -1,0 +1,1594 @@
+{
+  "unit": 7,
+  "half": "upper",
+  "spec": {
+    "review": "v7",
+    "quiz": "v7"
+  },
+  "words": [
+    {
+      "en": "natural",
+      "zh": "天然的；自然的",
+      "derivatives": [
+        "naturally",
+        "nature"
+      ]
+    },
+    {
+      "en": "concept",
+      "zh": "概念；觀念"
+    },
+    {
+      "en": "except",
+      "zh": "除了…之外",
+      "derivatives": [
+        "exception"
+      ]
+    },
+    {
+      "en": "expect",
+      "zh": "期望；期盼",
+      "derivatives": [
+        "unexpectedly",
+        "expectation"
+      ]
+    },
+    {
+      "en": "respect",
+      "zh": "尊重",
+      "derivatives": [
+        "respective"
+      ]
+    },
+    {
+      "en": "accept",
+      "zh": "接受",
+      "derivatives": [
+        "acceptable"
+      ]
+    },
+    {
+      "en": "inspect",
+      "zh": "檢查",
+      "derivatives": [
+        "inspection"
+      ]
+    },
+    {
+      "en": "infect",
+      "zh": "感染",
+      "derivatives": [
+        "infection",
+        "infectious"
+      ]
+    },
+    {
+      "en": "perfect",
+      "zh": "完美的",
+      "derivatives": [
+        "perfectly"
+      ]
+    },
+    {
+      "en": "excellent",
+      "zh": "卓越的；優秀的",
+      "derivatives": [
+        "excellence",
+        "excel"
+      ]
+    },
+    {
+      "en": "murder",
+      "zh": "謀殺",
+      "derivatives": [
+        "murderer"
+      ]
+    },
+    {
+      "en": "jail",
+      "zh": "監獄",
+      "derivatives": [
+        "prison",
+        "prisoner"
+      ]
+    },
+    {
+      "en": "crime",
+      "zh": "罪；罪刑",
+      "derivatives": [
+        "criminal"
+      ]
+    },
+    {
+      "en": "commit",
+      "zh": "犯（罪）；承諾"
+    },
+    {
+      "en": "arrest",
+      "zh": "逮捕"
+    }
+  ],
+  "phrases": [
+    {
+      "en": "look into",
+      "zh": "調查"
+    },
+    {
+      "en": "look over",
+      "zh": "檢查；搜尋"
+    },
+    {
+      "en": "look forward to",
+      "zh": "期盼"
+    }
+  ],
+  "readings": [
+    {
+      "id": "U7U-READ-1",
+      "title": "The Missing Computer",
+      "text": "Last month, someone stole the new computer in our school office. The teachers asked the police to look into the case. Two officers came to look over every classroom, and they inspected the windows and doors carefully. At first, everyone in my class was a suspect except me, because I was sick at home that day. The police said the person who did it committed a serious crime. Three days later, they arrested a young man near the night market and put him in jail. He was not a murderer, but he expected easy money. Our school is not perfect, but the teachers did an excellent job that week. Since then, our teacher reminds us to lock the office door every day. Now we all look forward to a safer school."
+    }
+  ],
+  "questions": [
+    {
+      "id": "U7U-R-01",
+      "paper": "review",
+      "section": "matching",
+      "num": 1,
+      "word": "配合題",
+      "left": [
+        "natural",
+        "perfect",
+        "expect",
+        "jail",
+        "inspect",
+        "arrest",
+        "concept",
+        "excellent",
+        "respect",
+        "crime",
+        "infect",
+        "except",
+        "murder",
+        "accept",
+        "commit"
+      ],
+      "right": [
+        "接受",
+        "罪；罪刑",
+        "概念；觀念",
+        "卓越的；優秀的",
+        "期望；期盼",
+        "逮捕",
+        "感染",
+        "天然的；自然的",
+        "謀殺",
+        "尊重",
+        "犯（罪）；承諾",
+        "完美的",
+        "除了…之外",
+        "監獄",
+        "檢查"
+      ],
+      "answer": [
+        "H",
+        "L",
+        "E",
+        "N",
+        "O",
+        "F",
+        "C",
+        "D",
+        "J",
+        "B",
+        "G",
+        "M",
+        "I",
+        "A",
+        "K"
+      ],
+      "explain": "把每個英文字對到正確的中文意思。"
+    },
+    {
+      "id": "U7U-R-02",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 2,
+      "mode": "spell",
+      "prompt": "概念；觀念",
+      "word": "concept",
+      "explain": "concept＝概念；觀念。首 c 尾 t，共 7 個字母。"
+    },
+    {
+      "id": "U7U-R-03",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 3,
+      "mode": "spell",
+      "prompt": "感染",
+      "word": "infect",
+      "explain": "infect＝感染。首 i 尾 t，共 6 個字母（in-＋fect 做）。"
+    },
+    {
+      "id": "U7U-R-04",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 4,
+      "mode": "spell",
+      "prompt": "犯（罪）",
+      "word": "commit",
+      "explain": "commit＝犯（罪）；承諾。首 c 尾 t，共 6 個字母（m 要兩個）。"
+    },
+    {
+      "id": "U7U-R-05",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 5,
+      "mode": "spell",
+      "prompt": "尊重",
+      "word": "respect",
+      "explain": "respect＝尊重。首 r 尾 t，共 7 個字母（re-＋spect 看）。"
+    },
+    {
+      "id": "U7U-R-06",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 6,
+      "mode": "spell",
+      "prompt": "謀殺",
+      "word": "murder",
+      "explain": "murder＝謀殺。首 m 尾 r，共 6 個字母。"
+    },
+    {
+      "id": "U7U-R-07",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 7,
+      "mode": "spell",
+      "prompt": "天然的；自然的",
+      "word": "natural",
+      "explain": "natural＝天然的；自然的。首 n 尾 l，共 7 個字母（nature 去 e 加 al）。"
+    },
+    {
+      "id": "U7U-R-08",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 8,
+      "mode": "spell",
+      "prompt": "逮捕",
+      "word": "arrest",
+      "explain": "arrest＝逮捕。首 a 尾 t，共 6 個字母（r 要兩個）。"
+    },
+    {
+      "id": "U7U-R-09",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 9,
+      "mode": "spell",
+      "prompt": "檢查",
+      "word": "inspect",
+      "explain": "inspect＝檢查。首 i 尾 t，共 7 個字母（in-＋spect 看）。"
+    },
+    {
+      "id": "U7U-R-10",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 10,
+      "mode": "spell",
+      "prompt": "除了…之外",
+      "word": "except",
+      "explain": "except＝除了…之外。首 e 尾 t，共 6 個字母（比 expect 多一個 c 少一個 p）。"
+    },
+    {
+      "id": "U7U-R-11",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 11,
+      "mode": "spell",
+      "prompt": "罪；罪刑",
+      "word": "crime",
+      "explain": "crime＝罪；罪刑。首 c 尾 e，共 5 個字母。"
+    },
+    {
+      "id": "U7U-R-12",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 12,
+      "mode": "spell",
+      "prompt": "完美的",
+      "word": "perfect",
+      "explain": "perfect＝完美的。首 p 尾 t，共 7 個字母。"
+    },
+    {
+      "id": "U7U-R-13",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 13,
+      "mode": "spell",
+      "prompt": "期望；期盼",
+      "word": "expect",
+      "explain": "expect＝期望；期盼。首 e 尾 t，共 6 個字母。"
+    },
+    {
+      "id": "U7U-R-14",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 14,
+      "mode": "spell",
+      "prompt": "監獄",
+      "word": "jail",
+      "explain": "jail＝監獄。首 j 尾 l，共 4 個字母。"
+    },
+    {
+      "id": "U7U-R-15",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 15,
+      "mode": "spell",
+      "prompt": "接受",
+      "word": "accept",
+      "explain": "accept＝接受。首 a 尾 t，共 6 個字母（c 要兩個）。"
+    },
+    {
+      "id": "U7U-R-16",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 16,
+      "mode": "spell",
+      "prompt": "卓越的",
+      "word": "excellent",
+      "explain": "excellent＝卓越的；優秀的。首 e 尾 t，共 9 個字母（l 要兩個）。"
+    },
+    {
+      "id": "U7U-R-17",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 17,
+      "mode": "mc",
+      "word": "natural",
+      "form": "naturally",
+      "stem": "The baby fell asleep ___ after the long trip.",
+      "options": [
+        "naturally",
+        "natural",
+        "nature",
+        "naturals"
+      ],
+      "answer": 0,
+      "explain": "長途旅行後寶寶自然而然就睡著了。修飾動詞 fell asleep 用副詞 naturally＝自然地。"
+    },
+    {
+      "id": "U7U-R-18",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 18,
+      "mode": "mc",
+      "word": "natural",
+      "form": "nature",
+      "stem": "He is kind and honest by ___.",
+      "options": [
+        "naturally",
+        "naturals",
+        "nature",
+        "natural"
+      ],
+      "answer": 2,
+      "explain": "他天生善良又誠實。by nature＝天生地，用名詞 nature＝本性。"
+    },
+    {
+      "id": "U7U-R-19",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 19,
+      "mode": "mc",
+      "word": "expect",
+      "form": "unexpectedly",
+      "stem": "The old car stopped ___ on the highway.",
+      "options": [
+        "expect",
+        "expectation",
+        "unexpectedly",
+        "expected"
+      ],
+      "answer": 2,
+      "explain": "那台老車在高速公路上出乎意料地拋錨。修飾動詞用副詞 unexpectedly＝出乎意料地。"
+    },
+    {
+      "id": "U7U-R-20",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 20,
+      "mode": "mc",
+      "word": "infect",
+      "form": "infection",
+      "stem": "Washing hands often can stop the ___.",
+      "options": [
+        "infect",
+        "infected",
+        "infectious",
+        "infection"
+      ],
+      "answer": 3,
+      "explain": "常洗手可以阻止感染。stop the ___ 用名詞 infection＝感染。"
+    },
+    {
+      "id": "U7U-R-21",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 21,
+      "mode": "mc",
+      "word": "murder",
+      "form": "murderer",
+      "stem": "The police caught the ___ in two days.",
+      "options": [
+        "murder",
+        "murdered",
+        "murders",
+        "murderer"
+      ],
+      "answer": 3,
+      "explain": "警方兩天內抓到兇手。the ___ 指人，用 murderer＝兇手。"
+    },
+    {
+      "id": "U7U-R-22",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 22,
+      "mode": "mc",
+      "word": "jail",
+      "form": "prisoner",
+      "stem": "Two ___ ran out of the jail last night.",
+      "options": [
+        "prison",
+        "prisoner",
+        "prisoners",
+        "jails"
+      ],
+      "answer": 2,
+      "explain": "昨晚有兩個囚犯逃出監獄。Two 後面接複數名詞 prisoners＝囚犯（prison 是監獄，指地方）。"
+    },
+    {
+      "id": "U7U-R-23",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 23,
+      "mode": "mc",
+      "word": "crime",
+      "form": "criminal",
+      "stem": "The judge sent a dangerous ___ to jail for ten years.",
+      "options": [
+        "crime",
+        "criminal",
+        "crimes",
+        "criminals"
+      ],
+      "answer": 1,
+      "explain": "法官把一個危險的罪犯關十年。a dangerous ___ 鎖單數，用 criminal＝罪犯。"
+    },
+    {
+      "id": "U7U-R-24",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 24,
+      "mode": "mc",
+      "word": "except",
+      "form": "exception",
+      "stem": "Every student passed the test without ___.",
+      "options": [
+        "except",
+        "exception",
+        "expect",
+        "accept"
+      ],
+      "answer": 1,
+      "explain": "每個學生都通過考試，沒有例外。without ___ 用名詞 exception＝例外。"
+    },
+    {
+      "id": "U7U-R-25",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 25,
+      "mode": "mc",
+      "word": "accept",
+      "form": "acceptable",
+      "stem": "His homework is messy but still ___.",
+      "options": [
+        "accept",
+        "acceptable",
+        "accepting",
+        "accepts"
+      ],
+      "answer": 1,
+      "explain": "他的作業很亂但還算可以接受。be 動詞後接形容詞 acceptable＝可接受的。"
+    },
+    {
+      "id": "U7U-R-26",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 26,
+      "mode": "mc",
+      "word": "inspect",
+      "form": "inspection",
+      "stem": "The car passed the safety ___ last week.",
+      "options": [
+        "inspection",
+        "inspects",
+        "inspected",
+        "inspect"
+      ],
+      "answer": 0,
+      "explain": "那台車上週通過安全檢查。safety ___ 用名詞 inspection＝檢查。"
+    },
+    {
+      "id": "U7U-R-27",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 27,
+      "mode": "mc",
+      "word": "perfect",
+      "form": "perfectly",
+      "stem": "She sang the song ___ at the show.",
+      "options": [
+        "perfectly",
+        "perfected",
+        "perfects",
+        "perfect"
+      ],
+      "answer": 0,
+      "explain": "她在表演中把那首歌唱得很完美。修飾動詞 sang 用副詞 perfectly＝完美地。"
+    },
+    {
+      "id": "U7U-R-28",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 28,
+      "mode": "mc",
+      "word": "excellent",
+      "form": "excellence",
+      "stem": "The chef won an award for his ___.",
+      "options": [
+        "excellently",
+        "excel",
+        "excellent",
+        "excellence"
+      ],
+      "answer": 3,
+      "explain": "那位廚師因為傑出的表現得獎。for his ___ 用名詞 excellence＝優秀；傑出。"
+    },
+    {
+      "id": "U7U-R-29",
+      "paper": "review",
+      "section": "mc-phrase",
+      "num": 29,
+      "word": "look into",
+      "stem": "The police will ___ the missing bike case.",
+      "options": [
+        "look into",
+        "look over",
+        "look up",
+        "look forward to"
+      ],
+      "answer": 0,
+      "explain": "警方會調查那件腳踏車失竊案。look into＝調查。"
+    },
+    {
+      "id": "U7U-R-30",
+      "paper": "review",
+      "section": "mc-phrase",
+      "num": 30,
+      "word": "look over",
+      "stem": "Please ___ your answers before you hand it in.",
+      "options": [
+        "look down",
+        "look over",
+        "look forward to",
+        "look into"
+      ],
+      "answer": 1,
+      "explain": "交卷前請檢查你的答案。look over＝檢查。"
+    },
+    {
+      "id": "U7U-R-31",
+      "paper": "review",
+      "section": "mc-phrase",
+      "num": 31,
+      "word": "look forward to",
+      "stem": "We all ___ the summer vacation.",
+      "options": [
+        "look into",
+        "look over",
+        "look forward to",
+        "look up"
+      ],
+      "answer": 2,
+      "explain": "我們都很期待暑假。look forward to＝期盼。"
+    },
+    {
+      "id": "U7U-R-32",
+      "paper": "review",
+      "section": "dialogue",
+      "num": 32,
+      "word": "對話應答",
+      "stem": "A: When did you come to this city? B: ___",
+      "options": [
+        "I came here three years ago.",
+        "By train.",
+        "I live near the park.",
+        "It is a big city."
+      ],
+      "answer": 0,
+      "explain": "主題 7：When 問時間，答：我三年前來的。"
+    },
+    {
+      "id": "U7U-R-33",
+      "paper": "review",
+      "section": "dialogue",
+      "num": 33,
+      "word": "對話應答",
+      "stem": "A: When do you plan to leave? B: ___",
+      "options": [
+        "With my sister.",
+        "To Taipei.",
+        "By bus.",
+        "Right after school."
+      ],
+      "answer": 3,
+      "explain": "When 問時間，答：一放學就走。"
+    },
+    {
+      "id": "U7U-R-34",
+      "paper": "review",
+      "section": "dialogue",
+      "num": 34,
+      "word": "對話應答",
+      "stem": "A: When did you last see him? B: ___",
+      "options": [
+        "Last Sunday.",
+        "He is my classmate.",
+        "At the night market.",
+        "He looks tired."
+      ],
+      "answer": 0,
+      "explain": "When 問時間，答：上週日。"
+    },
+    {
+      "id": "U7U-R-35",
+      "paper": "review",
+      "section": "dialogue",
+      "num": 35,
+      "word": "對話應答",
+      "stem": "A: When will the game start? B: ___",
+      "options": [
+        "In the school gym.",
+        "At seven tonight.",
+        "I bought a ticket.",
+        "Our team is strong."
+      ],
+      "answer": 1,
+      "explain": "When 問時間，答：今晚七點。"
+    },
+    {
+      "id": "U7U-R-36",
+      "paper": "review",
+      "section": "dialogue",
+      "num": 36,
+      "word": "對話應答",
+      "stem": "A: When did you get sick? B: ___",
+      "options": [
+        "The doctor is kind.",
+        "At the clinic.",
+        "Just this morning.",
+        "I have a fever."
+      ],
+      "answer": 2,
+      "explain": "When 問時間，答：就今天早上。"
+    },
+    {
+      "id": "U7U-R-37",
+      "paper": "review",
+      "section": "dialogue",
+      "num": 37,
+      "word": "對話應答",
+      "stem": "A: When are you going to hand in the report? B: ___",
+      "options": [
+        "I wrote ten pages.",
+        "Before Friday.",
+        "My teacher asked for it.",
+        "It is about animals."
+      ],
+      "answer": 1,
+      "explain": "When 問時間，答：星期五之前。"
+    },
+    {
+      "id": "U7U-R-38",
+      "paper": "review",
+      "section": "reading",
+      "num": 38,
+      "word": "閱讀理解",
+      "readingId": "U7U-READ-1",
+      "stem": "What is this reading mainly about?",
+      "options": [
+        "A stolen computer and how the police solved it",
+        "How to keep a classroom clean",
+        "A trip to the night market",
+        "Why the writer was sick at home"
+      ],
+      "answer": 0,
+      "explain": "全文在講電腦失竊與警方偵辦的經過，選 (A)。"
+    },
+    {
+      "id": "U7U-R-39",
+      "paper": "review",
+      "section": "reading",
+      "num": 39,
+      "word": "閱讀理解",
+      "readingId": "U7U-READ-1",
+      "stem": "Why was the writer NOT a suspect?",
+      "options": [
+        "He was with the police.",
+        "He found the computer first.",
+        "He was sick at home that day.",
+        "He was too young."
+      ],
+      "answer": 2,
+      "explain": "文中說 everyone in my class was a suspect except me, because I was sick at home。"
+    },
+    {
+      "id": "U7U-R-40",
+      "paper": "review",
+      "section": "reading",
+      "num": 40,
+      "word": "閱讀理解",
+      "readingId": "U7U-READ-1",
+      "stem": "What did the two officers do in the classrooms?",
+      "options": [
+        "They fixed the computer.",
+        "They inspected the windows and doors.",
+        "They taught a safety class.",
+        "They cleaned the windows."
+      ],
+      "answer": 1,
+      "explain": "文中說 they inspected the windows and doors carefully。"
+    },
+    {
+      "id": "U7U-R-41",
+      "paper": "review",
+      "section": "reading",
+      "num": 41,
+      "word": "閱讀理解",
+      "readingId": "U7U-READ-1",
+      "stem": "Which one is TRUE about the young man?",
+      "options": [
+        "He gave the computer back.",
+        "He worked at the school.",
+        "He was a murderer.",
+        "He was arrested near the night market."
+      ],
+      "answer": 3,
+      "explain": "文中說 they arrested a young man near the night market；(A) 文章明說 he was not a murderer。"
+    },
+    {
+      "id": "U7U-Q-01",
+      "paper": "quiz",
+      "section": "matching",
+      "num": 1,
+      "word": "配合題",
+      "left": [
+        "murder",
+        "except",
+        "commit",
+        "accept",
+        "natural",
+        "perfect",
+        "arrest",
+        "expect",
+        "jail",
+        "inspect",
+        "concept",
+        "excellent",
+        "respect",
+        "crime",
+        "infect"
+      ],
+      "right": [
+        "犯（罪）；承諾",
+        "檢查",
+        "天然的；自然的",
+        "謀殺",
+        "尊重",
+        "罪；罪刑",
+        "除了…之外",
+        "完美的",
+        "逮捕",
+        "接受",
+        "監獄",
+        "概念；觀念",
+        "卓越的；優秀的",
+        "期望；期盼",
+        "感染"
+      ],
+      "answer": [
+        "D",
+        "G",
+        "A",
+        "J",
+        "C",
+        "H",
+        "I",
+        "N",
+        "K",
+        "B",
+        "L",
+        "M",
+        "E",
+        "F",
+        "O"
+      ],
+      "explain": "把每個英文字對到正確的中文意思。"
+    },
+    {
+      "id": "U7U-Q-02",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 2,
+      "mode": "spell",
+      "prompt": "卓越的",
+      "word": "excellent",
+      "explain": "excellent＝卓越的；優秀的。首 e 尾 t，共 9 個字母（l 要兩個）。"
+    },
+    {
+      "id": "U7U-Q-03",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 3,
+      "mode": "spell",
+      "prompt": "期望；期盼",
+      "word": "expect",
+      "explain": "expect＝期望；期盼。首 e 尾 t，共 6 個字母。"
+    },
+    {
+      "id": "U7U-Q-04",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 4,
+      "mode": "spell",
+      "prompt": "罪；罪刑",
+      "word": "crime",
+      "explain": "crime＝罪；罪刑。首 c 尾 e，共 5 個字母。"
+    },
+    {
+      "id": "U7U-Q-05",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 5,
+      "mode": "spell",
+      "prompt": "天然的；自然的",
+      "word": "natural",
+      "explain": "natural＝天然的；自然的。首 n 尾 l，共 7 個字母（nature 去 e 加 al）。"
+    },
+    {
+      "id": "U7U-Q-06",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 6,
+      "mode": "spell",
+      "prompt": "逮捕",
+      "word": "arrest",
+      "explain": "arrest＝逮捕。首 a 尾 t，共 6 個字母（r 要兩個）。"
+    },
+    {
+      "id": "U7U-Q-07",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 7,
+      "mode": "spell",
+      "prompt": "感染",
+      "word": "infect",
+      "explain": "infect＝感染。首 i 尾 t，共 6 個字母（in-＋fect 做）。"
+    },
+    {
+      "id": "U7U-Q-08",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 8,
+      "mode": "spell",
+      "prompt": "除了…之外",
+      "word": "except",
+      "explain": "except＝除了…之外。首 e 尾 t，共 6 個字母（比 expect 多一個 c 少一個 p）。"
+    },
+    {
+      "id": "U7U-Q-09",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 9,
+      "mode": "spell",
+      "prompt": "監獄",
+      "word": "jail",
+      "explain": "jail＝監獄。首 j 尾 l，共 4 個字母。"
+    },
+    {
+      "id": "U7U-Q-10",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 10,
+      "mode": "spell",
+      "prompt": "接受",
+      "word": "accept",
+      "explain": "accept＝接受。首 a 尾 t，共 6 個字母（c 要兩個）。"
+    },
+    {
+      "id": "U7U-Q-11",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 11,
+      "mode": "spell",
+      "prompt": "犯（罪）",
+      "word": "commit",
+      "explain": "commit＝犯（罪）；承諾。首 c 尾 t，共 6 個字母（m 要兩個）。"
+    },
+    {
+      "id": "U7U-Q-12",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 12,
+      "mode": "spell",
+      "prompt": "概念；觀念",
+      "word": "concept",
+      "explain": "concept＝概念；觀念。首 c 尾 t，共 7 個字母。"
+    },
+    {
+      "id": "U7U-Q-13",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 13,
+      "mode": "spell",
+      "prompt": "完美的",
+      "word": "perfect",
+      "explain": "perfect＝完美的。首 p 尾 t，共 7 個字母。"
+    },
+    {
+      "id": "U7U-Q-14",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 14,
+      "mode": "spell",
+      "prompt": "尊重",
+      "word": "respect",
+      "explain": "respect＝尊重。首 r 尾 t，共 7 個字母（re-＋spect 看）。"
+    },
+    {
+      "id": "U7U-Q-15",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 15,
+      "mode": "spell",
+      "prompt": "謀殺",
+      "word": "murder",
+      "explain": "murder＝謀殺。首 m 尾 r，共 6 個字母。"
+    },
+    {
+      "id": "U7U-Q-16",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 16,
+      "mode": "spell",
+      "prompt": "檢查",
+      "word": "inspect",
+      "explain": "inspect＝檢查。首 i 尾 t，共 7 個字母（in-＋spect 看）。"
+    },
+    {
+      "id": "U7U-Q-17",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 17,
+      "mode": "mc",
+      "word": "natural",
+      "form": "nature",
+      "stem": "She loves to walk in ___ on weekends.",
+      "options": [
+        "nature",
+        "naturals",
+        "naturally",
+        "natural"
+      ],
+      "answer": 0,
+      "explain": "她週末喜歡在大自然裡散步。介系詞 in 後面接名詞 nature＝自然。"
+    },
+    {
+      "id": "U7U-Q-18",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 18,
+      "mode": "mc",
+      "word": "expect",
+      "form": "expectation",
+      "stem": "The movie was better than my ___.",
+      "options": [
+        "unexpectedly",
+        "expect",
+        "expectation",
+        "expected"
+      ],
+      "answer": 2,
+      "explain": "那部電影比我預期的還好。所有格 my 後面接名詞 expectation＝預期。"
+    },
+    {
+      "id": "U7U-Q-19",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 19,
+      "mode": "mc",
+      "word": "infect",
+      "form": "infectious",
+      "stem": "The flu is very ___ in a small room.",
+      "options": [
+        "infect",
+        "infectious",
+        "infected",
+        "infection"
+      ],
+      "answer": 1,
+      "explain": "流感在小房間裡很容易傳染。be 動詞後接形容詞 infectious＝傳染性的。"
+    },
+    {
+      "id": "U7U-Q-20",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 20,
+      "mode": "mc",
+      "word": "murder",
+      "form": "murderer",
+      "stem": "Nobody knew that the quiet man was a ___.",
+      "options": [
+        "murders",
+        "murdered",
+        "murderer",
+        "murder"
+      ],
+      "answer": 2,
+      "explain": "沒有人知道那個安靜的男人是兇手。a ___ 指人，用 murderer＝兇手。"
+    },
+    {
+      "id": "U7U-Q-21",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 21,
+      "mode": "mc",
+      "word": "crime",
+      "form": "criminal",
+      "stem": "The police put a young ___ into the police car.",
+      "options": [
+        "criminals",
+        "crime",
+        "crimes",
+        "criminal"
+      ],
+      "answer": 3,
+      "explain": "警察把一個年輕罪犯押上警車。a young ___ 鎖單數，用 criminal＝罪犯。"
+    },
+    {
+      "id": "U7U-Q-22",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 22,
+      "mode": "mc",
+      "word": "respect",
+      "form": "respective",
+      "stem": "The two teams went back to their ___ rooms.",
+      "options": [
+        "respect",
+        "respects",
+        "respected",
+        "respective"
+      ],
+      "answer": 3,
+      "explain": "兩隊各自回到他們個別的休息室。名詞前用形容詞 respective＝各自的。"
+    },
+    {
+      "id": "U7U-Q-23",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 23,
+      "mode": "mc",
+      "word": "accept",
+      "form": "acceptable",
+      "stem": "Wearing sport shoes is ___ in our school.",
+      "options": [
+        "accept",
+        "acceptable",
+        "accepting",
+        "accepts"
+      ],
+      "answer": 1,
+      "explain": "在我們學校穿運動鞋是可以接受的。be 動詞後接形容詞 acceptable＝可接受的。"
+    },
+    {
+      "id": "U7U-Q-24",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 24,
+      "mode": "mc",
+      "word": "excellent",
+      "form": "excel",
+      "stem": "He can ___ in math if he practices more.",
+      "options": [
+        "excel",
+        "excellence",
+        "excellently",
+        "excellent"
+      ],
+      "answer": 0,
+      "explain": "如果多練習，他的數學可以很出色。can 後面接原形動詞 excel＝勝過；表現優異。"
+    },
+    {
+      "id": "U7U-Q-25",
+      "paper": "quiz",
+      "section": "mc-phrase",
+      "num": 25,
+      "word": "look into",
+      "stem": "The teacher promised to ___ the missing money.",
+      "options": [
+        "look into",
+        "look over",
+        "look forward to",
+        "look down"
+      ],
+      "answer": 0,
+      "explain": "老師答應要調查那筆不見的錢。look into＝調查。"
+    },
+    {
+      "id": "U7U-Q-26",
+      "paper": "quiz",
+      "section": "mc-phrase",
+      "num": 26,
+      "word": "look over",
+      "stem": "My father likes to ___ my report card.",
+      "options": [
+        "look into",
+        "look forward to",
+        "look over",
+        "look up"
+      ],
+      "answer": 2,
+      "explain": "我爸爸喜歡仔細看我的成績單。look over＝檢查。"
+    },
+    {
+      "id": "U7U-Q-27",
+      "paper": "quiz",
+      "section": "mc-phrase",
+      "num": 27,
+      "word": "look forward to",
+      "stem": "The children ___ their first trip abroad.",
+      "options": [
+        "look down",
+        "look forward to",
+        "look over",
+        "look into"
+      ],
+      "answer": 1,
+      "explain": "孩子們很期待第一次出國旅行。look forward to＝期盼。"
+    },
+    {
+      "id": "U7U-Q-28",
+      "paper": "quiz",
+      "section": "dialogue",
+      "num": 28,
+      "word": "對話應答",
+      "stem": "A: When did you move to this town? B: ___",
+      "options": [
+        "Near the train station.",
+        "It is a quiet town.",
+        "With my parents.",
+        "Two years ago."
+      ],
+      "answer": 3,
+      "explain": "When 問時間，答：兩年前。"
+    },
+    {
+      "id": "U7U-Q-29",
+      "paper": "quiz",
+      "section": "dialogue",
+      "num": 29,
+      "word": "對話應答",
+      "stem": "A: When does the store close? B: ___",
+      "options": [
+        "The owner is nice.",
+        "It sells snacks.",
+        "At ten at night.",
+        "On the second floor."
+      ],
+      "answer": 2,
+      "explain": "When 問時間，答：晚上十點。"
+    },
+    {
+      "id": "U7U-Q-30",
+      "paper": "quiz",
+      "section": "dialogue",
+      "num": 30,
+      "word": "對話應答",
+      "stem": "A: When did you finish your homework? B: ___",
+      "options": [
+        "Last night.",
+        "It was easy.",
+        "Math and English.",
+        "In my room."
+      ],
+      "answer": 0,
+      "explain": "When 問時間，答：昨晚。"
+    },
+    {
+      "id": "U7U-Q-31",
+      "paper": "quiz",
+      "section": "dialogue",
+      "num": 31,
+      "word": "對話應答",
+      "stem": "A: When are you free this week? B: ___",
+      "options": [
+        "At home.",
+        "On Thursday afternoon.",
+        "I like weekends.",
+        "With my friends."
+      ],
+      "answer": 1,
+      "explain": "When 問時間，答：星期四下午。"
+    },
+    {
+      "id": "U7U-E-01",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 1,
+      "mode": "spell",
+      "prompt": "概念；觀念",
+      "word": "concept",
+      "explain": "concept＝概念；觀念。首 c 尾 t，共 7 個字母。"
+    },
+    {
+      "id": "U7U-E-02",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 2,
+      "mode": "spell",
+      "prompt": "犯（罪）",
+      "word": "commit",
+      "explain": "commit＝犯（罪）；承諾。首 c 尾 t，共 6 個字母（m 要兩個）。"
+    },
+    {
+      "id": "U7U-E-03",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 3,
+      "mode": "spell",
+      "prompt": "逮捕",
+      "word": "arrest",
+      "explain": "arrest＝逮捕。首 a 尾 t，共 6 個字母（r 要兩個）。"
+    },
+    {
+      "id": "U7U-E-04",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 4,
+      "mode": "mc",
+      "word": "natural",
+      "form": "naturally",
+      "stem": "Plants grow ___ in this warm valley.",
+      "options": [
+        "nature",
+        "naturally",
+        "naturals",
+        "natural"
+      ],
+      "answer": 1,
+      "explain": "植物在這個溫暖的山谷自然生長。修飾動詞 grow 用副詞 naturally＝自然地。"
+    },
+    {
+      "id": "U7U-E-05",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 5,
+      "mode": "mc",
+      "word": "expect",
+      "form": "unexpectedly",
+      "stem": "The guest arrived ___ before dinner.",
+      "options": [
+        "expected",
+        "expectation",
+        "expect",
+        "unexpectedly"
+      ],
+      "answer": 3,
+      "explain": "客人在晚餐前出乎意料地到了。修飾動詞 arrived 用副詞 unexpectedly。"
+    },
+    {
+      "id": "U7U-E-06",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 6,
+      "mode": "mc",
+      "word": "infect",
+      "form": "infection",
+      "stem": "The doctor gave him medicine for the ___.",
+      "options": [
+        "infected",
+        "infectious",
+        "infection",
+        "infect"
+      ],
+      "answer": 2,
+      "explain": "醫生給他治療感染的藥。for the ___ 用名詞 infection＝感染。"
+    },
+    {
+      "id": "U7U-E-07",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 7,
+      "mode": "mc",
+      "word": "jail",
+      "form": "prisoner",
+      "stem": "The guard counted every ___ before dinner.",
+      "options": [
+        "prison",
+        "prisoner",
+        "prisoners",
+        "jails"
+      ],
+      "answer": 1,
+      "explain": "警衛在晚餐前清點每一個囚犯。every 後面接單數名詞 prisoner＝囚犯。"
+    },
+    {
+      "id": "U7U-E-08",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 8,
+      "mode": "mc",
+      "word": "crime",
+      "form": "criminal",
+      "stem": "That ___ stole three cars in one night.",
+      "options": [
+        "criminal",
+        "crime",
+        "criminals",
+        "crimes"
+      ],
+      "answer": 0,
+      "explain": "那個罪犯一個晚上偷了三台車。That ___ 指人，用單數 criminal＝罪犯。"
+    },
+    {
+      "id": "U7U-E-09",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 9,
+      "mode": "mc",
+      "word": "except",
+      "form": "exception",
+      "stem": "This rule has only one ___.",
+      "options": [
+        "except",
+        "exception",
+        "expect",
+        "accept"
+      ],
+      "answer": 1,
+      "explain": "這條規定只有一個例外。one ___ 用單數名詞 exception＝例外。"
+    },
+    {
+      "id": "U7U-E-10",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 10,
+      "mode": "mc",
+      "word": "respect",
+      "form": "respective",
+      "stem": "The players returned to their ___ teams.",
+      "options": [
+        "respected",
+        "respect",
+        "respective",
+        "respects"
+      ],
+      "answer": 2,
+      "explain": "球員各自回到他們的隊上。名詞前用形容詞 respective＝各自的。"
+    },
+    {
+      "id": "U7U-E-11",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 11,
+      "mode": "mc",
+      "word": "accept",
+      "form": "acceptable",
+      "stem": "Being ten minutes late is not ___ here.",
+      "options": [
+        "accepts",
+        "accept",
+        "accepting",
+        "acceptable"
+      ],
+      "answer": 3,
+      "explain": "在這裡遲到十分鐘是不能接受的。be 動詞後接形容詞 acceptable。"
+    },
+    {
+      "id": "U7U-E-12",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 12,
+      "mode": "mc",
+      "word": "inspect",
+      "form": "inspection",
+      "stem": "The factory has an ___ every month.",
+      "options": [
+        "inspects",
+        "inspection",
+        "inspect",
+        "inspected"
+      ],
+      "answer": 1,
+      "explain": "那家工廠每個月都有檢查。an ___ 用名詞 inspection＝檢查。"
+    },
+    {
+      "id": "U7U-E-13",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 13,
+      "mode": "mc",
+      "word": "perfect",
+      "form": "perfectly",
+      "stem": "The two colors match ___ in this photo.",
+      "options": [
+        "perfects",
+        "perfected",
+        "perfect",
+        "perfectly"
+      ],
+      "answer": 3,
+      "explain": "這張照片裡兩個顏色搭配得剛剛好。修飾動詞 match 用副詞 perfectly。"
+    },
+    {
+      "id": "U7U-E-14",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 14,
+      "mode": "mc",
+      "word": "excellent",
+      "form": "excellence",
+      "stem": "Our school gave her a prize for ___ in art.",
+      "options": [
+        "excellence",
+        "excellent",
+        "excellently",
+        "excel"
+      ],
+      "answer": 0,
+      "explain": "學校頒給她美術優異獎。for ___ 用名詞 excellence＝優秀。"
+    },
+    {
+      "id": "U7U-E-15",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 15,
+      "mode": "mc",
+      "word": "murder",
+      "form": "murderer",
+      "stem": "The story is about a ___ who felt sorry.",
+      "options": [
+        "murders",
+        "murder",
+        "murderer",
+        "murdered"
+      ],
+      "answer": 2,
+      "explain": "這個故事講一個感到後悔的兇手。a ___ who 指人，用 murderer＝兇手。"
+    },
+    {
+      "id": "U7U-E-16",
+      "paper": "extra",
+      "section": "mc-phrase",
+      "num": 16,
+      "word": "look into",
+      "stem": "A reporter came to ___ the strange noise at night.",
+      "options": [
+        "look forward to",
+        "look into",
+        "look over",
+        "look up"
+      ],
+      "answer": 1,
+      "explain": "一位記者來調查夜裡的怪聲音。look into＝調查。"
+    },
+    {
+      "id": "U7U-E-17",
+      "paper": "extra",
+      "section": "mc-phrase",
+      "num": 17,
+      "word": "look over",
+      "stem": "The nurse will ___ the machine before the test.",
+      "options": [
+        "look into",
+        "look down",
+        "look over",
+        "look forward to"
+      ],
+      "answer": 2,
+      "explain": "護士會在檢測前檢查那台機器。look over＝檢查。"
+    },
+    {
+      "id": "U7U-E-18",
+      "paper": "extra",
+      "section": "mc-phrase",
+      "num": 18,
+      "word": "look forward to",
+      "stem": "I ___ meeting my cousin next month.",
+      "options": [
+        "look forward to",
+        "look into",
+        "look up",
+        "look over"
+      ],
+      "answer": 0,
+      "explain": "我很期待下個月見到我表哥。look forward to＋Ving＝期盼。"
+    },
+    {
+      "id": "U7U-E-19",
+      "paper": "extra",
+      "section": "dialogue",
+      "num": 19,
+      "word": "對話應答",
+      "stem": "A: When did the rain stop? B: ___",
+      "options": [
+        "I forgot my umbrella.",
+        "The road is wet.",
+        "About an hour ago.",
+        "It rained hard."
+      ],
+      "answer": 2,
+      "explain": "When 問時間，答：大約一小時前。"
+    },
+    {
+      "id": "U7U-E-20",
+      "paper": "extra",
+      "section": "dialogue",
+      "num": 20,
+      "word": "對話應答",
+      "stem": "A: When will you visit your grandmother? B: ___",
+      "options": [
+        "By high speed rail.",
+        "During the winter break.",
+        "She lives in Tainan.",
+        "She is eighty."
+      ],
+      "answer": 1,
+      "explain": "When 問時間，答：寒假的時候。"
+    },
+    {
+      "id": "U7U-E-21",
+      "paper": "extra",
+      "section": "dialogue",
+      "num": 21,
+      "word": "對話應答",
+      "stem": "A: When did you start learning the piano? B: ___",
+      "options": [
+        "When I was seven.",
+        "My teacher is patient.",
+        "I practice daily.",
+        "At a music school."
+      ],
+      "answer": 0,
+      "explain": "When 問時間，答：我七歲的時候。"
+    },
+    {
+      "id": "U7U-E-22",
+      "paper": "extra",
+      "section": "dialogue",
+      "num": 22,
+      "word": "對話應答",
+      "stem": "A: When is the school trip? B: ___",
+      "options": [
+        "By bus.",
+        "Our class of thirty.",
+        "To Kenting.",
+        "The first week of May."
+      ],
+      "answer": 3,
+      "explain": "When 問時間，答：五月的第一週。"
+    }
+  ]
+}
