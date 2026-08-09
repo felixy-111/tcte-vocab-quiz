@@ -1,0 +1,1557 @@
+{
+  "unit": 6,
+  "half": "lower",
+  "spec": {
+    "review": "v7",
+    "quiz": "v7"
+  },
+  "words": [
+    {
+      "en": "frighten",
+      "zh": "使害怕；驚嚇",
+      "derivatives": [
+        "fright"
+      ]
+    },
+    {
+      "en": "flight",
+      "zh": "班機；飛行"
+    },
+    {
+      "en": "fight",
+      "zh": "打架；對抗",
+      "derivatives": [
+        "fought"
+      ]
+    },
+    {
+      "en": "period",
+      "zh": "時期；一節課",
+      "derivatives": [
+        "periodical"
+      ]
+    },
+    {
+      "en": "complain",
+      "zh": "抱怨；訴苦",
+      "derivatives": [
+        "complaint"
+      ]
+    },
+    {
+      "en": "tiny",
+      "zh": "微小的"
+    },
+    {
+      "en": "argue",
+      "zh": "爭論；辯論",
+      "derivatives": [
+        "argument"
+      ]
+    },
+    {
+      "en": "dead",
+      "zh": "死的；沒電的",
+      "derivatives": [
+        "death",
+        "deadline"
+      ]
+    },
+    {
+      "en": "spread",
+      "zh": "擴散；塗抹"
+    },
+    {
+      "en": "humor",
+      "zh": "幽默；情緒",
+      "derivatives": [
+        "humorous"
+      ]
+    },
+    {
+      "en": "force",
+      "zh": "強迫；力量"
+    },
+    {
+      "en": "flash",
+      "zh": "閃光；閃現",
+      "derivatives": [
+        "flashlight"
+      ]
+    },
+    {
+      "en": "item",
+      "zh": "項目；條款"
+    },
+    {
+      "en": "tight",
+      "zh": "緊身的；拉緊的",
+      "derivatives": [
+        "tighten"
+      ]
+    },
+    {
+      "en": "victory",
+      "zh": "勝利"
+    }
+  ],
+  "phrases": [
+    {
+      "en": "call off",
+      "zh": "取消"
+    },
+    {
+      "en": "call on",
+      "zh": "拜訪"
+    },
+    {
+      "en": "drop by",
+      "zh": "順道拜訪"
+    }
+  ],
+  "readings": [
+    {
+      "id": "U6L-READ-1",
+      "title": "The Sports Day We Waited For",
+      "text": "Last Friday, our school planned a big sports day. The sky was dark, and a tiny drop of rain fell on my hand. Soon the news spread that the teachers might call off the games. Many students began to complain, because our team wanted a victory this year. Mr. Lin did not want to frighten us, so he stayed calm and said nothing. During the last period, the loud speaker came on, and he read a short list of items for the new plan. The games would move to next Monday, and no one could force him to change it. In the end, nobody argued about the new date. On my way home, I decided to drop by Amy's house. Her old dog looked almost dead on the floor after a long walk. We laughed, and my bad mood was gone."
+    }
+  ],
+  "questions": [
+    {
+      "id": "U6L-R-01",
+      "paper": "review",
+      "section": "matching",
+      "num": 1,
+      "word": "配合題",
+      "left": [
+        "frighten",
+        "dead",
+        "period",
+        "item",
+        "humor",
+        "flight",
+        "victory",
+        "tiny",
+        "force",
+        "fight",
+        "tight",
+        "spread",
+        "complain",
+        "flash",
+        "argue"
+      ],
+      "right": [
+        "爭論；辯論",
+        "緊身的；拉緊的",
+        "打架；對抗",
+        "幽默；情緒",
+        "使害怕；驚嚇",
+        "閃光；閃現",
+        "抱怨；訴苦",
+        "勝利",
+        "擴散；塗抹",
+        "班機；飛行",
+        "項目；條款",
+        "微小的",
+        "強迫；力量",
+        "時期；一節課",
+        "死的；沒電的"
+      ],
+      "answer": [
+        "E",
+        "O",
+        "N",
+        "K",
+        "D",
+        "J",
+        "H",
+        "L",
+        "M",
+        "C",
+        "B",
+        "I",
+        "G",
+        "F",
+        "A"
+      ],
+      "explain": "把每個英文字對到正確的中文意思。"
+    },
+    {
+      "id": "U6L-R-02",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 2,
+      "mode": "spell",
+      "prompt": "打架；對抗",
+      "word": "fight",
+      "explain": "fight＝打架；對抗。首 f 尾 t，共 5 個字母。"
+    },
+    {
+      "id": "U6L-R-03",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 3,
+      "mode": "spell",
+      "prompt": "幽默；情緒",
+      "word": "humor",
+      "explain": "humor＝幽默；情緒。首 h 尾 r，共 5 個字母。"
+    },
+    {
+      "id": "U6L-R-04",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 4,
+      "mode": "spell",
+      "prompt": "緊身的",
+      "word": "tight",
+      "explain": "tight＝緊身的；拉緊的。首 t 尾 t，共 5 個字母。"
+    },
+    {
+      "id": "U6L-R-05",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 5,
+      "mode": "spell",
+      "prompt": "微小的",
+      "word": "tiny",
+      "explain": "tiny＝微小的。首 t 尾 y，共 4 個字母。"
+    },
+    {
+      "id": "U6L-R-06",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 6,
+      "mode": "spell",
+      "prompt": "使害怕；驚嚇",
+      "word": "frighten",
+      "explain": "frighten＝使害怕；驚嚇。首 f 尾 n，共 8 個字母。"
+    },
+    {
+      "id": "U6L-R-07",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 7,
+      "mode": "spell",
+      "prompt": "閃光；閃現",
+      "word": "flash",
+      "explain": "flash＝閃光；閃現。首 f 尾 h，共 5 個字母。"
+    },
+    {
+      "id": "U6L-R-08",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 8,
+      "mode": "spell",
+      "prompt": "死的；沒電的",
+      "word": "dead",
+      "explain": "dead＝死的；沒電的。首 d 尾 d，共 4 個字母。"
+    },
+    {
+      "id": "U6L-R-09",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 9,
+      "mode": "spell",
+      "prompt": "時期；一節課",
+      "word": "period",
+      "explain": "period＝時期；一節課。首 p 尾 d，共 6 個字母。"
+    },
+    {
+      "id": "U6L-R-10",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 10,
+      "mode": "spell",
+      "prompt": "勝利",
+      "word": "victory",
+      "explain": "victory＝勝利。首 v 尾 y，共 7 個字母。"
+    },
+    {
+      "id": "U6L-R-11",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 11,
+      "mode": "spell",
+      "prompt": "擴散；塗抹",
+      "word": "spread",
+      "explain": "spread＝擴散；塗抹。首 s 尾 d，共 6 個字母（三態同形）。"
+    },
+    {
+      "id": "U6L-R-12",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 12,
+      "mode": "spell",
+      "prompt": "班機；飛行",
+      "word": "flight",
+      "explain": "flight＝班機；飛行。首 f 尾 t，共 6 個字母（比 fight 多一個 l）。"
+    },
+    {
+      "id": "U6L-R-13",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 13,
+      "mode": "spell",
+      "prompt": "項目；條款",
+      "word": "item",
+      "explain": "item＝項目；條款。首 i 尾 m，共 4 個字母。"
+    },
+    {
+      "id": "U6L-R-14",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 14,
+      "mode": "spell",
+      "prompt": "爭論；辯論",
+      "word": "argue",
+      "explain": "argue＝爭論；辯論。首 a 尾 e，共 5 個字母。"
+    },
+    {
+      "id": "U6L-R-15",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 15,
+      "mode": "spell",
+      "prompt": "強迫；力量",
+      "word": "force",
+      "explain": "force＝強迫；力量。首 f 尾 e，共 5 個字母。"
+    },
+    {
+      "id": "U6L-R-16",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 16,
+      "mode": "spell",
+      "prompt": "抱怨",
+      "word": "complain",
+      "explain": "complain＝抱怨。首 c 尾 n，共 8 個字母。"
+    },
+    {
+      "id": "U6L-R-17",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 17,
+      "mode": "mc",
+      "word": "frighten",
+      "form": "fright",
+      "stem": "The loud thunder filled the child with ___.",
+      "options": [
+        "frighten",
+        "frightens",
+        "fright",
+        "frightened"
+      ],
+      "answer": 2,
+      "explain": "巨大的雷聲讓小孩充滿驚恐。with 後面接名詞 fright＝驚嚇。"
+    },
+    {
+      "id": "U6L-R-18",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 18,
+      "mode": "mc",
+      "word": "frighten",
+      "form": "frighten",
+      "stem": "Please do not ___ the baby with that mask.",
+      "options": [
+        "frighten",
+        "frightens",
+        "frightening",
+        "fright"
+      ],
+      "answer": 0,
+      "explain": "請不要用那個面具嚇寶寶。do not 後面接原形 frighten＝使害怕。"
+    },
+    {
+      "id": "U6L-R-19",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 19,
+      "mode": "mc",
+      "word": "fight",
+      "form": "fought",
+      "stem": "The two teams ___ hard for the gold medal last year.",
+      "options": [
+        "fought",
+        "fights",
+        "fighting",
+        "fight"
+      ],
+      "answer": 0,
+      "explain": "去年那兩隊為了金牌拚盡全力。last year 用過去式 fought（fight 的過去式）。"
+    },
+    {
+      "id": "U6L-R-20",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 20,
+      "mode": "mc",
+      "word": "period",
+      "form": "periodical",
+      "stem": "The library keeps every ___ on the second floor.",
+      "options": [
+        "periods",
+        "periodically",
+        "period",
+        "periodical"
+      ],
+      "answer": 3,
+      "explain": "圖書館把期刊都放在二樓。every ___ 用單數名詞 periodical＝期刊。"
+    },
+    {
+      "id": "U6L-R-21",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 21,
+      "mode": "mc",
+      "word": "complain",
+      "form": "complaint",
+      "stem": "The shop received a ___ about the cold soup.",
+      "options": [
+        "complains",
+        "complaint",
+        "complain",
+        "complained"
+      ],
+      "answer": 1,
+      "explain": "那家店收到一則關於湯太冷的抱怨。a ___ 用名詞 complaint＝抱怨。"
+    },
+    {
+      "id": "U6L-R-22",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 22,
+      "mode": "mc",
+      "word": "complain",
+      "form": "complain",
+      "stem": "Students often ___ about too much homework.",
+      "options": [
+        "complaints",
+        "complaint",
+        "complain",
+        "complaining"
+      ],
+      "answer": 2,
+      "explain": "學生常抱怨功課太多。often 配現在式原形 complain＝抱怨。"
+    },
+    {
+      "id": "U6L-R-23",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 23,
+      "mode": "mc",
+      "word": "argue",
+      "form": "argument",
+      "stem": "They had a long ___ about the TV show.",
+      "options": [
+        "argues",
+        "argue",
+        "argued",
+        "argument"
+      ],
+      "answer": 3,
+      "explain": "他們為了那個電視節目吵了很久。a long ___ 用名詞 argument＝爭吵。"
+    },
+    {
+      "id": "U6L-R-24",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 24,
+      "mode": "mc",
+      "word": "dead",
+      "form": "death",
+      "stem": "The whole town was sad about the singer's ___.",
+      "options": [
+        "death",
+        "deadline",
+        "dead",
+        "deadly"
+      ],
+      "answer": 0,
+      "explain": "整個鎮都為那位歌手的過世感到難過。所有格後面用名詞 death＝死亡。"
+    },
+    {
+      "id": "U6L-R-25",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 25,
+      "mode": "mc",
+      "word": "dead",
+      "form": "deadline",
+      "stem": "The ___ of this report is next Wednesday.",
+      "options": [
+        "deadly",
+        "death",
+        "deadline",
+        "dead"
+      ],
+      "answer": 2,
+      "explain": "這份報告的最後期限是下週三。The ___ of 用名詞 deadline＝最後期限。"
+    },
+    {
+      "id": "U6L-R-26",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 26,
+      "mode": "mc",
+      "word": "humor",
+      "form": "humorous",
+      "stem": "His ___ story made everyone laugh out loud.",
+      "options": [
+        "humor",
+        "humors",
+        "humorist",
+        "humorous"
+      ],
+      "answer": 3,
+      "explain": "他詼諧的故事讓大家笑出聲。名詞 story 前用形容詞 humorous＝幽默的。"
+    },
+    {
+      "id": "U6L-R-27",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 27,
+      "mode": "mc",
+      "word": "flash",
+      "form": "flashlight",
+      "stem": "Take a ___ with you when you go camping.",
+      "options": [
+        "flash",
+        "flashlight",
+        "flashed",
+        "flashes"
+      ],
+      "answer": 1,
+      "explain": "去露營要帶一支手電筒。a ___ 用名詞 flashlight＝手電筒。"
+    },
+    {
+      "id": "U6L-R-28",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 28,
+      "mode": "mc",
+      "word": "tight",
+      "form": "tighten",
+      "stem": "Please ___ the screw before you use the chair.",
+      "options": [
+        "tighter",
+        "tighten",
+        "tightly",
+        "tight"
+      ],
+      "answer": 1,
+      "explain": "用椅子前請把螺絲拴緊。please 後面接原形動詞 tighten＝拴緊。"
+    },
+    {
+      "id": "U6L-R-29",
+      "paper": "review",
+      "section": "mc-phrase",
+      "num": 29,
+      "word": "call off",
+      "stem": "The heavy rain made the school ___ the sports day.",
+      "options": [
+        "check in",
+        "call off",
+        "drop by",
+        "call on"
+      ],
+      "answer": 1,
+      "explain": "大雨讓學校取消運動會。call off＝取消。"
+    },
+    {
+      "id": "U6L-R-30",
+      "paper": "review",
+      "section": "mc-phrase",
+      "num": 30,
+      "word": "call on",
+      "stem": "The mayor will ___ the old people in our town.",
+      "options": [
+        "call off",
+        "drop by",
+        "call on",
+        "check up"
+      ],
+      "answer": 2,
+      "explain": "市長將拜訪我們鎮上的老人家。call on＝正式拜訪（人）。"
+    },
+    {
+      "id": "U6L-R-31",
+      "paper": "review",
+      "section": "mc-phrase",
+      "num": 31,
+      "word": "drop by",
+      "stem": "Feel free to ___ when you pass my house.",
+      "options": [
+        "drop by",
+        "call off",
+        "check in",
+        "call on"
+      ],
+      "answer": 0,
+      "explain": "你經過我家時歡迎順道進來坐。drop by＝順道拜訪（不必事先約）。"
+    },
+    {
+      "id": "U6L-R-32",
+      "paper": "review",
+      "section": "dialogue",
+      "num": 32,
+      "word": "對話應答",
+      "stem": "A: Let's call off the picnic; it is raining. B: ___",
+      "options": [
+        "I made sandwiches.",
+        "I like rainy days.",
+        "Why not? We can go next week.",
+        "The park is far."
+      ],
+      "answer": 2,
+      "explain": "Why not? 表示同意，意思是「好啊」。"
+    },
+    {
+      "id": "U6L-R-33",
+      "paper": "review",
+      "section": "dialogue",
+      "num": 33,
+      "word": "對話應答",
+      "stem": "A: Why don't we watch the game together? B: ___",
+      "options": [
+        "Our team is strong.",
+        "The game is long.",
+        "I have two tickets.",
+        "Sounds great! Come to my house."
+      ],
+      "answer": 3,
+      "explain": "Why don't we…? 是邀請，答：太好了，來我家吧。"
+    },
+    {
+      "id": "U6L-R-34",
+      "paper": "review",
+      "section": "dialogue",
+      "num": 34,
+      "word": "對話應答",
+      "stem": "A: Why not take the early flight? B: ___",
+      "options": [
+        "Good idea. It is cheaper.",
+        "I like flying.",
+        "The airport is new.",
+        "The plane is big."
+      ],
+      "answer": 0,
+      "explain": "Why not…? 是建議，答：好主意，比較便宜。"
+    },
+    {
+      "id": "U6L-R-35",
+      "paper": "review",
+      "section": "dialogue",
+      "num": 35,
+      "word": "對話應答",
+      "stem": "A: Why don't you tighten the rope first? B: ___",
+      "options": [
+        "It is a strong rope.",
+        "You are right. I will do it.",
+        "The rope is long.",
+        "I bought it today."
+      ],
+      "answer": 1,
+      "explain": "Why don't you…? 是建議，答：你說得對，我會去做。"
+    },
+    {
+      "id": "U6L-R-36",
+      "paper": "review",
+      "section": "dialogue",
+      "num": 36,
+      "word": "對話應答",
+      "stem": "A: Let's drop by the bookstore after class. B: ___",
+      "options": [
+        "Why not? I need a new pen.",
+        "I read a lot.",
+        "Class ends at four.",
+        "The store is small."
+      ],
+      "answer": 0,
+      "explain": "Why not? 表示同意這個提議。"
+    },
+    {
+      "id": "U6L-R-37",
+      "paper": "review",
+      "section": "dialogue",
+      "num": 37,
+      "word": "對話應答",
+      "stem": "A: Why don't we tell the teacher about the problem? B: ___",
+      "options": [
+        "I sit in the back.",
+        "That is a good idea.",
+        "The problem is small.",
+        "The teacher is busy."
+      ],
+      "answer": 1,
+      "explain": "Why don't we…? 是建議，答：那是個好主意。"
+    },
+    {
+      "id": "U6L-R-38",
+      "paper": "review",
+      "section": "reading",
+      "num": 38,
+      "word": "閱讀理解",
+      "readingId": "U6L-READ-1",
+      "stem": "What is this reading mainly about?",
+      "options": [
+        "How to plan a school picnic",
+        "A story about a sick dog",
+        "Why the writer hates rainy days",
+        "A sports day that was moved to another day"
+      ],
+      "answer": 3,
+      "explain": "全文在講運動會因雨改期的經過，選 (A)。"
+    },
+    {
+      "id": "U6L-R-39",
+      "paper": "review",
+      "section": "reading",
+      "num": 39,
+      "word": "閱讀理解",
+      "readingId": "U6L-READ-1",
+      "stem": "Why did many students begin to complain?",
+      "options": [
+        "They wanted a victory this year.",
+        "They did not like Mr. Lin.",
+        "The teachers were late.",
+        "The rain was too heavy to walk in."
+      ],
+      "answer": 0,
+      "explain": "文中說 because our team wanted a victory this year。"
+    },
+    {
+      "id": "U6L-R-40",
+      "paper": "review",
+      "section": "reading",
+      "num": 40,
+      "word": "閱讀理解",
+      "readingId": "U6L-READ-1",
+      "stem": "What did Mr. Lin do at first?",
+      "options": [
+        "He shouted at the students.",
+        "He stayed calm and said nothing.",
+        "He moved the games to Sunday.",
+        "He called Amy's family."
+      ],
+      "answer": 1,
+      "explain": "文中說 he stayed calm and said nothing。"
+    },
+    {
+      "id": "U6L-R-41",
+      "paper": "review",
+      "section": "reading",
+      "num": 41,
+      "word": "閱讀理解",
+      "readingId": "U6L-READ-1",
+      "stem": "Which one is TRUE about that day?",
+      "options": [
+        "The games were canceled forever.",
+        "The writer went straight home.",
+        "The games were moved to next Monday.",
+        "Amy's dog ran around happily."
+      ],
+      "answer": 2,
+      "explain": "文中說 The games would move to next Monday；其餘三個都與文章不符。"
+    },
+    {
+      "id": "U6L-Q-01",
+      "paper": "quiz",
+      "section": "matching",
+      "num": 1,
+      "word": "配合題",
+      "left": [
+        "flash",
+        "complain",
+        "tight",
+        "frighten",
+        "spread",
+        "argue",
+        "fight",
+        "victory",
+        "humor",
+        "period",
+        "force",
+        "tiny",
+        "item",
+        "flight",
+        "dead"
+      ],
+      "right": [
+        "時期；一節課",
+        "強迫；力量",
+        "爭論；辯論",
+        "緊身的；拉緊的",
+        "班機；飛行",
+        "擴散；塗抹",
+        "勝利",
+        "微小的",
+        "閃光；閃現",
+        "使害怕；驚嚇",
+        "幽默；情緒",
+        "抱怨；訴苦",
+        "項目；條款",
+        "死的；沒電的",
+        "打架；對抗"
+      ],
+      "answer": [
+        "I",
+        "L",
+        "D",
+        "J",
+        "F",
+        "C",
+        "O",
+        "G",
+        "K",
+        "A",
+        "B",
+        "H",
+        "M",
+        "E",
+        "N"
+      ],
+      "explain": "把每個英文字對到正確的中文意思。"
+    },
+    {
+      "id": "U6L-Q-02",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 2,
+      "mode": "spell",
+      "prompt": "強迫；力量",
+      "word": "force",
+      "explain": "force＝強迫；力量。首 f 尾 e，共 5 個字母。"
+    },
+    {
+      "id": "U6L-Q-03",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 3,
+      "mode": "spell",
+      "prompt": "班機；飛行",
+      "word": "flight",
+      "explain": "flight＝班機；飛行。首 f 尾 t，共 6 個字母（比 fight 多一個 l）。"
+    },
+    {
+      "id": "U6L-Q-04",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 4,
+      "mode": "spell",
+      "prompt": "項目；條款",
+      "word": "item",
+      "explain": "item＝項目；條款。首 i 尾 m，共 4 個字母。"
+    },
+    {
+      "id": "U6L-Q-05",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 5,
+      "mode": "spell",
+      "prompt": "死的；沒電的",
+      "word": "dead",
+      "explain": "dead＝死的；沒電的。首 d 尾 d，共 4 個字母。"
+    },
+    {
+      "id": "U6L-Q-06",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 6,
+      "mode": "spell",
+      "prompt": "勝利",
+      "word": "victory",
+      "explain": "victory＝勝利。首 v 尾 y，共 7 個字母。"
+    },
+    {
+      "id": "U6L-Q-07",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 7,
+      "mode": "spell",
+      "prompt": "抱怨",
+      "word": "complain",
+      "explain": "complain＝抱怨。首 c 尾 n，共 8 個字母。"
+    },
+    {
+      "id": "U6L-Q-08",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 8,
+      "mode": "spell",
+      "prompt": "幽默；情緒",
+      "word": "humor",
+      "explain": "humor＝幽默；情緒。首 h 尾 r，共 5 個字母。"
+    },
+    {
+      "id": "U6L-Q-09",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 9,
+      "mode": "spell",
+      "prompt": "使害怕；驚嚇",
+      "word": "frighten",
+      "explain": "frighten＝使害怕；驚嚇。首 f 尾 n，共 8 個字母。"
+    },
+    {
+      "id": "U6L-Q-10",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 10,
+      "mode": "spell",
+      "prompt": "緊身的",
+      "word": "tight",
+      "explain": "tight＝緊身的；拉緊的。首 t 尾 t，共 5 個字母。"
+    },
+    {
+      "id": "U6L-Q-11",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 11,
+      "mode": "spell",
+      "prompt": "爭論；辯論",
+      "word": "argue",
+      "explain": "argue＝爭論；辯論。首 a 尾 e，共 5 個字母。"
+    },
+    {
+      "id": "U6L-Q-12",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 12,
+      "mode": "spell",
+      "prompt": "打架；對抗",
+      "word": "fight",
+      "explain": "fight＝打架；對抗。首 f 尾 t，共 5 個字母。"
+    },
+    {
+      "id": "U6L-Q-13",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 13,
+      "mode": "spell",
+      "prompt": "閃光；閃現",
+      "word": "flash",
+      "explain": "flash＝閃光；閃現。首 f 尾 h，共 5 個字母。"
+    },
+    {
+      "id": "U6L-Q-14",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 14,
+      "mode": "spell",
+      "prompt": "微小的",
+      "word": "tiny",
+      "explain": "tiny＝微小的。首 t 尾 y，共 4 個字母。"
+    },
+    {
+      "id": "U6L-Q-15",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 15,
+      "mode": "spell",
+      "prompt": "擴散；塗抹",
+      "word": "spread",
+      "explain": "spread＝擴散；塗抹。首 s 尾 d，共 6 個字母（三態同形）。"
+    },
+    {
+      "id": "U6L-Q-16",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 16,
+      "mode": "spell",
+      "prompt": "時期；一節課",
+      "word": "period",
+      "explain": "period＝時期；一節課。首 p 尾 d，共 6 個字母。"
+    },
+    {
+      "id": "U6L-Q-17",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 17,
+      "mode": "mc",
+      "word": "frighten",
+      "form": "fright",
+      "stem": "She cried out in ___ when the lights went off.",
+      "options": [
+        "frightens",
+        "fright",
+        "frighten",
+        "frightened"
+      ],
+      "answer": 1,
+      "explain": "燈熄掉時她驚恐地叫出來。in 後面接名詞 fright＝驚嚇。"
+    },
+    {
+      "id": "U6L-Q-18",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 18,
+      "mode": "mc",
+      "word": "fight",
+      "form": "fought",
+      "stem": "The soldiers ___ for their country many years ago.",
+      "options": [
+        "fighting",
+        "fought",
+        "fights",
+        "fight"
+      ],
+      "answer": 1,
+      "explain": "士兵們多年前為國家而戰。many years ago 用過去式 fought。"
+    },
+    {
+      "id": "U6L-Q-19",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 19,
+      "mode": "mc",
+      "word": "complain",
+      "form": "complaint",
+      "stem": "I wrote a ___ to the bus company last week.",
+      "options": [
+        "complains",
+        "complain",
+        "complained",
+        "complaint"
+      ],
+      "answer": 3,
+      "explain": "我上週寫了一封投訴信給公車公司。a ___ 用名詞 complaint＝抱怨；投訴。"
+    },
+    {
+      "id": "U6L-Q-20",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 20,
+      "mode": "mc",
+      "word": "argue",
+      "form": "argument",
+      "stem": "Their ___ about money lasted for an hour.",
+      "options": [
+        "argued",
+        "argues",
+        "argue",
+        "argument"
+      ],
+      "answer": 3,
+      "explain": "他們為錢吵了一個小時。所有格後面用名詞 argument＝爭吵。"
+    },
+    {
+      "id": "U6L-Q-21",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 21,
+      "mode": "mc",
+      "word": "dead",
+      "form": "deadline",
+      "stem": "We must finish the work before the ___.",
+      "options": [
+        "deadline",
+        "dead",
+        "deadly",
+        "death"
+      ],
+      "answer": 0,
+      "explain": "我們必須在期限前完成工作。the ___ 用名詞 deadline＝最後期限。"
+    },
+    {
+      "id": "U6L-Q-22",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 22,
+      "mode": "mc",
+      "word": "humor",
+      "form": "humorous",
+      "stem": "The teacher told a ___ story before the test.",
+      "options": [
+        "humorist",
+        "humor",
+        "humorous",
+        "humors"
+      ],
+      "answer": 2,
+      "explain": "老師在考試前講了一個詼諧的故事。名詞前用形容詞 humorous＝幽默的。"
+    },
+    {
+      "id": "U6L-Q-23",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 23,
+      "mode": "mc",
+      "word": "flash",
+      "form": "flashlight",
+      "stem": "The ___ in my bag needs new batteries.",
+      "options": [
+        "flashlight",
+        "flashed",
+        "flashes",
+        "flash"
+      ],
+      "answer": 0,
+      "explain": "我包包裡的手電筒需要換新電池。The ___ 用名詞 flashlight＝手電筒。"
+    },
+    {
+      "id": "U6L-Q-24",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 24,
+      "mode": "mc",
+      "word": "tight",
+      "form": "tighten",
+      "stem": "The worker will ___ the rope on the truck.",
+      "options": [
+        "tightly",
+        "tighter",
+        "tighten",
+        "tight"
+      ],
+      "answer": 2,
+      "explain": "工人會把卡車上的繩子拉緊。will 後面接原形動詞 tighten＝拉緊。"
+    },
+    {
+      "id": "U6L-Q-25",
+      "paper": "quiz",
+      "section": "mc-phrase",
+      "num": 25,
+      "word": "call off",
+      "stem": "They had to ___ the concert because of the typhoon.",
+      "options": [
+        "drop by",
+        "check up",
+        "call off",
+        "call on"
+      ],
+      "answer": 2,
+      "explain": "他們因為颱風必須取消演唱會。call off＝取消。"
+    },
+    {
+      "id": "U6L-Q-26",
+      "paper": "quiz",
+      "section": "mc-phrase",
+      "num": 26,
+      "word": "call on",
+      "stem": "Our teacher plans to ___ every student's family.",
+      "options": [
+        "call on",
+        "check in",
+        "call off",
+        "drop by"
+      ],
+      "answer": 0,
+      "explain": "老師打算拜訪每個學生的家庭。call on＝正式拜訪。"
+    },
+    {
+      "id": "U6L-Q-27",
+      "paper": "quiz",
+      "section": "mc-phrase",
+      "num": 27,
+      "word": "drop by",
+      "stem": "I will ___ your shop on my way to work.",
+      "options": [
+        "call off",
+        "drop by",
+        "call on",
+        "check up"
+      ],
+      "answer": 1,
+      "explain": "我上班路上會順道去你的店。drop by＝順道拜訪。"
+    },
+    {
+      "id": "U6L-Q-28",
+      "paper": "quiz",
+      "section": "dialogue",
+      "num": 28,
+      "word": "對話應答",
+      "stem": "A: Let's call on our old teacher this Sunday. B: ___",
+      "options": [
+        "She taught us math.",
+        "Sunday is a holiday.",
+        "I have her number.",
+        "Why not? She will be glad."
+      ],
+      "answer": 3,
+      "explain": "Why not? 表示同意，意思是「好啊」。"
+    },
+    {
+      "id": "U6L-Q-29",
+      "paper": "quiz",
+      "section": "dialogue",
+      "num": 29,
+      "word": "對話應答",
+      "stem": "A: Why don't we join the singing contest? B: ___",
+      "options": [
+        "I cannot sing well, but let's try.",
+        "The contest is in May.",
+        "The stage is big.",
+        "I like music."
+      ],
+      "answer": 0,
+      "explain": "Why don't we…? 是邀請，答：我唱不好，但一起試試吧。"
+    },
+    {
+      "id": "U6L-Q-30",
+      "paper": "quiz",
+      "section": "dialogue",
+      "num": 30,
+      "word": "對話應答",
+      "stem": "A: Why not turn off the light to save power? B: ___",
+      "options": [
+        "The bulb is new.",
+        "I will do that right now.",
+        "Lights are useful.",
+        "The room is dark."
+      ],
+      "answer": 1,
+      "explain": "Why not…? 是建議，答：我現在就去關。"
+    },
+    {
+      "id": "U6L-Q-31",
+      "paper": "quiz",
+      "section": "dialogue",
+      "num": 31,
+      "word": "對話應答",
+      "stem": "A: Why don't you take a rest for one period? B: ___",
+      "options": [
+        "The bell just rang.",
+        "Each period is fifty minutes.",
+        "OK, I am really tired.",
+        "I have six classes."
+      ],
+      "answer": 2,
+      "explain": "Why don't you…? 是建議，答：好，我真的很累了。"
+    },
+    {
+      "id": "U6L-E-01",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 1,
+      "mode": "spell",
+      "prompt": "班機；飛行",
+      "word": "flight",
+      "explain": "flight＝班機；飛行。首 f 尾 t，共 6 個字母（比 fight 多一個 l）。"
+    },
+    {
+      "id": "U6L-E-02",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 2,
+      "mode": "spell",
+      "prompt": "微小的",
+      "word": "tiny",
+      "explain": "tiny＝微小的。首 t 尾 y，共 4 個字母。"
+    },
+    {
+      "id": "U6L-E-03",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 3,
+      "mode": "spell",
+      "prompt": "擴散；塗抹",
+      "word": "spread",
+      "explain": "spread＝擴散；塗抹。首 s 尾 d，共 6 個字母（三態同形）。"
+    },
+    {
+      "id": "U6L-E-04",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 4,
+      "mode": "spell",
+      "prompt": "強迫；力量",
+      "word": "force",
+      "explain": "force＝強迫；力量。首 f 尾 e，共 5 個字母。"
+    },
+    {
+      "id": "U6L-E-05",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 5,
+      "mode": "spell",
+      "prompt": "項目；條款",
+      "word": "item",
+      "explain": "item＝項目；條款。首 i 尾 m，共 4 個字母。"
+    },
+    {
+      "id": "U6L-E-06",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 6,
+      "mode": "spell",
+      "prompt": "勝利",
+      "word": "victory",
+      "explain": "victory＝勝利。首 v 尾 y，共 7 個字母。"
+    },
+    {
+      "id": "U6L-E-07",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 7,
+      "mode": "mc",
+      "word": "frighten",
+      "form": "fright",
+      "stem": "The dog ran away in ___ after the loud noise.",
+      "options": [
+        "frightens",
+        "frightened",
+        "frighten",
+        "fright"
+      ],
+      "answer": 3,
+      "explain": "巨響之後那隻狗驚嚇地跑走。in 後面接名詞 fright＝驚嚇。"
+    },
+    {
+      "id": "U6L-E-08",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 8,
+      "mode": "mc",
+      "word": "fight",
+      "form": "fought",
+      "stem": "My brothers ___ over the last piece of cake yesterday.",
+      "options": [
+        "fought",
+        "fights",
+        "fighting",
+        "fight"
+      ],
+      "answer": 0,
+      "explain": "我的兄弟昨天為了最後一塊蛋糕吵起來。yesterday 表示過去，用 fought。"
+    },
+    {
+      "id": "U6L-E-09",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 9,
+      "mode": "mc",
+      "word": "period",
+      "form": "periodical",
+      "stem": "This ___ comes out once a month.",
+      "options": [
+        "period",
+        "periods",
+        "periodical",
+        "periodically"
+      ],
+      "answer": 2,
+      "explain": "這份期刊每月出版一次。This ___ 用單數名詞 periodical＝期刊。"
+    },
+    {
+      "id": "U6L-E-10",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 10,
+      "mode": "mc",
+      "word": "complain",
+      "form": "complaint",
+      "stem": "The manager listened to every ___ carefully.",
+      "options": [
+        "complains",
+        "complain",
+        "complained",
+        "complaint"
+      ],
+      "answer": 3,
+      "explain": "經理仔細聽每一則抱怨。every ___ 用單數名詞 complaint＝抱怨。"
+    },
+    {
+      "id": "U6L-E-11",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 11,
+      "mode": "mc",
+      "word": "argue",
+      "form": "argument",
+      "stem": "A small ___ can hurt a good friendship.",
+      "options": [
+        "argues",
+        "argued",
+        "argument",
+        "argue"
+      ],
+      "answer": 2,
+      "explain": "一場小爭吵可能傷害一段好友誼。A small ___ 用名詞 argument＝爭吵。"
+    },
+    {
+      "id": "U6L-E-12",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 12,
+      "mode": "mc",
+      "word": "dead",
+      "form": "death",
+      "stem": "The news of his ___ shocked the whole team.",
+      "options": [
+        "death",
+        "dead",
+        "deadly",
+        "deadline"
+      ],
+      "answer": 0,
+      "explain": "他過世的消息震驚了整個隊伍。of 後面用名詞 death＝死亡。"
+    },
+    {
+      "id": "U6L-E-13",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 13,
+      "mode": "mc",
+      "word": "humor",
+      "form": "humorous",
+      "stem": "She is famous for her ___ writing.",
+      "options": [
+        "humorous",
+        "humorist",
+        "humors",
+        "humor"
+      ],
+      "answer": 0,
+      "explain": "她以詼諧的寫作聞名。名詞 writing 前用形容詞 humorous＝幽默的。"
+    },
+    {
+      "id": "U6L-E-14",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 14,
+      "mode": "mc",
+      "word": "flash",
+      "form": "flashlight",
+      "stem": "He used a ___ to find the key in the dark.",
+      "options": [
+        "flash",
+        "flashlight",
+        "flashes",
+        "flashed"
+      ],
+      "answer": 1,
+      "explain": "他用手電筒在黑暗中找鑰匙。a ___ 用名詞 flashlight＝手電筒。"
+    },
+    {
+      "id": "U6L-E-15",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 15,
+      "mode": "mc",
+      "word": "tight",
+      "form": "tighten",
+      "stem": "You should ___ your belt before riding.",
+      "options": [
+        "tightly",
+        "tighten",
+        "tighter",
+        "tight"
+      ],
+      "answer": 1,
+      "explain": "騎車前你應該把安全帶拉緊。should 後面接原形動詞 tighten＝拉緊。"
+    },
+    {
+      "id": "U6L-E-16",
+      "paper": "extra",
+      "section": "mc-phrase",
+      "num": 16,
+      "word": "call off",
+      "stem": "The captain decided to ___ the practice today.",
+      "options": [
+        "check in",
+        "call on",
+        "call off",
+        "drop by"
+      ],
+      "answer": 2,
+      "explain": "隊長決定今天取消練習。call off＝取消。"
+    },
+    {
+      "id": "U6L-E-17",
+      "paper": "extra",
+      "section": "mc-phrase",
+      "num": 17,
+      "word": "call on",
+      "stem": "The doctor will ___ the sick farmer this afternoon.",
+      "options": [
+        "call on",
+        "check up",
+        "drop by",
+        "call off"
+      ],
+      "answer": 0,
+      "explain": "醫生今天下午會去探視那位生病的農夫。call on＝拜訪。"
+    },
+    {
+      "id": "U6L-E-18",
+      "paper": "extra",
+      "section": "mc-phrase",
+      "num": 18,
+      "word": "drop by",
+      "stem": "Grandma likes to ___ without telling us first.",
+      "options": [
+        "check in",
+        "drop by",
+        "call on",
+        "call off"
+      ],
+      "answer": 1,
+      "explain": "奶奶喜歡不先講一聲就順道過來。drop by＝順道拜訪。"
+    },
+    {
+      "id": "U6L-E-19",
+      "paper": "extra",
+      "section": "dialogue",
+      "num": 19,
+      "word": "對話應答",
+      "stem": "A: Let's clean the classroom together. B: ___",
+      "options": [
+        "I sit here.",
+        "We clean on Friday.",
+        "The room is big.",
+        "Why not? It is dirty."
+      ],
+      "answer": 3,
+      "explain": "Why not? 表示同意這個提議。"
+    },
+    {
+      "id": "U6L-E-20",
+      "paper": "extra",
+      "section": "dialogue",
+      "num": 20,
+      "word": "對話應答",
+      "stem": "A: Why don't we walk to the night market? B: ___",
+      "options": [
+        "Sure, it is close to here.",
+        "It opens at six.",
+        "I love fried chicken.",
+        "The market is noisy."
+      ],
+      "answer": 0,
+      "explain": "Why don't we…? 是邀請，答：好啊，離這裡很近。"
+    },
+    {
+      "id": "U6L-E-21",
+      "paper": "extra",
+      "section": "dialogue",
+      "num": 21,
+      "word": "對話應答",
+      "stem": "A: Why not ask her to join our team? B: ___",
+      "options": [
+        "She is in class B.",
+        "Good idea. I will ask her.",
+        "She runs very fast.",
+        "Our team has five people."
+      ],
+      "answer": 1,
+      "explain": "Why not…? 是建議，答：好主意，我會去問她。"
+    },
+    {
+      "id": "U6L-E-22",
+      "paper": "extra",
+      "section": "dialogue",
+      "num": 22,
+      "word": "對話應答",
+      "stem": "A: Why don't you write down the items? B: ___",
+      "options": [
+        "Items are cheap.",
+        "I have a notebook.",
+        "I forgot my pen.",
+        "The list is short."
+      ],
+      "answer": 2,
+      "explain": "Why don't you…? 是建議，答：我忘了帶筆（婉轉說明做不到）。"
+    }
+  ]
+}

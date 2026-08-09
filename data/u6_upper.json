@@ -1,0 +1,1567 @@
+{
+  "unit": 6,
+  "half": "upper",
+  "spec": {
+    "review": "v7",
+    "quiz": "v7"
+  },
+  "words": [
+    {
+      "en": "excuse",
+      "zh": "寬恕；原諒"
+    },
+    {
+      "en": "discourage",
+      "zh": "使氣餒；阻止",
+      "derivatives": [
+        "encourage"
+      ]
+    },
+    {
+      "en": "allow",
+      "zh": "允許",
+      "derivatives": [
+        "allowance"
+      ]
+    },
+    {
+      "en": "coupon",
+      "zh": "折價券；優待票"
+    },
+    {
+      "en": "message",
+      "zh": "訊息",
+      "derivatives": [
+        "massage"
+      ]
+    },
+    {
+      "en": "raw",
+      "zh": "生的；未加工的"
+    },
+    {
+      "en": "surf",
+      "zh": "衝浪；上網",
+      "derivatives": [
+        "surface"
+      ]
+    },
+    {
+      "en": "peak",
+      "zh": "山峰；最高點",
+      "derivatives": [
+        "summit"
+      ]
+    },
+    {
+      "en": "confirm",
+      "zh": "確認；證實"
+    },
+    {
+      "en": "firm",
+      "zh": "堅決的；公司",
+      "derivatives": [
+        "firmly"
+      ]
+    },
+    {
+      "en": "film",
+      "zh": "電影；底片",
+      "derivatives": [
+        "filmmaker"
+      ]
+    },
+    {
+      "en": "remind",
+      "zh": "提醒；使想起",
+      "derivatives": [
+        "reminder"
+      ]
+    },
+    {
+      "en": "document",
+      "zh": "文件；公文"
+    },
+    {
+      "en": "fluency",
+      "zh": "流利",
+      "derivatives": [
+        "fluent"
+      ]
+    },
+    {
+      "en": "emotional",
+      "zh": "情感的；易激動的",
+      "derivatives": [
+        "emotion"
+      ]
+    }
+  ],
+  "phrases": [
+    {
+      "en": "think of",
+      "zh": "想出；認為"
+    },
+    {
+      "en": "check in",
+      "zh": "登記入房"
+    },
+    {
+      "en": "check up",
+      "zh": "核對；檢查"
+    }
+  ],
+  "readings": [
+    {
+      "id": "U6U-READ-1",
+      "title": "Our Graduation Trip",
+      "text": "Last summer, our class went to Kenting for a graduation trip. Our teacher asked us to think of a plan by ourselves. Amy found a coupon for a cheap hotel, and I sent a message to confirm the rooms. When we arrived, we had to check in at the front desk, and the clerk had to check up on every name one by one. The hotel did not allow us to cook, so we ate raw fish at a night market instead. The next morning, we surfed at the beach and walked to the peak of a small hill. Nobody discouraged us, even when the rain started. Amy made a short film about the whole trip. Now that film is a reminder of our happiest days together."
+    }
+  ],
+  "questions": [
+    {
+      "id": "U6U-R-01",
+      "paper": "review",
+      "section": "matching",
+      "num": 1,
+      "word": "配合題",
+      "left": [
+        "excuse",
+        "raw",
+        "film",
+        "allow",
+        "fluency",
+        "peak",
+        "discourage",
+        "document",
+        "message",
+        "firm",
+        "emotional",
+        "coupon",
+        "confirm",
+        "remind",
+        "surf"
+      ],
+      "right": [
+        "訊息",
+        "提醒；使想起",
+        "使氣餒；阻止",
+        "確認；證實",
+        "情感的；易激動的",
+        "衝浪；上網",
+        "寬恕；原諒",
+        "流利",
+        "折價券；優待票",
+        "電影；底片",
+        "生的；未加工的",
+        "文件；公文",
+        "允許",
+        "堅決的；公司",
+        "山峰；最高點"
+      ],
+      "answer": [
+        "G",
+        "K",
+        "J",
+        "M",
+        "H",
+        "O",
+        "C",
+        "L",
+        "A",
+        "N",
+        "E",
+        "I",
+        "D",
+        "B",
+        "F"
+      ],
+      "explain": "把每個英文字對到正確的中文意思。"
+    },
+    {
+      "id": "U6U-R-02",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 2,
+      "mode": "spell",
+      "prompt": "寬恕；原諒",
+      "word": "excuse",
+      "explain": "excuse＝寬恕；原諒。首 e 尾 e，共 6 個字母。"
+    },
+    {
+      "id": "U6U-R-03",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 3,
+      "mode": "spell",
+      "prompt": "衝浪；上網",
+      "word": "surf",
+      "explain": "surf＝衝浪；上網。首 s 尾 f，共 4 個字母。"
+    },
+    {
+      "id": "U6U-R-04",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 4,
+      "mode": "spell",
+      "prompt": "提醒",
+      "word": "remind",
+      "explain": "remind＝提醒；使想起。首 r 尾 d，共 6 個字母（re-＋mind 心思）。"
+    },
+    {
+      "id": "U6U-R-05",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 5,
+      "mode": "spell",
+      "prompt": "折價券",
+      "word": "coupon",
+      "explain": "coupon＝折價券。首 c 尾 n，共 6 個字母。"
+    },
+    {
+      "id": "U6U-R-06",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 6,
+      "mode": "spell",
+      "prompt": "情感的",
+      "word": "emotional",
+      "explain": "emotional＝情感的。首 e 尾 l，共 9 個字母（emotion＋al）。"
+    },
+    {
+      "id": "U6U-R-07",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 7,
+      "mode": "spell",
+      "prompt": "確認；證實",
+      "word": "confirm",
+      "explain": "confirm＝確認；證實。首 c 尾 m，共 7 個字母（con-＋firm 穩固）。"
+    },
+    {
+      "id": "U6U-R-08",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 8,
+      "mode": "spell",
+      "prompt": "使氣餒；阻止",
+      "word": "discourage",
+      "explain": "discourage＝使氣餒；阻止。首 d 尾 e，共 10 個字母（dis-＋courage 勇氣）。"
+    },
+    {
+      "id": "U6U-R-09",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 9,
+      "mode": "spell",
+      "prompt": "流利",
+      "word": "fluency",
+      "explain": "fluency＝流利。首 f 尾 y，共 7 個字母。"
+    },
+    {
+      "id": "U6U-R-10",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 10,
+      "mode": "spell",
+      "prompt": "生的；未加工的",
+      "word": "raw",
+      "explain": "raw＝生的；未加工的。首 r 尾 w，共 3 個字母。"
+    },
+    {
+      "id": "U6U-R-11",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 11,
+      "mode": "spell",
+      "prompt": "電影；底片",
+      "word": "film",
+      "explain": "film＝電影；底片。首 f 尾 m，共 4 個字母。"
+    },
+    {
+      "id": "U6U-R-12",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 12,
+      "mode": "spell",
+      "prompt": "允許",
+      "word": "allow",
+      "explain": "allow＝允許。首 a 尾 w，共 5 個字母（l 要兩個）。"
+    },
+    {
+      "id": "U6U-R-13",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 13,
+      "mode": "spell",
+      "prompt": "文件；公文",
+      "word": "document",
+      "explain": "document＝文件；公文。首 d 尾 t，共 8 個字母。"
+    },
+    {
+      "id": "U6U-R-14",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 14,
+      "mode": "spell",
+      "prompt": "山峰；最高點",
+      "word": "peak",
+      "explain": "peak＝山峰；最高點。首 p 尾 k，共 4 個字母。"
+    },
+    {
+      "id": "U6U-R-15",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 15,
+      "mode": "spell",
+      "prompt": "訊息",
+      "word": "message",
+      "explain": "message＝訊息。首 m 尾 e，共 7 個字母（s 要兩個；別跟 massage 按摩搞混）。"
+    },
+    {
+      "id": "U6U-R-16",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 16,
+      "mode": "spell",
+      "prompt": "堅決的；公司",
+      "word": "firm",
+      "explain": "firm＝堅決的；公司。首 f 尾 m，共 4 個字母。"
+    },
+    {
+      "id": "U6U-R-17",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 17,
+      "mode": "mc",
+      "word": "discourage",
+      "form": "encourage",
+      "stem": "Good teachers always ___ their students to try again.",
+      "options": [
+        "discourage",
+        "encourage",
+        "courage",
+        "encouraged"
+      ],
+      "answer": 1,
+      "explain": "好老師總是鼓勵學生再試一次。always 配現在式原形 encourage＝鼓勵。"
+    },
+    {
+      "id": "U6U-R-18",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 18,
+      "mode": "mc",
+      "word": "discourage",
+      "form": "discourage",
+      "stem": "The heavy rain did not ___ us from going out.",
+      "options": [
+        "courage",
+        "discouraged",
+        "discourage",
+        "encourage"
+      ],
+      "answer": 2,
+      "explain": "大雨並沒有讓我們打消出門的念頭。did not 後面接原形 discourage＝阻止。"
+    },
+    {
+      "id": "U6U-R-19",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 19,
+      "mode": "mc",
+      "word": "allow",
+      "form": "allowance",
+      "stem": "My weekly ___ is two hundred dollars.",
+      "options": [
+        "allowing",
+        "allowed",
+        "allowance",
+        "allow"
+      ],
+      "answer": 2,
+      "explain": "我每週的零用錢是兩百元。my weekly ___ 用名詞 allowance＝零用錢。"
+    },
+    {
+      "id": "U6U-R-20",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 20,
+      "mode": "mc",
+      "word": "allow",
+      "form": "allow",
+      "stem": "The library does not ___ students to eat inside.",
+      "options": [
+        "allows",
+        "allow",
+        "allowed",
+        "allowance"
+      ],
+      "answer": 1,
+      "explain": "圖書館不允許學生在裡面吃東西。does not 後面接原形 allow＝允許。"
+    },
+    {
+      "id": "U6U-R-21",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 21,
+      "mode": "mc",
+      "word": "message",
+      "form": "massage",
+      "stem": "A hot ___ can help your tired legs.",
+      "options": [
+        "messages",
+        "message",
+        "massaged",
+        "massage"
+      ],
+      "answer": 3,
+      "explain": "熱敷按摩可以幫助疲累的雙腿。massage＝按摩；message 是「訊息」，只差一個字母。"
+    },
+    {
+      "id": "U6U-R-22",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 22,
+      "mode": "mc",
+      "word": "surf",
+      "form": "surface",
+      "stem": "The ___ of the desk is cold and smooth.",
+      "options": [
+        "surface",
+        "surfing",
+        "surf",
+        "surfed"
+      ],
+      "answer": 0,
+      "explain": "桌子的表面又冷又平滑。The ___ of 中間用名詞 surface＝表面。"
+    },
+    {
+      "id": "U6U-R-23",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 23,
+      "mode": "mc",
+      "word": "peak",
+      "form": "summit",
+      "stem": "The ___ meeting will be held in Taipei.",
+      "options": [
+        "summit",
+        "peaks",
+        "summits",
+        "peak"
+      ],
+      "answer": 0,
+      "explain": "高峰會議將在台北舉行。summit meeting＝高峰會。"
+    },
+    {
+      "id": "U6U-R-24",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 24,
+      "mode": "mc",
+      "word": "firm",
+      "form": "firmly",
+      "stem": "She ___ said no to the unfair deal.",
+      "options": [
+        "firmer",
+        "firms",
+        "firm",
+        "firmly"
+      ],
+      "answer": 3,
+      "explain": "她堅決地拒絕那筆不公平的交易。修飾動詞 said 要用副詞 firmly＝堅決地。"
+    },
+    {
+      "id": "U6U-R-25",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 25,
+      "mode": "mc",
+      "word": "film",
+      "form": "filmmaker",
+      "stem": "The young ___ won a prize in Japan.",
+      "options": [
+        "films",
+        "filmmaker",
+        "filming",
+        "film"
+      ],
+      "answer": 1,
+      "explain": "那位年輕的影片製作人在日本得獎。The young ___ 指人，用 filmmaker＝影片製作人。"
+    },
+    {
+      "id": "U6U-R-26",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 26,
+      "mode": "mc",
+      "word": "remind",
+      "form": "reminder",
+      "stem": "This old photo is a ___ of my school days.",
+      "options": [
+        "remind",
+        "reminds",
+        "reminded",
+        "reminder"
+      ],
+      "answer": 3,
+      "explain": "這張舊照片使我想起學生時代。a ___ of 用名詞 reminder＝提醒的事物。"
+    },
+    {
+      "id": "U6U-R-27",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 27,
+      "mode": "mc",
+      "word": "fluency",
+      "form": "fluent",
+      "stem": "He is ___ in Japanese after living in Tokyo.",
+      "options": [
+        "fluent",
+        "fluency",
+        "fluently",
+        "fluencies"
+      ],
+      "answer": 0,
+      "explain": "在東京住過之後他的日文很流利。be 動詞後接形容詞 fluent＝流利的。"
+    },
+    {
+      "id": "U6U-R-28",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 28,
+      "mode": "mc",
+      "word": "emotional",
+      "form": "emotion",
+      "stem": "She showed little ___ when she heard the bad news.",
+      "options": [
+        "emotions",
+        "emotional",
+        "emotion",
+        "emotionally"
+      ],
+      "answer": 2,
+      "explain": "聽到壞消息時她幾乎沒有表現出情緒。little 後面接不可數名詞 emotion＝情緒。"
+    },
+    {
+      "id": "U6U-R-29",
+      "paper": "review",
+      "section": "mc-phrase",
+      "num": 29,
+      "word": "think of",
+      "stem": "Can you ___ a better name for our team?",
+      "options": [
+        "think of",
+        "check up",
+        "check in",
+        "call off"
+      ],
+      "answer": 0,
+      "explain": "你能想出一個更好的隊名嗎？think of＝想出。"
+    },
+    {
+      "id": "U6U-R-30",
+      "paper": "review",
+      "section": "mc-phrase",
+      "num": 30,
+      "word": "check in",
+      "stem": "We must ___ at the hotel before six.",
+      "options": [
+        "check up",
+        "drop by",
+        "check in",
+        "think of"
+      ],
+      "answer": 2,
+      "explain": "我們必須在六點前到飯店登記入房。check in＝登記入房。"
+    },
+    {
+      "id": "U6U-R-31",
+      "paper": "review",
+      "section": "mc-phrase",
+      "num": 31,
+      "word": "check up",
+      "stem": "The nurse came to ___ on the sick boy.",
+      "options": [
+        "call on",
+        "check up",
+        "think of",
+        "check in"
+      ],
+      "answer": 1,
+      "explain": "護士來查看那個生病的男孩。check up on＝查看；檢查。"
+    },
+    {
+      "id": "U6U-R-32",
+      "paper": "review",
+      "section": "dialogue",
+      "num": 32,
+      "word": "對話應答",
+      "stem": "A: Let's go to the night market tonight. B: ___",
+      "options": [
+        "I went there last year.",
+        "Why not? I am free.",
+        "I am not hungry now.",
+        "The market is old."
+      ],
+      "answer": 1,
+      "explain": "主題 6：Why not? 表示同意，意思是「好啊，為什麼不呢」。"
+    },
+    {
+      "id": "U6U-R-33",
+      "paper": "review",
+      "section": "dialogue",
+      "num": 33,
+      "word": "對話應答",
+      "stem": "A: Why don't we watch a film after class? B: ___",
+      "options": [
+        "I have many films.",
+        "The class is boring.",
+        "The film is long.",
+        "Good idea!"
+      ],
+      "answer": 3,
+      "explain": "Why don't we…? 是邀請，答 Good idea!＝好主意。"
+    },
+    {
+      "id": "U6U-R-34",
+      "paper": "review",
+      "section": "dialogue",
+      "num": 34,
+      "word": "對話應答",
+      "stem": "A: Why not ask the teacher for help? B: ___",
+      "options": [
+        "You are right. I will do that.",
+        "I asked him last week.",
+        "The teacher is tall.",
+        "The office is far."
+      ],
+      "answer": 0,
+      "explain": "Why not…? 是建議，答：你說得對，我會去做。"
+    },
+    {
+      "id": "U6U-R-35",
+      "paper": "review",
+      "section": "dialogue",
+      "num": 35,
+      "word": "對話應答",
+      "stem": "A: Why don't you check in first? B: ___",
+      "options": [
+        "I like this room.",
+        "OK, I will do it now.",
+        "The hotel is big.",
+        "My bag is heavy."
+      ],
+      "answer": 1,
+      "explain": "Why don't you…? 是建議，答：好，我現在就去。"
+    },
+    {
+      "id": "U6U-R-36",
+      "paper": "review",
+      "section": "dialogue",
+      "num": 36,
+      "word": "對話應答",
+      "stem": "A: Let's send her a message. B: ___",
+      "options": [
+        "Why not? She will be happy.",
+        "The phone is new.",
+        "I have no paper.",
+        "She lives near here."
+      ],
+      "answer": 0,
+      "explain": "Why not? 表示同意這個提議。"
+    },
+    {
+      "id": "U6U-R-37",
+      "paper": "review",
+      "section": "dialogue",
+      "num": 37,
+      "word": "對話應答",
+      "stem": "A: Why don't we take a photo at the peak? B: ___",
+      "options": [
+        "I am tired now.",
+        "The camera is old.",
+        "Sure, the view is great here.",
+        "The mountain is high."
+      ],
+      "answer": 2,
+      "explain": "Why don't we…? 是邀請，答：好啊，這裡風景很棒。"
+    },
+    {
+      "id": "U6U-R-38",
+      "paper": "review",
+      "section": "reading",
+      "num": 38,
+      "word": "閱讀理解",
+      "readingId": "U6U-READ-1",
+      "stem": "What is this reading mainly about?",
+      "options": [
+        "How to make a short film",
+        "How to cook raw fish",
+        "The rules of a hotel",
+        "A class trip to Kenting"
+      ],
+      "answer": 3,
+      "explain": "全文在講班上去墾丁的畢業旅行，選 (A)。"
+    },
+    {
+      "id": "U6U-R-39",
+      "paper": "review",
+      "section": "reading",
+      "num": 39,
+      "word": "閱讀理解",
+      "readingId": "U6U-READ-1",
+      "stem": "Who found the coupon for the hotel?",
+      "options": [
+        "The hotel clerk",
+        "The teacher",
+        "Amy",
+        "The writer"
+      ],
+      "answer": 2,
+      "explain": "文中說 Amy found a coupon for a cheap hotel。"
+    },
+    {
+      "id": "U6U-R-40",
+      "paper": "review",
+      "section": "reading",
+      "num": 40,
+      "word": "閱讀理解",
+      "readingId": "U6U-READ-1",
+      "stem": "Why did they eat at a night market?",
+      "options": [
+        "They did not like the hotel food.",
+        "The hotel did not allow cooking.",
+        "The food there was free.",
+        "The market was next to the beach."
+      ],
+      "answer": 1,
+      "explain": "文中說 The hotel did not allow us to cook，所以他們去夜市吃。"
+    },
+    {
+      "id": "U6U-R-41",
+      "paper": "review",
+      "section": "reading",
+      "num": 41,
+      "word": "閱讀理解",
+      "readingId": "U6U-READ-1",
+      "stem": "Which one is TRUE about the trip?",
+      "options": [
+        "They climbed to the peak of a small hill.",
+        "It rained and they went home early.",
+        "The teacher made the plan for them.",
+        "Nobody took any photos."
+      ],
+      "answer": 0,
+      "explain": "文中說 walked to the peak of a small hill；其餘三個都與文章不符。"
+    },
+    {
+      "id": "U6U-Q-01",
+      "paper": "quiz",
+      "section": "matching",
+      "num": 1,
+      "word": "配合題",
+      "left": [
+        "firm",
+        "coupon",
+        "document",
+        "surf",
+        "discourage",
+        "emotional",
+        "confirm",
+        "excuse",
+        "remind",
+        "raw",
+        "film",
+        "allow",
+        "fluency",
+        "peak",
+        "message"
+      ],
+      "right": [
+        "文件；公文",
+        "生的；未加工的",
+        "寬恕；原諒",
+        "堅決的；公司",
+        "折價券；優待票",
+        "提醒；使想起",
+        "山峰；最高點",
+        "情感的；易激動的",
+        "使氣餒；阻止",
+        "確認；證實",
+        "訊息",
+        "流利",
+        "衝浪；上網",
+        "電影；底片",
+        "允許"
+      ],
+      "answer": [
+        "D",
+        "E",
+        "A",
+        "M",
+        "I",
+        "H",
+        "J",
+        "C",
+        "F",
+        "B",
+        "N",
+        "O",
+        "L",
+        "G",
+        "K"
+      ],
+      "explain": "把每個英文字對到正確的中文意思。"
+    },
+    {
+      "id": "U6U-Q-02",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 2,
+      "mode": "spell",
+      "prompt": "確認；證實",
+      "word": "confirm",
+      "explain": "confirm＝確認；證實。首 c 尾 m，共 7 個字母（con-＋firm 穩固）。"
+    },
+    {
+      "id": "U6U-Q-03",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 3,
+      "mode": "spell",
+      "prompt": "允許",
+      "word": "allow",
+      "explain": "allow＝允許。首 a 尾 w，共 5 個字母（l 要兩個）。"
+    },
+    {
+      "id": "U6U-Q-04",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 4,
+      "mode": "spell",
+      "prompt": "流利",
+      "word": "fluency",
+      "explain": "fluency＝流利。首 f 尾 y，共 7 個字母。"
+    },
+    {
+      "id": "U6U-Q-05",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 5,
+      "mode": "spell",
+      "prompt": "生的；未加工的",
+      "word": "raw",
+      "explain": "raw＝生的；未加工的。首 r 尾 w，共 3 個字母。"
+    },
+    {
+      "id": "U6U-Q-06",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 6,
+      "mode": "spell",
+      "prompt": "提醒",
+      "word": "remind",
+      "explain": "remind＝提醒；使想起。首 r 尾 d，共 6 個字母（re-＋mind 心思）。"
+    },
+    {
+      "id": "U6U-Q-07",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 7,
+      "mode": "spell",
+      "prompt": "寬恕；原諒",
+      "word": "excuse",
+      "explain": "excuse＝寬恕；原諒。首 e 尾 e，共 6 個字母。"
+    },
+    {
+      "id": "U6U-Q-08",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 8,
+      "mode": "spell",
+      "prompt": "情感的",
+      "word": "emotional",
+      "explain": "emotional＝情感的。首 e 尾 l，共 9 個字母（emotion＋al）。"
+    },
+    {
+      "id": "U6U-Q-09",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 9,
+      "mode": "spell",
+      "prompt": "山峰；最高點",
+      "word": "peak",
+      "explain": "peak＝山峰；最高點。首 p 尾 k，共 4 個字母。"
+    },
+    {
+      "id": "U6U-Q-10",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 10,
+      "mode": "spell",
+      "prompt": "折價券",
+      "word": "coupon",
+      "explain": "coupon＝折價券。首 c 尾 n，共 6 個字母。"
+    },
+    {
+      "id": "U6U-Q-11",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 11,
+      "mode": "spell",
+      "prompt": "文件；公文",
+      "word": "document",
+      "explain": "document＝文件；公文。首 d 尾 t，共 8 個字母。"
+    },
+    {
+      "id": "U6U-Q-12",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 12,
+      "mode": "spell",
+      "prompt": "衝浪；上網",
+      "word": "surf",
+      "explain": "surf＝衝浪；上網。首 s 尾 f，共 4 個字母。"
+    },
+    {
+      "id": "U6U-Q-13",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 13,
+      "mode": "spell",
+      "prompt": "使氣餒；阻止",
+      "word": "discourage",
+      "explain": "discourage＝使氣餒；阻止。首 d 尾 e，共 10 個字母（dis-＋courage 勇氣）。"
+    },
+    {
+      "id": "U6U-Q-14",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 14,
+      "mode": "spell",
+      "prompt": "電影；底片",
+      "word": "film",
+      "explain": "film＝電影；底片。首 f 尾 m，共 4 個字母。"
+    },
+    {
+      "id": "U6U-Q-15",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 15,
+      "mode": "spell",
+      "prompt": "訊息",
+      "word": "message",
+      "explain": "message＝訊息。首 m 尾 e，共 7 個字母（s 要兩個；別跟 massage 按摩搞混）。"
+    },
+    {
+      "id": "U6U-Q-16",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 16,
+      "mode": "spell",
+      "prompt": "堅決的；公司",
+      "word": "firm",
+      "explain": "firm＝堅決的；公司。首 f 尾 m，共 4 個字母。"
+    },
+    {
+      "id": "U6U-Q-17",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 17,
+      "mode": "mc",
+      "word": "discourage",
+      "form": "encourage",
+      "stem": "My parents ___ me to join the school band.",
+      "options": [
+        "discourage",
+        "courage",
+        "encourage",
+        "encouraging"
+      ],
+      "answer": 2,
+      "explain": "我爸媽鼓勵我加入學校樂隊。主詞複數配現在式原形 encourage＝鼓勵。"
+    },
+    {
+      "id": "U6U-Q-18",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 18,
+      "mode": "mc",
+      "word": "allow",
+      "form": "allowance",
+      "stem": "He saved his ___ to buy a new bike.",
+      "options": [
+        "allowance",
+        "allowing",
+        "allowed",
+        "allow"
+      ],
+      "answer": 0,
+      "explain": "他存下零用錢去買新腳踏車。saved his ___ 用名詞 allowance＝零用錢。"
+    },
+    {
+      "id": "U6U-Q-19",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 19,
+      "mode": "mc",
+      "word": "message",
+      "form": "massage",
+      "stem": "The old man gets a ___ for his back every week.",
+      "options": [
+        "massage",
+        "message",
+        "massaged",
+        "messages"
+      ],
+      "answer": 0,
+      "explain": "那位老先生每週去做背部按摩。massage＝按摩；message 是「訊息」。"
+    },
+    {
+      "id": "U6U-Q-20",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 20,
+      "mode": "mc",
+      "word": "surf",
+      "form": "surface",
+      "stem": "Do not write on the ___ of the new table.",
+      "options": [
+        "surf",
+        "surface",
+        "surfing",
+        "surfed"
+      ],
+      "answer": 1,
+      "explain": "不要在新桌子的表面上寫字。the ___ of 用名詞 surface＝表面。"
+    },
+    {
+      "id": "U6U-Q-21",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 21,
+      "mode": "mc",
+      "word": "peak",
+      "form": "summit",
+      "stem": "Leaders from many countries will meet at the ___ next week.",
+      "options": [
+        "summitted",
+        "peak",
+        "summits",
+        "summit"
+      ],
+      "answer": 3,
+      "explain": "各國領袖下週將在高峰會見面。summit＝高峰會（peak 沒有這個意思）。"
+    },
+    {
+      "id": "U6U-Q-22",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 22,
+      "mode": "mc",
+      "word": "remind",
+      "form": "reminder",
+      "stem": "Her song is a ___ of my childhood.",
+      "options": [
+        "reminds",
+        "remind",
+        "reminder",
+        "reminded"
+      ],
+      "answer": 2,
+      "explain": "她的歌使我想起童年。a ___ of 用名詞 reminder＝使人想起的事物。"
+    },
+    {
+      "id": "U6U-Q-23",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 23,
+      "mode": "mc",
+      "word": "fluency",
+      "form": "fluent",
+      "stem": "The guide is ___ in three languages.",
+      "options": [
+        "fluency",
+        "fluently",
+        "fluencies",
+        "fluent"
+      ],
+      "answer": 3,
+      "explain": "那位導遊講三種語言都很流利。be 動詞後接形容詞 fluent＝流利的。"
+    },
+    {
+      "id": "U6U-Q-24",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 24,
+      "mode": "mc",
+      "word": "emotional",
+      "form": "emotion",
+      "stem": "Sad music can bring out many strong ___.",
+      "options": [
+        "emotionally",
+        "emotions",
+        "emotional",
+        "emotion"
+      ],
+      "answer": 1,
+      "explain": "悲傷的音樂會引出許多強烈的情緒。many 後面接複數名詞 emotions＝情緒。"
+    },
+    {
+      "id": "U6U-Q-25",
+      "paper": "quiz",
+      "section": "mc-phrase",
+      "num": 25,
+      "word": "think of",
+      "stem": "I cannot ___ any good reason for being late.",
+      "options": [
+        "think of",
+        "call off",
+        "check up",
+        "check in"
+      ],
+      "answer": 0,
+      "explain": "我想不出任何遲到的好理由。think of＝想出。"
+    },
+    {
+      "id": "U6U-Q-26",
+      "paper": "quiz",
+      "section": "mc-phrase",
+      "num": 26,
+      "word": "check in",
+      "stem": "The guests ___ at the front desk yesterday.",
+      "options": [
+        "checked up",
+        "checked in",
+        "thought of",
+        "dropped by"
+      ],
+      "answer": 1,
+      "explain": "客人昨天在櫃檯登記入房。check in＝登記入房。"
+    },
+    {
+      "id": "U6U-Q-27",
+      "paper": "quiz",
+      "section": "mc-phrase",
+      "num": 27,
+      "word": "check up",
+      "stem": "The teacher will ___ on our homework tomorrow.",
+      "options": [
+        "think of",
+        "check in",
+        "check up",
+        "call on"
+      ],
+      "answer": 2,
+      "explain": "老師明天會檢查我們的作業。check up on＝檢查。"
+    },
+    {
+      "id": "U6U-Q-28",
+      "paper": "quiz",
+      "section": "dialogue",
+      "num": 28,
+      "word": "對話應答",
+      "stem": "A: Let's use this coupon for lunch. B: ___",
+      "options": [
+        "The store is new.",
+        "I ate already.",
+        "Why not? It saves money.",
+        "The coupon is small."
+      ],
+      "answer": 2,
+      "explain": "Why not? 表示同意，意思是「好啊」。"
+    },
+    {
+      "id": "U6U-Q-29",
+      "paper": "quiz",
+      "section": "dialogue",
+      "num": 29,
+      "word": "對話應答",
+      "stem": "A: Why don't we surf this weekend? B: ___",
+      "options": [
+        "The beach is far.",
+        "Sounds fun! Let's go.",
+        "The sea is blue.",
+        "I have a new board."
+      ],
+      "answer": 1,
+      "explain": "Why don't we…? 是邀請，答：聽起來很好玩，走吧。"
+    },
+    {
+      "id": "U6U-Q-30",
+      "paper": "quiz",
+      "section": "dialogue",
+      "num": 30,
+      "word": "對話應答",
+      "stem": "A: Why not call to confirm the time? B: ___",
+      "options": [
+        "I will call them now.",
+        "The time is late.",
+        "The phone is broken.",
+        "I like talking."
+      ],
+      "answer": 0,
+      "explain": "Why not…? 是建議，答：我現在就打給他們。"
+    },
+    {
+      "id": "U6U-Q-31",
+      "paper": "quiz",
+      "section": "dialogue",
+      "num": 31,
+      "word": "對話應答",
+      "stem": "A: Why don't you ask your parents first? B: ___",
+      "options": [
+        "They are at work.",
+        "I have two brothers.",
+        "My parents are kind.",
+        "That is a good idea."
+      ],
+      "answer": 3,
+      "explain": "Why don't you…? 是建議，答：那是個好主意。"
+    },
+    {
+      "id": "U6U-E-01",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 1,
+      "mode": "spell",
+      "prompt": "寬恕；原諒",
+      "word": "excuse",
+      "explain": "excuse＝寬恕；原諒。首 e 尾 e，共 6 個字母。"
+    },
+    {
+      "id": "U6U-E-02",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 2,
+      "mode": "spell",
+      "prompt": "折價券",
+      "word": "coupon",
+      "explain": "coupon＝折價券。首 c 尾 n，共 6 個字母。"
+    },
+    {
+      "id": "U6U-E-03",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 3,
+      "mode": "spell",
+      "prompt": "生的；未加工的",
+      "word": "raw",
+      "explain": "raw＝生的；未加工的。首 r 尾 w，共 3 個字母。"
+    },
+    {
+      "id": "U6U-E-04",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 4,
+      "mode": "spell",
+      "prompt": "確認；證實",
+      "word": "confirm",
+      "explain": "confirm＝確認；證實。首 c 尾 m，共 7 個字母（con-＋firm 穩固）。"
+    },
+    {
+      "id": "U6U-E-05",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 5,
+      "mode": "spell",
+      "prompt": "文件；公文",
+      "word": "document",
+      "explain": "document＝文件；公文。首 d 尾 t，共 8 個字母。"
+    },
+    {
+      "id": "U6U-E-06",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 6,
+      "mode": "mc",
+      "word": "discourage",
+      "form": "encourage",
+      "stem": "The coach tried to ___ the tired players.",
+      "options": [
+        "courage",
+        "encourage",
+        "discourage",
+        "encouraged"
+      ],
+      "answer": 1,
+      "explain": "教練試著鼓勵疲累的球員。to 後面接原形 encourage＝鼓勵。"
+    },
+    {
+      "id": "U6U-E-07",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 7,
+      "mode": "mc",
+      "word": "allow",
+      "form": "allowance",
+      "stem": "She spends her ___ on comic books.",
+      "options": [
+        "allowed",
+        "allowing",
+        "allow",
+        "allowance"
+      ],
+      "answer": 3,
+      "explain": "她把零用錢花在漫畫上。her ___ 用名詞 allowance＝零用錢。"
+    },
+    {
+      "id": "U6U-E-08",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 8,
+      "mode": "mc",
+      "word": "message",
+      "form": "massage",
+      "stem": "The ___ chair in the store is very popular.",
+      "options": [
+        "message",
+        "massage",
+        "messages",
+        "massaged"
+      ],
+      "answer": 1,
+      "explain": "店裡的按摩椅很受歡迎。massage chair＝按摩椅。"
+    },
+    {
+      "id": "U6U-E-09",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 9,
+      "mode": "mc",
+      "word": "surf",
+      "form": "surface",
+      "stem": "Oil floats on the ___ of the water.",
+      "options": [
+        "surface",
+        "surfing",
+        "surf",
+        "surfed"
+      ],
+      "answer": 0,
+      "explain": "油浮在水的表面上。the ___ of 用名詞 surface＝表面。"
+    },
+    {
+      "id": "U6U-E-10",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 10,
+      "mode": "mc",
+      "word": "peak",
+      "form": "summit",
+      "stem": "The two leaders shook hands at the ___ in Tokyo.",
+      "options": [
+        "summit",
+        "peak",
+        "summits",
+        "summitted"
+      ],
+      "answer": 0,
+      "explain": "兩位領袖在東京的高峰會上握手。summit＝高峰會。"
+    },
+    {
+      "id": "U6U-E-11",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 11,
+      "mode": "mc",
+      "word": "firm",
+      "form": "firmly",
+      "stem": "He held the rope ___ with both hands.",
+      "options": [
+        "firmly",
+        "firm",
+        "firms",
+        "firmer"
+      ],
+      "answer": 0,
+      "explain": "他用雙手緊緊抓住繩子。修飾動詞 held 用副詞 firmly＝穩固地。"
+    },
+    {
+      "id": "U6U-E-12",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 12,
+      "mode": "mc",
+      "word": "film",
+      "form": "filmmaker",
+      "stem": "The ___ spent five years on this story.",
+      "options": [
+        "filming",
+        "filmmaker",
+        "film",
+        "films"
+      ],
+      "answer": 1,
+      "explain": "那位影片製作人花了五年拍這個故事。指人用 filmmaker＝影片製作人。"
+    },
+    {
+      "id": "U6U-E-13",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 13,
+      "mode": "mc",
+      "word": "remind",
+      "form": "reminder",
+      "stem": "I put a ___ on my phone every morning.",
+      "options": [
+        "reminded",
+        "remind",
+        "reminds",
+        "reminder"
+      ],
+      "answer": 3,
+      "explain": "我每天早上在手機上設一個提醒。a ___ 用名詞 reminder＝提醒。"
+    },
+    {
+      "id": "U6U-E-14",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 14,
+      "mode": "mc",
+      "word": "fluency",
+      "form": "fluent",
+      "stem": "Reading aloud can make you more ___.",
+      "options": [
+        "fluencies",
+        "fluently",
+        "fluent",
+        "fluency"
+      ],
+      "answer": 2,
+      "explain": "朗讀可以讓你更流利。more 後面接形容詞 fluent＝流利的。"
+    },
+    {
+      "id": "U6U-E-15",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 15,
+      "mode": "mc",
+      "word": "emotional",
+      "form": "emotional",
+      "stem": "Sad movies always make her very ___.",
+      "options": [
+        "emotion",
+        "emotional",
+        "emotionally",
+        "emotions"
+      ],
+      "answer": 1,
+      "explain": "悲傷的電影總是讓她很激動。make her very ___ 用形容詞 emotional＝易激動的。"
+    },
+    {
+      "id": "U6U-E-16",
+      "paper": "extra",
+      "section": "mc-phrase",
+      "num": 16,
+      "word": "think of",
+      "stem": "She ___ a smart way to save money.",
+      "options": [
+        "checked up",
+        "checked in",
+        "thought of",
+        "called off"
+      ],
+      "answer": 2,
+      "explain": "她想出一個聰明的省錢方法。think of＝想出。"
+    },
+    {
+      "id": "U6U-E-17",
+      "paper": "extra",
+      "section": "mc-phrase",
+      "num": 17,
+      "word": "check in",
+      "stem": "You need your passport to ___ for the flight.",
+      "options": [
+        "check up",
+        "check in",
+        "think of",
+        "drop by"
+      ],
+      "answer": 1,
+      "explain": "搭飛機報到需要護照。check in＝報到；登記。"
+    },
+    {
+      "id": "U6U-E-18",
+      "paper": "extra",
+      "section": "mc-phrase",
+      "num": 18,
+      "word": "check up",
+      "stem": "My mother likes to ___ on my grades.",
+      "options": [
+        "check up",
+        "think of",
+        "check in",
+        "call on"
+      ],
+      "answer": 0,
+      "explain": "我媽媽喜歡查看我的成績。check up on＝查看。"
+    },
+    {
+      "id": "U6U-E-19",
+      "paper": "extra",
+      "section": "dialogue",
+      "num": 19,
+      "word": "對話應答",
+      "stem": "A: Let's watch the new movie tonight. B: ___",
+      "options": [
+        "The theater is big.",
+        "I like popcorn.",
+        "The movie is old.",
+        "Why not? I am free after eight."
+      ],
+      "answer": 3,
+      "explain": "Why not? 表示同意這個邀請。"
+    },
+    {
+      "id": "U6U-E-20",
+      "paper": "extra",
+      "section": "dialogue",
+      "num": 20,
+      "word": "對話應答",
+      "stem": "A: Why don't we walk to school today? B: ___",
+      "options": [
+        "The bus is slow.",
+        "School starts at eight.",
+        "OK, the weather is nice.",
+        "I have new shoes."
+      ],
+      "answer": 2,
+      "explain": "Why don't we…? 是邀請，答：好啊，天氣很好。"
+    },
+    {
+      "id": "U6U-E-21",
+      "paper": "extra",
+      "section": "dialogue",
+      "num": 21,
+      "word": "對話應答",
+      "stem": "A: Why not try the raw fish here? B: ___",
+      "options": [
+        "Fish is cheap.",
+        "I do not eat raw food.",
+        "The shop is clean.",
+        "I came here often."
+      ],
+      "answer": 1,
+      "explain": "Why not…? 是建議，答：我不吃生食（婉拒）。"
+    },
+    {
+      "id": "U6U-E-22",
+      "paper": "extra",
+      "section": "dialogue",
+      "num": 22,
+      "word": "對話應答",
+      "stem": "A: Why don't you send him a message? B: ___",
+      "options": [
+        "I already did.",
+        "He has a new phone.",
+        "Messages are short.",
+        "He is my classmate."
+      ],
+      "answer": 0,
+      "explain": "Why don't you…? 是建議，答：我已經傳了。"
+    }
+  ]
+}

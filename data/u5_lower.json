@@ -1,0 +1,1536 @@
+{
+  "unit": 5,
+  "half": "lower",
+  "spec": {
+    "review": "v7",
+    "quiz": "v7"
+  },
+  "words": [
+    {
+      "en": "discover",
+      "zh": "發現；找出",
+      "derivatives": [
+        "discovery",
+        "cover"
+      ]
+    },
+    {
+      "en": "album",
+      "zh": "相簿；唱片集"
+    },
+    {
+      "en": "dairy",
+      "zh": "乳製品；乳品店",
+      "derivatives": [
+        "diary"
+      ]
+    },
+    {
+      "en": "language",
+      "zh": "語言"
+    },
+    {
+      "en": "hall",
+      "zh": "走廊；禮堂"
+    },
+    {
+      "en": "lobby",
+      "zh": "大廳"
+    },
+    {
+      "en": "loneliness",
+      "zh": "寂寞；孤單",
+      "derivatives": [
+        "lonely"
+      ]
+    },
+    {
+      "en": "anxiety",
+      "zh": "焦慮；不安",
+      "derivatives": [
+        "anxious"
+      ]
+    },
+    {
+      "en": "nervous",
+      "zh": "緊張的；神經質的"
+    },
+    {
+      "en": "noble",
+      "zh": "高貴的；貴族"
+    },
+    {
+      "en": "notable",
+      "zh": "著名的；值得注意的",
+      "derivatives": [
+        "note"
+      ]
+    },
+    {
+      "en": "notice",
+      "zh": "注意；公告"
+    },
+    {
+      "en": "block",
+      "zh": "街區；封鎖"
+    },
+    {
+      "en": "salary",
+      "zh": "薪水",
+      "derivatives": [
+        "wage",
+        "income"
+      ]
+    },
+    {
+      "en": "pick",
+      "zh": "挑選；摘採",
+      "derivatives": [
+        "picky"
+      ]
+    }
+  ],
+  "phrases": [
+    {
+      "en": "pick up",
+      "zh": "撿起；接送"
+    },
+    {
+      "en": "sit up",
+      "zh": "熬夜"
+    },
+    {
+      "en": "turn on",
+      "zh": "打開"
+    }
+  ],
+  "readings": [
+    {
+      "id": "U5L-READ-1",
+      "title": "My First Talent Show",
+      "text": "Last month, our school put up a notice about a talent show in the hall. I felt some anxiety at first, because I am always nervous in front of people. My friend Amy helped me pick a song, and we had to sit up late every night to practice. She saved all our songs in a class album. On the show day, the lobby was full of parents. A heavy box blocked the door, so we tried to pick up the box together. Someone forgot to turn on the bright lights, and I waited alone on the stage. But my loneliness went away when the music started. The judges said my voice was notable. One of them was a noble singer who told me that music is a language of the heart. Now I know that practice can discover something new in anyone."
+    }
+  ],
+  "questions": [
+    {
+      "id": "U5L-R-01",
+      "paper": "review",
+      "section": "matching",
+      "num": 1,
+      "word": "配合題",
+      "left": [
+        "discover",
+        "loneliness",
+        "dairy",
+        "noble",
+        "hall",
+        "salary",
+        "album",
+        "notice",
+        "anxiety",
+        "language",
+        "pick",
+        "lobby",
+        "notable",
+        "nervous",
+        "block"
+      ],
+      "right": [
+        "語言",
+        "著名的；值得注意的",
+        "寂寞；孤單",
+        "相簿；唱片集",
+        "街區；封鎖",
+        "緊張的；神經質的",
+        "發現；找出",
+        "挑選；摘採",
+        "走廊；禮堂",
+        "高貴的；貴族",
+        "乳製品；乳品店",
+        "薪水",
+        "大廳",
+        "注意；公告",
+        "焦慮；不安"
+      ],
+      "answer": [
+        "G",
+        "C",
+        "K",
+        "J",
+        "I",
+        "L",
+        "D",
+        "N",
+        "O",
+        "A",
+        "H",
+        "M",
+        "B",
+        "F",
+        "E"
+      ],
+      "explain": "把每個英文字對到正確的中文意思。"
+    },
+    {
+      "id": "U5L-R-02",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 2,
+      "mode": "spell",
+      "prompt": "發現；找出",
+      "word": "discover",
+      "explain": "discover＝發現；找出。首 d 尾 r，共 8 個字母。"
+    },
+    {
+      "id": "U5L-R-03",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 3,
+      "mode": "spell",
+      "prompt": "走廊；禮堂",
+      "word": "hall",
+      "explain": "hall＝走廊；禮堂。首 h 尾 l，共 4 個字母。"
+    },
+    {
+      "id": "U5L-R-04",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 4,
+      "mode": "spell",
+      "prompt": "緊張的",
+      "word": "nervous",
+      "explain": "nervous＝緊張的；神經質的。首 n 尾 s，共 7 個字母。"
+    },
+    {
+      "id": "U5L-R-05",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 5,
+      "mode": "spell",
+      "prompt": "相簿；唱片集",
+      "word": "album",
+      "explain": "album＝相簿；唱片集。首 a 尾 m，共 5 個字母。"
+    },
+    {
+      "id": "U5L-R-06",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 6,
+      "mode": "spell",
+      "prompt": "街區；封鎖",
+      "word": "block",
+      "explain": "block＝街區；封鎖。首 b 尾 k，共 5 個字母。"
+    },
+    {
+      "id": "U5L-R-07",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 7,
+      "mode": "spell",
+      "prompt": "大廳",
+      "word": "lobby",
+      "explain": "lobby＝大廳。首 l 尾 y，共 5 個字母（b 要兩個）。"
+    },
+    {
+      "id": "U5L-R-08",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 8,
+      "mode": "spell",
+      "prompt": "高貴的；貴族",
+      "word": "noble",
+      "explain": "noble＝高貴的；貴族。首 n 尾 e，共 5 個字母。"
+    },
+    {
+      "id": "U5L-R-09",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 9,
+      "mode": "spell",
+      "prompt": "乳製品；乳品店",
+      "word": "dairy",
+      "explain": "dairy＝乳製品；乳品店。首 d 尾 y，共 5 個字母（別跟 diary 日記搞混）。"
+    },
+    {
+      "id": "U5L-R-10",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 10,
+      "mode": "spell",
+      "prompt": "薪水",
+      "word": "salary",
+      "explain": "salary＝薪水。首 s 尾 y，共 6 個字母。"
+    },
+    {
+      "id": "U5L-R-11",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 11,
+      "mode": "spell",
+      "prompt": "寂寞；孤單",
+      "word": "loneliness",
+      "explain": "loneliness＝寂寞；孤單。首 l 尾 s，共 10 個字母（lonely 去 y 加 iness）。"
+    },
+    {
+      "id": "U5L-R-12",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 12,
+      "mode": "spell",
+      "prompt": "著名的",
+      "word": "notable",
+      "explain": "notable＝著名的；值得注意的。首 n 尾 e，共 7 個字母。"
+    },
+    {
+      "id": "U5L-R-13",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 13,
+      "mode": "spell",
+      "prompt": "語言",
+      "word": "language",
+      "explain": "language＝語言。首 l 尾 e，共 8 個字母。"
+    },
+    {
+      "id": "U5L-R-14",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 14,
+      "mode": "spell",
+      "prompt": "挑選；摘採",
+      "word": "pick",
+      "explain": "pick＝挑選；摘採。首 p 尾 k，共 4 個字母。"
+    },
+    {
+      "id": "U5L-R-15",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 15,
+      "mode": "spell",
+      "prompt": "焦慮；不安",
+      "word": "anxiety",
+      "explain": "anxiety＝焦慮；不安。首 a 尾 y，共 7 個字母。"
+    },
+    {
+      "id": "U5L-R-16",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 16,
+      "mode": "spell",
+      "prompt": "注意；公告",
+      "word": "notice",
+      "explain": "notice＝注意；公告。首 n 尾 e，共 6 個字母。"
+    },
+    {
+      "id": "U5L-R-17",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 17,
+      "mode": "mc",
+      "word": "discover",
+      "form": "discovery",
+      "stem": "The ___ of the old coins made the news.",
+      "options": [
+        "discovery",
+        "discovers",
+        "discovered",
+        "discover"
+      ],
+      "answer": 0,
+      "explain": "古錢幣的發現上了新聞。The ___ of 中間用名詞 discovery＝發現。"
+    },
+    {
+      "id": "U5L-R-18",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 18,
+      "mode": "mc",
+      "word": "discover",
+      "form": "cover",
+      "stem": "Please ___ the food before you put it away.",
+      "options": [
+        "cover",
+        "covers",
+        "covered",
+        "discover"
+      ],
+      "answer": 0,
+      "explain": "收起來之前請先蓋住食物。please 後面接原形動詞 cover＝覆蓋。"
+    },
+    {
+      "id": "U5L-R-19",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 19,
+      "mode": "mc",
+      "word": "dairy",
+      "form": "diary",
+      "stem": "She writes in her ___ every night before bed.",
+      "options": [
+        "dairy",
+        "diary",
+        "dairies",
+        "diaries"
+      ],
+      "answer": 1,
+      "explain": "她每晚睡前寫日記。diary＝日記；dairy 是「乳製品」，只差一個字母。"
+    },
+    {
+      "id": "U5L-R-20",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 20,
+      "mode": "mc",
+      "word": "loneliness",
+      "form": "lonely",
+      "stem": "The old dog looked very ___ in the empty house.",
+      "options": [
+        "loneliness",
+        "lone",
+        "lonely",
+        "lonelier"
+      ],
+      "answer": 2,
+      "explain": "那隻老狗在空房子裡看起來很孤單。looked 後面接形容詞 lonely＝孤單的。"
+    },
+    {
+      "id": "U5L-R-21",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 21,
+      "mode": "mc",
+      "word": "anxiety",
+      "form": "anxious",
+      "stem": "My mother is ___ about my exam next week.",
+      "options": [
+        "anxieties",
+        "anxiously",
+        "anxious",
+        "anxiety"
+      ],
+      "answer": 2,
+      "explain": "我媽媽為我下週的考試感到焦慮。be 動詞後接形容詞 anxious＝焦慮的。"
+    },
+    {
+      "id": "U5L-R-22",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 22,
+      "mode": "mc",
+      "word": "notable",
+      "form": "note",
+      "stem": "Please take a ___ of the date and time.",
+      "options": [
+        "note",
+        "notice",
+        "notable",
+        "noble"
+      ],
+      "answer": 0,
+      "explain": "請把日期和時間記下來。take a note of＝記下來，note＝筆記。"
+    },
+    {
+      "id": "U5L-R-23",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 23,
+      "mode": "mc",
+      "word": "salary",
+      "form": "wage",
+      "stem": "The workers get their ___ every Friday.",
+      "options": [
+        "waging",
+        "wages",
+        "wage",
+        "waged"
+      ],
+      "answer": 1,
+      "explain": "工人每週五領工資。複數 workers 對應複數 wages＝工資；salary 通常是月薪。"
+    },
+    {
+      "id": "U5L-R-24",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 24,
+      "mode": "mc",
+      "word": "salary",
+      "form": "income",
+      "stem": "His ___ from the night market is quite good.",
+      "options": [
+        "incomes",
+        "income",
+        "outcome",
+        "incoming"
+      ],
+      "answer": 1,
+      "explain": "他從夜市賺來的所得相當不錯。income＝所得（進來的錢）；outcome 是「結果」，只差一個字首。"
+    },
+    {
+      "id": "U5L-R-25",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 25,
+      "mode": "mc",
+      "word": "pick",
+      "form": "picky",
+      "stem": "My little brother is very ___ about vegetables.",
+      "options": [
+        "picked",
+        "picks",
+        "pick",
+        "picky"
+      ],
+      "answer": 3,
+      "explain": "我弟弟對蔬菜非常挑剔。be 動詞後接形容詞 picky＝挑剔的。"
+    },
+    {
+      "id": "U5L-R-26",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 26,
+      "mode": "mc",
+      "word": "discover",
+      "form": "discover",
+      "stem": "Did the doctors ___ the cause of the illness?",
+      "options": [
+        "discovered",
+        "discovers",
+        "discovery",
+        "discover"
+      ],
+      "answer": 3,
+      "explain": "醫生找出病因了嗎？助動詞 did 後面接原形動詞 discover＝發現。"
+    },
+    {
+      "id": "U5L-R-27",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 27,
+      "mode": "mc",
+      "word": "anxiety",
+      "form": "anxiety",
+      "stem": "He felt great ___ before the job interview.",
+      "options": [
+        "anxieties",
+        "anxiously",
+        "anxiety",
+        "anxious"
+      ],
+      "answer": 2,
+      "explain": "他面試前感到很大的焦慮。great 後面接名詞 anxiety＝焦慮。"
+    },
+    {
+      "id": "U5L-R-28",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 28,
+      "mode": "mc",
+      "word": "loneliness",
+      "form": "loneliness",
+      "stem": "Music helped her forget her ___.",
+      "options": [
+        "alone",
+        "lonelier",
+        "lonely",
+        "loneliness"
+      ],
+      "answer": 3,
+      "explain": "音樂幫她忘記寂寞。forget 後面接名詞 loneliness＝寂寞。"
+    },
+    {
+      "id": "U5L-R-29",
+      "paper": "review",
+      "section": "mc-phrase",
+      "num": 29,
+      "word": "pick up",
+      "stem": "My father will ___ my sister at the train station.",
+      "options": [
+        "pick up",
+        "sit up",
+        "turn on",
+        "stand for"
+      ],
+      "answer": 0,
+      "explain": "我爸爸會去火車站接我妹妹。pick up＝接送。"
+    },
+    {
+      "id": "U5L-R-30",
+      "paper": "review",
+      "section": "mc-phrase",
+      "num": 30,
+      "word": "sit up",
+      "stem": "She ___ all night to finish her report.",
+      "options": [
+        "turned on",
+        "picked up",
+        "sat up",
+        "stood out"
+      ],
+      "answer": 2,
+      "explain": "她熬夜整晚寫完報告。sit up＝熬夜。"
+    },
+    {
+      "id": "U5L-R-31",
+      "paper": "review",
+      "section": "mc-phrase",
+      "num": 31,
+      "word": "turn on",
+      "stem": "Please ___ the fan; the room is too hot.",
+      "options": [
+        "stand for",
+        "turn on",
+        "sit up",
+        "pick up"
+      ],
+      "answer": 1,
+      "explain": "請打開電風扇，房間太熱了。turn on＝打開。"
+    },
+    {
+      "id": "U5L-R-32",
+      "paper": "review",
+      "section": "dialogue",
+      "num": 32,
+      "word": "對話應答",
+      "stem": "A: Why do you look so nervous? B: ___",
+      "options": [
+        "I like my class.",
+        "I have a speech today.",
+        "It is Friday.",
+        "I am in the hall."
+      ],
+      "answer": 1,
+      "explain": "Why 問原因，答：我今天要演講。"
+    },
+    {
+      "id": "U5L-R-33",
+      "paper": "review",
+      "section": "dialogue",
+      "num": 33,
+      "word": "對話應答",
+      "stem": "A: How come the hall is so quiet? B: ___",
+      "options": [
+        "The hall is big.",
+        "Everyone went home.",
+        "I like quiet places.",
+        "It opens at eight."
+      ],
+      "answer": 1,
+      "explain": "How come 問「怎麼會」，答：大家都回家了。"
+    },
+    {
+      "id": "U5L-R-34",
+      "paper": "review",
+      "section": "dialogue",
+      "num": 34,
+      "word": "對話應答",
+      "stem": "A: Why did you pick this album? B: ___",
+      "options": [
+        "Because my sister loves it.",
+        "The store is far.",
+        "It is a thick book.",
+        "I have many albums."
+      ],
+      "answer": 0,
+      "explain": "Why 問原因，答：因為我姊姊很喜歡。"
+    },
+    {
+      "id": "U5L-R-35",
+      "paper": "review",
+      "section": "dialogue",
+      "num": 35,
+      "word": "對話應答",
+      "stem": "A: How come you did not notice me? B: ___",
+      "options": [
+        "Sorry, I was reading.",
+        "You are my friend.",
+        "I noticed the sign.",
+        "The room is dark."
+      ],
+      "answer": 0,
+      "explain": "How come 問「怎麼會」，答：抱歉，我剛才在看書。"
+    },
+    {
+      "id": "U5L-R-36",
+      "paper": "review",
+      "section": "dialogue",
+      "num": 36,
+      "word": "對話應答",
+      "stem": "A: Why is the road blocked today? B: ___",
+      "options": [
+        "I walk to school.",
+        "It is a wide road.",
+        "Because of a car accident.",
+        "The road is long."
+      ],
+      "answer": 2,
+      "explain": "Why 問原因，答：因為發生車禍。"
+    },
+    {
+      "id": "U5L-R-37",
+      "paper": "review",
+      "section": "dialogue",
+      "num": 37,
+      "word": "對話應答",
+      "stem": "A: How come your salary is higher now? B: ___",
+      "options": [
+        "I work in a bank.",
+        "Money is useful.",
+        "I save every month.",
+        "Because I got a new job."
+      ],
+      "answer": 3,
+      "explain": "How come 問「怎麼會」，答：因為我換了新工作。"
+    },
+    {
+      "id": "U5L-R-38",
+      "paper": "review",
+      "section": "reading",
+      "num": 38,
+      "word": "閱讀理解",
+      "readingId": "U5L-READ-1",
+      "stem": "What is this reading mainly about?",
+      "options": [
+        "How the writer joined a talent show",
+        "The history of the school hall",
+        "How to write a school notice",
+        "How to sing in a foreign language"
+      ],
+      "answer": 0,
+      "explain": "全文在講作者參加才藝表演的過程，選 (B)。"
+    },
+    {
+      "id": "U5L-R-39",
+      "paper": "review",
+      "section": "reading",
+      "num": 39,
+      "word": "閱讀理解",
+      "readingId": "U5L-READ-1",
+      "stem": "How did the writer feel at first?",
+      "options": [
+        "Tired and sleepy",
+        "Happy and proud",
+        "Anxious and nervous",
+        "Angry at the school"
+      ],
+      "answer": 2,
+      "explain": "文中說 I felt some anxiety…I am always nervous，所以是焦慮又緊張。"
+    },
+    {
+      "id": "U5L-R-40",
+      "paper": "review",
+      "section": "reading",
+      "num": 40,
+      "word": "閱讀理解",
+      "readingId": "U5L-READ-1",
+      "stem": "What did Amy do for the writer?",
+      "options": [
+        "She sang the song for her.",
+        "She moved the heavy box alone.",
+        "She wrote the notice.",
+        "She helped her pick a song."
+      ],
+      "answer": 3,
+      "explain": "文中說 My friend Amy helped me pick a song。"
+    },
+    {
+      "id": "U5L-R-41",
+      "paper": "review",
+      "section": "reading",
+      "num": 41,
+      "word": "閱讀理解",
+      "readingId": "U5L-READ-1",
+      "stem": "Which one is TRUE about the show day?",
+      "options": [
+        "No parents came to watch.",
+        "A box blocked the door.",
+        "The lobby was empty.",
+        "The show was held in the lobby."
+      ],
+      "answer": 1,
+      "explain": "文中說 A heavy box blocked the door，其餘三個都與文章相反。"
+    },
+    {
+      "id": "U5L-Q-01",
+      "paper": "quiz",
+      "section": "matching",
+      "num": 1,
+      "word": "配合題",
+      "left": [
+        "nervous",
+        "album",
+        "block",
+        "lobby",
+        "notable",
+        "language",
+        "pick",
+        "discover",
+        "loneliness",
+        "noble",
+        "dairy",
+        "anxiety",
+        "salary",
+        "hall",
+        "notice"
+      ],
+      "right": [
+        "注意；公告",
+        "走廊；禮堂",
+        "高貴的；貴族",
+        "乳製品；乳品店",
+        "薪水",
+        "焦慮；不安",
+        "相簿；唱片集",
+        "著名的；值得注意的",
+        "大廳",
+        "挑選；摘採",
+        "發現；找出",
+        "緊張的；神經質的",
+        "語言",
+        "街區；封鎖",
+        "寂寞；孤單"
+      ],
+      "answer": [
+        "L",
+        "G",
+        "N",
+        "I",
+        "H",
+        "M",
+        "J",
+        "K",
+        "O",
+        "C",
+        "D",
+        "F",
+        "E",
+        "B",
+        "A"
+      ],
+      "explain": "把每個英文字對到正確的中文意思。"
+    },
+    {
+      "id": "U5L-Q-02",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 2,
+      "mode": "spell",
+      "prompt": "焦慮；不安",
+      "word": "anxiety",
+      "explain": "anxiety＝焦慮；不安。首 a 尾 y，共 7 個字母。"
+    },
+    {
+      "id": "U5L-Q-03",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 3,
+      "mode": "spell",
+      "prompt": "乳製品；乳品店",
+      "word": "dairy",
+      "explain": "dairy＝乳製品；乳品店。首 d 尾 y，共 5 個字母（別跟 diary 日記搞混）。"
+    },
+    {
+      "id": "U5L-Q-04",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 4,
+      "mode": "spell",
+      "prompt": "注意；公告",
+      "word": "notice",
+      "explain": "notice＝注意；公告。首 n 尾 e，共 6 個字母。"
+    },
+    {
+      "id": "U5L-Q-05",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 5,
+      "mode": "spell",
+      "prompt": "挑選；摘採",
+      "word": "pick",
+      "explain": "pick＝挑選；摘採。首 p 尾 k，共 4 個字母。"
+    },
+    {
+      "id": "U5L-Q-06",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 6,
+      "mode": "spell",
+      "prompt": "發現；找出",
+      "word": "discover",
+      "explain": "discover＝發現；找出。首 d 尾 r，共 8 個字母。"
+    },
+    {
+      "id": "U5L-Q-07",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 7,
+      "mode": "spell",
+      "prompt": "高貴的；貴族",
+      "word": "noble",
+      "explain": "noble＝高貴的；貴族。首 n 尾 e，共 5 個字母。"
+    },
+    {
+      "id": "U5L-Q-08",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 8,
+      "mode": "spell",
+      "prompt": "走廊；禮堂",
+      "word": "hall",
+      "explain": "hall＝走廊；禮堂。首 h 尾 l，共 4 個字母。"
+    },
+    {
+      "id": "U5L-Q-09",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 9,
+      "mode": "spell",
+      "prompt": "薪水",
+      "word": "salary",
+      "explain": "salary＝薪水。首 s 尾 y，共 6 個字母。"
+    },
+    {
+      "id": "U5L-Q-10",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 10,
+      "mode": "spell",
+      "prompt": "寂寞；孤單",
+      "word": "loneliness",
+      "explain": "loneliness＝寂寞；孤單。首 l 尾 s，共 10 個字母（lonely 去 y 加 iness）。"
+    },
+    {
+      "id": "U5L-Q-11",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 11,
+      "mode": "spell",
+      "prompt": "相簿；唱片集",
+      "word": "album",
+      "explain": "album＝相簿；唱片集。首 a 尾 m，共 5 個字母。"
+    },
+    {
+      "id": "U5L-Q-12",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 12,
+      "mode": "spell",
+      "prompt": "著名的",
+      "word": "notable",
+      "explain": "notable＝著名的；值得注意的。首 n 尾 e，共 7 個字母。"
+    },
+    {
+      "id": "U5L-Q-13",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 13,
+      "mode": "spell",
+      "prompt": "大廳",
+      "word": "lobby",
+      "explain": "lobby＝大廳。首 l 尾 y，共 5 個字母（b 要兩個）。"
+    },
+    {
+      "id": "U5L-Q-14",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 14,
+      "mode": "spell",
+      "prompt": "街區；封鎖",
+      "word": "block",
+      "explain": "block＝街區；封鎖。首 b 尾 k，共 5 個字母。"
+    },
+    {
+      "id": "U5L-Q-15",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 15,
+      "mode": "spell",
+      "prompt": "緊張的",
+      "word": "nervous",
+      "explain": "nervous＝緊張的；神經質的。首 n 尾 s，共 7 個字母。"
+    },
+    {
+      "id": "U5L-Q-16",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 16,
+      "mode": "spell",
+      "prompt": "語言",
+      "word": "language",
+      "explain": "language＝語言。首 l 尾 e，共 8 個字母。"
+    },
+    {
+      "id": "U5L-Q-17",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 17,
+      "mode": "mc",
+      "word": "discover",
+      "form": "discovery",
+      "stem": "Her ___ changed the way doctors treat the disease.",
+      "options": [
+        "discovered",
+        "discover",
+        "discovery",
+        "discovers"
+      ],
+      "answer": 2,
+      "explain": "她的發現改變了醫生治療這種病的方式。所有格 her 後面用名詞 discovery＝發現。"
+    },
+    {
+      "id": "U5L-Q-18",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 18,
+      "mode": "mc",
+      "word": "dairy",
+      "form": "diary",
+      "stem": "I lost the ___ I kept for three years.",
+      "options": [
+        "diary",
+        "diaries",
+        "dairy",
+        "dairies"
+      ],
+      "answer": 0,
+      "explain": "我弄丟了寫了三年的日記。diary＝日記；dairy 是「乳製品」。"
+    },
+    {
+      "id": "U5L-Q-19",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 19,
+      "mode": "mc",
+      "word": "loneliness",
+      "form": "lonely",
+      "stem": "He felt ___ after his best friend moved away.",
+      "options": [
+        "loneliness",
+        "lone",
+        "lonely",
+        "lonelier"
+      ],
+      "answer": 2,
+      "explain": "他最好的朋友搬走後他覺得孤單。felt 後面接形容詞 lonely＝孤單的。"
+    },
+    {
+      "id": "U5L-Q-20",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 20,
+      "mode": "mc",
+      "word": "anxiety",
+      "form": "anxious",
+      "stem": "The players looked ___ before the final game.",
+      "options": [
+        "anxiety",
+        "anxieties",
+        "anxiously",
+        "anxious"
+      ],
+      "answer": 3,
+      "explain": "球員在決賽前看起來很焦慮。looked 後面接形容詞 anxious＝焦慮的。"
+    },
+    {
+      "id": "U5L-Q-21",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 21,
+      "mode": "mc",
+      "word": "notable",
+      "form": "note",
+      "stem": "The teacher wrote a short ___ on my paper.",
+      "options": [
+        "noble",
+        "notable",
+        "notice",
+        "note"
+      ],
+      "answer": 3,
+      "explain": "老師在我的考卷上寫了一則短短的評語。a short ___ 用名詞 note＝筆記；短評。"
+    },
+    {
+      "id": "U5L-Q-22",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 22,
+      "mode": "mc",
+      "word": "salary",
+      "form": "wage",
+      "stem": "The factory pays a low ___ to new workers.",
+      "options": [
+        "waged",
+        "wage",
+        "wages",
+        "waging"
+      ],
+      "answer": 1,
+      "explain": "工廠付給新進工人很低的工資。a low ___ 用單數名詞 wage＝工資。"
+    },
+    {
+      "id": "U5L-Q-23",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 23,
+      "mode": "mc",
+      "word": "pick",
+      "form": "picky",
+      "stem": "Do not be so ___ when you choose a gift.",
+      "options": [
+        "pick",
+        "picky",
+        "picked",
+        "picks"
+      ],
+      "answer": 1,
+      "explain": "挑禮物的時候不要那麼挑剔。be 動詞後接形容詞 picky＝挑剔的。"
+    },
+    {
+      "id": "U5L-Q-24",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 24,
+      "mode": "mc",
+      "word": "discover",
+      "form": "cover",
+      "stem": "Yesterday, a thick cloud ___ the top of the mountain.",
+      "options": [
+        "covered",
+        "cover",
+        "discovered",
+        "covers"
+      ],
+      "answer": 0,
+      "explain": "昨天一片厚雲遮住了山頂。yesterday 表示過去，用 covered＝覆蓋。"
+    },
+    {
+      "id": "U5L-Q-25",
+      "paper": "quiz",
+      "section": "mc-phrase",
+      "num": 25,
+      "word": "pick up",
+      "stem": "He bent down to ___ the coin on the floor.",
+      "options": [
+        "stand out",
+        "pick up",
+        "turn on",
+        "sit up"
+      ],
+      "answer": 1,
+      "explain": "他彎腰去撿地上的硬幣。pick up＝撿起。"
+    },
+    {
+      "id": "U5L-Q-26",
+      "paper": "quiz",
+      "section": "mc-phrase",
+      "num": 26,
+      "word": "sit up",
+      "stem": "Do not ___ too late before a big test.",
+      "options": [
+        "turn on",
+        "pick up",
+        "sit up",
+        "stand for"
+      ],
+      "answer": 2,
+      "explain": "大考前不要熬夜太晚。sit up＝熬夜。"
+    },
+    {
+      "id": "U5L-Q-27",
+      "paper": "quiz",
+      "section": "mc-phrase",
+      "num": 27,
+      "word": "turn on",
+      "stem": "I always ___ the light when I come home.",
+      "options": [
+        "turn on",
+        "stand out",
+        "pick up",
+        "sit up"
+      ],
+      "answer": 0,
+      "explain": "我回家時總是打開電燈。turn on＝打開。"
+    },
+    {
+      "id": "U5L-Q-28",
+      "paper": "quiz",
+      "section": "dialogue",
+      "num": 28,
+      "word": "對話應答",
+      "stem": "A: Why are you learning a new language? B: ___",
+      "options": [
+        "It is a hard subject.",
+        "Because I want to study abroad.",
+        "My teacher is nice.",
+        "I speak Chinese."
+      ],
+      "answer": 1,
+      "explain": "Why 問原因，答：因為我想出國念書。"
+    },
+    {
+      "id": "U5L-Q-29",
+      "paper": "quiz",
+      "section": "dialogue",
+      "num": 29,
+      "word": "對話應答",
+      "stem": "A: How come she looks so anxious? B: ___",
+      "options": [
+        "She is my classmate.",
+        "She likes math.",
+        "She sits near me.",
+        "Her test is tomorrow."
+      ],
+      "answer": 3,
+      "explain": "How come 問「怎麼會」，答：她明天要考試。"
+    },
+    {
+      "id": "U5L-Q-30",
+      "paper": "quiz",
+      "section": "dialogue",
+      "num": 30,
+      "word": "對話應答",
+      "stem": "A: Why did you turn on the lamp? B: ___",
+      "options": [
+        "Because the room got dark.",
+        "I like lamps.",
+        "The lamp is new.",
+        "It is on the desk."
+      ],
+      "answer": 0,
+      "explain": "Why 問原因，答：因為房間變暗了。"
+    },
+    {
+      "id": "U5L-Q-31",
+      "paper": "quiz",
+      "section": "dialogue",
+      "num": 31,
+      "word": "對話應答",
+      "stem": "A: How come you sat up so late? B: ___",
+      "options": [
+        "The night is long.",
+        "My bed is soft.",
+        "I had a report to finish.",
+        "I sleep at ten."
+      ],
+      "answer": 2,
+      "explain": "How come 問「怎麼會」，答：我有一份報告要寫完。"
+    },
+    {
+      "id": "U5L-E-01",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 1,
+      "mode": "spell",
+      "prompt": "相簿；唱片集",
+      "word": "album",
+      "explain": "album＝相簿；唱片集。首 a 尾 m，共 5 個字母。"
+    },
+    {
+      "id": "U5L-E-02",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 2,
+      "mode": "spell",
+      "prompt": "語言",
+      "word": "language",
+      "explain": "language＝語言。首 l 尾 e，共 8 個字母。"
+    },
+    {
+      "id": "U5L-E-03",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 3,
+      "mode": "spell",
+      "prompt": "走廊；禮堂",
+      "word": "hall",
+      "explain": "hall＝走廊；禮堂。首 h 尾 l，共 4 個字母。"
+    },
+    {
+      "id": "U5L-E-04",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 4,
+      "mode": "spell",
+      "prompt": "大廳",
+      "word": "lobby",
+      "explain": "lobby＝大廳。首 l 尾 y，共 5 個字母（b 要兩個）。"
+    },
+    {
+      "id": "U5L-E-05",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 5,
+      "mode": "spell",
+      "prompt": "緊張的",
+      "word": "nervous",
+      "explain": "nervous＝緊張的；神經質的。首 n 尾 s，共 7 個字母。"
+    },
+    {
+      "id": "U5L-E-06",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 6,
+      "mode": "spell",
+      "prompt": "高貴的；貴族",
+      "word": "noble",
+      "explain": "noble＝高貴的；貴族。首 n 尾 e，共 5 個字母。"
+    },
+    {
+      "id": "U5L-E-07",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 7,
+      "mode": "spell",
+      "prompt": "注意；公告",
+      "word": "notice",
+      "explain": "notice＝注意；公告。首 n 尾 e，共 6 個字母。"
+    },
+    {
+      "id": "U5L-E-08",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 8,
+      "mode": "spell",
+      "prompt": "街區；封鎖",
+      "word": "block",
+      "explain": "block＝街區；封鎖。首 b 尾 k，共 5 個字母。"
+    },
+    {
+      "id": "U5L-E-09",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 9,
+      "mode": "mc",
+      "word": "discover",
+      "form": "discovery",
+      "stem": "Every ___ starts with a good question.",
+      "options": [
+        "discover",
+        "discovers",
+        "discovered",
+        "discovery"
+      ],
+      "answer": 3,
+      "explain": "每一項發現都從一個好問題開始。every 後面接單數名詞 discovery＝發現。"
+    },
+    {
+      "id": "U5L-E-10",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 10,
+      "mode": "mc",
+      "word": "dairy",
+      "form": "diary",
+      "stem": "My ___ is full of happy memories.",
+      "options": [
+        "diary",
+        "dairies",
+        "diaries",
+        "dairy"
+      ],
+      "answer": 0,
+      "explain": "我的日記充滿快樂的回憶。diary＝日記。"
+    },
+    {
+      "id": "U5L-E-11",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 11,
+      "mode": "mc",
+      "word": "loneliness",
+      "form": "lonely",
+      "stem": "The ___ old man talks to his cat every day.",
+      "options": [
+        "lonelier",
+        "loneliness",
+        "lonely",
+        "lone"
+      ],
+      "answer": 2,
+      "explain": "那個孤單的老人每天跟他的貓說話。名詞前用形容詞 lonely＝孤單的。"
+    },
+    {
+      "id": "U5L-E-12",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 12,
+      "mode": "mc",
+      "word": "anxiety",
+      "form": "anxious",
+      "stem": "She was ___ when her phone did not ring.",
+      "options": [
+        "anxieties",
+        "anxious",
+        "anxiously",
+        "anxiety"
+      ],
+      "answer": 1,
+      "explain": "手機沒響時她很焦慮。be 動詞後接形容詞 anxious＝焦慮的。"
+    },
+    {
+      "id": "U5L-E-13",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 13,
+      "mode": "mc",
+      "word": "notable",
+      "form": "note",
+      "stem": "He left a ___ on the kitchen table.",
+      "options": [
+        "note",
+        "notice",
+        "noble",
+        "notable"
+      ],
+      "answer": 0,
+      "explain": "他在廚房桌上留了一張紙條。a ___ 用名詞 note＝便條。"
+    },
+    {
+      "id": "U5L-E-14",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 14,
+      "mode": "mc",
+      "word": "salary",
+      "form": "wage",
+      "stem": "Their daily ___ is not enough for the family.",
+      "options": [
+        "waged",
+        "wages",
+        "wage",
+        "waging"
+      ],
+      "answer": 2,
+      "explain": "他們的日薪不夠養家。daily ___ 用單數名詞 wage＝工資。"
+    },
+    {
+      "id": "U5L-E-15",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 15,
+      "mode": "mc",
+      "word": "pick",
+      "form": "picky",
+      "stem": "A ___ eater often skips dinner.",
+      "options": [
+        "picked",
+        "picky",
+        "picks",
+        "pick"
+      ],
+      "answer": 1,
+      "explain": "挑食的人常常不吃晚餐。名詞前用形容詞 picky＝挑剔的。"
+    },
+    {
+      "id": "U5L-E-16",
+      "paper": "extra",
+      "section": "mc-phrase",
+      "num": 16,
+      "word": "pick up",
+      "stem": "Can you ___ some milk on your way home?",
+      "options": [
+        "pick up",
+        "sit up",
+        "stand for",
+        "turn on"
+      ],
+      "answer": 0,
+      "explain": "你回家路上可以買一些牛奶嗎？pick up＝順道買。"
+    },
+    {
+      "id": "U5L-E-17",
+      "paper": "extra",
+      "section": "mc-phrase",
+      "num": 17,
+      "word": "sit up",
+      "stem": "The nurse ___ with the sick child all night.",
+      "options": [
+        "picked up",
+        "sat up",
+        "stood out",
+        "turned on"
+      ],
+      "answer": 1,
+      "explain": "護士整晚守著生病的小孩。sit up＝熬夜不睡。"
+    },
+    {
+      "id": "U5L-E-18",
+      "paper": "extra",
+      "section": "mc-phrase",
+      "num": 18,
+      "word": "turn on",
+      "stem": "Nobody knows who ___ the radio.",
+      "options": [
+        "sat up",
+        "picked up",
+        "turned on",
+        "stood out"
+      ],
+      "answer": 2,
+      "explain": "沒有人知道是誰打開收音機的。turn on＝打開。"
+    },
+    {
+      "id": "U5L-E-19",
+      "paper": "extra",
+      "section": "dialogue",
+      "num": 19,
+      "word": "對話應答",
+      "stem": "A: Why is the lobby full of people? B: ___",
+      "options": [
+        "The lobby is small.",
+        "Because a singer is coming.",
+        "I wait here often.",
+        "It is a nice hotel."
+      ],
+      "answer": 1,
+      "explain": "Why 問原因，答：因為有歌手要來。"
+    },
+    {
+      "id": "U5L-E-20",
+      "paper": "extra",
+      "section": "dialogue",
+      "num": 20,
+      "word": "對話應答",
+      "stem": "A: How come you never feel lonely? B: ___",
+      "options": [
+        "My house is quiet.",
+        "I am fine.",
+        "Because I have many hobbies.",
+        "I live alone."
+      ],
+      "answer": 2,
+      "explain": "How come 問「怎麼會」，答：因為我有很多興趣。"
+    },
+    {
+      "id": "U5L-E-21",
+      "paper": "extra",
+      "section": "dialogue",
+      "num": 21,
+      "word": "對話應答",
+      "stem": "A: Why do you write a diary? B: ___",
+      "options": [
+        "I write at night.",
+        "It is a small book.",
+        "I write in Chinese.",
+        "Because I want to remember things."
+      ],
+      "answer": 3,
+      "explain": "Why 問原因，答：因為我想記住一些事。"
+    },
+    {
+      "id": "U5L-E-22",
+      "paper": "extra",
+      "section": "dialogue",
+      "num": 22,
+      "word": "對話應答",
+      "stem": "A: How come the store has no milk? B: ___",
+      "options": [
+        "The truck did not come today.",
+        "Milk is white.",
+        "It is a big store.",
+        "I drink milk daily."
+      ],
+      "answer": 0,
+      "explain": "How come 問「怎麼會」，答：今天送貨車沒來。"
+    }
+  ]
+}
