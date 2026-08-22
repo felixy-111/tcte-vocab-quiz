@@ -1,0 +1,1572 @@
+{
+  "unit": 11,
+  "half": "upper",
+  "spec": {
+    "review": "v7",
+    "quiz": "v7"
+  },
+  "words": [
+    {
+      "en": "charming",
+      "zh": "迷人的；有魅力的",
+      "derivatives": [
+        "charm",
+        "fascinate"
+      ]
+    },
+    {
+      "en": "handle",
+      "zh": "處理；把手"
+    },
+    {
+      "en": "collect",
+      "zh": "收集；聚集",
+      "derivatives": [
+        "collection"
+      ]
+    },
+    {
+      "en": "credit",
+      "zh": "信用；學分",
+      "derivatives": [
+        "incredible"
+      ]
+    },
+    {
+      "en": "endangered",
+      "zh": "瀕臨危險的",
+      "derivatives": [
+        "endanger",
+        "danger",
+        "dangerous"
+      ]
+    },
+    {
+      "en": "mess",
+      "zh": "混亂；弄亂"
+    },
+    {
+      "en": "confuse",
+      "zh": "使困惑；混淆",
+      "derivatives": [
+        "confused",
+        "confusing",
+        "confusion"
+      ]
+    },
+    {
+      "en": "highlight",
+      "zh": "強調；精彩部分"
+    },
+    {
+      "en": "delight",
+      "zh": "高興；愉快"
+    },
+    {
+      "en": "slight",
+      "zh": "輕微的；少許的",
+      "derivatives": [
+        "slightly"
+      ]
+    },
+    {
+      "en": "crop",
+      "zh": "農作物；收成",
+      "derivatives": [
+        "grain"
+      ]
+    },
+    {
+      "en": "harvest",
+      "zh": "收割；收穫"
+    },
+    {
+      "en": "solar",
+      "zh": "太陽的",
+      "derivatives": [
+        "lunar"
+      ]
+    },
+    {
+      "en": "energy",
+      "zh": "能源；精力",
+      "derivatives": [
+        "energetic"
+      ]
+    },
+    {
+      "en": "enemy",
+      "zh": "敵人",
+      "derivatives": [
+        "army"
+      ]
+    }
+  ],
+  "phrases": [
+    {
+      "en": "blow up",
+      "zh": "爆炸"
+    },
+    {
+      "en": "blow out",
+      "zh": "爆胎；吹熄"
+    },
+    {
+      "en": "put out",
+      "zh": "熄滅"
+    }
+  ],
+  "readings": [
+    {
+      "id": "U11U-READ-1",
+      "title": "A Day on the Solar Farm",
+      "text": "Last month our class visited a farm that runs on solar energy. The owner is a charming old man who can handle every machine by himself. He told us that the farm grows two crops a year, and the harvest in October is the biggest one. We helped him collect eggs, and the smell in the henhouse was a slight problem for some of us. After lunch, one student left a candle near a paper box, and a small fire started. The owner put out the fire in a second and asked us to blow out every candle before we left. Our classroom at school is often a mess, but on the farm we cleaned everything. To our delight, the owner gave each of us a bag of rice."
+    }
+  ],
+  "questions": [
+    {
+      "id": "U11U-R-01",
+      "paper": "review",
+      "section": "matching",
+      "num": 1,
+      "word": "配合題",
+      "left": [
+        "crop",
+        "confuse",
+        "solar",
+        "credit",
+        "harvest",
+        "mess",
+        "energy",
+        "charming",
+        "highlight",
+        "endangered",
+        "delight",
+        "handle",
+        "enemy",
+        "collect",
+        "slight"
+      ],
+      "right": [
+        "高興；愉快",
+        "能源；精力",
+        "收割；收穫",
+        "迷人的；有魅力的",
+        "輕微的；少許的",
+        "收集；聚集",
+        "信用；學分",
+        "混亂；弄亂",
+        "瀕臨危險的",
+        "農作物；收成",
+        "敵人",
+        "太陽的",
+        "使困惑；混淆",
+        "強調；精彩部分",
+        "處理；把手"
+      ],
+      "answer": [
+        "J",
+        "M",
+        "L",
+        "G",
+        "C",
+        "H",
+        "B",
+        "D",
+        "N",
+        "I",
+        "A",
+        "O",
+        "K",
+        "F",
+        "E"
+      ],
+      "explain": "把每個英文字對到正確的中文意思。"
+    },
+    {
+      "id": "U11U-R-02",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 2,
+      "mode": "spell",
+      "prompt": "混亂",
+      "word": "mess",
+      "explain": "mess＝混亂；弄亂。首 m 尾 s，共 4 個字母。"
+    },
+    {
+      "id": "U11U-R-03",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 3,
+      "mode": "spell",
+      "prompt": "太陽的",
+      "word": "solar",
+      "explain": "solar＝太陽的。首 s 尾 r，共 5 個字母。"
+    },
+    {
+      "id": "U11U-R-04",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 4,
+      "mode": "spell",
+      "prompt": "高興；愉快",
+      "word": "delight",
+      "explain": "delight＝高興；愉快。首 d 尾 t，共 7 個字母。"
+    },
+    {
+      "id": "U11U-R-05",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 5,
+      "mode": "spell",
+      "prompt": "收集",
+      "word": "collect",
+      "explain": "collect＝收集；聚集。首 c 尾 t，共 7 個字母。"
+    },
+    {
+      "id": "U11U-R-06",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 6,
+      "mode": "spell",
+      "prompt": "敵人",
+      "word": "enemy",
+      "explain": "enemy＝敵人。首 e 尾 y，共 5 個字母。"
+    },
+    {
+      "id": "U11U-R-07",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 7,
+      "mode": "spell",
+      "prompt": "收割",
+      "word": "harvest",
+      "explain": "harvest＝收割；收穫。首 h 尾 t，共 7 個字母。"
+    },
+    {
+      "id": "U11U-R-08",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 8,
+      "mode": "spell",
+      "prompt": "信用；學分",
+      "word": "credit",
+      "explain": "credit＝信用；學分。首 c 尾 t，共 6 個字母。"
+    },
+    {
+      "id": "U11U-R-09",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 9,
+      "mode": "spell",
+      "prompt": "輕微的",
+      "word": "slight",
+      "explain": "slight＝輕微的；少許的。首 s 尾 t，共 6 個字母。"
+    },
+    {
+      "id": "U11U-R-10",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 10,
+      "mode": "spell",
+      "prompt": "迷人的",
+      "word": "charming",
+      "explain": "charming＝迷人的；有魅力的。首 c 尾 g，共 8 個字母。"
+    },
+    {
+      "id": "U11U-R-11",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 11,
+      "mode": "spell",
+      "prompt": "能源",
+      "word": "energy",
+      "explain": "energy＝能源；精力。首 e 尾 y，共 6 個字母。"
+    },
+    {
+      "id": "U11U-R-12",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 12,
+      "mode": "spell",
+      "prompt": "處理；把手",
+      "word": "handle",
+      "explain": "handle＝處理；把手。首 h 尾 e，共 6 個字母。"
+    },
+    {
+      "id": "U11U-R-13",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 13,
+      "mode": "spell",
+      "prompt": "農作物",
+      "word": "crop",
+      "explain": "crop＝農作物；收成。首 c 尾 p，共 4 個字母。"
+    },
+    {
+      "id": "U11U-R-14",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 14,
+      "mode": "spell",
+      "prompt": "使困惑",
+      "word": "confuse",
+      "explain": "confuse＝使困惑；混淆。首 c 尾 e，共 7 個字母。"
+    },
+    {
+      "id": "U11U-R-15",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 15,
+      "mode": "spell",
+      "prompt": "精彩部分",
+      "word": "highlight",
+      "explain": "highlight＝強調；精彩部分。首 h 尾 t，共 9 個字母。"
+    },
+    {
+      "id": "U11U-R-16",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 16,
+      "mode": "spell",
+      "prompt": "瀕臨危險的",
+      "word": "endangered",
+      "explain": "endangered＝瀕臨危險的。首 e 尾 d，共 10 個字母。"
+    },
+    {
+      "id": "U11U-R-17",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 17,
+      "mode": "mc",
+      "stem": "The old town has a special ___ at night.",
+      "options": [
+        "charmed",
+        "charm",
+        "charming",
+        "charms"
+      ],
+      "answer": 1,
+      "word": "charming",
+      "form": "charm",
+      "explain": "這座老鎮在夜晚有特別的魅力。a 後面接單數名詞 charm＝魅力。"
+    },
+    {
+      "id": "U11U-R-18",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 18,
+      "mode": "mc",
+      "stem": "He showed me his stamp ___ last Sunday.",
+      "options": [
+        "collect",
+        "collected",
+        "collects",
+        "collection"
+      ],
+      "answer": 3,
+      "word": "collect",
+      "form": "collection",
+      "explain": "上週日他給我看他的郵票收藏。collection＝收藏品。"
+    },
+    {
+      "id": "U11U-R-19",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 19,
+      "mode": "mc",
+      "stem": "The magic trick was ___; nobody could believe it.",
+      "options": [
+        "credited",
+        "incredible",
+        "credit",
+        "credits"
+      ],
+      "answer": 1,
+      "word": "credit",
+      "form": "incredible",
+      "explain": "那個魔術令人難以置信，沒人相信。be 動詞後接形容詞 incredible。"
+    },
+    {
+      "id": "U11U-R-20",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 20,
+      "mode": "mc",
+      "stem": "It is ___ to swim in that deep river.",
+      "options": [
+        "dangerous",
+        "danger",
+        "endanger",
+        "endangered"
+      ],
+      "answer": 0,
+      "word": "endangered",
+      "form": "dangerous",
+      "explain": "在那條深河游泳很危險。It is + 形容詞 dangerous。"
+    },
+    {
+      "id": "U11U-R-21",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 21,
+      "mode": "mc",
+      "stem": "The old bridge is in ___ after the flood.",
+      "options": [
+        "dangerous",
+        "endangered",
+        "danger",
+        "endanger"
+      ],
+      "answer": 2,
+      "word": "endangered",
+      "form": "danger",
+      "explain": "水災後那座舊橋有危險。in danger＝處於危險中，danger 是名詞。"
+    },
+    {
+      "id": "U11U-R-22",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 22,
+      "mode": "mc",
+      "stem": "The students looked ___ when the teacher changed the rule.",
+      "options": [
+        "confusing",
+        "confused",
+        "confuse",
+        "confusion"
+      ],
+      "answer": 1,
+      "word": "confuse",
+      "form": "confused",
+      "explain": "老師改規則時學生看起來很困惑。人「感到困惑」用 confused。"
+    },
+    {
+      "id": "U11U-R-23",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 23,
+      "mode": "mc",
+      "stem": "The MRT map is ___ for foreign visitors.",
+      "options": [
+        "confusion",
+        "confuse",
+        "confused",
+        "confusing"
+      ],
+      "answer": 3,
+      "word": "confuse",
+      "form": "confusing",
+      "explain": "捷運地圖對外國旅客來說令人困惑。事物「令人困惑」用 confusing。"
+    },
+    {
+      "id": "U11U-R-24",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 24,
+      "mode": "mc",
+      "stem": "The soup is ___ salty, but I still like it.",
+      "options": [
+        "slighter",
+        "slight",
+        "slightly",
+        "slightest"
+      ],
+      "answer": 2,
+      "word": "slight",
+      "form": "slightly",
+      "explain": "這湯有點鹹，但我還是喜歡。修飾形容詞 salty 要用副詞 slightly。"
+    },
+    {
+      "id": "U11U-R-25",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 25,
+      "mode": "mc",
+      "stem": "Not a single ___ of rice should be wasted.",
+      "options": [
+        "grain",
+        "grains",
+        "crop",
+        "crops"
+      ],
+      "answer": 0,
+      "word": "crop",
+      "form": "grain",
+      "explain": "一粒米都不該浪費。a single 後面接單數 grain＝穀粒。"
+    },
+    {
+      "id": "U11U-R-26",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 26,
+      "mode": "mc",
+      "stem": "The Moon Festival follows the ___ calendar.",
+      "options": [
+        "solar",
+        "moon",
+        "lunar",
+        "sun"
+      ],
+      "answer": 2,
+      "word": "solar",
+      "form": "lunar",
+      "explain": "中秋節依照農曆。lunar calendar＝農曆；solar calendar＝陽曆。"
+    },
+    {
+      "id": "U11U-R-27",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 27,
+      "mode": "mc",
+      "stem": "My grandfather is still very ___ at eighty.",
+      "options": [
+        "energy",
+        "energetically",
+        "energies",
+        "energetic"
+      ],
+      "answer": 3,
+      "word": "energy",
+      "form": "energetic",
+      "explain": "我爺爺八十歲還是很有精神。be 動詞後接形容詞 energetic。"
+    },
+    {
+      "id": "U11U-R-28",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 28,
+      "mode": "mc",
+      "stem": "He joined the ___ right after high school.",
+      "options": [
+        "army",
+        "enemies",
+        "armies",
+        "enemy"
+      ],
+      "answer": 0,
+      "word": "enemy",
+      "form": "army",
+      "explain": "他高中一畢業就從軍。army＝軍隊；enemy＝敵人。"
+    },
+    {
+      "id": "U11U-R-29",
+      "paper": "review",
+      "section": "mc-phrase",
+      "num": 29,
+      "stem": "The old bomb ___ and made a big hole in the ground.",
+      "options": [
+        "broke down",
+        "blew up",
+        "showed up",
+        "blew out"
+      ],
+      "answer": 1,
+      "word": "blow up",
+      "explain": "那顆舊炸彈爆炸，在地上炸出一個大洞。blow up＝爆炸。"
+    },
+    {
+      "id": "U11U-R-30",
+      "paper": "review",
+      "section": "mc-phrase",
+      "num": 30,
+      "stem": "She ___ the candles on her birthday cake.",
+      "options": [
+        "blew out",
+        "blew up",
+        "broke down",
+        "showed off"
+      ],
+      "answer": 0,
+      "word": "blow out",
+      "explain": "她吹熄了生日蛋糕上的蠟燭。blow out＝吹熄。"
+    },
+    {
+      "id": "U11U-R-31",
+      "paper": "review",
+      "section": "mc-phrase",
+      "num": 31,
+      "stem": "The firemen ___ the fire in ten minutes.",
+      "options": [
+        "showed up",
+        "blew up",
+        "put out",
+        "broke into"
+      ],
+      "answer": 2,
+      "word": "put out",
+      "explain": "消防員十分鐘就把火撲滅了。put out＝熄滅；撲滅。"
+    },
+    {
+      "id": "U11U-R-32",
+      "paper": "review",
+      "section": "dialogue",
+      "num": 32,
+      "stem": "A: How long is the movie? B: ___",
+      "options": [
+        "It is very funny.",
+        "About two hours.",
+        "At eight o'clock.",
+        "In the new theater."
+      ],
+      "answer": 1,
+      "word": "對話應答",
+      "explain": "問時間多久，回答「大約兩小時」。"
+    },
+    {
+      "id": "U11U-R-33",
+      "paper": "review",
+      "section": "dialogue",
+      "num": 33,
+      "stem": "A: How tall is your brother? B: ___",
+      "options": [
+        "He plays basketball.",
+        "He is twenty.",
+        "He is 180 centimeters.",
+        "He is very kind."
+      ],
+      "answer": 2,
+      "word": "對話應答",
+      "explain": "問身高，回答「180 公分」。"
+    },
+    {
+      "id": "U11U-R-34",
+      "paper": "review",
+      "section": "dialogue",
+      "num": 34,
+      "stem": "A: How long did you wait? B: ___",
+      "options": [
+        "At the bus stop.",
+        "It was very hot.",
+        "Since Monday.",
+        "For twenty minutes."
+      ],
+      "answer": 3,
+      "word": "對話應答",
+      "explain": "問等了多久，回答「二十分鐘」。"
+    },
+    {
+      "id": "U11U-R-35",
+      "paper": "review",
+      "section": "dialogue",
+      "num": 35,
+      "stem": "A: How long is this rope? B: ___",
+      "options": [
+        "About three meters.",
+        "In the box.",
+        "It is very strong.",
+        "For camping."
+      ],
+      "answer": 0,
+      "word": "對話應答",
+      "explain": "問物品多長，回答「大約三公尺」。"
+    },
+    {
+      "id": "U11U-R-36",
+      "paper": "review",
+      "section": "dialogue",
+      "num": 36,
+      "stem": "A: How long is the summer vacation? B: ___",
+      "options": [
+        "It is two months long.",
+        "It is really hot.",
+        "It starts in July.",
+        "With my family."
+      ],
+      "answer": 0,
+      "word": "對話應答",
+      "explain": "問時間多久，回答「兩個月」。"
+    },
+    {
+      "id": "U11U-R-37",
+      "paper": "review",
+      "section": "dialogue",
+      "num": 37,
+      "stem": "A: How tall is Taipei 101? B: ___",
+      "options": [
+        "It has 101 floors.",
+        "It is 508 meters tall.",
+        "In Xinyi District.",
+        "About twenty years old."
+      ],
+      "answer": 1,
+      "word": "對話應答",
+      "explain": "問高度，回答「508 公尺高」。"
+    },
+    {
+      "id": "U11U-R-38",
+      "paper": "review",
+      "section": "reading",
+      "num": 38,
+      "readingId": "U11U-READ-1",
+      "stem": "What is this reading mainly about?",
+      "options": [
+        "A fire that burned a farmhouse down.",
+        "How to keep chickens at home.",
+        "A farmer who sells solar panels.",
+        "A class trip to a farm."
+      ],
+      "answer": 3,
+      "word": "閱讀理解",
+      "explain": "全文在講班上去農場的校外教學。"
+    },
+    {
+      "id": "U11U-R-39",
+      "paper": "review",
+      "section": "reading",
+      "num": 39,
+      "readingId": "U11U-READ-1",
+      "stem": "What did the students help the owner do?",
+      "options": [
+        "Harvest the rice.",
+        "Cook lunch.",
+        "Collect eggs.",
+        "Fix an old machine."
+      ],
+      "answer": 2,
+      "word": "閱讀理解",
+      "explain": "文中說他們幫忙撿蛋（collect eggs）。"
+    },
+    {
+      "id": "U11U-R-40",
+      "paper": "review",
+      "section": "reading",
+      "num": 40,
+      "readingId": "U11U-READ-1",
+      "stem": "What happened after lunch?",
+      "options": [
+        "The owner sold them two bags of rice.",
+        "A small fire started near a paper box.",
+        "The class cleaned the classroom.",
+        "One student got hurt in the henhouse."
+      ],
+      "answer": 1,
+      "word": "閱讀理解",
+      "explain": "文中說午餐後有學生把蠟燭放在紙箱旁，起了小火。"
+    },
+    {
+      "id": "U11U-R-41",
+      "paper": "review",
+      "section": "reading",
+      "num": 41,
+      "readingId": "U11U-READ-1",
+      "stem": "Which one is TRUE about the farm?",
+      "options": [
+        "It uses energy from the sun.",
+        "The owner needs many workers.",
+        "It grows only one crop a year.",
+        "The biggest harvest comes in July."
+      ],
+      "answer": 0,
+      "word": "閱讀理解",
+      "explain": "第一句就說農場靠太陽能運作；文中也說一年兩收、十月收成最大。"
+    },
+    {
+      "id": "U11U-Q-01",
+      "paper": "quiz",
+      "section": "matching",
+      "num": 1,
+      "word": "配合題",
+      "left": [
+        "delight",
+        "energy",
+        "handle",
+        "endangered",
+        "slight",
+        "harvest",
+        "mess",
+        "collect",
+        "solar",
+        "confuse",
+        "highlight",
+        "crop",
+        "charming",
+        "enemy",
+        "credit"
+      ],
+      "right": [
+        "處理；把手",
+        "農作物；收成",
+        "迷人的；有魅力的",
+        "強調；精彩部分",
+        "收集；聚集",
+        "使困惑；混淆",
+        "能源；精力",
+        "瀕臨危險的",
+        "混亂；弄亂",
+        "輕微的；少許的",
+        "太陽的",
+        "敵人",
+        "高興；愉快",
+        "信用；學分",
+        "收割；收穫"
+      ],
+      "answer": [
+        "M",
+        "G",
+        "A",
+        "H",
+        "J",
+        "O",
+        "I",
+        "E",
+        "K",
+        "F",
+        "D",
+        "B",
+        "C",
+        "L",
+        "N"
+      ],
+      "explain": "把每個英文字對到正確的中文意思。"
+    },
+    {
+      "id": "U11U-Q-02",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 2,
+      "mode": "spell",
+      "prompt": "收割",
+      "word": "harvest",
+      "explain": "harvest＝收割；收穫。首 h 尾 t，共 7 個字母。"
+    },
+    {
+      "id": "U11U-Q-03",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 3,
+      "mode": "spell",
+      "prompt": "能源",
+      "word": "energy",
+      "explain": "energy＝能源；精力。首 e 尾 y，共 6 個字母。"
+    },
+    {
+      "id": "U11U-Q-04",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 4,
+      "mode": "spell",
+      "prompt": "農作物",
+      "word": "crop",
+      "explain": "crop＝農作物；收成。首 c 尾 p，共 4 個字母。"
+    },
+    {
+      "id": "U11U-Q-05",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 5,
+      "mode": "spell",
+      "prompt": "使困惑",
+      "word": "confuse",
+      "explain": "confuse＝使困惑；混淆。首 c 尾 e，共 7 個字母。"
+    },
+    {
+      "id": "U11U-Q-06",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 6,
+      "mode": "spell",
+      "prompt": "處理；把手",
+      "word": "handle",
+      "explain": "handle＝處理；把手。首 h 尾 e，共 6 個字母。"
+    },
+    {
+      "id": "U11U-Q-07",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 7,
+      "mode": "spell",
+      "prompt": "迷人的",
+      "word": "charming",
+      "explain": "charming＝迷人的；有魅力的。首 c 尾 g，共 8 個字母。"
+    },
+    {
+      "id": "U11U-Q-08",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 8,
+      "mode": "spell",
+      "prompt": "太陽的",
+      "word": "solar",
+      "explain": "solar＝太陽的。首 s 尾 r，共 5 個字母。"
+    },
+    {
+      "id": "U11U-Q-09",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 9,
+      "mode": "spell",
+      "prompt": "高興；愉快",
+      "word": "delight",
+      "explain": "delight＝高興；愉快。首 d 尾 t，共 7 個字母。"
+    },
+    {
+      "id": "U11U-Q-10",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 10,
+      "mode": "spell",
+      "prompt": "瀕臨危險的",
+      "word": "endangered",
+      "explain": "endangered＝瀕臨危險的。首 e 尾 d，共 10 個字母。"
+    },
+    {
+      "id": "U11U-Q-11",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 11,
+      "mode": "spell",
+      "prompt": "混亂",
+      "word": "mess",
+      "explain": "mess＝混亂；弄亂。首 m 尾 s，共 4 個字母。"
+    },
+    {
+      "id": "U11U-Q-12",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 12,
+      "mode": "spell",
+      "prompt": "收集",
+      "word": "collect",
+      "explain": "collect＝收集；聚集。首 c 尾 t，共 7 個字母。"
+    },
+    {
+      "id": "U11U-Q-13",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 13,
+      "mode": "spell",
+      "prompt": "敵人",
+      "word": "enemy",
+      "explain": "enemy＝敵人。首 e 尾 y，共 5 個字母。"
+    },
+    {
+      "id": "U11U-Q-14",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 14,
+      "mode": "spell",
+      "prompt": "精彩部分",
+      "word": "highlight",
+      "explain": "highlight＝強調；精彩部分。首 h 尾 t，共 9 個字母。"
+    },
+    {
+      "id": "U11U-Q-15",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 15,
+      "mode": "spell",
+      "prompt": "信用；學分",
+      "word": "credit",
+      "explain": "credit＝信用；學分。首 c 尾 t，共 6 個字母。"
+    },
+    {
+      "id": "U11U-Q-16",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 16,
+      "mode": "spell",
+      "prompt": "輕微的",
+      "word": "slight",
+      "explain": "slight＝輕微的；少許的。首 s 尾 t，共 6 個字母。"
+    },
+    {
+      "id": "U11U-Q-17",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 17,
+      "mode": "mc",
+      "stem": "Magic shows can ___ young children for hours.",
+      "options": [
+        "fascinating",
+        "fascinates",
+        "fascinate",
+        "fascinated"
+      ],
+      "answer": 2,
+      "word": "charming",
+      "form": "fascinate",
+      "explain": "魔術表演能讓小孩著迷好幾個小時。can 後面接原形動詞 fascinate。"
+    },
+    {
+      "id": "U11U-Q-18",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 18,
+      "mode": "mc",
+      "stem": "Careless driving can ___ other people's lives.",
+      "options": [
+        "endanger",
+        "dangerous",
+        "endangered",
+        "danger"
+      ],
+      "answer": 0,
+      "word": "endangered",
+      "form": "endanger",
+      "explain": "開車不小心會危及別人的生命。can 後面接原形動詞 endanger。"
+    },
+    {
+      "id": "U11U-Q-19",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 19,
+      "mode": "mc",
+      "stem": "There was some ___ about the date of the exam.",
+      "options": [
+        "confused",
+        "confusion",
+        "confusing",
+        "confuse"
+      ],
+      "answer": 1,
+      "word": "confuse",
+      "form": "confusion",
+      "explain": "大家對考試日期有些困惑。some 後面接名詞 confusion。"
+    },
+    {
+      "id": "U11U-Q-20",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 20,
+      "mode": "mc",
+      "stem": "Her cooking is ___ for a beginner.",
+      "options": [
+        "credit",
+        "credits",
+        "credited",
+        "incredible"
+      ],
+      "answer": 3,
+      "word": "credit",
+      "form": "incredible",
+      "explain": "以新手來說她的廚藝好得令人難以置信。be 動詞後接形容詞。"
+    },
+    {
+      "id": "U11U-Q-21",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 21,
+      "mode": "mc",
+      "stem": "The museum has a large ___ of old coins.",
+      "options": [
+        "collects",
+        "collect",
+        "collected",
+        "collection"
+      ],
+      "answer": 3,
+      "word": "collect",
+      "form": "collection",
+      "explain": "博物館有大量的古錢幣收藏。a large 後面接名詞 collection。"
+    },
+    {
+      "id": "U11U-Q-22",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 22,
+      "mode": "mc",
+      "stem": "He is ___ taller than his brother.",
+      "options": [
+        "slightly",
+        "slight",
+        "slightest",
+        "slighter"
+      ],
+      "answer": 0,
+      "word": "slight",
+      "form": "slightly",
+      "explain": "他比他哥哥高一點點。修飾 taller 要用副詞 slightly。"
+    },
+    {
+      "id": "U11U-Q-23",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 23,
+      "mode": "mc",
+      "stem": "The new coach is young and ___.",
+      "options": [
+        "energetically",
+        "energetic",
+        "energies",
+        "energy"
+      ],
+      "answer": 1,
+      "word": "energy",
+      "form": "energetic",
+      "explain": "新教練年輕又充滿活力。and 前後詞性要一致，用形容詞。"
+    },
+    {
+      "id": "U11U-Q-24",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 24,
+      "mode": "mc",
+      "stem": "The ___ built a bridge over the river in one day.",
+      "options": [
+        "enemy",
+        "armies",
+        "army",
+        "enemies"
+      ],
+      "answer": 2,
+      "word": "enemy",
+      "form": "army",
+      "explain": "軍隊一天就在河上蓋好一座橋。the 後面接單數名詞 army。"
+    },
+    {
+      "id": "U11U-Q-25",
+      "paper": "quiz",
+      "section": "mc-phrase",
+      "num": 25,
+      "stem": "The workers ___ the fire before it spread.",
+      "options": [
+        "put out",
+        "broke down",
+        "showed up",
+        "blew up"
+      ],
+      "answer": 0,
+      "word": "put out",
+      "explain": "工人在火勢蔓延前把火撲滅。put out＝撲滅。"
+    },
+    {
+      "id": "U11U-Q-26",
+      "paper": "quiz",
+      "section": "mc-phrase",
+      "num": 26,
+      "stem": "The gas tank ___ in the accident yesterday.",
+      "options": [
+        "broke out",
+        "showed off",
+        "blew up",
+        "blew out"
+      ],
+      "answer": 2,
+      "word": "blow up",
+      "explain": "昨天意外中瓦斯桶爆炸了。blow up＝爆炸。"
+    },
+    {
+      "id": "U11U-Q-27",
+      "paper": "quiz",
+      "section": "mc-phrase",
+      "num": 27,
+      "stem": "The wind ___ the small candle on the table.",
+      "options": [
+        "showed off",
+        "blew out",
+        "blew up",
+        "broke out"
+      ],
+      "answer": 1,
+      "word": "blow out",
+      "explain": "風把桌上的小蠟燭吹熄了。blow out＝吹熄。"
+    },
+    {
+      "id": "U11U-Q-28",
+      "paper": "quiz",
+      "section": "dialogue",
+      "num": 28,
+      "stem": "A: How long is each class? B: ___",
+      "options": [
+        "In Room 203.",
+        "At ten o'clock.",
+        "Fifty minutes.",
+        "It is math."
+      ],
+      "answer": 2,
+      "word": "對話應答",
+      "explain": "問一節課多久，回答「五十分鐘」。"
+    },
+    {
+      "id": "U11U-Q-29",
+      "paper": "quiz",
+      "section": "dialogue",
+      "num": 29,
+      "stem": "A: How tall are you? B: ___",
+      "options": [
+        "I am 165 centimeters.",
+        "I am sixteen.",
+        "I weigh 55 kilos.",
+        "Not very old."
+      ],
+      "answer": 0,
+      "word": "對話應答",
+      "explain": "問身高，回答「165 公分」。"
+    },
+    {
+      "id": "U11U-Q-30",
+      "paper": "quiz",
+      "section": "dialogue",
+      "num": 30,
+      "stem": "A: How long is the bridge? B: ___",
+      "options": [
+        "Ten years ago.",
+        "Over the river.",
+        "It is very old.",
+        "Almost two kilometers."
+      ],
+      "answer": 3,
+      "word": "對話應答",
+      "explain": "問物品多長，回答「快兩公里」。"
+    },
+    {
+      "id": "U11U-Q-31",
+      "paper": "quiz",
+      "section": "dialogue",
+      "num": 31,
+      "stem": "A: How long did the meeting last? B: ___",
+      "options": [
+        "In the office.",
+        "About an hour.",
+        "It was boring.",
+        "Ten people came."
+      ],
+      "answer": 1,
+      "word": "對話應答",
+      "explain": "問持續多久，回答「大約一小時」。"
+    },
+    {
+      "id": "U11U-E-01",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 1,
+      "mode": "spell",
+      "prompt": "處理；把手",
+      "word": "handle",
+      "explain": "handle＝處理；把手。首 h 尾 e，共 6 個字母。"
+    },
+    {
+      "id": "U11U-E-02",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 2,
+      "mode": "spell",
+      "prompt": "混亂",
+      "word": "mess",
+      "explain": "mess＝混亂；弄亂。首 m 尾 s，共 4 個字母。"
+    },
+    {
+      "id": "U11U-E-03",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 3,
+      "mode": "spell",
+      "prompt": "精彩部分",
+      "word": "highlight",
+      "explain": "highlight＝強調；精彩部分。首 h 尾 t，共 9 個字母。"
+    },
+    {
+      "id": "U11U-E-04",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 4,
+      "mode": "spell",
+      "prompt": "高興；愉快",
+      "word": "delight",
+      "explain": "delight＝高興；愉快。首 d 尾 t，共 7 個字母。"
+    },
+    {
+      "id": "U11U-E-05",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 5,
+      "mode": "spell",
+      "prompt": "收割",
+      "word": "harvest",
+      "explain": "harvest＝收割；收穫。首 h 尾 t，共 7 個字母。"
+    },
+    {
+      "id": "U11U-E-06",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 6,
+      "mode": "mc",
+      "stem": "Her smile has a special ___.",
+      "options": [
+        "charm",
+        "charming",
+        "charmed",
+        "charms"
+      ],
+      "answer": 0,
+      "word": "charming",
+      "form": "charm",
+      "explain": "她的笑容有特別的魅力。a 後面接單數名詞 charm。"
+    },
+    {
+      "id": "U11U-E-07",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 7,
+      "mode": "mc",
+      "stem": "My uncle sold his coin ___ last year.",
+      "options": [
+        "collected",
+        "collects",
+        "collect",
+        "collection"
+      ],
+      "answer": 3,
+      "word": "collect",
+      "form": "collection",
+      "explain": "我叔叔去年賣掉他的錢幣收藏。collection＝收藏品。"
+    },
+    {
+      "id": "U11U-E-08",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 8,
+      "mode": "mc",
+      "stem": "The view from the top was ___.",
+      "options": [
+        "credits",
+        "incredible",
+        "credit",
+        "credited"
+      ],
+      "answer": 1,
+      "word": "credit",
+      "form": "incredible",
+      "explain": "山頂的景色美得難以置信。be 動詞後接形容詞。"
+    },
+    {
+      "id": "U11U-E-09",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 9,
+      "mode": "mc",
+      "stem": "Playing with fire is ___ for children.",
+      "options": [
+        "dangerous",
+        "endangered",
+        "endanger",
+        "danger"
+      ],
+      "answer": 0,
+      "word": "endangered",
+      "form": "dangerous",
+      "explain": "玩火對小孩很危險。be 動詞後接形容詞 dangerous。"
+    },
+    {
+      "id": "U11U-E-10",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 10,
+      "mode": "mc",
+      "stem": "The new rule is ___ for everyone.",
+      "options": [
+        "confusion",
+        "confusing",
+        "confused",
+        "confuse"
+      ],
+      "answer": 1,
+      "word": "confuse",
+      "form": "confusing",
+      "explain": "新規定對每個人來說都令人困惑。事物用 confusing。"
+    },
+    {
+      "id": "U11U-E-11",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 11,
+      "mode": "mc",
+      "stem": "The price went up ___ this month.",
+      "options": [
+        "slightest",
+        "slighter",
+        "slightly",
+        "slight"
+      ],
+      "answer": 2,
+      "word": "slight",
+      "form": "slightly",
+      "explain": "這個月價格微幅上漲。修飾動詞用副詞 slightly。"
+    },
+    {
+      "id": "U11U-E-12",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 12,
+      "mode": "mc",
+      "stem": "Birds ate every ___ on the ground.",
+      "options": [
+        "grains",
+        "crops",
+        "grain",
+        "crop"
+      ],
+      "answer": 2,
+      "word": "crop",
+      "form": "grain",
+      "explain": "鳥把地上的每一粒穀子都吃掉了。every 後面接單數 grain。"
+    },
+    {
+      "id": "U11U-E-13",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 13,
+      "mode": "mc",
+      "stem": "Chinese New Year is a ___ holiday.",
+      "options": [
+        "lunar",
+        "moon",
+        "solar",
+        "sun"
+      ],
+      "answer": 0,
+      "word": "solar",
+      "form": "lunar",
+      "explain": "農曆新年是依農曆的節日。lunar＝月亮的；農曆的。"
+    },
+    {
+      "id": "U11U-E-14",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 14,
+      "mode": "mc",
+      "stem": "The little dog is ___ all day long.",
+      "options": [
+        "energies",
+        "energetically",
+        "energy",
+        "energetic"
+      ],
+      "answer": 3,
+      "word": "energy",
+      "form": "energetic",
+      "explain": "那隻小狗整天都精力充沛。be 動詞後接形容詞。"
+    },
+    {
+      "id": "U11U-E-15",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 15,
+      "mode": "mc",
+      "stem": "His brother works as a cook in the ___.",
+      "options": [
+        "enemy",
+        "army",
+        "enemies",
+        "armies"
+      ],
+      "answer": 1,
+      "word": "enemy",
+      "form": "army",
+      "explain": "他哥哥在軍中當廚師。the army＝軍隊。"
+    },
+    {
+      "id": "U11U-E-16",
+      "paper": "extra",
+      "section": "mc-phrase",
+      "num": 16,
+      "stem": "The men tried to ___ the old building.",
+      "options": [
+        "break down",
+        "blow up",
+        "blow out",
+        "show off"
+      ],
+      "answer": 1,
+      "word": "blow up",
+      "explain": "那些人試著炸掉那棟舊建築。blow up＝炸掉；爆炸。"
+    },
+    {
+      "id": "U11U-E-17",
+      "paper": "extra",
+      "section": "mc-phrase",
+      "num": 17,
+      "stem": "Make a wish and ___ the candles.",
+      "options": [
+        "blow out",
+        "show off",
+        "blow up",
+        "break down"
+      ],
+      "answer": 0,
+      "word": "blow out",
+      "explain": "許個願然後吹熄蠟燭。blow out＝吹熄。"
+    },
+    {
+      "id": "U11U-E-18",
+      "paper": "extra",
+      "section": "mc-phrase",
+      "num": 18,
+      "stem": "It took two hours to ___ the mountain fire.",
+      "options": [
+        "show up",
+        "blow up",
+        "put out",
+        "break into"
+      ],
+      "answer": 2,
+      "word": "put out",
+      "explain": "花了兩小時才撲滅那場山火。put out＝撲滅。"
+    },
+    {
+      "id": "U11U-E-19",
+      "paper": "extra",
+      "section": "dialogue",
+      "num": 19,
+      "stem": "A: How long is your hair now? B: ___",
+      "options": [
+        "It is black.",
+        "I cut it last week.",
+        "Down to my shoulders.",
+        "In a small salon."
+      ],
+      "answer": 2,
+      "word": "對話應答",
+      "explain": "問長度，回答「到肩膀」。"
+    },
+    {
+      "id": "U11U-E-20",
+      "paper": "extra",
+      "section": "dialogue",
+      "num": 20,
+      "stem": "A: How tall is that tree? B: ___",
+      "options": [
+        "It is very old.",
+        "My father planted it.",
+        "Behind my house.",
+        "About ten meters."
+      ],
+      "answer": 3,
+      "word": "對話應答",
+      "explain": "問高度，回答「大約十公尺」。"
+    },
+    {
+      "id": "U11U-E-21",
+      "paper": "extra",
+      "section": "dialogue",
+      "num": 21,
+      "stem": "A: How long does the train ride take? B: ___",
+      "options": [
+        "Two and a half hours.",
+        "From Taipei to Hualien.",
+        "About 400 dollars.",
+        "It leaves at six."
+      ],
+      "answer": 0,
+      "word": "對話應答",
+      "explain": "問要多久，回答「兩個半小時」。"
+    },
+    {
+      "id": "U11U-E-22",
+      "paper": "extra",
+      "section": "dialogue",
+      "num": 22,
+      "stem": "A: How long is the school trip? B: ___",
+      "options": [
+        "By bus.",
+        "Three days and two nights.",
+        "Next month.",
+        "We go to Taitung."
+      ],
+      "answer": 1,
+      "word": "對話應答",
+      "explain": "問幾天，回答「三天兩夜」。"
+    }
+  ]
+}

@@ -1,0 +1,1561 @@
+{
+  "unit": 9,
+  "half": "upper",
+  "spec": {
+    "review": "v7",
+    "quiz": "v7"
+  },
+  "words": [
+    {
+      "en": "break",
+      "zh": "打破；弄壞",
+      "derivatives": [
+        "broke",
+        "broken"
+      ]
+    },
+    {
+      "en": "share",
+      "zh": "分享；分擔"
+    },
+    {
+      "en": "couple",
+      "zh": "伴侶；一對"
+    },
+    {
+      "en": "shoot",
+      "zh": "射擊；投籃",
+      "derivatives": [
+        "shot"
+      ]
+    },
+    {
+      "en": "passage",
+      "zh": "段落；通道",
+      "derivatives": [
+        "paragraph"
+      ]
+    },
+    {
+      "en": "passenger",
+      "zh": "旅客；乘客"
+    },
+    {
+      "en": "repeat",
+      "zh": "重複；跟著唸",
+      "derivatives": [
+        "repeatedly",
+        "repetition"
+      ]
+    },
+    {
+      "en": "stage",
+      "zh": "舞台；階段"
+    },
+    {
+      "en": "satisfaction",
+      "zh": "滿意；滿足",
+      "derivatives": [
+        "satisfy",
+        "satisfied"
+      ]
+    },
+    {
+      "en": "sample",
+      "zh": "樣品；標本"
+    },
+    {
+      "en": "marriage",
+      "zh": "婚姻",
+      "derivatives": [
+        "marry",
+        "married"
+      ]
+    },
+    {
+      "en": "website",
+      "zh": "網站"
+    },
+    {
+      "en": "numerous",
+      "zh": "數不清的",
+      "derivatives": [
+        "number"
+      ]
+    },
+    {
+      "en": "mechanic",
+      "zh": "機械工；技工",
+      "derivatives": [
+        "mechanical",
+        "machine"
+      ]
+    },
+    {
+      "en": "deal",
+      "zh": "交易",
+      "derivatives": [
+        "dealer"
+      ]
+    }
+  ],
+  "phrases": [
+    {
+      "en": "break up",
+      "zh": "打碎；與…分手"
+    },
+    {
+      "en": "break down",
+      "zh": "故障；損毀"
+    },
+    {
+      "en": "break into",
+      "zh": "闖入；打斷"
+    }
+  ],
+  "readings": [
+    {
+      "id": "U9U-READ-1",
+      "title": "The Bus That Broke Down",
+      "text": "Last Saturday our basketball team took a bus to a game in Taichung. On the highway, the old bus broke down. All the passengers got off and waited beside the road. Our coach called a mechanic, and he arrived in an hour. While we waited, we took a short break under a tree and shared two boxes of rice balls. A couple of players practiced shooting at an old basket near a store. Some of us were afraid the trip would break up, but the mechanic fixed the engine before noon. We got to the gym ten minutes before the game, and the school band was still on the stage. Our team won by two points, and the satisfaction was really big. That night, numerous fans left messages on our school website."
+    }
+  ],
+  "questions": [
+    {
+      "id": "U9U-R-01",
+      "paper": "review",
+      "section": "matching",
+      "num": 1,
+      "word": "配合題",
+      "left": [
+        "mechanic",
+        "break",
+        "satisfaction",
+        "website",
+        "shoot",
+        "couple",
+        "repeat",
+        "deal",
+        "passage",
+        "stage",
+        "numerous",
+        "share",
+        "marriage",
+        "sample",
+        "passenger"
+      ],
+      "right": [
+        "分享；分擔",
+        "段落；通道",
+        "數不清的",
+        "打破；弄壞",
+        "交易",
+        "舞台；階段",
+        "婚姻",
+        "機械工；技工",
+        "樣品；標本",
+        "伴侶；一對",
+        "射擊；投籃",
+        "網站",
+        "旅客；乘客",
+        "滿意；滿足",
+        "重複；跟著唸"
+      ],
+      "answer": [
+        "H",
+        "D",
+        "N",
+        "L",
+        "K",
+        "J",
+        "O",
+        "E",
+        "B",
+        "F",
+        "C",
+        "A",
+        "G",
+        "I",
+        "M"
+      ],
+      "explain": "把每個英文字對到正確的中文意思。"
+    },
+    {
+      "id": "U9U-R-02",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 2,
+      "mode": "spell",
+      "prompt": "分享；分擔",
+      "word": "share",
+      "explain": "share＝分享；分擔。首 s 尾 e，共 5 個字母。"
+    },
+    {
+      "id": "U9U-R-03",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 3,
+      "mode": "spell",
+      "prompt": "舞台；階段",
+      "word": "stage",
+      "explain": "stage＝舞台；階段。首 s 尾 e，共 5 個字母。"
+    },
+    {
+      "id": "U9U-R-04",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 4,
+      "mode": "spell",
+      "prompt": "網站",
+      "word": "website",
+      "explain": "website＝網站。首 w 尾 e，共 7 個字母。"
+    },
+    {
+      "id": "U9U-R-05",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 5,
+      "mode": "spell",
+      "prompt": "伴侶；一對",
+      "word": "couple",
+      "explain": "couple＝伴侶；一對。首 c 尾 e，共 6 個字母。"
+    },
+    {
+      "id": "U9U-R-06",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 6,
+      "mode": "spell",
+      "prompt": "技工",
+      "word": "mechanic",
+      "explain": "mechanic＝機械工；技工。首 m 尾 c，共 8 個字母。"
+    },
+    {
+      "id": "U9U-R-07",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 7,
+      "mode": "spell",
+      "prompt": "旅客；乘客",
+      "word": "passenger",
+      "explain": "passenger＝旅客；乘客。首 p 尾 r，共 9 個字母。"
+    },
+    {
+      "id": "U9U-R-08",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 8,
+      "mode": "spell",
+      "prompt": "數不清的",
+      "word": "numerous",
+      "explain": "numerous＝數不清的。首 n 尾 s，共 8 個字母。"
+    },
+    {
+      "id": "U9U-R-09",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 9,
+      "mode": "spell",
+      "prompt": "交易",
+      "word": "deal",
+      "explain": "deal＝交易。首 d 尾 l，共 4 個字母。"
+    },
+    {
+      "id": "U9U-R-10",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 10,
+      "mode": "spell",
+      "prompt": "打破；弄壞",
+      "word": "break",
+      "explain": "break＝打破；弄壞。首 b 尾 k，共 5 個字母。"
+    },
+    {
+      "id": "U9U-R-11",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 11,
+      "mode": "spell",
+      "prompt": "樣品",
+      "word": "sample",
+      "explain": "sample＝樣品；標本。首 s 尾 e，共 6 個字母。"
+    },
+    {
+      "id": "U9U-R-12",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 12,
+      "mode": "spell",
+      "prompt": "滿意；滿足",
+      "word": "satisfaction",
+      "explain": "satisfaction＝滿意；滿足。首 s 尾 n，共 12 個字母。"
+    },
+    {
+      "id": "U9U-R-13",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 13,
+      "mode": "spell",
+      "prompt": "射擊；投籃",
+      "word": "shoot",
+      "explain": "shoot＝射擊；投籃。首 s 尾 t，共 5 個字母。"
+    },
+    {
+      "id": "U9U-R-14",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 14,
+      "mode": "spell",
+      "prompt": "重複",
+      "word": "repeat",
+      "explain": "repeat＝重複；跟著唸。首 r 尾 t，共 6 個字母。"
+    },
+    {
+      "id": "U9U-R-15",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 15,
+      "mode": "spell",
+      "prompt": "婚姻",
+      "word": "marriage",
+      "explain": "marriage＝婚姻。首 m 尾 e，共 8 個字母。"
+    },
+    {
+      "id": "U9U-R-16",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 16,
+      "mode": "spell",
+      "prompt": "段落；通道",
+      "word": "passage",
+      "explain": "passage＝段落；通道。首 p 尾 e，共 7 個字母。"
+    },
+    {
+      "id": "U9U-R-17",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 17,
+      "mode": "mc",
+      "stem": "Uncle Wang went ___ after his small shop closed last year.",
+      "options": [
+        "break",
+        "breaks",
+        "broke",
+        "broken"
+      ],
+      "answer": 2,
+      "word": "break",
+      "form": "broke",
+      "explain": "王叔叔的小店去年關門後，他就破產了。go broke＝破產（broke 是形容詞）。"
+    },
+    {
+      "id": "U9U-R-18",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 18,
+      "mode": "mc",
+      "stem": "The window in my room is ___, so cold air comes in.",
+      "options": [
+        "broke",
+        "broken",
+        "break",
+        "breaking"
+      ],
+      "answer": 1,
+      "word": "break",
+      "form": "broken",
+      "explain": "我房間的窗戶破了，所以冷空氣跑進來。is + broken＝壞掉的、破的。"
+    },
+    {
+      "id": "U9U-R-19",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 19,
+      "mode": "mc",
+      "stem": "The player ___ the ball from the corner and scored yesterday.",
+      "options": [
+        "shoot",
+        "shot",
+        "shooting",
+        "shoots"
+      ],
+      "answer": 1,
+      "word": "shoot",
+      "form": "shot",
+      "explain": "那位球員昨天從角落投籃得分。shoot 的過去式是 shot。"
+    },
+    {
+      "id": "U9U-R-20",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 20,
+      "mode": "mc",
+      "stem": "We walked through a narrow ___ to reach the back door.",
+      "options": [
+        "paragraphs",
+        "paragraph",
+        "passages",
+        "passage"
+      ],
+      "answer": 3,
+      "word": "passage",
+      "form": "passage",
+      "explain": "我們穿過一條窄小的通道到後門。passage 有「通道」的意思，paragraph 只有「段落」。"
+    },
+    {
+      "id": "U9U-R-21",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 21,
+      "mode": "mc",
+      "stem": "The teacher said the safety rule ___, but some students still forgot.",
+      "options": [
+        "repeated",
+        "repeat",
+        "repeats",
+        "repeatedly"
+      ],
+      "answer": 3,
+      "word": "repeat",
+      "form": "repeatedly",
+      "explain": "老師重複地講了安全規則，但有些學生還是忘了。修飾動詞要用副詞 repeatedly。"
+    },
+    {
+      "id": "U9U-R-22",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 22,
+      "mode": "mc",
+      "stem": "Learning a new language needs a lot of ___.",
+      "options": [
+        "repeatedly",
+        "repetition",
+        "repeat",
+        "repeated"
+      ],
+      "answer": 1,
+      "word": "repeat",
+      "form": "repetition",
+      "explain": "學新語言需要很多重複練習。a lot of 後面接名詞 repetition。"
+    },
+    {
+      "id": "U9U-R-23",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 23,
+      "mode": "mc",
+      "stem": "A small gift can ___ a child on his birthday.",
+      "options": [
+        "satisfy",
+        "satisfaction",
+        "satisfying",
+        "satisfied"
+      ],
+      "answer": 0,
+      "word": "satisfaction",
+      "form": "satisfy",
+      "explain": "一份小禮物就能滿足生日的孩子。can 後面要接原形動詞 satisfy。"
+    },
+    {
+      "id": "U9U-R-24",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 24,
+      "mode": "mc",
+      "stem": "My cousin got ___ in a small church last month.",
+      "options": [
+        "marriage",
+        "marries",
+        "married",
+        "marry"
+      ],
+      "answer": 2,
+      "word": "marriage",
+      "form": "married",
+      "explain": "我表哥上個月在一間小教堂結婚了。get married＝結婚。"
+    },
+    {
+      "id": "U9U-R-25",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 25,
+      "mode": "mc",
+      "stem": "A large ___ of students joined the school trip.",
+      "options": [
+        "numerous",
+        "numbered",
+        "numbers",
+        "number"
+      ],
+      "answer": 3,
+      "word": "numerous",
+      "form": "number",
+      "explain": "很多學生參加了校外教學。a large number of＝許多，number 是名詞。"
+    },
+    {
+      "id": "U9U-R-26",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 26,
+      "mode": "mc",
+      "stem": "My brother is good at ___ work like fixing motorcycles.",
+      "options": [
+        "mechanical",
+        "mechanic",
+        "machine",
+        "mechanics"
+      ],
+      "answer": 0,
+      "word": "mechanic",
+      "form": "mechanical",
+      "explain": "我哥哥擅長修機車這類機械的工作。修飾名詞 work 要用形容詞 mechanical。"
+    },
+    {
+      "id": "U9U-R-27",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 27,
+      "mode": "mc",
+      "stem": "This washing ___ is too old to fix.",
+      "options": [
+        "machine",
+        "mechanical",
+        "machines",
+        "mechanic"
+      ],
+      "answer": 0,
+      "word": "mechanic",
+      "form": "machine",
+      "explain": "這台洗衣機太舊了，修不好。washing machine＝洗衣機；mechanic 是「技工」，指人。"
+    },
+    {
+      "id": "U9U-R-28",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 28,
+      "mode": "mc",
+      "stem": "That car ___ is honest and never lies to us.",
+      "options": [
+        "dealt",
+        "deal",
+        "dealer",
+        "deals"
+      ],
+      "answer": 2,
+      "word": "deal",
+      "form": "dealer",
+      "explain": "那位汽車經銷商很誠實，從不對我們說謊。dealer 是「商人；經銷商」，指人。"
+    },
+    {
+      "id": "U9U-R-29",
+      "paper": "review",
+      "section": "mc-phrase",
+      "num": 29,
+      "stem": "Our school bus ___ on the way to the museum yesterday.",
+      "options": [
+        "broke down",
+        "broke into",
+        "broke up",
+        "looked into"
+      ],
+      "answer": 0,
+      "word": "break down",
+      "explain": "我們的校車昨天在去博物館的路上故障了。break down＝故障。"
+    },
+    {
+      "id": "U9U-R-30",
+      "paper": "review",
+      "section": "mc-phrase",
+      "num": 30,
+      "stem": "A thief ___ the store and took two phones last night.",
+      "options": [
+        "broke down",
+        "looked over",
+        "broke into",
+        "broke up"
+      ],
+      "answer": 2,
+      "word": "break into",
+      "explain": "昨晚一個小偷闖入那家店，拿走兩支手機。break into＝闖入。"
+    },
+    {
+      "id": "U9U-R-31",
+      "paper": "review",
+      "section": "mc-phrase",
+      "num": 31,
+      "stem": "My sister and her boyfriend ___ after a big fight.",
+      "options": [
+        "broke into",
+        "broke up",
+        "broke down",
+        "checked in"
+      ],
+      "answer": 1,
+      "word": "break up",
+      "explain": "我姐姐和她男朋友大吵一架後分手了。break up＝分手。"
+    },
+    {
+      "id": "U9U-R-32",
+      "paper": "review",
+      "section": "dialogue",
+      "num": 32,
+      "stem": "A: Where are you going now? B: ___",
+      "options": [
+        "Twice a week.",
+        "To the night market.",
+        "At seven o'clock.",
+        "By bus."
+      ],
+      "answer": 1,
+      "word": "對話應答",
+      "explain": "問「你現在要去哪裡」，回答地點「去夜市」。"
+    },
+    {
+      "id": "U9U-R-33",
+      "paper": "review",
+      "section": "dialogue",
+      "num": 33,
+      "stem": "A: Where did you buy the cap? B: ___",
+      "options": [
+        "In a shop near the station.",
+        "About 800 dollars.",
+        "With my sister.",
+        "Last winter."
+      ],
+      "answer": 0,
+      "word": "對話應答",
+      "explain": "問「在哪裡買的」，回答地點「在車站附近的店」。"
+    },
+    {
+      "id": "U9U-R-34",
+      "paper": "review",
+      "section": "dialogue",
+      "num": 34,
+      "stem": "A: Where is the teachers' office? B: ___",
+      "options": [
+        "On the second floor.",
+        "Because it is easy.",
+        "In two days.",
+        "By e-mail."
+      ],
+      "answer": 0,
+      "word": "對話應答",
+      "explain": "問「教師辦公室在哪」，回答地點「在二樓」。"
+    },
+    {
+      "id": "U9U-R-35",
+      "paper": "review",
+      "section": "dialogue",
+      "num": 35,
+      "stem": "A: Where do you want to go? B: ___",
+      "options": [
+        "Next Friday.",
+        "Maybe Kenting or Hualien.",
+        "For three days.",
+        "By train."
+      ],
+      "answer": 1,
+      "word": "對話應答",
+      "explain": "問「想去哪裡」，回答地點「墾丁或花蓮」。"
+    },
+    {
+      "id": "U9U-R-36",
+      "paper": "review",
+      "section": "dialogue",
+      "num": 36,
+      "stem": "A: Where is the MRT station? B: ___",
+      "options": [
+        "It takes ten minutes.",
+        "At six in the morning.",
+        "About 30 dollars.",
+        "Behind that tall building."
+      ],
+      "answer": 3,
+      "word": "對話應答",
+      "explain": "問「捷運站在哪」，回答地點「在那棟高樓後面」。"
+    },
+    {
+      "id": "U9U-R-37",
+      "paper": "review",
+      "section": "dialogue",
+      "num": 37,
+      "stem": "A: Where will you have dinner? B: ___",
+      "options": [
+        "Because I am hungry.",
+        "Around seven.",
+        "At the noodle shop near school.",
+        "With my classmates."
+      ],
+      "answer": 2,
+      "word": "對話應答",
+      "explain": "問「要去哪裡吃晚餐」，回答地點「學校附近的麵店」。"
+    },
+    {
+      "id": "U9U-R-38",
+      "paper": "review",
+      "section": "reading",
+      "num": 38,
+      "readingId": "U9U-READ-1",
+      "stem": "What is this reading mainly about?",
+      "options": [
+        "A new website built by the students.",
+        "A player who hurt his leg in a game.",
+        "How to fix an old school bus.",
+        "A school trip that had trouble but ended well."
+      ],
+      "answer": 3,
+      "word": "閱讀理解",
+      "explain": "全文在講一趟出了狀況、最後圓滿的球隊行程。"
+    },
+    {
+      "id": "U9U-R-39",
+      "paper": "review",
+      "section": "reading",
+      "num": 39,
+      "readingId": "U9U-READ-1",
+      "stem": "Who fixed the bus?",
+      "options": [
+        "A player on the team.",
+        "A mechanic.",
+        "The bus driver.",
+        "A worker in the store."
+      ],
+      "answer": 1,
+      "word": "閱讀理解",
+      "explain": "文中說教練打電話找技工（mechanic），一小時後他來修好引擎。"
+    },
+    {
+      "id": "U9U-R-40",
+      "paper": "review",
+      "section": "reading",
+      "num": 40,
+      "readingId": "U9U-READ-1",
+      "stem": "Which one is TRUE about the team?",
+      "options": [
+        "They walked all the way to Taichung.",
+        "They lost the game by two points.",
+        "They arrived before the game started.",
+        "They gave up the trip and went home."
+      ],
+      "answer": 2,
+      "word": "閱讀理解",
+      "explain": "文中說他們比賽前十分鐘到體育館，而且贏了兩分。"
+    },
+    {
+      "id": "U9U-R-41",
+      "paper": "review",
+      "section": "reading",
+      "num": 41,
+      "readingId": "U9U-READ-1",
+      "stem": "What did the fans do that night?",
+      "options": [
+        "They left messages on the school website.",
+        "They helped fix the bus on the highway.",
+        "They practiced shooting with the players.",
+        "They shared rice balls with the team."
+      ],
+      "answer": 0,
+      "word": "閱讀理解",
+      "explain": "文中最後說當晚無數球迷在學校網站上留言。"
+    },
+    {
+      "id": "U9U-Q-01",
+      "paper": "quiz",
+      "section": "matching",
+      "num": 1,
+      "word": "配合題",
+      "left": [
+        "passenger",
+        "sample",
+        "numerous",
+        "marriage",
+        "stage",
+        "deal",
+        "share",
+        "mechanic",
+        "repeat",
+        "couple",
+        "website",
+        "passage",
+        "satisfaction",
+        "break",
+        "shoot"
+      ],
+      "right": [
+        "婚姻",
+        "伴侶；一對",
+        "機械工；技工",
+        "打破；弄壞",
+        "網站",
+        "重複；跟著唸",
+        "段落；通道",
+        "射擊；投籃",
+        "舞台；階段",
+        "滿意；滿足",
+        "交易",
+        "數不清的",
+        "樣品；標本",
+        "旅客；乘客",
+        "分享；分擔"
+      ],
+      "answer": [
+        "N",
+        "M",
+        "L",
+        "A",
+        "I",
+        "K",
+        "O",
+        "C",
+        "F",
+        "B",
+        "E",
+        "G",
+        "J",
+        "D",
+        "H"
+      ],
+      "explain": "把每個英文字對到正確的中文意思。"
+    },
+    {
+      "id": "U9U-Q-02",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 2,
+      "mode": "spell",
+      "prompt": "婚姻",
+      "word": "marriage",
+      "explain": "marriage＝婚姻。首 m 尾 e，共 8 個字母。"
+    },
+    {
+      "id": "U9U-Q-03",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 3,
+      "mode": "spell",
+      "prompt": "旅客；乘客",
+      "word": "passenger",
+      "explain": "passenger＝旅客；乘客。首 p 尾 r，共 9 個字母。"
+    },
+    {
+      "id": "U9U-Q-04",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 4,
+      "mode": "spell",
+      "prompt": "交易",
+      "word": "deal",
+      "explain": "deal＝交易。首 d 尾 l，共 4 個字母。"
+    },
+    {
+      "id": "U9U-Q-05",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 5,
+      "mode": "spell",
+      "prompt": "滿意；滿足",
+      "word": "satisfaction",
+      "explain": "satisfaction＝滿意；滿足。首 s 尾 n，共 12 個字母。"
+    },
+    {
+      "id": "U9U-Q-06",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 6,
+      "mode": "spell",
+      "prompt": "伴侶；一對",
+      "word": "couple",
+      "explain": "couple＝伴侶；一對。首 c 尾 e，共 6 個字母。"
+    },
+    {
+      "id": "U9U-Q-07",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 7,
+      "mode": "spell",
+      "prompt": "網站",
+      "word": "website",
+      "explain": "website＝網站。首 w 尾 e，共 7 個字母。"
+    },
+    {
+      "id": "U9U-Q-08",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 8,
+      "mode": "spell",
+      "prompt": "射擊；投籃",
+      "word": "shoot",
+      "explain": "shoot＝射擊；投籃。首 s 尾 t，共 5 個字母。"
+    },
+    {
+      "id": "U9U-Q-09",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 9,
+      "mode": "spell",
+      "prompt": "樣品",
+      "word": "sample",
+      "explain": "sample＝樣品；標本。首 s 尾 e，共 6 個字母。"
+    },
+    {
+      "id": "U9U-Q-10",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 10,
+      "mode": "spell",
+      "prompt": "數不清的",
+      "word": "numerous",
+      "explain": "numerous＝數不清的。首 n 尾 s，共 8 個字母。"
+    },
+    {
+      "id": "U9U-Q-11",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 11,
+      "mode": "spell",
+      "prompt": "打破；弄壞",
+      "word": "break",
+      "explain": "break＝打破；弄壞。首 b 尾 k，共 5 個字母。"
+    },
+    {
+      "id": "U9U-Q-12",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 12,
+      "mode": "spell",
+      "prompt": "舞台；階段",
+      "word": "stage",
+      "explain": "stage＝舞台；階段。首 s 尾 e，共 5 個字母。"
+    },
+    {
+      "id": "U9U-Q-13",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 13,
+      "mode": "spell",
+      "prompt": "分享；分擔",
+      "word": "share",
+      "explain": "share＝分享；分擔。首 s 尾 e，共 5 個字母。"
+    },
+    {
+      "id": "U9U-Q-14",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 14,
+      "mode": "spell",
+      "prompt": "段落；通道",
+      "word": "passage",
+      "explain": "passage＝段落；通道。首 p 尾 e，共 7 個字母。"
+    },
+    {
+      "id": "U9U-Q-15",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 15,
+      "mode": "spell",
+      "prompt": "技工",
+      "word": "mechanic",
+      "explain": "mechanic＝機械工；技工。首 m 尾 c，共 8 個字母。"
+    },
+    {
+      "id": "U9U-Q-16",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 16,
+      "mode": "spell",
+      "prompt": "重複",
+      "word": "repeat",
+      "explain": "repeat＝重複；跟著唸。首 r 尾 t，共 6 個字母。"
+    },
+    {
+      "id": "U9U-Q-17",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 17,
+      "mode": "mc",
+      "stem": "The hunter ___ at the bird but missed it last winter.",
+      "options": [
+        "shoot",
+        "shoots",
+        "shot",
+        "shooting"
+      ],
+      "answer": 2,
+      "word": "shoot",
+      "form": "shot",
+      "explain": "那位獵人去年冬天對著鳥開槍，但沒打中。過去的事要用過去式 shot。"
+    },
+    {
+      "id": "U9U-Q-18",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 18,
+      "mode": "mc",
+      "stem": "The company went ___ and closed all its shops last year.",
+      "options": [
+        "breaking",
+        "broke",
+        "break",
+        "broken"
+      ],
+      "answer": 1,
+      "word": "break",
+      "form": "broke",
+      "explain": "那家公司去年破產，把所有店都關了。go broke＝破產。"
+    },
+    {
+      "id": "U9U-Q-19",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 19,
+      "mode": "mc",
+      "stem": "Good pronunciation comes from daily ___.",
+      "options": [
+        "repetition",
+        "repeated",
+        "repeatedly",
+        "repeat"
+      ],
+      "answer": 0,
+      "word": "repeat",
+      "form": "repetition",
+      "explain": "好的發音來自每天的重複練習。介系詞 from 後面接名詞 repetition。"
+    },
+    {
+      "id": "U9U-Q-20",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 20,
+      "mode": "mc",
+      "stem": "The boss looked ___ with our work today.",
+      "options": [
+        "satisfy",
+        "satisfying",
+        "satisfaction",
+        "satisfied"
+      ],
+      "answer": 3,
+      "word": "satisfaction",
+      "form": "satisfied",
+      "explain": "老闆今天對我們的工作看起來很滿意。人「感到滿意」用 satisfied。"
+    },
+    {
+      "id": "U9U-Q-21",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 21,
+      "mode": "mc",
+      "stem": "He wants to ___ his girlfriend after he finds a job.",
+      "options": [
+        "marriage",
+        "marries",
+        "married",
+        "marry"
+      ],
+      "answer": 3,
+      "word": "marriage",
+      "form": "marry",
+      "explain": "他想找到工作後娶他的女朋友。to 後面接原形動詞 marry。"
+    },
+    {
+      "id": "U9U-Q-22",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 22,
+      "mode": "mc",
+      "stem": "There were ___ mistakes in his math homework.",
+      "options": [
+        "number",
+        "numbers",
+        "numerous",
+        "numbered"
+      ],
+      "answer": 2,
+      "word": "numerous",
+      "form": "numerous",
+      "explain": "他的數學作業裡有數不清的錯誤。修飾名詞 mistakes 要用形容詞 numerous。"
+    },
+    {
+      "id": "U9U-Q-23",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 23,
+      "mode": "mc",
+      "stem": "Do not touch this ___ when it is running.",
+      "options": [
+        "mechanic",
+        "machine",
+        "machines",
+        "mechanical"
+      ],
+      "answer": 1,
+      "word": "mechanic",
+      "form": "machine",
+      "explain": "這台機器運轉時不要碰它。this 後面接單數名詞 machine。"
+    },
+    {
+      "id": "U9U-Q-24",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 24,
+      "mode": "mc",
+      "stem": "The fruit ___ at the night market sells cheap bananas.",
+      "options": [
+        "dealer",
+        "deals",
+        "deal",
+        "dealt"
+      ],
+      "answer": 0,
+      "word": "deal",
+      "form": "dealer",
+      "explain": "夜市的水果商賣便宜的香蕉。dealer＝商人，指人。"
+    },
+    {
+      "id": "U9U-Q-25",
+      "paper": "quiz",
+      "section": "mc-phrase",
+      "num": 25,
+      "stem": "Someone ___ our classroom and took the speaker last night.",
+      "options": [
+        "broke up",
+        "broke down",
+        "broke into",
+        "called off"
+      ],
+      "answer": 2,
+      "word": "break into",
+      "explain": "昨晚有人闖入我們教室，拿走了喇叭。break into＝闖入。"
+    },
+    {
+      "id": "U9U-Q-26",
+      "paper": "quiz",
+      "section": "mc-phrase",
+      "num": 26,
+      "stem": "The famous band ___ after ten years together.",
+      "options": [
+        "checked up",
+        "broke up",
+        "broke down",
+        "broke into"
+      ],
+      "answer": 1,
+      "word": "break up",
+      "explain": "那個有名的樂團在一起十年後拆夥了。break up＝拆夥；分手。"
+    },
+    {
+      "id": "U9U-Q-27",
+      "paper": "quiz",
+      "section": "mc-phrase",
+      "num": 27,
+      "stem": "My motorcycle ___ again on the way to school this morning.",
+      "options": [
+        "broke down",
+        "broke up",
+        "looked up",
+        "broke into"
+      ],
+      "answer": 0,
+      "word": "break down",
+      "explain": "我的機車今天早上又在上學路上故障了。break down＝故障。"
+    },
+    {
+      "id": "U9U-Q-28",
+      "paper": "quiz",
+      "section": "dialogue",
+      "num": 28,
+      "stem": "A: Where are you going after school? B: ___",
+      "options": [
+        "By scooter.",
+        "Once a month.",
+        "For two hours.",
+        "To the library near the park."
+      ],
+      "answer": 3,
+      "word": "對話應答",
+      "explain": "問「放學後要去哪」，回答地點「公園旁的圖書館」。"
+    },
+    {
+      "id": "U9U-Q-29",
+      "paper": "quiz",
+      "section": "dialogue",
+      "num": 29,
+      "stem": "A: Where did you leave your umbrella? B: ___",
+      "options": [
+        "Yesterday morning.",
+        "It was very cheap.",
+        "I think I left it on the bus.",
+        "I think it will rain."
+      ],
+      "answer": 2,
+      "word": "對話應答",
+      "explain": "問「雨傘放在哪」，回答地點「我想我放在公車上」。"
+    },
+    {
+      "id": "U9U-Q-30",
+      "paper": "quiz",
+      "section": "dialogue",
+      "num": 30,
+      "stem": "A: Where can I buy a train ticket? B: ___",
+      "options": [
+        "At the counter over there.",
+        "You can take a bus.",
+        "The train leaves at nine.",
+        "It costs 200 dollars."
+      ],
+      "answer": 0,
+      "word": "對話應答",
+      "explain": "問「哪裡可以買火車票」，回答地點「在那邊的櫃檯」。"
+    },
+    {
+      "id": "U9U-Q-31",
+      "paper": "quiz",
+      "section": "dialogue",
+      "num": 31,
+      "stem": "A: Where do you want to eat tonight? B: ___",
+      "options": [
+        "On May 5th.",
+        "At a hot pot restaurant.",
+        "I am seventeen.",
+        "With my family."
+      ],
+      "answer": 1,
+      "word": "對話應答",
+      "explain": "問「今晚想去哪吃」，回答地點「火鍋店」。"
+    },
+    {
+      "id": "U9U-E-01",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 1,
+      "mode": "spell",
+      "prompt": "分享；分擔",
+      "word": "share",
+      "explain": "share＝分享；分擔。首 s 尾 e，共 5 個字母。"
+    },
+    {
+      "id": "U9U-E-02",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 2,
+      "mode": "spell",
+      "prompt": "伴侶；一對",
+      "word": "couple",
+      "explain": "couple＝伴侶；一對。首 c 尾 e，共 6 個字母。"
+    },
+    {
+      "id": "U9U-E-03",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 3,
+      "mode": "spell",
+      "prompt": "旅客；乘客",
+      "word": "passenger",
+      "explain": "passenger＝旅客；乘客。首 p 尾 r，共 9 個字母。"
+    },
+    {
+      "id": "U9U-E-04",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 4,
+      "mode": "spell",
+      "prompt": "舞台；階段",
+      "word": "stage",
+      "explain": "stage＝舞台；階段。首 s 尾 e，共 5 個字母。"
+    },
+    {
+      "id": "U9U-E-05",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 5,
+      "mode": "spell",
+      "prompt": "樣品",
+      "word": "sample",
+      "explain": "sample＝樣品；標本。首 s 尾 e，共 6 個字母。"
+    },
+    {
+      "id": "U9U-E-06",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 6,
+      "mode": "spell",
+      "prompt": "網站",
+      "word": "website",
+      "explain": "website＝網站。首 w 尾 e，共 7 個字母。"
+    },
+    {
+      "id": "U9U-E-07",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 7,
+      "mode": "mc",
+      "stem": "The old chair is ___, so do not sit on it.",
+      "options": [
+        "broke",
+        "broken",
+        "breaks",
+        "breaking"
+      ],
+      "answer": 1,
+      "word": "break",
+      "form": "broken",
+      "explain": "那張舊椅子壞了，所以別坐上去。is + broken＝壞掉的。"
+    },
+    {
+      "id": "U9U-E-08",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 8,
+      "mode": "mc",
+      "stem": "My cousin ___ three balls into the basket last night.",
+      "options": [
+        "shoots",
+        "shoot",
+        "shot",
+        "shooting"
+      ],
+      "answer": 2,
+      "word": "shoot",
+      "form": "shot",
+      "explain": "我表弟昨晚投進三球。過去的事用 shot。"
+    },
+    {
+      "id": "U9U-E-09",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 9,
+      "mode": "mc",
+      "stem": "Start a new ___ when you write about a new idea.",
+      "options": [
+        "passages",
+        "paragraphs",
+        "passage",
+        "paragraph"
+      ],
+      "answer": 3,
+      "word": "passage",
+      "form": "paragraph",
+      "explain": "寫到新的想法時要換新的一段。start a new paragraph＝另起一段。"
+    },
+    {
+      "id": "U9U-E-10",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 10,
+      "mode": "mc",
+      "stem": "The little boy asked the same question ___.",
+      "options": [
+        "repeatedly",
+        "repeats",
+        "repeat",
+        "repeated"
+      ],
+      "answer": 0,
+      "word": "repeat",
+      "form": "repeatedly",
+      "explain": "那個小男孩重複地問同一個問題。修飾動詞用副詞 repeatedly。"
+    },
+    {
+      "id": "U9U-E-11",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 11,
+      "mode": "mc",
+      "stem": "One bowl of noodles cannot ___ a hungry worker.",
+      "options": [
+        "satisfy",
+        "satisfied",
+        "satisfying",
+        "satisfaction"
+      ],
+      "answer": 0,
+      "word": "satisfaction",
+      "form": "satisfy",
+      "explain": "一碗麵無法滿足一個飢餓的工人。cannot 後面接原形動詞。"
+    },
+    {
+      "id": "U9U-E-12",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 12,
+      "mode": "mc",
+      "stem": "A ___ couple lives next door to us.",
+      "options": [
+        "married",
+        "marriage",
+        "marries",
+        "marry"
+      ],
+      "answer": 0,
+      "word": "marriage",
+      "form": "married",
+      "explain": "一對已婚的夫妻住在我們隔壁。married 是形容詞「已婚的」。"
+    },
+    {
+      "id": "U9U-E-13",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 13,
+      "mode": "mc",
+      "stem": "The ___ of visitors goes up every summer.",
+      "options": [
+        "numerous",
+        "number",
+        "numbered",
+        "numbers"
+      ],
+      "answer": 1,
+      "word": "numerous",
+      "form": "number",
+      "explain": "遊客的數量每年夏天都上升。the number of＝…的數量。"
+    },
+    {
+      "id": "U9U-E-14",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 14,
+      "mode": "mc",
+      "stem": "The factory has a ___ problem with its new machine.",
+      "options": [
+        "mechanic",
+        "machine",
+        "mechanics",
+        "mechanical"
+      ],
+      "answer": 3,
+      "word": "mechanic",
+      "form": "mechanical",
+      "explain": "那家工廠的新機器有機械上的問題。修飾名詞 problem 用形容詞。"
+    },
+    {
+      "id": "U9U-E-15",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 15,
+      "mode": "mc",
+      "stem": "A famous art ___ bought the old painting.",
+      "options": [
+        "deals",
+        "dealt",
+        "dealer",
+        "deal"
+      ],
+      "answer": 2,
+      "word": "deal",
+      "form": "dealer",
+      "explain": "一位有名的藝術商買下那幅舊畫。dealer＝商人，指人。"
+    },
+    {
+      "id": "U9U-E-16",
+      "paper": "extra",
+      "section": "mc-phrase",
+      "num": 16,
+      "stem": "The air conditioner ___ on the hottest day of the summer.",
+      "options": [
+        "broke down",
+        "dropped by",
+        "broke into",
+        "broke up"
+      ],
+      "answer": 0,
+      "word": "break down",
+      "explain": "冷氣在夏天最熱的那天故障了。break down＝故障。"
+    },
+    {
+      "id": "U9U-E-17",
+      "paper": "extra",
+      "section": "mc-phrase",
+      "num": 17,
+      "stem": "Two men ___ the empty house last weekend.",
+      "options": [
+        "broke down",
+        "broke into",
+        "broke up",
+        "looked into"
+      ],
+      "answer": 1,
+      "word": "break into",
+      "explain": "兩個男人上週末闖入那間空屋。break into＝闖入。"
+    },
+    {
+      "id": "U9U-E-18",
+      "paper": "extra",
+      "section": "mc-phrase",
+      "num": 18,
+      "stem": "The two singers ___ and started their own bands.",
+      "options": [
+        "broke down",
+        "broke into",
+        "broke up",
+        "checked in"
+      ],
+      "answer": 2,
+      "word": "break up",
+      "explain": "那兩位歌手拆夥，各自組了樂團。break up＝拆夥。"
+    },
+    {
+      "id": "U9U-E-19",
+      "paper": "extra",
+      "section": "dialogue",
+      "num": 19,
+      "stem": "A: Where do you usually study? B: ___",
+      "options": [
+        "At the library on Zhongshan Road.",
+        "After dinner.",
+        "For about two hours.",
+        "With my classmate."
+      ],
+      "answer": 0,
+      "word": "對話應答",
+      "explain": "問「放學後通常在哪裡讀書」，回答地點。"
+    },
+    {
+      "id": "U9U-E-20",
+      "paper": "extra",
+      "section": "dialogue",
+      "num": 20,
+      "stem": "A: Where is the bathroom? B: ___",
+      "options": [
+        "It is very clean.",
+        "Sure, no problem.",
+        "In five minutes.",
+        "Down the hall on your left."
+      ],
+      "answer": 3,
+      "word": "對話應答",
+      "explain": "問「廁所在哪」，回答地點「走廊底左邊」。"
+    },
+    {
+      "id": "U9U-E-21",
+      "paper": "extra",
+      "section": "dialogue",
+      "num": 21,
+      "stem": "A: Where did your family go last summer? B: ___",
+      "options": [
+        "We stayed for a week.",
+        "We took a plane.",
+        "We went to Penghu.",
+        "It was very hot."
+      ],
+      "answer": 2,
+      "word": "對話應答",
+      "explain": "問「去年夏天去哪」，回答地點「我們去澎湖」。"
+    },
+    {
+      "id": "U9U-E-22",
+      "paper": "extra",
+      "section": "dialogue",
+      "num": 22,
+      "stem": "A: Where can I find the manager? B: ___",
+      "options": [
+        "She is very busy.",
+        "She is in the office upstairs.",
+        "You can call her.",
+        "At three in the afternoon."
+      ],
+      "answer": 1,
+      "word": "對話應答",
+      "explain": "問「哪裡可以找到經理」，回答地點「她在樓上辦公室」。"
+    }
+  ]
+}

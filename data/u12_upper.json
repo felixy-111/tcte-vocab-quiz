@@ -1,0 +1,1537 @@
+{
+  "unit": 12,
+  "half": "upper",
+  "spec": {
+    "review": "v7",
+    "quiz": "v7"
+  },
+  "words": [
+    {
+      "en": "support",
+      "zh": "支持；扶養"
+    },
+    {
+      "en": "suppose",
+      "zh": "假設；認為"
+    },
+    {
+      "en": "occur",
+      "zh": "發生",
+      "derivatives": [
+        "occurred"
+      ]
+    },
+    {
+      "en": "pill",
+      "zh": "藥丸"
+    },
+    {
+      "en": "fill",
+      "zh": "充滿；填補"
+    },
+    {
+      "en": "fulfill",
+      "zh": "實現；達成"
+    },
+    {
+      "en": "escape",
+      "zh": "逃離；逃避",
+      "derivatives": [
+        "avoid"
+      ]
+    },
+    {
+      "en": "cancel",
+      "zh": "取消；刪去",
+      "derivatives": [
+        "cancellation"
+      ]
+    },
+    {
+      "en": "cancer",
+      "zh": "癌"
+    },
+    {
+      "en": "cure",
+      "zh": "治療；療法",
+      "derivatives": [
+        "curable",
+        "incurable"
+      ]
+    },
+    {
+      "en": "direct",
+      "zh": "直接的；指導",
+      "derivatives": [
+        "direction",
+        "directly",
+        "indirect"
+      ]
+    },
+    {
+      "en": "distance",
+      "zh": "距離",
+      "derivatives": [
+        "distant"
+      ]
+    },
+    {
+      "en": "deliver",
+      "zh": "傳遞；接生"
+    },
+    {
+      "en": "spot",
+      "zh": "看到；斑點",
+      "derivatives": [
+        "spotlight"
+      ]
+    },
+    {
+      "en": "schedule",
+      "zh": "行程表；預定"
+    }
+  ],
+  "phrases": [
+    {
+      "en": "be filled with",
+      "zh": "充滿"
+    },
+    {
+      "en": "fill out",
+      "zh": "填寫"
+    },
+    {
+      "en": "find out",
+      "zh": "找出；查明"
+    }
+  ],
+  "readings": [
+    {
+      "id": "U12U-READ-1",
+      "title": "My Aunt the Nurse",
+      "text": "My aunt works as a nurse in a small hospital. Her schedule is full: she works ten hours a day and often has no time for lunch. Last week a woman with cancer came to her floor. The woman had to take five pills every morning, and her son had to fill out many forms at the front desk. My aunt helped him find out where to pay. On Friday the hospital canceled a big meeting because a fire alarm went off. Nobody knew how it occurred, but everyone had to escape down the stairs in one minute. My aunt was the last one out. She says the job is hard, but it fulfills her dream of helping people. The waiting room is always filled with worried faces, and she supports them with a smile."
+    }
+  ],
+  "questions": [
+    {
+      "id": "U12U-R-01",
+      "paper": "review",
+      "section": "matching",
+      "num": 1,
+      "word": "配合題",
+      "left": [
+        "cure",
+        "spot",
+        "support",
+        "cancel",
+        "fill",
+        "schedule",
+        "occur",
+        "distance",
+        "pill",
+        "direct",
+        "deliver",
+        "cancer",
+        "escape",
+        "suppose",
+        "fulfill"
+      ],
+      "right": [
+        "傳遞；接生",
+        "取消；刪去",
+        "藥丸",
+        "實現；達成",
+        "發生",
+        "支持；扶養",
+        "治療；療法",
+        "逃離；逃避",
+        "直接的；指導",
+        "行程表；預定",
+        "癌",
+        "距離",
+        "充滿；填補",
+        "看到；斑點",
+        "假設；認為"
+      ],
+      "answer": [
+        "G",
+        "N",
+        "F",
+        "B",
+        "M",
+        "J",
+        "E",
+        "L",
+        "C",
+        "I",
+        "A",
+        "K",
+        "H",
+        "O",
+        "D"
+      ],
+      "explain": "把每個英文字對到正確的中文意思。"
+    },
+    {
+      "id": "U12U-R-02",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 2,
+      "mode": "spell",
+      "prompt": "藥丸",
+      "word": "pill",
+      "explain": "pill＝藥丸。首 p 尾 l，共 4 個字母。"
+    },
+    {
+      "id": "U12U-R-03",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 3,
+      "mode": "spell",
+      "prompt": "行程表",
+      "word": "schedule",
+      "explain": "schedule＝行程表；預定。首 s 尾 e，共 8 個字母。"
+    },
+    {
+      "id": "U12U-R-04",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 4,
+      "mode": "spell",
+      "prompt": "支持；扶養",
+      "word": "support",
+      "explain": "support＝支持；扶養。首 s 尾 t，共 7 個字母。"
+    },
+    {
+      "id": "U12U-R-05",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 5,
+      "mode": "spell",
+      "prompt": "治療",
+      "word": "cure",
+      "explain": "cure＝治療；療法。首 c 尾 e，共 4 個字母。"
+    },
+    {
+      "id": "U12U-R-06",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 6,
+      "mode": "spell",
+      "prompt": "充滿；填補",
+      "word": "fill",
+      "explain": "fill＝充滿；填補。首 f 尾 l，共 4 個字母。"
+    },
+    {
+      "id": "U12U-R-07",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 7,
+      "mode": "spell",
+      "prompt": "距離",
+      "word": "distance",
+      "explain": "distance＝距離。首 d 尾 e，共 8 個字母。"
+    },
+    {
+      "id": "U12U-R-08",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 8,
+      "mode": "spell",
+      "prompt": "癌",
+      "word": "cancer",
+      "explain": "cancer＝癌。首 c 尾 r，共 6 個字母。"
+    },
+    {
+      "id": "U12U-R-09",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 9,
+      "mode": "spell",
+      "prompt": "發生",
+      "word": "occur",
+      "explain": "occur＝發生。首 o 尾 r，共 5 個字母。"
+    },
+    {
+      "id": "U12U-R-10",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 10,
+      "mode": "spell",
+      "prompt": "傳遞；接生",
+      "word": "deliver",
+      "explain": "deliver＝傳遞；接生。首 d 尾 r，共 7 個字母。"
+    },
+    {
+      "id": "U12U-R-11",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 11,
+      "mode": "spell",
+      "prompt": "逃離",
+      "word": "escape",
+      "explain": "escape＝逃離；逃避。首 e 尾 e，共 6 個字母。"
+    },
+    {
+      "id": "U12U-R-12",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 12,
+      "mode": "spell",
+      "prompt": "實現；達成",
+      "word": "fulfill",
+      "explain": "fulfill＝實現；達成。首 f 尾 l，共 7 個字母。"
+    },
+    {
+      "id": "U12U-R-13",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 13,
+      "mode": "spell",
+      "prompt": "看到；斑點",
+      "word": "spot",
+      "explain": "spot＝看到；斑點。首 s 尾 t，共 4 個字母。"
+    },
+    {
+      "id": "U12U-R-14",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 14,
+      "mode": "spell",
+      "prompt": "假設；認為",
+      "word": "suppose",
+      "explain": "suppose＝假設；認為。首 s 尾 e，共 7 個字母。"
+    },
+    {
+      "id": "U12U-R-15",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 15,
+      "mode": "spell",
+      "prompt": "取消",
+      "word": "cancel",
+      "explain": "cancel＝取消；刪去。首 c 尾 l，共 6 個字母。"
+    },
+    {
+      "id": "U12U-R-16",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 16,
+      "mode": "spell",
+      "prompt": "直接的",
+      "word": "direct",
+      "explain": "direct＝直接的；指導。首 d 尾 t，共 6 個字母。"
+    },
+    {
+      "id": "U12U-R-17",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 17,
+      "mode": "mc",
+      "stem": "The accident ___ near the school gate last night.",
+      "options": [
+        "occurring",
+        "occur",
+        "occurred",
+        "occurs"
+      ],
+      "answer": 2,
+      "word": "occur",
+      "form": "occurred",
+      "explain": "昨晚那場意外發生在校門口附近。occur 的過去式要雙寫 r：occurred。"
+    },
+    {
+      "id": "U12U-R-18",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 18,
+      "mode": "mc",
+      "stem": "Such a mistake will not ___ again.",
+      "options": [
+        "occur",
+        "occurred",
+        "occurs",
+        "occurring"
+      ],
+      "answer": 0,
+      "word": "occur",
+      "form": "occur",
+      "explain": "這種錯誤不會再發生了。will not 後面接原形動詞 occur。"
+    },
+    {
+      "id": "U12U-R-19",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 19,
+      "mode": "mc",
+      "stem": "The doctor told him to ___ eating fried food.",
+      "options": [
+        "escaped",
+        "avoid",
+        "avoided",
+        "escape"
+      ],
+      "answer": 1,
+      "word": "escape",
+      "form": "avoid",
+      "explain": "醫生要他避免吃炸的食物。avoid + Ving＝避免做…。"
+    },
+    {
+      "id": "U12U-R-20",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 20,
+      "mode": "mc",
+      "stem": "The thief tried to ___ from the police.",
+      "options": [
+        "escape",
+        "avoided",
+        "avoid",
+        "escaped"
+      ],
+      "answer": 0,
+      "word": "escape",
+      "form": "escape",
+      "explain": "小偷試著從警方手中逃走。to 後面接原形動詞 escape from＝從…逃走。"
+    },
+    {
+      "id": "U12U-R-21",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 21,
+      "mode": "mc",
+      "stem": "The ___ of the concert made the fans angry.",
+      "options": [
+        "cancel",
+        "cancels",
+        "cancellation",
+        "canceled"
+      ],
+      "answer": 2,
+      "word": "cancel",
+      "form": "cancellation",
+      "explain": "演唱會的取消讓歌迷很生氣。the 後面接名詞 cancellation。"
+    },
+    {
+      "id": "U12U-R-22",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 22,
+      "mode": "mc",
+      "stem": "The school may ___ the trip because of the typhoon.",
+      "options": [
+        "canceled",
+        "cancellation",
+        "cancels",
+        "cancel"
+      ],
+      "answer": 3,
+      "word": "cancel",
+      "form": "cancel",
+      "explain": "學校可能因為颱風取消旅行。may 後面接原形動詞 cancel。"
+    },
+    {
+      "id": "U12U-R-23",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 23,
+      "mode": "mc",
+      "stem": "The doctor said this kind of illness is ___.",
+      "options": [
+        "incurable",
+        "curable",
+        "cure",
+        "cured"
+      ],
+      "answer": 1,
+      "word": "cure",
+      "form": "curable",
+      "explain": "醫生說這種病是可以治療的。be 動詞後接形容詞 curable＝可治癒的。"
+    },
+    {
+      "id": "U12U-R-24",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 24,
+      "mode": "mc",
+      "stem": "A hundred years ago, that disease was ___.",
+      "options": [
+        "cured",
+        "curable",
+        "cure",
+        "incurable"
+      ],
+      "answer": 3,
+      "word": "cure",
+      "form": "incurable",
+      "explain": "一百年前那種病是治不好的。in- 是否定字首，incurable＝不可治癒的。"
+    },
+    {
+      "id": "U12U-R-25",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 25,
+      "mode": "mc",
+      "stem": "The bus was going in the wrong ___.",
+      "options": [
+        "indirect",
+        "direction",
+        "direct",
+        "directly"
+      ],
+      "answer": 1,
+      "word": "direct",
+      "form": "direction",
+      "explain": "那班公車開錯方向了。in the wrong direction＝方向錯了，direction 是名詞。"
+    },
+    {
+      "id": "U12U-R-26",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 26,
+      "mode": "mc",
+      "stem": "He went ___ home after the game.",
+      "options": [
+        "direction",
+        "indirect",
+        "direct",
+        "directly"
+      ],
+      "answer": 3,
+      "word": "direct",
+      "form": "directly",
+      "explain": "比賽後他直接回家。修飾動詞 went 要用副詞 directly。"
+    },
+    {
+      "id": "U12U-R-27",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 27,
+      "mode": "mc",
+      "stem": "His answer was ___, so nobody knew his real idea.",
+      "options": [
+        "direction",
+        "directed",
+        "indirect",
+        "directly"
+      ],
+      "answer": 2,
+      "word": "direct",
+      "form": "indirect",
+      "explain": "他的回答很間接，所以沒人知道他真正的想法。in- 是否定字首。"
+    },
+    {
+      "id": "U12U-R-28",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 28,
+      "mode": "mc",
+      "stem": "They live in a ___ village in the mountains.",
+      "options": [
+        "distant",
+        "distance",
+        "distantly",
+        "distances"
+      ],
+      "answer": 0,
+      "word": "distance",
+      "form": "distant",
+      "explain": "他們住在山裡一個遙遠的村莊。修飾名詞 village 用形容詞 distant。"
+    },
+    {
+      "id": "U12U-R-29",
+      "paper": "review",
+      "section": "mc-phrase",
+      "num": 29,
+      "stem": "The small room ___ the smell of coffee.",
+      "options": [
+        "found out",
+        "got along with",
+        "was filled with",
+        "filled out"
+      ],
+      "answer": 2,
+      "word": "be filled with",
+      "explain": "那個小房間充滿咖啡的香味。be filled with＝充滿。"
+    },
+    {
+      "id": "U12U-R-30",
+      "paper": "review",
+      "section": "mc-phrase",
+      "num": 30,
+      "stem": "Please ___ this form before you see the doctor.",
+      "options": [
+        "show off",
+        "fill out",
+        "be filled with",
+        "find out"
+      ],
+      "answer": 1,
+      "word": "fill out",
+      "explain": "看醫生前請先填好這張表格。fill out＝填寫。"
+    },
+    {
+      "id": "U12U-R-31",
+      "paper": "review",
+      "section": "mc-phrase",
+      "num": 31,
+      "stem": "The police will ___ who took the money.",
+      "options": [
+        "find out",
+        "be filled with",
+        "fill out",
+        "put away"
+      ],
+      "answer": 0,
+      "word": "find out",
+      "explain": "警方會查出是誰拿走那筆錢。find out＝查明；找出。"
+    },
+    {
+      "id": "U12U-R-32",
+      "paper": "review",
+      "section": "dialogue",
+      "num": 32,
+      "stem": "A: How often do you play basketball? B: ___",
+      "options": [
+        "With my classmates.",
+        "At the school gym.",
+        "For two hours.",
+        "Three times a week."
+      ],
+      "answer": 3,
+      "word": "對話應答",
+      "explain": "問頻率，回答「一週三次」。"
+    },
+    {
+      "id": "U12U-R-33",
+      "paper": "review",
+      "section": "dialogue",
+      "num": 33,
+      "stem": "A: How far is the post office? B: ___",
+      "options": [
+        "Every weekday.",
+        "By scooter.",
+        "About five minutes on foot.",
+        "It opens at nine."
+      ],
+      "answer": 2,
+      "word": "對話應答",
+      "explain": "問多遠，回答「走路約五分鐘」。"
+    },
+    {
+      "id": "U12U-R-34",
+      "paper": "review",
+      "section": "dialogue",
+      "num": 34,
+      "stem": "A: How often does this bus come? B: ___",
+      "options": [
+        "It is always late.",
+        "Every fifteen minutes.",
+        "At the corner.",
+        "About 20 dollars."
+      ],
+      "answer": 1,
+      "word": "對話應答",
+      "explain": "問頻率，回答「每十五分鐘一班」。"
+    },
+    {
+      "id": "U12U-R-35",
+      "paper": "review",
+      "section": "dialogue",
+      "num": 35,
+      "stem": "A: How far is your school from home? B: ___",
+      "options": [
+        "About two kilometers.",
+        "Since last year.",
+        "I take the MRT.",
+        "It takes 30 minutes."
+      ],
+      "answer": 0,
+      "word": "對話應答",
+      "explain": "問距離，回答「大約兩公里」。"
+    },
+    {
+      "id": "U12U-R-36",
+      "paper": "review",
+      "section": "dialogue",
+      "num": 36,
+      "stem": "A: How often do you eat out? B: ___",
+      "options": [
+        "Once or twice a month.",
+        "With my family.",
+        "It is not healthy.",
+        "At the night market."
+      ],
+      "answer": 0,
+      "word": "對話應答",
+      "explain": "問頻率，回答「一個月一兩次」。"
+    },
+    {
+      "id": "U12U-R-37",
+      "paper": "review",
+      "section": "dialogue",
+      "num": 37,
+      "stem": "A: How far can you swim? B: ___",
+      "options": [
+        "Twice a week.",
+        "About 200 meters.",
+        "My father taught me.",
+        "In the school pool."
+      ],
+      "answer": 1,
+      "word": "對話應答",
+      "explain": "問多遠，回答「大約 200 公尺」。"
+    },
+    {
+      "id": "U12U-R-38",
+      "paper": "review",
+      "section": "reading",
+      "num": 38,
+      "readingId": "U12U-READ-1",
+      "stem": "What is this reading mainly about?",
+      "options": [
+        "A fire that burned down a hospital.",
+        "How to take medicine in the right way.",
+        "A nurse's busy job in a small hospital.",
+        "A woman who could not pay her bill."
+      ],
+      "answer": 2,
+      "word": "閱讀理解",
+      "explain": "全文在講姑姑當護士的忙碌工作。"
+    },
+    {
+      "id": "U12U-R-39",
+      "paper": "review",
+      "section": "reading",
+      "num": 39,
+      "readingId": "U12U-READ-1",
+      "stem": "What did the woman's son have to do?",
+      "options": [
+        "Drive his mother to the hospital.",
+        "Fill out many forms.",
+        "Call the fire station.",
+        "Take five pills every morning."
+      ],
+      "answer": 1,
+      "word": "閱讀理解",
+      "explain": "文中說她兒子必須在櫃檯填很多表格。"
+    },
+    {
+      "id": "U12U-R-40",
+      "paper": "review",
+      "section": "reading",
+      "num": 40,
+      "readingId": "U12U-READ-1",
+      "stem": "Why did the hospital cancel the meeting?",
+      "options": [
+        "Because a fire alarm went off.",
+        "Because the doctors were too busy.",
+        "Because too few people came.",
+        "Because a typhoon was coming."
+      ],
+      "answer": 0,
+      "word": "閱讀理解",
+      "explain": "文中說週五因為火警警報響了，醫院取消大會議。"
+    },
+    {
+      "id": "U12U-R-41",
+      "paper": "review",
+      "section": "reading",
+      "num": 41,
+      "readingId": "U12U-READ-1",
+      "stem": "Which one is TRUE about the aunt?",
+      "options": [
+        "She has a long lunch break every day.",
+        "She plans to change her job soon.",
+        "She left the building first during the alarm.",
+        "She thinks her hard job is worth doing."
+      ],
+      "answer": 3,
+      "word": "閱讀理解",
+      "explain": "文中說工作辛苦，但實現了她助人的夢想；她也是最後一個離開的。"
+    },
+    {
+      "id": "U12U-Q-01",
+      "paper": "quiz",
+      "section": "matching",
+      "num": 1,
+      "word": "配合題",
+      "left": [
+        "fill",
+        "deliver",
+        "cancer",
+        "direct",
+        "occur",
+        "cure",
+        "spot",
+        "suppose",
+        "schedule",
+        "escape",
+        "support",
+        "pill",
+        "cancel",
+        "fulfill",
+        "distance"
+      ],
+      "right": [
+        "看到；斑點",
+        "逃離；逃避",
+        "實現；達成",
+        "癌",
+        "支持；扶養",
+        "直接的；指導",
+        "充滿；填補",
+        "治療；療法",
+        "假設；認為",
+        "距離",
+        "發生",
+        "行程表；預定",
+        "傳遞；接生",
+        "取消；刪去",
+        "藥丸"
+      ],
+      "answer": [
+        "G",
+        "M",
+        "D",
+        "F",
+        "K",
+        "H",
+        "A",
+        "I",
+        "L",
+        "B",
+        "E",
+        "O",
+        "N",
+        "C",
+        "J"
+      ],
+      "explain": "把每個英文字對到正確的中文意思。"
+    },
+    {
+      "id": "U12U-Q-02",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 2,
+      "mode": "spell",
+      "prompt": "取消",
+      "word": "cancel",
+      "explain": "cancel＝取消；刪去。首 c 尾 l，共 6 個字母。"
+    },
+    {
+      "id": "U12U-Q-03",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 3,
+      "mode": "spell",
+      "prompt": "距離",
+      "word": "distance",
+      "explain": "distance＝距離。首 d 尾 e，共 8 個字母。"
+    },
+    {
+      "id": "U12U-Q-04",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 4,
+      "mode": "spell",
+      "prompt": "實現；達成",
+      "word": "fulfill",
+      "explain": "fulfill＝實現；達成。首 f 尾 l，共 7 個字母。"
+    },
+    {
+      "id": "U12U-Q-05",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 5,
+      "mode": "spell",
+      "prompt": "看到；斑點",
+      "word": "spot",
+      "explain": "spot＝看到；斑點。首 s 尾 t，共 4 個字母。"
+    },
+    {
+      "id": "U12U-Q-06",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 6,
+      "mode": "spell",
+      "prompt": "發生",
+      "word": "occur",
+      "explain": "occur＝發生。首 o 尾 r，共 5 個字母。"
+    },
+    {
+      "id": "U12U-Q-07",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 7,
+      "mode": "spell",
+      "prompt": "支持；扶養",
+      "word": "support",
+      "explain": "support＝支持；扶養。首 s 尾 t，共 7 個字母。"
+    },
+    {
+      "id": "U12U-Q-08",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 8,
+      "mode": "spell",
+      "prompt": "行程表",
+      "word": "schedule",
+      "explain": "schedule＝行程表；預定。首 s 尾 e，共 8 個字母。"
+    },
+    {
+      "id": "U12U-Q-09",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 9,
+      "mode": "spell",
+      "prompt": "癌",
+      "word": "cancer",
+      "explain": "cancer＝癌。首 c 尾 r，共 6 個字母。"
+    },
+    {
+      "id": "U12U-Q-10",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 10,
+      "mode": "spell",
+      "prompt": "充滿；填補",
+      "word": "fill",
+      "explain": "fill＝充滿；填補。首 f 尾 l，共 4 個字母。"
+    },
+    {
+      "id": "U12U-Q-11",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 11,
+      "mode": "spell",
+      "prompt": "直接的",
+      "word": "direct",
+      "explain": "direct＝直接的；指導。首 d 尾 t，共 6 個字母。"
+    },
+    {
+      "id": "U12U-Q-12",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 12,
+      "mode": "spell",
+      "prompt": "藥丸",
+      "word": "pill",
+      "explain": "pill＝藥丸。首 p 尾 l，共 4 個字母。"
+    },
+    {
+      "id": "U12U-Q-13",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 13,
+      "mode": "spell",
+      "prompt": "治療",
+      "word": "cure",
+      "explain": "cure＝治療；療法。首 c 尾 e，共 4 個字母。"
+    },
+    {
+      "id": "U12U-Q-14",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 14,
+      "mode": "spell",
+      "prompt": "假設；認為",
+      "word": "suppose",
+      "explain": "suppose＝假設；認為。首 s 尾 e，共 7 個字母。"
+    },
+    {
+      "id": "U12U-Q-15",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 15,
+      "mode": "spell",
+      "prompt": "逃離",
+      "word": "escape",
+      "explain": "escape＝逃離；逃避。首 e 尾 e，共 6 個字母。"
+    },
+    {
+      "id": "U12U-Q-16",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 16,
+      "mode": "spell",
+      "prompt": "傳遞；接生",
+      "word": "deliver",
+      "explain": "deliver＝傳遞；接生。首 d 尾 r，共 7 個字母。"
+    },
+    {
+      "id": "U12U-Q-17",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 17,
+      "mode": "mc",
+      "stem": "The fire ___ in the kitchen early this morning.",
+      "options": [
+        "occurs",
+        "occur",
+        "occurred",
+        "occurring"
+      ],
+      "answer": 2,
+      "word": "occur",
+      "form": "occurred",
+      "explain": "火災在今天一大早發生於廚房。過去式 occurred 要雙寫 r。"
+    },
+    {
+      "id": "U12U-Q-18",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 18,
+      "mode": "mc",
+      "stem": "You can ___ getting sick by washing your hands.",
+      "options": [
+        "avoid",
+        "escaped",
+        "escape",
+        "avoided"
+      ],
+      "answer": 0,
+      "word": "escape",
+      "form": "avoid",
+      "explain": "洗手可以避免生病。avoid + Ving＝避免做…。"
+    },
+    {
+      "id": "U12U-Q-19",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 19,
+      "mode": "mc",
+      "stem": "We got a message about the ___ of the class.",
+      "options": [
+        "canceled",
+        "cancels",
+        "cancel",
+        "cancellation"
+      ],
+      "answer": 3,
+      "word": "cancel",
+      "form": "cancellation",
+      "explain": "我們收到停課的通知。the 後面接名詞 cancellation。"
+    },
+    {
+      "id": "U12U-Q-20",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 20,
+      "mode": "mc",
+      "stem": "Most skin problems are ___ these days.",
+      "options": [
+        "cure",
+        "cured",
+        "curable",
+        "incurable"
+      ],
+      "answer": 2,
+      "word": "cure",
+      "form": "curable",
+      "explain": "現在大部分皮膚問題都能治好。be 動詞後接形容詞 curable。"
+    },
+    {
+      "id": "U12U-Q-21",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 21,
+      "mode": "mc",
+      "stem": "Please send the report ___ to the manager.",
+      "options": [
+        "indirect",
+        "directly",
+        "direction",
+        "direct"
+      ],
+      "answer": 1,
+      "word": "direct",
+      "form": "directly",
+      "explain": "請把報告直接寄給經理。修飾動詞 send 用副詞 directly。"
+    },
+    {
+      "id": "U12U-Q-22",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 22,
+      "mode": "mc",
+      "stem": "The old man asked me for the ___ to the temple.",
+      "options": [
+        "direction",
+        "directly",
+        "indirect",
+        "direct"
+      ],
+      "answer": 0,
+      "word": "direct",
+      "form": "direction",
+      "explain": "那位老先生問我去廟裡的方向。the 後面接名詞 direction。"
+    },
+    {
+      "id": "U12U-Q-23",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 23,
+      "mode": "mc",
+      "stem": "We could hear a ___ sound of thunder.",
+      "options": [
+        "distance",
+        "distances",
+        "distantly",
+        "distant"
+      ],
+      "answer": 3,
+      "word": "distance",
+      "form": "distant",
+      "explain": "我們聽到遠方的雷聲。修飾名詞 sound 用形容詞 distant。"
+    },
+    {
+      "id": "U12U-Q-24",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 24,
+      "mode": "mc",
+      "stem": "The singer stood under the ___ on the stage.",
+      "options": [
+        "spot",
+        "spotlight",
+        "spotted",
+        "spots"
+      ],
+      "answer": 1,
+      "word": "spot",
+      "form": "spotlight",
+      "explain": "歌手站在舞台的聚光燈下。spotlight＝聚光燈。"
+    },
+    {
+      "id": "U12U-Q-25",
+      "paper": "quiz",
+      "section": "mc-phrase",
+      "num": 25,
+      "stem": "You have to ___ this card at the airport.",
+      "options": [
+        "find out",
+        "fill out",
+        "put out",
+        "be filled with"
+      ],
+      "answer": 1,
+      "word": "fill out",
+      "explain": "在機場你必須填寫這張卡。fill out＝填寫。"
+    },
+    {
+      "id": "U12U-Q-26",
+      "paper": "quiz",
+      "section": "mc-phrase",
+      "num": 26,
+      "stem": "The hall ___ students before the show.",
+      "options": [
+        "found out",
+        "filled out",
+        "was filled with",
+        "showed off"
+      ],
+      "answer": 2,
+      "word": "be filled with",
+      "explain": "表演前大廳擠滿了學生。be filled with＝充滿。"
+    },
+    {
+      "id": "U12U-Q-27",
+      "paper": "quiz",
+      "section": "mc-phrase",
+      "num": 27,
+      "stem": "I want to ___ why the store closed.",
+      "options": [
+        "find out",
+        "blow out",
+        "fill out",
+        "be filled with"
+      ],
+      "answer": 0,
+      "word": "find out",
+      "explain": "我想查明那家店為什麼關門。find out＝查明。"
+    },
+    {
+      "id": "U12U-Q-28",
+      "paper": "quiz",
+      "section": "dialogue",
+      "num": 28,
+      "stem": "A: How often do you clean your room? B: ___",
+      "options": [
+        "For half an hour.",
+        "It is quite big.",
+        "With my brother.",
+        "Every Sunday."
+      ],
+      "answer": 3,
+      "word": "對話應答",
+      "explain": "問頻率，回答「每個星期天」。"
+    },
+    {
+      "id": "U12U-Q-29",
+      "paper": "quiz",
+      "section": "dialogue",
+      "num": 29,
+      "stem": "A: How far is the night market? B: ___",
+      "options": [
+        "The food is cheap.",
+        "Just two blocks away.",
+        "Every weekend.",
+        "It opens at six."
+      ],
+      "answer": 1,
+      "word": "對話應答",
+      "explain": "問多遠，回答「只有兩條街」。"
+    },
+    {
+      "id": "U12U-Q-30",
+      "paper": "quiz",
+      "section": "dialogue",
+      "num": 30,
+      "stem": "A: How often do you see your grandparents? B: ___",
+      "options": [
+        "By train.",
+        "For a few days.",
+        "About four times a year.",
+        "They live in Chiayi."
+      ],
+      "answer": 2,
+      "word": "對話應答",
+      "explain": "問頻率，回答「一年大約四次」。"
+    },
+    {
+      "id": "U12U-Q-31",
+      "paper": "quiz",
+      "section": "dialogue",
+      "num": 31,
+      "stem": "A: How far did you run today? B: ___",
+      "options": [
+        "Five kilometers.",
+        "I felt tired.",
+        "In the park.",
+        "Before breakfast."
+      ],
+      "answer": 0,
+      "word": "對話應答",
+      "explain": "問多遠，回答「五公里」。"
+    },
+    {
+      "id": "U12U-E-01",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 1,
+      "mode": "spell",
+      "prompt": "支持；扶養",
+      "word": "support",
+      "explain": "support＝支持；扶養。首 s 尾 t，共 7 個字母。"
+    },
+    {
+      "id": "U12U-E-02",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 2,
+      "mode": "spell",
+      "prompt": "假設；認為",
+      "word": "suppose",
+      "explain": "suppose＝假設；認為。首 s 尾 e，共 7 個字母。"
+    },
+    {
+      "id": "U12U-E-03",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 3,
+      "mode": "spell",
+      "prompt": "藥丸",
+      "word": "pill",
+      "explain": "pill＝藥丸。首 p 尾 l，共 4 個字母。"
+    },
+    {
+      "id": "U12U-E-04",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 4,
+      "mode": "spell",
+      "prompt": "充滿；填補",
+      "word": "fill",
+      "explain": "fill＝充滿；填補。首 f 尾 l，共 4 個字母。"
+    },
+    {
+      "id": "U12U-E-05",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 5,
+      "mode": "spell",
+      "prompt": "實現；達成",
+      "word": "fulfill",
+      "explain": "fulfill＝實現；達成。首 f 尾 l，共 7 個字母。"
+    },
+    {
+      "id": "U12U-E-06",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 6,
+      "mode": "spell",
+      "prompt": "癌",
+      "word": "cancer",
+      "explain": "cancer＝癌。首 c 尾 r，共 6 個字母。"
+    },
+    {
+      "id": "U12U-E-07",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 7,
+      "mode": "spell",
+      "prompt": "傳遞；接生",
+      "word": "deliver",
+      "explain": "deliver＝傳遞；接生。首 d 尾 r，共 7 個字母。"
+    },
+    {
+      "id": "U12U-E-08",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 8,
+      "mode": "spell",
+      "prompt": "行程表",
+      "word": "schedule",
+      "explain": "schedule＝行程表；預定。首 s 尾 e，共 8 個字母。"
+    },
+    {
+      "id": "U12U-E-09",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 9,
+      "mode": "mc",
+      "stem": "The same problem ___ twice last week.",
+      "options": [
+        "occurred",
+        "occurs",
+        "occurring",
+        "occur"
+      ],
+      "answer": 0,
+      "word": "occur",
+      "form": "occurred",
+      "explain": "上週同樣的問題發生了兩次。過去式 occurred。"
+    },
+    {
+      "id": "U12U-E-10",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 10,
+      "mode": "mc",
+      "stem": "Try to ___ making noise after ten at night.",
+      "options": [
+        "escape",
+        "avoid",
+        "escaped",
+        "avoided"
+      ],
+      "answer": 1,
+      "word": "escape",
+      "form": "avoid",
+      "explain": "晚上十點後盡量避免製造噪音。avoid + Ving。"
+    },
+    {
+      "id": "U12U-E-11",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 11,
+      "mode": "mc",
+      "stem": "The ___ of the flight was because of the snow.",
+      "options": [
+        "cancels",
+        "canceled",
+        "cancellation",
+        "cancel"
+      ],
+      "answer": 2,
+      "word": "cancel",
+      "form": "cancellation",
+      "explain": "班機取消是因為下雪。the 後面接名詞。"
+    },
+    {
+      "id": "U12U-E-12",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 12,
+      "mode": "mc",
+      "stem": "Some old diseases are still ___ today.",
+      "options": [
+        "cure",
+        "incurable",
+        "curable",
+        "cured"
+      ],
+      "answer": 1,
+      "word": "cure",
+      "form": "incurable",
+      "explain": "有些老病到今天仍治不好。in- 為否定字首。"
+    },
+    {
+      "id": "U12U-E-13",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 13,
+      "mode": "mc",
+      "stem": "She gave an ___ answer to my question.",
+      "options": [
+        "directed",
+        "direction",
+        "directly",
+        "indirect"
+      ],
+      "answer": 3,
+      "word": "direct",
+      "form": "indirect",
+      "explain": "她對我的問題給了間接的回答。修飾名詞用形容詞 indirect。"
+    },
+    {
+      "id": "U12U-E-14",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 14,
+      "mode": "mc",
+      "stem": "My father works in a ___ city.",
+      "options": [
+        "distant",
+        "distantly",
+        "distance",
+        "distances"
+      ],
+      "answer": 0,
+      "word": "distance",
+      "form": "distant",
+      "explain": "我爸爸在一個遙遠的城市工作。修飾名詞 city 用形容詞。"
+    },
+    {
+      "id": "U12U-E-15",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 15,
+      "mode": "mc",
+      "stem": "A bright ___ shone on the dancer.",
+      "options": [
+        "spotted",
+        "spots",
+        "spotlight",
+        "spot"
+      ],
+      "answer": 2,
+      "word": "spot",
+      "form": "spotlight",
+      "explain": "一道明亮的聚光燈照在舞者身上。spotlight＝聚光燈。"
+    },
+    {
+      "id": "U12U-E-16",
+      "paper": "extra",
+      "section": "mc-phrase",
+      "num": 16,
+      "stem": "Her eyes ___ tears when she read the letter.",
+      "options": [
+        "were filled with",
+        "put away",
+        "filled out",
+        "found out"
+      ],
+      "answer": 0,
+      "word": "be filled with",
+      "explain": "她讀信時眼中充滿淚水。be filled with＝充滿。"
+    },
+    {
+      "id": "U12U-E-17",
+      "paper": "extra",
+      "section": "mc-phrase",
+      "num": 17,
+      "stem": "The nurse asked my mother to ___ two forms.",
+      "options": [
+        "find out",
+        "fill out",
+        "be filled with",
+        "show up"
+      ],
+      "answer": 1,
+      "word": "fill out",
+      "explain": "護士請我媽媽填兩張表。fill out＝填寫。"
+    },
+    {
+      "id": "U12U-E-18",
+      "paper": "extra",
+      "section": "mc-phrase",
+      "num": 18,
+      "stem": "We must ___ the truth before we blame him.",
+      "options": [
+        "break into",
+        "be filled with",
+        "find out",
+        "fill out"
+      ],
+      "answer": 2,
+      "word": "find out",
+      "explain": "怪他之前我們得先查明真相。find out＝查明。"
+    },
+    {
+      "id": "U12U-E-19",
+      "paper": "extra",
+      "section": "dialogue",
+      "num": 19,
+      "stem": "A: How often do you take this medicine? B: ___",
+      "options": [
+        "Four times a day.",
+        "For one week.",
+        "It tastes bad.",
+        "After meals."
+      ],
+      "answer": 0,
+      "word": "對話應答",
+      "explain": "問頻率，回答「一天四次」。"
+    },
+    {
+      "id": "U12U-E-20",
+      "paper": "extra",
+      "section": "dialogue",
+      "num": 20,
+      "stem": "A: How far is the beach from the hotel? B: ___",
+      "options": [
+        "The water is clean.",
+        "About 300 dollars.",
+        "Every summer.",
+        "Ten minutes by bike."
+      ],
+      "answer": 3,
+      "word": "對話應答",
+      "explain": "問多遠，回答「騎腳踏車十分鐘」。"
+    },
+    {
+      "id": "U12U-E-21",
+      "paper": "extra",
+      "section": "dialogue",
+      "num": 21,
+      "stem": "A: How often does it rain here in June? B: ___",
+      "options": [
+        "In the afternoon.",
+        "Almost every day.",
+        "For about an hour.",
+        "It is very hot."
+      ],
+      "answer": 1,
+      "word": "對話應答",
+      "explain": "問頻率，回答「幾乎每天」。"
+    },
+    {
+      "id": "U12U-E-22",
+      "paper": "extra",
+      "section": "dialogue",
+      "num": 22,
+      "stem": "A: How far is the next gas station? B: ___",
+      "options": [
+        "We need more oil.",
+        "In half an hour.",
+        "About twenty kilometers.",
+        "It is open all night."
+      ],
+      "answer": 2,
+      "word": "對話應答",
+      "explain": "問多遠，回答「大約二十公里」。"
+    }
+  ]
+}

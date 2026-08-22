@@ -1,0 +1,1568 @@
+{
+  "unit": 11,
+  "half": "lower",
+  "spec": {
+    "review": "v7",
+    "quiz": "v7"
+  },
+  "words": [
+    {
+      "en": "weapon",
+      "zh": "武器",
+      "derivatives": [
+        "bullet"
+      ]
+    },
+    {
+      "en": "nuclear",
+      "zh": "核子的",
+      "derivatives": [
+        "atom"
+      ]
+    },
+    {
+      "en": "military",
+      "zh": "軍事的；軍人"
+    },
+    {
+      "en": "troop",
+      "zh": "軍隊；部隊"
+    },
+    {
+      "en": "capture",
+      "zh": "抓；俘虜"
+    },
+    {
+      "en": "battle",
+      "zh": "戰役；戰鬥"
+    },
+    {
+      "en": "fair",
+      "zh": "公平的；展覽會",
+      "derivatives": [
+        "unfairly"
+      ]
+    },
+    {
+      "en": "faith",
+      "zh": "信仰；信任",
+      "derivatives": [
+        "faithful"
+      ]
+    },
+    {
+      "en": "create",
+      "zh": "創造；創作",
+      "derivatives": [
+        "creation",
+        "creator"
+      ]
+    },
+    {
+      "en": "creative",
+      "zh": "有創造力的",
+      "derivatives": [
+        "creativity"
+      ]
+    },
+    {
+      "en": "creature",
+      "zh": "生物"
+    },
+    {
+      "en": "biology",
+      "zh": "生物；生物學",
+      "derivatives": [
+        "biologist"
+      ]
+    },
+    {
+      "en": "link",
+      "zh": "連結；關聯",
+      "derivatives": [
+        "connection"
+      ]
+    },
+    {
+      "en": "worse",
+      "zh": "比較糟的",
+      "derivatives": [
+        "worst"
+      ]
+    },
+    {
+      "en": "worth",
+      "zh": "值得的；價值",
+      "derivatives": [
+        "worthy"
+      ]
+    }
+  ],
+  "phrases": [
+    {
+      "en": "put away",
+      "zh": "收拾；整理"
+    },
+    {
+      "en": "put up with",
+      "zh": "忍受；容忍"
+    },
+    {
+      "en": "in a mess",
+      "zh": "亂七八糟"
+    }
+  ],
+  "readings": [
+    {
+      "id": "U11L-READ-1",
+      "title": "My Cousin's War Game",
+      "text": "My cousin plays a war game every night. In the game, players join a military team, move their troops, and capture the enemy's base. Each battle takes about ten minutes. Every player can pick a weapon, but the game is fair: everyone starts with the same money. Last week my cousin created his own map. He is very creative, and other players said his map was worth trying. Some of them said the old maps were worse. His room is always in a mess when he plays, so his mother asks him to put away his clothes and cups first. She cannot put up with the noise, either. My cousin has faith in his own plan: he wants to study computer science and create games for a living."
+    }
+  ],
+  "questions": [
+    {
+      "id": "U11L-R-01",
+      "paper": "review",
+      "section": "matching",
+      "num": 1,
+      "word": "配合題",
+      "left": [
+        "faith",
+        "creature",
+        "worse",
+        "military",
+        "create",
+        "link",
+        "battle",
+        "nuclear",
+        "worth",
+        "capture",
+        "biology",
+        "fair",
+        "troop",
+        "creative",
+        "weapon"
+      ],
+      "right": [
+        "戰役；戰鬥",
+        "值得的；價值",
+        "武器",
+        "有創造力的",
+        "抓；俘虜",
+        "信仰；信任",
+        "生物；生物學",
+        "比較糟的",
+        "創造；創作",
+        "軍事的；軍人",
+        "連結；關聯",
+        "生物",
+        "核子的",
+        "軍隊；部隊",
+        "公平的；展覽會"
+      ],
+      "answer": [
+        "F",
+        "L",
+        "H",
+        "J",
+        "I",
+        "K",
+        "A",
+        "M",
+        "B",
+        "E",
+        "G",
+        "O",
+        "N",
+        "D",
+        "C"
+      ],
+      "explain": "把每個英文字對到正確的中文意思。"
+    },
+    {
+      "id": "U11L-R-02",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 2,
+      "mode": "spell",
+      "prompt": "戰役",
+      "word": "battle",
+      "explain": "battle＝戰役；戰鬥。首 b 尾 e，共 6 個字母。"
+    },
+    {
+      "id": "U11L-R-03",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 3,
+      "mode": "spell",
+      "prompt": "值得的",
+      "word": "worth",
+      "explain": "worth＝值得的；價值。首 w 尾 h，共 5 個字母。"
+    },
+    {
+      "id": "U11L-R-04",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 4,
+      "mode": "spell",
+      "prompt": "生物",
+      "word": "creature",
+      "explain": "creature＝生物。首 c 尾 e，共 8 個字母。"
+    },
+    {
+      "id": "U11L-R-05",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 5,
+      "mode": "spell",
+      "prompt": "軍事的",
+      "word": "military",
+      "explain": "military＝軍事的；軍人。首 m 尾 y，共 8 個字母。"
+    },
+    {
+      "id": "U11L-R-06",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 6,
+      "mode": "spell",
+      "prompt": "連結",
+      "word": "link",
+      "explain": "link＝連結；關聯。首 l 尾 k，共 4 個字母。"
+    },
+    {
+      "id": "U11L-R-07",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 7,
+      "mode": "spell",
+      "prompt": "信仰；信任",
+      "word": "faith",
+      "explain": "faith＝信仰；信任。首 f 尾 h，共 5 個字母。"
+    },
+    {
+      "id": "U11L-R-08",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 8,
+      "mode": "spell",
+      "prompt": "抓；俘虜",
+      "word": "capture",
+      "explain": "capture＝抓；俘虜。首 c 尾 e，共 7 個字母。"
+    },
+    {
+      "id": "U11L-R-09",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 9,
+      "mode": "spell",
+      "prompt": "生物學",
+      "word": "biology",
+      "explain": "biology＝生物；生物學。首 b 尾 y，共 7 個字母。"
+    },
+    {
+      "id": "U11L-R-10",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 10,
+      "mode": "spell",
+      "prompt": "武器",
+      "word": "weapon",
+      "explain": "weapon＝武器。首 w 尾 n，共 6 個字母。"
+    },
+    {
+      "id": "U11L-R-11",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 11,
+      "mode": "spell",
+      "prompt": "比較糟的",
+      "word": "worse",
+      "explain": "worse＝比較糟的。首 w 尾 e，共 5 個字母。"
+    },
+    {
+      "id": "U11L-R-12",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 12,
+      "mode": "spell",
+      "prompt": "創造",
+      "word": "create",
+      "explain": "create＝創造；創作。首 c 尾 e，共 6 個字母。"
+    },
+    {
+      "id": "U11L-R-13",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 13,
+      "mode": "spell",
+      "prompt": "軍隊；部隊",
+      "word": "troop",
+      "explain": "troop＝軍隊；部隊。首 t 尾 p，共 5 個字母。"
+    },
+    {
+      "id": "U11L-R-14",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 14,
+      "mode": "spell",
+      "prompt": "公平的",
+      "word": "fair",
+      "explain": "fair＝公平的；展覽會。首 f 尾 r，共 4 個字母。"
+    },
+    {
+      "id": "U11L-R-15",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 15,
+      "mode": "spell",
+      "prompt": "有創造力的",
+      "word": "creative",
+      "explain": "creative＝有創造力的。首 c 尾 e，共 8 個字母。"
+    },
+    {
+      "id": "U11L-R-16",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 16,
+      "mode": "spell",
+      "prompt": "核子的",
+      "word": "nuclear",
+      "explain": "nuclear＝核子的。首 n 尾 r，共 7 個字母。"
+    },
+    {
+      "id": "U11L-R-17",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 17,
+      "mode": "mc",
+      "stem": "The police found one ___ under the car.",
+      "options": [
+        "weapons",
+        "bullet",
+        "weapon",
+        "bullets"
+      ],
+      "answer": 1,
+      "word": "weapon",
+      "form": "bullet",
+      "explain": "警方在車底下找到一顆子彈。one 後面接單數名詞 bullet＝子彈。"
+    },
+    {
+      "id": "U11L-R-18",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 18,
+      "mode": "mc",
+      "stem": "Scientists can split an ___ to make huge energy.",
+      "options": [
+        "nuclear",
+        "atomic",
+        "atoms",
+        "atom"
+      ],
+      "answer": 3,
+      "word": "nuclear",
+      "form": "atom",
+      "explain": "科學家能分裂原子來產生巨大能量。an 後面接單數名詞 atom＝原子。"
+    },
+    {
+      "id": "U11L-R-19",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 19,
+      "mode": "mc",
+      "stem": "The judge treated the poor man ___, and everyone was angry.",
+      "options": [
+        "fair",
+        "unfairly",
+        "fairly",
+        "unfair"
+      ],
+      "answer": 1,
+      "word": "fair",
+      "form": "unfairly",
+      "explain": "法官不公平地對待那個窮人，大家都很生氣。修飾動詞用副詞 unfairly。"
+    },
+    {
+      "id": "U11L-R-20",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 20,
+      "mode": "mc",
+      "stem": "A dog is a ___ friend to people.",
+      "options": [
+        "faithful",
+        "faith",
+        "faiths",
+        "faithfully"
+      ],
+      "answer": 0,
+      "word": "faith",
+      "form": "faithful",
+      "explain": "狗是人類忠實的朋友。修飾名詞 friend 用形容詞 faithful。"
+    },
+    {
+      "id": "U11L-R-21",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 21,
+      "mode": "mc",
+      "stem": "The new park is the ___ of a young designer.",
+      "options": [
+        "create",
+        "creature",
+        "creation",
+        "creator"
+      ],
+      "answer": 2,
+      "word": "create",
+      "form": "creation",
+      "explain": "這座新公園是一位年輕設計師的作品。the 後面接名詞 creation＝創造物。"
+    },
+    {
+      "id": "U11L-R-22",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 22,
+      "mode": "mc",
+      "stem": "Many players call him the ___ of this game.",
+      "options": [
+        "creation",
+        "creator",
+        "creature",
+        "create"
+      ],
+      "answer": 1,
+      "word": "create",
+      "form": "creator",
+      "explain": "很多玩家稱他為這款遊戲的創造者。creator＝創造者，指人。"
+    },
+    {
+      "id": "U11L-R-23",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 23,
+      "mode": "mc",
+      "stem": "Art class helps students show their ___.",
+      "options": [
+        "creature",
+        "create",
+        "creative",
+        "creativity"
+      ],
+      "answer": 3,
+      "word": "creative",
+      "form": "creativity",
+      "explain": "美術課幫助學生展現創造力。their 後面接名詞 creativity。"
+    },
+    {
+      "id": "U11L-R-24",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 24,
+      "mode": "mc",
+      "stem": "She has many ___ ideas for the show.",
+      "options": [
+        "create",
+        "creativity",
+        "creative",
+        "creature"
+      ],
+      "answer": 2,
+      "word": "creative",
+      "form": "creative",
+      "explain": "她對這場表演有很多有創意的點子。修飾名詞 ideas 用形容詞 creative。"
+    },
+    {
+      "id": "U11L-R-25",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 25,
+      "mode": "mc",
+      "stem": "The ___ studies sea animals in Kenting.",
+      "options": [
+        "biologist",
+        "biologists",
+        "biology",
+        "biological"
+      ],
+      "answer": 0,
+      "word": "biology",
+      "form": "biologist",
+      "explain": "那位生物學家在墾丁研究海洋動物。單數動詞 studies 配單數名詞 biologist。"
+    },
+    {
+      "id": "U11L-R-26",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 26,
+      "mode": "mc",
+      "stem": "Please check your Internet ___ first.",
+      "options": [
+        "link",
+        "connections",
+        "connection",
+        "links"
+      ],
+      "answer": 2,
+      "word": "link",
+      "form": "connection",
+      "explain": "請先檢查你的網路連線。Internet connection＝網路連線，是固定用法。"
+    },
+    {
+      "id": "U11L-R-27",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 27,
+      "mode": "mc",
+      "stem": "That was the ___ day of my life.",
+      "options": [
+        "worse",
+        "badly",
+        "bad",
+        "worst"
+      ],
+      "answer": 3,
+      "word": "worse",
+      "form": "worst",
+      "explain": "那是我人生中最糟的一天。the 加最高級 worst＝最糟的。"
+    },
+    {
+      "id": "U11L-R-28",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 28,
+      "mode": "mc",
+      "stem": "He is a ___ winner of the prize.",
+      "options": [
+        "worthy",
+        "worst",
+        "worthless",
+        "worth"
+      ],
+      "answer": 0,
+      "word": "worth",
+      "form": "worthy",
+      "explain": "他是這個獎項當之無愧的贏家。修飾名詞 winner 用形容詞 worthy＝值得的。"
+    },
+    {
+      "id": "U11L-R-29",
+      "paper": "review",
+      "section": "mc-phrase",
+      "num": 29,
+      "stem": "Please ___ your books before dinner.",
+      "options": [
+        "blow up",
+        "put away",
+        "put up with",
+        "put out"
+      ],
+      "answer": 1,
+      "word": "put away",
+      "explain": "晚餐前請把書收好。put away＝收拾；整理。"
+    },
+    {
+      "id": "U11L-R-30",
+      "paper": "review",
+      "section": "mc-phrase",
+      "num": 30,
+      "stem": "I cannot ___ his loud music every night.",
+      "options": [
+        "put up with",
+        "put away",
+        "show off",
+        "put out"
+      ],
+      "answer": 0,
+      "word": "put up with",
+      "explain": "我無法忍受他每晚的大聲音樂。put up with＝忍受。"
+    },
+    {
+      "id": "U11L-R-31",
+      "paper": "review",
+      "section": "mc-phrase",
+      "num": 31,
+      "stem": "His room is always ___ after a game night.",
+      "options": [
+        "in the end",
+        "in danger",
+        "in a mess",
+        "in a hurry"
+      ],
+      "answer": 2,
+      "word": "in a mess",
+      "explain": "他打完遊戲後房間總是亂七八糟。in a mess＝亂七八糟。"
+    },
+    {
+      "id": "U11L-R-32",
+      "paper": "review",
+      "section": "dialogue",
+      "num": 32,
+      "stem": "A: How long is your lunch break? B: ___",
+      "options": [
+        "At twelve o'clock.",
+        "About fifty minutes.",
+        "In the classroom.",
+        "I bring my own lunch."
+      ],
+      "answer": 1,
+      "word": "對話應答",
+      "explain": "問時間多久，回答「大約五十分鐘」。"
+    },
+    {
+      "id": "U11L-R-33",
+      "paper": "review",
+      "section": "dialogue",
+      "num": 33,
+      "stem": "A: How tall is the tower? B: ___",
+      "options": [
+        "It is very old.",
+        "It was built in 1990.",
+        "It is about 60 meters.",
+        "Near the train station."
+      ],
+      "answer": 2,
+      "word": "對話應答",
+      "explain": "問高度，回答「大約 60 公尺」。"
+    },
+    {
+      "id": "U11L-R-34",
+      "paper": "review",
+      "section": "dialogue",
+      "num": 34,
+      "stem": "A: How long will you stay in Japan? B: ___",
+      "options": [
+        "By plane.",
+        "With my parents.",
+        "Next winter.",
+        "For five days."
+      ],
+      "answer": 3,
+      "word": "對話應答",
+      "explain": "問停留多久，回答「五天」。"
+    },
+    {
+      "id": "U11L-R-35",
+      "paper": "review",
+      "section": "dialogue",
+      "num": 35,
+      "stem": "A: How long is the swimming pool? B: ___",
+      "options": [
+        "Twenty-five meters.",
+        "It opens at six.",
+        "Two meters deep.",
+        "About 100 dollars."
+      ],
+      "answer": 0,
+      "word": "對話應答",
+      "explain": "問長度，回答「二十五公尺」。"
+    },
+    {
+      "id": "U11L-R-36",
+      "paper": "review",
+      "section": "dialogue",
+      "num": 36,
+      "stem": "A: How tall was the player? B: ___",
+      "options": [
+        "He was two meters tall.",
+        "He scored 30 points.",
+        "He was very fast.",
+        "He is from Japan."
+      ],
+      "answer": 0,
+      "word": "對話應答",
+      "explain": "問身高，回答「兩公尺高」。"
+    },
+    {
+      "id": "U11L-R-37",
+      "paper": "review",
+      "section": "dialogue",
+      "num": 37,
+      "stem": "A: How long does it take to make bread? B: ___",
+      "options": [
+        "In the oven.",
+        "About three hours.",
+        "My aunt taught me.",
+        "It smells great."
+      ],
+      "answer": 1,
+      "word": "對話應答",
+      "explain": "問要花多久，回答「大約三小時」。"
+    },
+    {
+      "id": "U11L-R-38",
+      "paper": "review",
+      "section": "reading",
+      "num": 38,
+      "readingId": "U11L-READ-1",
+      "stem": "What is this reading mainly about?",
+      "options": [
+        "How to keep a bedroom clean.",
+        "A real battle in a foreign country.",
+        "A computer class at a high school.",
+        "A cousin who loves a war game."
+      ],
+      "answer": 3,
+      "word": "閱讀理解",
+      "explain": "全文在講表哥和他愛玩的戰爭遊戲。"
+    },
+    {
+      "id": "U11L-R-39",
+      "paper": "review",
+      "section": "reading",
+      "num": 39,
+      "readingId": "U11L-READ-1",
+      "stem": "Why does the writer say the game is fair?",
+      "options": [
+        "Because every player uses the same weapon.",
+        "Because nobody can capture the base.",
+        "Because every player starts with the same money.",
+        "Because the battles are very short."
+      ],
+      "answer": 2,
+      "word": "閱讀理解",
+      "explain": "文中說遊戲公平，因為每個人一開始的錢都一樣。"
+    },
+    {
+      "id": "U11L-R-40",
+      "paper": "review",
+      "section": "reading",
+      "num": 40,
+      "readingId": "U11L-READ-1",
+      "stem": "What did the cousin do last week?",
+      "options": [
+        "He sold his old game.",
+        "He made his own map.",
+        "He cleaned his room.",
+        "He joined a real army."
+      ],
+      "answer": 1,
+      "word": "閱讀理解",
+      "explain": "文中說上週表哥自己做了一張地圖。"
+    },
+    {
+      "id": "U11L-R-41",
+      "paper": "review",
+      "section": "reading",
+      "num": 41,
+      "readingId": "U11L-READ-1",
+      "stem": "Which one is TRUE about the cousin?",
+      "options": [
+        "His mother cannot stand the noise.",
+        "Other players said the old maps were better.",
+        "He keeps his room clean when he plays.",
+        "He wants to be a soldier in the future."
+      ],
+      "answer": 0,
+      "word": "閱讀理解",
+      "explain": "文中說媽媽受不了噪音（cannot put up with the noise）。"
+    },
+    {
+      "id": "U11L-Q-01",
+      "paper": "quiz",
+      "section": "matching",
+      "num": 1,
+      "word": "配合題",
+      "left": [
+        "worth",
+        "biology",
+        "troop",
+        "creative",
+        "weapon",
+        "faith",
+        "capture",
+        "worse",
+        "battle",
+        "link",
+        "nuclear",
+        "create",
+        "military",
+        "creature",
+        "fair"
+      ],
+      "right": [
+        "生物",
+        "連結；關聯",
+        "公平的；展覽會",
+        "軍事的；軍人",
+        "比較糟的",
+        "核子的",
+        "創造；創作",
+        "武器",
+        "信仰；信任",
+        "生物；生物學",
+        "軍隊；部隊",
+        "值得的；價值",
+        "抓；俘虜",
+        "有創造力的",
+        "戰役；戰鬥"
+      ],
+      "answer": [
+        "L",
+        "J",
+        "K",
+        "N",
+        "H",
+        "I",
+        "M",
+        "E",
+        "O",
+        "B",
+        "F",
+        "G",
+        "D",
+        "A",
+        "C"
+      ],
+      "explain": "把每個英文字對到正確的中文意思。"
+    },
+    {
+      "id": "U11L-Q-02",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 2,
+      "mode": "spell",
+      "prompt": "生物",
+      "word": "creature",
+      "explain": "creature＝生物。首 c 尾 e，共 8 個字母。"
+    },
+    {
+      "id": "U11L-Q-03",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 3,
+      "mode": "spell",
+      "prompt": "抓；俘虜",
+      "word": "capture",
+      "explain": "capture＝抓；俘虜。首 c 尾 e，共 7 個字母。"
+    },
+    {
+      "id": "U11L-Q-04",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 4,
+      "mode": "spell",
+      "prompt": "值得的",
+      "word": "worth",
+      "explain": "worth＝值得的；價值。首 w 尾 h，共 5 個字母。"
+    },
+    {
+      "id": "U11L-Q-05",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 5,
+      "mode": "spell",
+      "prompt": "信仰；信任",
+      "word": "faith",
+      "explain": "faith＝信仰；信任。首 f 尾 h，共 5 個字母。"
+    },
+    {
+      "id": "U11L-Q-06",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 6,
+      "mode": "spell",
+      "prompt": "核子的",
+      "word": "nuclear",
+      "explain": "nuclear＝核子的。首 n 尾 r，共 7 個字母。"
+    },
+    {
+      "id": "U11L-Q-07",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 7,
+      "mode": "spell",
+      "prompt": "連結",
+      "word": "link",
+      "explain": "link＝連結；關聯。首 l 尾 k，共 4 個字母。"
+    },
+    {
+      "id": "U11L-Q-08",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 8,
+      "mode": "spell",
+      "prompt": "戰役",
+      "word": "battle",
+      "explain": "battle＝戰役；戰鬥。首 b 尾 e，共 6 個字母。"
+    },
+    {
+      "id": "U11L-Q-09",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 9,
+      "mode": "spell",
+      "prompt": "有創造力的",
+      "word": "creative",
+      "explain": "creative＝有創造力的。首 c 尾 e，共 8 個字母。"
+    },
+    {
+      "id": "U11L-Q-10",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 10,
+      "mode": "spell",
+      "prompt": "軍隊；部隊",
+      "word": "troop",
+      "explain": "troop＝軍隊；部隊。首 t 尾 p，共 5 個字母。"
+    },
+    {
+      "id": "U11L-Q-11",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 11,
+      "mode": "spell",
+      "prompt": "武器",
+      "word": "weapon",
+      "explain": "weapon＝武器。首 w 尾 n，共 6 個字母。"
+    },
+    {
+      "id": "U11L-Q-12",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 12,
+      "mode": "spell",
+      "prompt": "生物學",
+      "word": "biology",
+      "explain": "biology＝生物；生物學。首 b 尾 y，共 7 個字母。"
+    },
+    {
+      "id": "U11L-Q-13",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 13,
+      "mode": "spell",
+      "prompt": "公平的",
+      "word": "fair",
+      "explain": "fair＝公平的；展覽會。首 f 尾 r，共 4 個字母。"
+    },
+    {
+      "id": "U11L-Q-14",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 14,
+      "mode": "spell",
+      "prompt": "比較糟的",
+      "word": "worse",
+      "explain": "worse＝比較糟的。首 w 尾 e，共 5 個字母。"
+    },
+    {
+      "id": "U11L-Q-15",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 15,
+      "mode": "spell",
+      "prompt": "軍事的",
+      "word": "military",
+      "explain": "military＝軍事的；軍人。首 m 尾 y，共 8 個字母。"
+    },
+    {
+      "id": "U11L-Q-16",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 16,
+      "mode": "spell",
+      "prompt": "創造",
+      "word": "create",
+      "explain": "create＝創造；創作。首 c 尾 e，共 6 個字母。"
+    },
+    {
+      "id": "U11L-Q-17",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 17,
+      "mode": "mc",
+      "stem": "A single ___ is too small to see.",
+      "options": [
+        "atoms",
+        "atomic",
+        "atom",
+        "nuclear"
+      ],
+      "answer": 2,
+      "word": "nuclear",
+      "form": "atom",
+      "explain": "單一個原子小到看不見。a single 後面接單數名詞 atom。"
+    },
+    {
+      "id": "U11L-Q-18",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 18,
+      "mode": "mc",
+      "stem": "He was ___ to the same team for ten years.",
+      "options": [
+        "faithful",
+        "faiths",
+        "faithfully",
+        "faith"
+      ],
+      "answer": 0,
+      "word": "faith",
+      "form": "faithful",
+      "explain": "他對同一支球隊忠實了十年。be 動詞後面接形容詞 faithful。"
+    },
+    {
+      "id": "U11L-Q-19",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 19,
+      "mode": "mc",
+      "stem": "The ___ of this comic book is only twenty years old.",
+      "options": [
+        "creation",
+        "creator",
+        "creature",
+        "create"
+      ],
+      "answer": 1,
+      "word": "create",
+      "form": "creator",
+      "explain": "這本漫畫的創作者只有二十歲。creator＝創作者，指人。"
+    },
+    {
+      "id": "U11L-Q-20",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 20,
+      "mode": "mc",
+      "stem": "This is the ___ traffic jam of the year.",
+      "options": [
+        "worse",
+        "bad",
+        "badly",
+        "worst"
+      ],
+      "answer": 3,
+      "word": "worse",
+      "form": "worst",
+      "explain": "這是今年最糟的塞車。the 加最高級 worst。"
+    },
+    {
+      "id": "U11L-Q-21",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 21,
+      "mode": "mc",
+      "stem": "The old man is a ___ leader of the village.",
+      "options": [
+        "worthless",
+        "worth",
+        "worst",
+        "worthy"
+      ],
+      "answer": 3,
+      "word": "worth",
+      "form": "worthy",
+      "explain": "那位老先生是村裡值得敬重的領袖。修飾名詞用形容詞 worthy。"
+    },
+    {
+      "id": "U11L-Q-22",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 22,
+      "mode": "mc",
+      "stem": "The new road will ___ the two towns.",
+      "options": [
+        "link",
+        "connection",
+        "connections",
+        "links"
+      ],
+      "answer": 0,
+      "word": "link",
+      "form": "link",
+      "explain": "新的道路將連接這兩個鎮。will 後面接原形動詞 link。"
+    },
+    {
+      "id": "U11L-Q-23",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 23,
+      "mode": "mc",
+      "stem": "The teacher praised his ___ in the drawing.",
+      "options": [
+        "creature",
+        "creativity",
+        "create",
+        "creative"
+      ],
+      "answer": 1,
+      "word": "creative",
+      "form": "creativity",
+      "explain": "老師稱讚他畫作中的創造力。his 後面接名詞 creativity。"
+    },
+    {
+      "id": "U11L-Q-24",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 24,
+      "mode": "mc",
+      "stem": "My cousin wants to be a ___ in the future.",
+      "options": [
+        "biology",
+        "biologists",
+        "biologist",
+        "biological"
+      ],
+      "answer": 2,
+      "word": "biology",
+      "form": "biologist",
+      "explain": "我表姐將來想當生物學家。a 後面接單數名詞 biologist。"
+    },
+    {
+      "id": "U11L-Q-25",
+      "paper": "quiz",
+      "section": "mc-phrase",
+      "num": 25,
+      "stem": "She cannot ___ the noise from the night market.",
+      "options": [
+        "put up with",
+        "blow out",
+        "put out",
+        "put away"
+      ],
+      "answer": 0,
+      "word": "put up with",
+      "explain": "她無法忍受夜市的噪音。put up with＝忍受。"
+    },
+    {
+      "id": "U11L-Q-26",
+      "paper": "quiz",
+      "section": "mc-phrase",
+      "num": 26,
+      "stem": "The workers ___ their tools after work.",
+      "options": [
+        "blow up",
+        "put up with",
+        "put away",
+        "put out"
+      ],
+      "answer": 2,
+      "word": "put away",
+      "explain": "工人下班後把工具收好。put away＝收拾。"
+    },
+    {
+      "id": "U11L-Q-27",
+      "paper": "quiz",
+      "section": "mc-phrase",
+      "num": 27,
+      "stem": "The kitchen was ___ after the party.",
+      "options": [
+        "in a hurry",
+        "in a mess",
+        "in danger",
+        "in the end"
+      ],
+      "answer": 1,
+      "word": "in a mess",
+      "explain": "派對後廚房亂七八糟。in a mess＝亂七八糟。"
+    },
+    {
+      "id": "U11L-Q-28",
+      "paper": "quiz",
+      "section": "dialogue",
+      "num": 28,
+      "stem": "A: How long is the war movie? B: ___",
+      "options": [
+        "At the new theater.",
+        "It is about World War II.",
+        "Almost three hours.",
+        "I watched it twice."
+      ],
+      "answer": 2,
+      "word": "對話應答",
+      "explain": "問片長，回答「快三小時」。"
+    },
+    {
+      "id": "U11L-Q-29",
+      "paper": "quiz",
+      "section": "dialogue",
+      "num": 29,
+      "stem": "A: How tall is your sister now? B: ___",
+      "options": [
+        "She is 158 centimeters.",
+        "She is in junior high.",
+        "She is thirteen.",
+        "She likes dancing."
+      ],
+      "answer": 0,
+      "word": "對話應答",
+      "explain": "問身高，回答「158 公分」。"
+    },
+    {
+      "id": "U11L-Q-30",
+      "paper": "quiz",
+      "section": "dialogue",
+      "num": 30,
+      "stem": "A: How long did you study last night? B: ___",
+      "options": [
+        "Until I was tired.",
+        "Math and English.",
+        "In my bedroom.",
+        "For two hours."
+      ],
+      "answer": 3,
+      "word": "對話應答",
+      "explain": "問讀了多久，回答「兩小時」。"
+    },
+    {
+      "id": "U11L-Q-31",
+      "paper": "quiz",
+      "section": "dialogue",
+      "num": 31,
+      "stem": "A: How long is that wall? B: ___",
+      "options": [
+        "It is made of stone.",
+        "About four meters.",
+        "Ten years old.",
+        "Behind the school."
+      ],
+      "answer": 1,
+      "word": "對話應答",
+      "explain": "問長度，回答「大約四公尺」。"
+    },
+    {
+      "id": "U11L-E-01",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 1,
+      "mode": "spell",
+      "prompt": "軍事的",
+      "word": "military",
+      "explain": "military＝軍事的；軍人。首 m 尾 y，共 8 個字母。"
+    },
+    {
+      "id": "U11L-E-02",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 2,
+      "mode": "spell",
+      "prompt": "軍隊；部隊",
+      "word": "troop",
+      "explain": "troop＝軍隊；部隊。首 t 尾 p，共 5 個字母。"
+    },
+    {
+      "id": "U11L-E-03",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 3,
+      "mode": "spell",
+      "prompt": "抓；俘虜",
+      "word": "capture",
+      "explain": "capture＝抓；俘虜。首 c 尾 e，共 7 個字母。"
+    },
+    {
+      "id": "U11L-E-04",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 4,
+      "mode": "spell",
+      "prompt": "戰役",
+      "word": "battle",
+      "explain": "battle＝戰役；戰鬥。首 b 尾 e，共 6 個字母。"
+    },
+    {
+      "id": "U11L-E-05",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 5,
+      "mode": "spell",
+      "prompt": "生物",
+      "word": "creature",
+      "explain": "creature＝生物。首 c 尾 e，共 8 個字母。"
+    },
+    {
+      "id": "U11L-E-06",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 6,
+      "mode": "mc",
+      "stem": "A ___ went through the window of the shop.",
+      "options": [
+        "bullet",
+        "weapon",
+        "weapons",
+        "bullets"
+      ],
+      "answer": 0,
+      "word": "weapon",
+      "form": "bullet",
+      "explain": "一顆子彈穿過店裡的窗戶。a 後面接單數名詞 bullet。"
+    },
+    {
+      "id": "U11L-E-07",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 7,
+      "mode": "mc",
+      "stem": "Water is made of very small ___.",
+      "options": [
+        "atomic",
+        "nuclear",
+        "atom",
+        "atoms"
+      ],
+      "answer": 3,
+      "word": "nuclear",
+      "form": "atom",
+      "explain": "水是由很小的原子組成的。very small 後面用複數 atoms。"
+    },
+    {
+      "id": "U11L-E-08",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 8,
+      "mode": "mc",
+      "stem": "The coach chose the players ___, so the team was angry.",
+      "options": [
+        "unfair",
+        "unfairly",
+        "fairly",
+        "fair"
+      ],
+      "answer": 1,
+      "word": "fair",
+      "form": "unfairly",
+      "explain": "教練不公平地挑選球員，隊員很生氣。修飾動詞用副詞。"
+    },
+    {
+      "id": "U11L-E-09",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 9,
+      "mode": "mc",
+      "stem": "She is a ___ reader of that magazine.",
+      "options": [
+        "faithful",
+        "faithfully",
+        "faiths",
+        "faith"
+      ],
+      "answer": 0,
+      "word": "faith",
+      "form": "faithful",
+      "explain": "她是那本雜誌忠實的讀者。修飾名詞用形容詞。"
+    },
+    {
+      "id": "U11L-E-10",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 10,
+      "mode": "mc",
+      "stem": "This song is his best ___ so far.",
+      "options": [
+        "creature",
+        "creation",
+        "create",
+        "creator"
+      ],
+      "answer": 1,
+      "word": "create",
+      "form": "creation",
+      "explain": "這首歌是他目前最好的創作。his best 後面接名詞 creation。"
+    },
+    {
+      "id": "U11L-E-11",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 11,
+      "mode": "mc",
+      "stem": "Playing music can build a child's ___.",
+      "options": [
+        "creature",
+        "create",
+        "creativity",
+        "creative"
+      ],
+      "answer": 2,
+      "word": "creative",
+      "form": "creativity",
+      "explain": "玩音樂能培養孩子的創造力。a child's 後面接名詞。"
+    },
+    {
+      "id": "U11L-E-12",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 12,
+      "mode": "mc",
+      "stem": "A ___ found a new kind of frog in the forest.",
+      "options": [
+        "biologists",
+        "biological",
+        "biologist",
+        "biology"
+      ],
+      "answer": 2,
+      "word": "biology",
+      "form": "biologist",
+      "explain": "一位生物學家在森林裡發現新種青蛙。a 後面接單數名詞。"
+    },
+    {
+      "id": "U11L-E-13",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 13,
+      "mode": "mc",
+      "stem": "The phone ___ was bad during the storm.",
+      "options": [
+        "connection",
+        "connections",
+        "link",
+        "links"
+      ],
+      "answer": 0,
+      "word": "link",
+      "form": "connection",
+      "explain": "暴風雨時電話連線很差。phone connection＝電話連線。"
+    },
+    {
+      "id": "U11L-E-14",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 14,
+      "mode": "mc",
+      "stem": "That test was the ___ one this term.",
+      "options": [
+        "bad",
+        "badly",
+        "worse",
+        "worst"
+      ],
+      "answer": 3,
+      "word": "worse",
+      "form": "worst",
+      "explain": "那次考試是這學期最糟的一次。the 加最高級 worst。"
+    },
+    {
+      "id": "U11L-E-15",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 15,
+      "mode": "mc",
+      "stem": "The temple is a ___ place for a visit.",
+      "options": [
+        "worth",
+        "worthy",
+        "worst",
+        "worthless"
+      ],
+      "answer": 1,
+      "word": "worth",
+      "form": "worthy",
+      "explain": "那座廟是值得參觀的地方。修飾名詞 place 用形容詞 worthy。"
+    },
+    {
+      "id": "U11L-E-16",
+      "paper": "extra",
+      "section": "mc-phrase",
+      "num": 16,
+      "stem": "My mother asked me to ___ the clean clothes.",
+      "options": [
+        "blow out",
+        "put away",
+        "put out",
+        "put up with"
+      ],
+      "answer": 1,
+      "word": "put away",
+      "explain": "我媽媽要我把乾淨衣服收好。put away＝收拾。"
+    },
+    {
+      "id": "U11L-E-17",
+      "paper": "extra",
+      "section": "mc-phrase",
+      "num": 17,
+      "stem": "Good teachers ___ many silly questions.",
+      "options": [
+        "put up with",
+        "put out",
+        "put away",
+        "show up"
+      ],
+      "answer": 0,
+      "word": "put up with",
+      "explain": "好老師忍受很多蠢問題。put up with＝忍受。"
+    },
+    {
+      "id": "U11L-E-18",
+      "paper": "extra",
+      "section": "mc-phrase",
+      "num": 18,
+      "stem": "The desk was ___ before the exam week.",
+      "options": [
+        "in the end",
+        "in danger",
+        "in a mess",
+        "in a hurry"
+      ],
+      "answer": 2,
+      "word": "in a mess",
+      "explain": "考試週前桌子亂七八糟。in a mess＝亂七八糟。"
+    },
+    {
+      "id": "U11L-E-19",
+      "paper": "extra",
+      "section": "dialogue",
+      "num": 19,
+      "stem": "A: How long is the summer camp? B: ___",
+      "options": [
+        "For high school students.",
+        "In Nantou.",
+        "Six days.",
+        "It costs 5,000 dollars."
+      ],
+      "answer": 2,
+      "word": "對話應答",
+      "explain": "問幾天，回答「六天」。"
+    },
+    {
+      "id": "U11L-E-20",
+      "paper": "extra",
+      "section": "dialogue",
+      "num": 20,
+      "stem": "A: How tall is that building? B: ___",
+      "options": [
+        "It is a hospital.",
+        "It was built last year.",
+        "Across the street.",
+        "About forty meters."
+      ],
+      "answer": 3,
+      "word": "對話應答",
+      "explain": "問高度，回答「大約四十公尺」。"
+    },
+    {
+      "id": "U11L-E-21",
+      "paper": "extra",
+      "section": "dialogue",
+      "num": 21,
+      "stem": "A: How long do you sleep every night? B: ___",
+      "options": [
+        "About seven hours.",
+        "In my own room.",
+        "I sleep well.",
+        "Before eleven."
+      ],
+      "answer": 0,
+      "word": "對話應答",
+      "explain": "問睡多久，回答「大約七小時」。"
+    },
+    {
+      "id": "U11L-E-22",
+      "paper": "extra",
+      "section": "dialogue",
+      "num": 22,
+      "stem": "A: How long is the new MRT line? B: ___",
+      "options": [
+        "By the river.",
+        "Almost twenty kilometers.",
+        "It has ten stations.",
+        "It opens next year."
+      ],
+      "answer": 1,
+      "word": "對話應答",
+      "explain": "問長度，回答「快二十公里」。"
+    }
+  ]
+}

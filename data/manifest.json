@@ -138,5 +138,85 @@
       "review",
       "quiz"
     ]
+  },
+  {
+    "file": "u9_upper.json",
+    "unit": 9,
+    "half": "upper",
+    "label": "Unit 9（上）",
+    "papers": [
+      "review",
+      "quiz"
+    ]
+  },
+  {
+    "file": "u9_lower.json",
+    "unit": 9,
+    "half": "lower",
+    "label": "Unit 9（下）",
+    "papers": [
+      "review",
+      "quiz"
+    ]
+  },
+  {
+    "file": "u10_upper.json",
+    "unit": 10,
+    "half": "upper",
+    "label": "Unit 10（上）",
+    "papers": [
+      "review",
+      "quiz"
+    ]
+  },
+  {
+    "file": "u10_lower.json",
+    "unit": 10,
+    "half": "lower",
+    "label": "Unit 10（下）",
+    "papers": [
+      "review",
+      "quiz"
+    ]
+  },
+  {
+    "file": "u11_upper.json",
+    "unit": 11,
+    "half": "upper",
+    "label": "Unit 11（上）",
+    "papers": [
+      "review",
+      "quiz"
+    ]
+  },
+  {
+    "file": "u11_lower.json",
+    "unit": 11,
+    "half": "lower",
+    "label": "Unit 11（下）",
+    "papers": [
+      "review",
+      "quiz"
+    ]
+  },
+  {
+    "file": "u12_upper.json",
+    "unit": 12,
+    "half": "upper",
+    "label": "Unit 12（上）",
+    "papers": [
+      "review",
+      "quiz"
+    ]
+  },
+  {
+    "file": "u12_lower.json",
+    "unit": 12,
+    "half": "lower",
+    "label": "Unit 12（下）",
+    "papers": [
+      "review",
+      "quiz"
+    ]
   }
 ]

@@ -1,0 +1,1534 @@
+{
+  "unit": 12,
+  "half": "lower",
+  "spec": {
+    "review": "v7",
+    "quiz": "v7"
+  },
+  "words": [
+    {
+      "en": "clue",
+      "zh": "暗示；線索"
+    },
+    {
+      "en": "hint",
+      "zh": "暗示；徵兆"
+    },
+    {
+      "en": "fault",
+      "zh": "錯誤；過失"
+    },
+    {
+      "en": "chemical",
+      "zh": "化學的；化學藥品",
+      "derivatives": [
+        "chemistry"
+      ]
+    },
+    {
+      "en": "character",
+      "zh": "個性；角色",
+      "derivatives": [
+        "characteristic"
+      ]
+    },
+    {
+      "en": "shake",
+      "zh": "搖動；握手",
+      "derivatives": [
+        "shook"
+      ]
+    },
+    {
+      "en": "vehicle",
+      "zh": "車輛；交通工具"
+    },
+    {
+      "en": "central",
+      "zh": "中心的；主要的",
+      "derivatives": [
+        "center"
+      ]
+    },
+    {
+      "en": "medium",
+      "zh": "媒介；中間的"
+    },
+    {
+      "en": "trick",
+      "zh": "把戲；詭計"
+    },
+    {
+      "en": "university",
+      "zh": "大學"
+    },
+    {
+      "en": "worship",
+      "zh": "禮拜；崇拜",
+      "derivatives": [
+        "worshipper"
+      ]
+    },
+    {
+      "en": "saint",
+      "zh": "聖人；聖徒"
+    },
+    {
+      "en": "crew",
+      "zh": "全體船員；全體機員",
+      "derivatives": [
+        "staff"
+      ]
+    },
+    {
+      "en": "carve",
+      "zh": "雕刻；切片",
+      "derivatives": [
+        "sculpture"
+      ]
+    }
+  ],
+  "phrases": [
+    {
+      "en": "figure out",
+      "zh": "想出；解決"
+    },
+    {
+      "en": "be with",
+      "zh": "聽懂；瞭解"
+    },
+    {
+      "en": "go with",
+      "zh": "搭配；同意"
+    }
+  ],
+  "readings": [
+    {
+      "id": "U12L-READ-1",
+      "title": "The Old Temple Trip",
+      "text": "Our history teacher took us to an old temple in the central area of Tainan. The temple is more than two hundred years old, and many people go there to worship every month. Inside, we saw Chinese characters carved on a big wooden board. Our teacher said the work took three years. She gave us a clue and asked us to find the name of the god on the wall; the first hint was the color red. She also asked, \"Are you with me?\" before every long explanation. Then Ken wanted to shake the fortune sticks, but the temple was closing. On the way home, our school vehicle broke down. It was nobody's fault; the bus was simply old. We could not figure out why it stopped, so we waited an hour."
+    }
+  ],
+  "questions": [
+    {
+      "id": "U12L-R-01",
+      "paper": "review",
+      "section": "matching",
+      "num": 1,
+      "word": "配合題",
+      "left": [
+        "worship",
+        "medium",
+        "clue",
+        "carve",
+        "shake",
+        "university",
+        "central",
+        "fault",
+        "trick",
+        "crew",
+        "chemical",
+        "hint",
+        "saint",
+        "vehicle",
+        "character"
+      ],
+      "right": [
+        "雕刻；切片",
+        "中心的；主要的",
+        "聖人；聖徒",
+        "個性；角色",
+        "暗示；線索",
+        "把戲；詭計",
+        "禮拜；崇拜",
+        "車輛；交通工具",
+        "化學的；化學藥品",
+        "全體船員；全體機員",
+        "暗示；徵兆",
+        "媒介；中間的",
+        "錯誤；過失",
+        "大學",
+        "搖動；握手"
+      ],
+      "answer": [
+        "G",
+        "L",
+        "E",
+        "A",
+        "O",
+        "N",
+        "B",
+        "M",
+        "F",
+        "J",
+        "I",
+        "K",
+        "C",
+        "H",
+        "D"
+      ],
+      "explain": "把每個英文字對到正確的中文意思。"
+    },
+    {
+      "id": "U12L-R-02",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 2,
+      "mode": "spell",
+      "prompt": "把戲；詭計",
+      "word": "trick",
+      "explain": "trick＝把戲；詭計。首 t 尾 k，共 5 個字母。"
+    },
+    {
+      "id": "U12L-R-03",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 3,
+      "mode": "spell",
+      "prompt": "聖人",
+      "word": "saint",
+      "explain": "saint＝聖人；聖徒。首 s 尾 t，共 5 個字母。"
+    },
+    {
+      "id": "U12L-R-04",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 4,
+      "mode": "spell",
+      "prompt": "化學的",
+      "word": "chemical",
+      "explain": "chemical＝化學的；化學藥品。首 c 尾 l，共 8 個字母。"
+    },
+    {
+      "id": "U12L-R-05",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 5,
+      "mode": "spell",
+      "prompt": "線索",
+      "word": "clue",
+      "explain": "clue＝暗示；線索。首 c 尾 e，共 4 個字母。"
+    },
+    {
+      "id": "U12L-R-06",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 6,
+      "mode": "spell",
+      "prompt": "車輛",
+      "word": "vehicle",
+      "explain": "vehicle＝車輛；交通工具。首 v 尾 e，共 7 個字母。"
+    },
+    {
+      "id": "U12L-R-07",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 7,
+      "mode": "spell",
+      "prompt": "雕刻",
+      "word": "carve",
+      "explain": "carve＝雕刻；切片。首 c 尾 e，共 5 個字母。"
+    },
+    {
+      "id": "U12L-R-08",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 8,
+      "mode": "spell",
+      "prompt": "媒介；中間的",
+      "word": "medium",
+      "explain": "medium＝媒介；中間的。首 m 尾 m，共 6 個字母。"
+    },
+    {
+      "id": "U12L-R-09",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 9,
+      "mode": "spell",
+      "prompt": "搖動；握手",
+      "word": "shake",
+      "explain": "shake＝搖動；握手。首 s 尾 e，共 5 個字母。"
+    },
+    {
+      "id": "U12L-R-10",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 10,
+      "mode": "spell",
+      "prompt": "大學",
+      "word": "university",
+      "explain": "university＝大學。首 u 尾 y，共 10 個字母。"
+    },
+    {
+      "id": "U12L-R-11",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 11,
+      "mode": "spell",
+      "prompt": "錯誤；過失",
+      "word": "fault",
+      "explain": "fault＝錯誤；過失。首 f 尾 t，共 5 個字母。"
+    },
+    {
+      "id": "U12L-R-12",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 12,
+      "mode": "spell",
+      "prompt": "中心的",
+      "word": "central",
+      "explain": "central＝中心的；主要的。首 c 尾 l，共 7 個字母。"
+    },
+    {
+      "id": "U12L-R-13",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 13,
+      "mode": "spell",
+      "prompt": "全體船員",
+      "word": "crew",
+      "explain": "crew＝全體船員；全體機員。首 c 尾 w，共 4 個字母。"
+    },
+    {
+      "id": "U12L-R-14",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 14,
+      "mode": "spell",
+      "prompt": "暗示",
+      "word": "hint",
+      "explain": "hint＝暗示；徵兆。首 h 尾 t，共 4 個字母。"
+    },
+    {
+      "id": "U12L-R-15",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 15,
+      "mode": "spell",
+      "prompt": "禮拜；崇拜",
+      "word": "worship",
+      "explain": "worship＝禮拜；崇拜。首 w 尾 p，共 7 個字母。"
+    },
+    {
+      "id": "U12L-R-16",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 16,
+      "mode": "spell",
+      "prompt": "個性；角色",
+      "word": "character",
+      "explain": "character＝個性；角色。首 c 尾 r，共 9 個字母。"
+    },
+    {
+      "id": "U12L-R-17",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 17,
+      "mode": "mc",
+      "stem": "She got an A in ___ last term.",
+      "options": [
+        "chemically",
+        "chemical",
+        "chemistry",
+        "chemicals"
+      ],
+      "answer": 2,
+      "word": "chemical",
+      "form": "chemistry",
+      "explain": "她上學期化學拿了 A。科目名稱用名詞 chemistry。"
+    },
+    {
+      "id": "U12L-R-18",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 18,
+      "mode": "mc",
+      "stem": "Farmers use ___ sprays to kill insects.",
+      "options": [
+        "chemical",
+        "chemistry",
+        "chemicals",
+        "chemically"
+      ],
+      "answer": 0,
+      "word": "chemical",
+      "form": "chemical",
+      "explain": "農夫用化學噴劑殺蟲。修飾名詞 sprays 用形容詞 chemical。"
+    },
+    {
+      "id": "U12L-R-19",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 19,
+      "mode": "mc",
+      "stem": "Long ears are a ___ of that animal.",
+      "options": [
+        "characteristics",
+        "characteristic",
+        "characters",
+        "character"
+      ],
+      "answer": 1,
+      "word": "character",
+      "form": "characteristic",
+      "explain": "長耳朵是那種動物的特徵。a 後面接單數名詞 characteristic。"
+    },
+    {
+      "id": "U12L-R-20",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 20,
+      "mode": "mc",
+      "stem": "The main ___ in the movie is a young cook.",
+      "options": [
+        "character",
+        "characteristics",
+        "characters",
+        "characteristic"
+      ],
+      "answer": 0,
+      "word": "character",
+      "form": "character",
+      "explain": "電影的主角是一位年輕廚師。the main 後面接單數名詞 character。"
+    },
+    {
+      "id": "U12L-R-21",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 21,
+      "mode": "mc",
+      "stem": "The earthquake ___ our house last night.",
+      "options": [
+        "shake",
+        "shakes",
+        "shook",
+        "shaken"
+      ],
+      "answer": 2,
+      "word": "shake",
+      "form": "shook",
+      "explain": "昨晚地震搖動了我們的房子。shake 的過去式是 shook。"
+    },
+    {
+      "id": "U12L-R-22",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 22,
+      "mode": "mc",
+      "stem": "They ___ hands after every game.",
+      "options": [
+        "shaken",
+        "shook",
+        "shaking",
+        "shake"
+      ],
+      "answer": 3,
+      "word": "shake",
+      "form": "shake",
+      "explain": "他們每場比賽後都握手。現在的習慣用原形 shake hands＝握手。"
+    },
+    {
+      "id": "U12L-R-23",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 23,
+      "mode": "mc",
+      "stem": "The ___ of the town is very busy at noon.",
+      "options": [
+        "central",
+        "center",
+        "centers",
+        "centrally"
+      ],
+      "answer": 1,
+      "word": "central",
+      "form": "center",
+      "explain": "鎮中心中午非常忙碌。the 後面接名詞 center。"
+    },
+    {
+      "id": "U12L-R-24",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 24,
+      "mode": "mc",
+      "stem": "Our school is in the ___ part of the city.",
+      "options": [
+        "centrally",
+        "center",
+        "centers",
+        "central"
+      ],
+      "answer": 3,
+      "word": "central",
+      "form": "central",
+      "explain": "我們學校在市中心的區域。修飾名詞 part 用形容詞 central。"
+    },
+    {
+      "id": "U12L-R-25",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 25,
+      "mode": "mc",
+      "stem": "Every ___ takes off his shoes at the door.",
+      "options": [
+        "worshipped",
+        "worshipper",
+        "worships",
+        "worship"
+      ],
+      "answer": 1,
+      "word": "worship",
+      "form": "worshipper",
+      "explain": "每位信徒都在門口脫鞋。every 後面接單數名詞 worshipper＝信徒。"
+    },
+    {
+      "id": "U12L-R-26",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 26,
+      "mode": "mc",
+      "stem": "The office has a ___ of thirty.",
+      "options": [
+        "crew",
+        "crews",
+        "staffs",
+        "staff"
+      ],
+      "answer": 3,
+      "word": "crew",
+      "form": "staff",
+      "explain": "那間辦公室有三十位員工。staff＝職員；crew 指全體船員或機員。"
+    },
+    {
+      "id": "U12L-R-27",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 27,
+      "mode": "mc",
+      "stem": "The ___ in the park is made of ice.",
+      "options": [
+        "carved",
+        "carves",
+        "sculpture",
+        "carve"
+      ],
+      "answer": 2,
+      "word": "carve",
+      "form": "sculpture",
+      "explain": "公園裡那座雕像是冰做的。the 後面接名詞 sculpture＝雕像。"
+    },
+    {
+      "id": "U12L-R-28",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 28,
+      "mode": "mc",
+      "stem": "He likes to ___ small animals out of wood.",
+      "options": [
+        "carve",
+        "carved",
+        "carves",
+        "sculpture"
+      ],
+      "answer": 0,
+      "word": "carve",
+      "form": "carve",
+      "explain": "他喜歡用木頭雕小動物。to 後面接原形動詞 carve。"
+    },
+    {
+      "id": "U12L-R-29",
+      "paper": "review",
+      "section": "mc-phrase",
+      "num": 29,
+      "stem": "I cannot ___ how to use this new app.",
+      "options": [
+        "show off",
+        "put away",
+        "figure out",
+        "fill out"
+      ],
+      "answer": 2,
+      "word": "figure out",
+      "explain": "我想不出這個新 app 怎麼用。figure out＝想出；解決。"
+    },
+    {
+      "id": "U12L-R-30",
+      "paper": "review",
+      "section": "mc-phrase",
+      "num": 30,
+      "stem": "I am not ___ you. Please explain it again.",
+      "options": [
+        "to",
+        "with",
+        "by",
+        "on"
+      ],
+      "answer": 1,
+      "word": "be with",
+      "explain": "我沒聽懂你的意思，請再說明一次。be with sb.＝聽懂某人的話。"
+    },
+    {
+      "id": "U12L-R-31",
+      "paper": "review",
+      "section": "mc-phrase",
+      "num": 31,
+      "stem": "Does this hat ___ my new dress?",
+      "options": [
+        "go with",
+        "figure out",
+        "be with",
+        "find out"
+      ],
+      "answer": 0,
+      "word": "go with",
+      "explain": "這頂帽子搭配我的新洋裝嗎？go with＝搭配。"
+    },
+    {
+      "id": "U12L-R-32",
+      "paper": "review",
+      "section": "dialogue",
+      "num": 32,
+      "stem": "A: How often do you go to the library? B: ___",
+      "options": [
+        "With my classmate.",
+        "For two hours.",
+        "It is next to the park.",
+        "About twice a week."
+      ],
+      "answer": 3,
+      "word": "對話應答",
+      "explain": "問頻率，回答「一週約兩次」。"
+    },
+    {
+      "id": "U12L-R-33",
+      "paper": "review",
+      "section": "dialogue",
+      "num": 33,
+      "stem": "A: How far is the temple from here? B: ___",
+      "options": [
+        "Every morning.",
+        "By scooter.",
+        "About one kilometer.",
+        "It is very old."
+      ],
+      "answer": 2,
+      "word": "對話應答",
+      "explain": "問多遠，回答「大約一公里」。"
+    },
+    {
+      "id": "U12L-R-34",
+      "paper": "review",
+      "section": "dialogue",
+      "num": 34,
+      "stem": "A: How often do you wash your hair? B: ___",
+      "options": [
+        "In the bathroom.",
+        "Every other day.",
+        "For ten minutes.",
+        "It is too long."
+      ],
+      "answer": 1,
+      "word": "對話應答",
+      "explain": "問頻率，回答「每兩天一次」。"
+    },
+    {
+      "id": "U12L-R-35",
+      "paper": "review",
+      "section": "dialogue",
+      "num": 35,
+      "stem": "A: How far can this old car go? B: ___",
+      "options": [
+        "Maybe 300 kilometers.",
+        "My uncle drives it.",
+        "It is twenty years old.",
+        "Once a month."
+      ],
+      "answer": 0,
+      "word": "對話應答",
+      "explain": "問多遠，回答「大約三百公里」。"
+    },
+    {
+      "id": "U12L-R-36",
+      "paper": "review",
+      "section": "dialogue",
+      "num": 36,
+      "stem": "A: How often does your family eat hot pot? B: ___",
+      "options": [
+        "Once a month in winter.",
+        "We all like it.",
+        "For about an hour.",
+        "At a shop near home."
+      ],
+      "answer": 0,
+      "word": "對話應答",
+      "explain": "問頻率，回答「冬天一個月一次」。"
+    },
+    {
+      "id": "U12L-R-37",
+      "paper": "review",
+      "section": "dialogue",
+      "num": 37,
+      "stem": "A: How far did the ball go? B: ___",
+      "options": [
+        "In the ninth inning.",
+        "Over 100 meters.",
+        "Very fast.",
+        "It was a home run."
+      ],
+      "answer": 1,
+      "word": "對話應答",
+      "explain": "問多遠，回答「超過一百公尺」。"
+    },
+    {
+      "id": "U12L-R-38",
+      "paper": "review",
+      "section": "reading",
+      "num": 38,
+      "readingId": "U12L-READ-1",
+      "stem": "What is this reading mainly about?",
+      "options": [
+        "How to make a wooden board.",
+        "A history test about old buildings.",
+        "A class visit to an old temple.",
+        "A bus company in Tainan."
+      ],
+      "answer": 2,
+      "word": "閱讀理解",
+      "explain": "全文在講歷史老師帶班上去參觀老廟。"
+    },
+    {
+      "id": "U12L-R-39",
+      "paper": "review",
+      "section": "reading",
+      "num": 39,
+      "readingId": "U12L-READ-1",
+      "stem": "What did the students see inside the temple?",
+      "options": [
+        "A picture of the teacher's family.",
+        "Chinese characters carved on a wooden board.",
+        "Fortune sticks made of gold.",
+        "A big ice sculpture of a god."
+      ],
+      "answer": 1,
+      "word": "閱讀理解",
+      "explain": "文中說他們看到刻在大木板上的中文字。"
+    },
+    {
+      "id": "U12L-R-40",
+      "paper": "review",
+      "section": "reading",
+      "num": 40,
+      "readingId": "U12L-READ-1",
+      "stem": "Why did Ken fail to shake the fortune sticks?",
+      "options": [
+        "Because the temple was closing.",
+        "Because the teacher said no.",
+        "Because he had no money.",
+        "Because he lost the sticks."
+      ],
+      "answer": 0,
+      "word": "閱讀理解",
+      "explain": "文中說 Ken 想搖籤，但廟要關門了。"
+    },
+    {
+      "id": "U12L-R-41",
+      "paper": "review",
+      "section": "reading",
+      "num": 41,
+      "readingId": "U12L-READ-1",
+      "stem": "Which one is TRUE about the trip home?",
+      "options": [
+        "The students walked home in the rain.",
+        "The class took the train back.",
+        "The driver made a serious mistake.",
+        "The bus broke down because it was old."
+      ],
+      "answer": 3,
+      "word": "閱讀理解",
+      "explain": "文中說車子拋錨不是任何人的錯，只是車太舊了。"
+    },
+    {
+      "id": "U12L-Q-01",
+      "paper": "quiz",
+      "section": "matching",
+      "num": 1,
+      "word": "配合題",
+      "left": [
+        "chemical",
+        "fault",
+        "saint",
+        "shake",
+        "medium",
+        "worship",
+        "vehicle",
+        "clue",
+        "carve",
+        "university",
+        "character",
+        "crew",
+        "trick",
+        "central",
+        "hint"
+      ],
+      "right": [
+        "暗示；徵兆",
+        "大學",
+        "全體船員；全體機員",
+        "媒介；中間的",
+        "搖動；握手",
+        "錯誤；過失",
+        "中心的；主要的",
+        "個性；角色",
+        "雕刻；切片",
+        "化學的；化學藥品",
+        "車輛；交通工具",
+        "禮拜；崇拜",
+        "聖人；聖徒",
+        "暗示；線索",
+        "把戲；詭計"
+      ],
+      "answer": [
+        "J",
+        "F",
+        "M",
+        "E",
+        "D",
+        "L",
+        "K",
+        "N",
+        "I",
+        "B",
+        "H",
+        "C",
+        "O",
+        "G",
+        "A"
+      ],
+      "explain": "把每個英文字對到正確的中文意思。"
+    },
+    {
+      "id": "U12L-Q-02",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 2,
+      "mode": "spell",
+      "prompt": "全體船員",
+      "word": "crew",
+      "explain": "crew＝全體船員；全體機員。首 c 尾 w，共 4 個字母。"
+    },
+    {
+      "id": "U12L-Q-03",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 3,
+      "mode": "spell",
+      "prompt": "中心的",
+      "word": "central",
+      "explain": "central＝中心的；主要的。首 c 尾 l，共 7 個字母。"
+    },
+    {
+      "id": "U12L-Q-04",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 4,
+      "mode": "spell",
+      "prompt": "暗示",
+      "word": "hint",
+      "explain": "hint＝暗示；徵兆。首 h 尾 t，共 4 個字母。"
+    },
+    {
+      "id": "U12L-Q-05",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 5,
+      "mode": "spell",
+      "prompt": "大學",
+      "word": "university",
+      "explain": "university＝大學。首 u 尾 y，共 10 個字母。"
+    },
+    {
+      "id": "U12L-Q-06",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 6,
+      "mode": "spell",
+      "prompt": "搖動；握手",
+      "word": "shake",
+      "explain": "shake＝搖動；握手。首 s 尾 e，共 5 個字母。"
+    },
+    {
+      "id": "U12L-Q-07",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 7,
+      "mode": "spell",
+      "prompt": "線索",
+      "word": "clue",
+      "explain": "clue＝暗示；線索。首 c 尾 e，共 4 個字母。"
+    },
+    {
+      "id": "U12L-Q-08",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 8,
+      "mode": "spell",
+      "prompt": "禮拜；崇拜",
+      "word": "worship",
+      "explain": "worship＝禮拜；崇拜。首 w 尾 p，共 7 個字母。"
+    },
+    {
+      "id": "U12L-Q-09",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 9,
+      "mode": "spell",
+      "prompt": "媒介；中間的",
+      "word": "medium",
+      "explain": "medium＝媒介；中間的。首 m 尾 m，共 6 個字母。"
+    },
+    {
+      "id": "U12L-Q-10",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 10,
+      "mode": "spell",
+      "prompt": "個性；角色",
+      "word": "character",
+      "explain": "character＝個性；角色。首 c 尾 r，共 9 個字母。"
+    },
+    {
+      "id": "U12L-Q-11",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 11,
+      "mode": "spell",
+      "prompt": "把戲；詭計",
+      "word": "trick",
+      "explain": "trick＝把戲；詭計。首 t 尾 k，共 5 個字母。"
+    },
+    {
+      "id": "U12L-Q-12",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 12,
+      "mode": "spell",
+      "prompt": "雕刻",
+      "word": "carve",
+      "explain": "carve＝雕刻；切片。首 c 尾 e，共 5 個字母。"
+    },
+    {
+      "id": "U12L-Q-13",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 13,
+      "mode": "spell",
+      "prompt": "錯誤；過失",
+      "word": "fault",
+      "explain": "fault＝錯誤；過失。首 f 尾 t，共 5 個字母。"
+    },
+    {
+      "id": "U12L-Q-14",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 14,
+      "mode": "spell",
+      "prompt": "聖人",
+      "word": "saint",
+      "explain": "saint＝聖人；聖徒。首 s 尾 t，共 5 個字母。"
+    },
+    {
+      "id": "U12L-Q-15",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 15,
+      "mode": "spell",
+      "prompt": "化學的",
+      "word": "chemical",
+      "explain": "chemical＝化學的；化學藥品。首 c 尾 l，共 8 個字母。"
+    },
+    {
+      "id": "U12L-Q-16",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 16,
+      "mode": "spell",
+      "prompt": "車輛",
+      "word": "vehicle",
+      "explain": "vehicle＝車輛；交通工具。首 v 尾 e，共 7 個字母。"
+    },
+    {
+      "id": "U12L-Q-17",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 17,
+      "mode": "mc",
+      "stem": "I have a ___ class every Tuesday.",
+      "options": [
+        "chemicals",
+        "chemical",
+        "chemistry",
+        "chemically"
+      ],
+      "answer": 2,
+      "word": "chemical",
+      "form": "chemistry",
+      "explain": "我每週二有化學課。科目名稱用名詞 chemistry。"
+    },
+    {
+      "id": "U12L-Q-18",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 18,
+      "mode": "mc",
+      "stem": "Round leaves are a ___ of this plant.",
+      "options": [
+        "characteristic",
+        "characteristics",
+        "character",
+        "characters"
+      ],
+      "answer": 0,
+      "word": "character",
+      "form": "characteristic",
+      "explain": "圓葉子是這種植物的特徵。a 後面接單數名詞。"
+    },
+    {
+      "id": "U12L-Q-19",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 19,
+      "mode": "mc",
+      "stem": "The strong wind ___ the trees all night.",
+      "options": [
+        "shaken",
+        "shakes",
+        "shake",
+        "shook"
+      ],
+      "answer": 3,
+      "word": "shake",
+      "form": "shook",
+      "explain": "強風整夜搖動樹木。過去式 shook。"
+    },
+    {
+      "id": "U12L-Q-20",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 20,
+      "mode": "mc",
+      "stem": "Meet me at the ___ of the square.",
+      "options": [
+        "centers",
+        "centrally",
+        "center",
+        "central"
+      ],
+      "answer": 2,
+      "word": "central",
+      "form": "center",
+      "explain": "在廣場中央跟我碰面。the 後面接名詞 center。"
+    },
+    {
+      "id": "U12L-Q-21",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 21,
+      "mode": "mc",
+      "stem": "People go to the temple to ___ on New Year's Day.",
+      "options": [
+        "worshipped",
+        "worship",
+        "worshipper",
+        "worships"
+      ],
+      "answer": 1,
+      "word": "worship",
+      "form": "worship",
+      "explain": "人們大年初一去廟裡拜拜。to 後面接原形動詞 worship。"
+    },
+    {
+      "id": "U12L-Q-22",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 22,
+      "mode": "mc",
+      "stem": "The ___ of the plane is ready to take off.",
+      "options": [
+        "crew",
+        "staff",
+        "staffs",
+        "crews"
+      ],
+      "answer": 0,
+      "word": "crew",
+      "form": "crew",
+      "explain": "全體機員準備好起飛了。crew＝全體機員。"
+    },
+    {
+      "id": "U12L-Q-23",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 23,
+      "mode": "mc",
+      "stem": "The hotel ___ helped us carry the bags.",
+      "options": [
+        "crew",
+        "staffs",
+        "crews",
+        "staff"
+      ],
+      "answer": 3,
+      "word": "crew",
+      "form": "staff",
+      "explain": "飯店員工幫我們提行李。staff＝職員；工作人員。"
+    },
+    {
+      "id": "U12L-Q-24",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 24,
+      "mode": "mc",
+      "stem": "The artist made a ___ of a horse.",
+      "options": [
+        "carve",
+        "sculpture",
+        "carves",
+        "carved"
+      ],
+      "answer": 1,
+      "word": "carve",
+      "form": "sculpture",
+      "explain": "那位藝術家做了一座馬的雕像。a 後面接名詞 sculpture。"
+    },
+    {
+      "id": "U12L-Q-25",
+      "paper": "quiz",
+      "section": "mc-phrase",
+      "num": 25,
+      "stem": "It took me an hour to ___ the answer.",
+      "options": [
+        "fill out",
+        "figure out",
+        "put out",
+        "show up"
+      ],
+      "answer": 1,
+      "word": "figure out",
+      "explain": "我花了一小時才想出答案。figure out＝想出；解決。"
+    },
+    {
+      "id": "U12L-Q-26",
+      "paper": "quiz",
+      "section": "mc-phrase",
+      "num": 26,
+      "stem": "Milk tea ___ fried chicken very well.",
+      "options": [
+        "figures out",
+        "is with",
+        "goes with",
+        "finds out"
+      ],
+      "answer": 2,
+      "word": "go with",
+      "explain": "奶茶和炸雞很搭。go with＝搭配。"
+    },
+    {
+      "id": "U12L-Q-27",
+      "paper": "quiz",
+      "section": "mc-phrase",
+      "num": 27,
+      "stem": "A: Do you follow me? B: Sorry, I am not ___ you.",
+      "options": [
+        "with",
+        "in",
+        "for",
+        "at"
+      ],
+      "answer": 0,
+      "word": "be with",
+      "explain": "抱歉，我沒聽懂你的意思。be with sb.＝聽懂某人的話。"
+    },
+    {
+      "id": "U12L-Q-28",
+      "paper": "quiz",
+      "section": "dialogue",
+      "num": 28,
+      "stem": "A: How often do you check your e-mail? B: ___",
+      "options": [
+        "On my phone.",
+        "For a few minutes.",
+        "It is full of ads.",
+        "Two or three times a day."
+      ],
+      "answer": 3,
+      "word": "對話應答",
+      "explain": "問頻率，回答「一天兩三次」。"
+    },
+    {
+      "id": "U12L-Q-29",
+      "paper": "quiz",
+      "section": "dialogue",
+      "num": 29,
+      "stem": "A: How far is the airport from the city? B: ___",
+      "options": [
+        "By bus or train.",
+        "About forty kilometers.",
+        "Every hour.",
+        "It is very big."
+      ],
+      "answer": 1,
+      "word": "對話應答",
+      "explain": "問多遠，回答「大約四十公里」。"
+    },
+    {
+      "id": "U12L-Q-30",
+      "paper": "quiz",
+      "section": "dialogue",
+      "num": 30,
+      "stem": "A: How often do you have a test? B: ___",
+      "options": [
+        "For fifty minutes.",
+        "Math and English.",
+        "Almost every week.",
+        "In the morning."
+      ],
+      "answer": 2,
+      "word": "對話應答",
+      "explain": "問頻率，回答「幾乎每週」。"
+    },
+    {
+      "id": "U12L-Q-31",
+      "paper": "quiz",
+      "section": "dialogue",
+      "num": 31,
+      "stem": "A: How far do you walk your dog? B: ___",
+      "options": [
+        "Around one kilometer.",
+        "He is very big.",
+        "Twice a day.",
+        "In the park."
+      ],
+      "answer": 0,
+      "word": "對話應答",
+      "explain": "問多遠，回答「大約一公里」。"
+    },
+    {
+      "id": "U12L-E-01",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 1,
+      "mode": "spell",
+      "prompt": "線索",
+      "word": "clue",
+      "explain": "clue＝暗示；線索。首 c 尾 e，共 4 個字母。"
+    },
+    {
+      "id": "U12L-E-02",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 2,
+      "mode": "spell",
+      "prompt": "暗示",
+      "word": "hint",
+      "explain": "hint＝暗示；徵兆。首 h 尾 t，共 4 個字母。"
+    },
+    {
+      "id": "U12L-E-03",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 3,
+      "mode": "spell",
+      "prompt": "錯誤；過失",
+      "word": "fault",
+      "explain": "fault＝錯誤；過失。首 f 尾 t，共 5 個字母。"
+    },
+    {
+      "id": "U12L-E-04",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 4,
+      "mode": "spell",
+      "prompt": "車輛",
+      "word": "vehicle",
+      "explain": "vehicle＝車輛；交通工具。首 v 尾 e，共 7 個字母。"
+    },
+    {
+      "id": "U12L-E-05",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 5,
+      "mode": "spell",
+      "prompt": "媒介；中間的",
+      "word": "medium",
+      "explain": "medium＝媒介；中間的。首 m 尾 m，共 6 個字母。"
+    },
+    {
+      "id": "U12L-E-06",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 6,
+      "mode": "spell",
+      "prompt": "把戲；詭計",
+      "word": "trick",
+      "explain": "trick＝把戲；詭計。首 t 尾 k，共 5 個字母。"
+    },
+    {
+      "id": "U12L-E-07",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 7,
+      "mode": "spell",
+      "prompt": "大學",
+      "word": "university",
+      "explain": "university＝大學。首 u 尾 y，共 10 個字母。"
+    },
+    {
+      "id": "U12L-E-08",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 8,
+      "mode": "spell",
+      "prompt": "聖人",
+      "word": "saint",
+      "explain": "saint＝聖人；聖徒。首 s 尾 t，共 5 個字母。"
+    },
+    {
+      "id": "U12L-E-09",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 9,
+      "mode": "mc",
+      "stem": "My brother teaches ___ at a high school.",
+      "options": [
+        "chemistry",
+        "chemicals",
+        "chemically",
+        "chemical"
+      ],
+      "answer": 0,
+      "word": "chemical",
+      "form": "chemistry",
+      "explain": "我哥哥在高中教化學。科目用名詞 chemistry。"
+    },
+    {
+      "id": "U12L-E-10",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 10,
+      "mode": "mc",
+      "stem": "A red nose is the ___ of that clown.",
+      "options": [
+        "character",
+        "characteristic",
+        "characteristics",
+        "characters"
+      ],
+      "answer": 1,
+      "word": "character",
+      "form": "characteristic",
+      "explain": "紅鼻子是那個小丑的特徵。the 後面接單數名詞。"
+    },
+    {
+      "id": "U12L-E-11",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 11,
+      "mode": "mc",
+      "stem": "He ___ the bottle before he opened it.",
+      "options": [
+        "shakes",
+        "shaken",
+        "shook",
+        "shake"
+      ],
+      "answer": 2,
+      "word": "shake",
+      "form": "shook",
+      "explain": "他打開瓶子前先搖了搖。過去式 shook。"
+    },
+    {
+      "id": "U12L-E-12",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 12,
+      "mode": "mc",
+      "stem": "There is a big clock in the ___ of the hall.",
+      "options": [
+        "centers",
+        "center",
+        "central",
+        "centrally"
+      ],
+      "answer": 1,
+      "word": "central",
+      "form": "center",
+      "explain": "大廳中央有個大時鐘。the 後面接名詞 center。"
+    },
+    {
+      "id": "U12L-E-13",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 13,
+      "mode": "mc",
+      "stem": "One ___ brought fruit to the temple.",
+      "options": [
+        "worshipped",
+        "worships",
+        "worship",
+        "worshipper"
+      ],
+      "answer": 3,
+      "word": "worship",
+      "form": "worshipper",
+      "explain": "一位信徒帶水果到廟裡。one 後面接單數名詞。"
+    },
+    {
+      "id": "U12L-E-14",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 14,
+      "mode": "mc",
+      "stem": "The school ___ works hard during exam week.",
+      "options": [
+        "staff",
+        "crews",
+        "crew",
+        "staffs"
+      ],
+      "answer": 0,
+      "word": "crew",
+      "form": "staff",
+      "explain": "考試週學校職員都很辛苦。staff＝職員。"
+    },
+    {
+      "id": "U12L-E-15",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 15,
+      "mode": "mc",
+      "stem": "That ___ of a lion stands in front of the bank.",
+      "options": [
+        "carves",
+        "carved",
+        "sculpture",
+        "carve"
+      ],
+      "answer": 2,
+      "word": "carve",
+      "form": "sculpture",
+      "explain": "那座獅子雕像立在銀行前面。that 後面接單數名詞。"
+    },
+    {
+      "id": "U12L-E-16",
+      "paper": "extra",
+      "section": "mc-phrase",
+      "num": 16,
+      "stem": "The workers could not ___ why the machine stopped.",
+      "options": [
+        "figure out",
+        "blow out",
+        "fill out",
+        "show off"
+      ],
+      "answer": 0,
+      "word": "figure out",
+      "explain": "工人想不出機器為什麼停了。figure out＝想出。"
+    },
+    {
+      "id": "U12L-E-17",
+      "paper": "extra",
+      "section": "mc-phrase",
+      "num": 17,
+      "stem": "This red bag does not ___ your brown shoes.",
+      "options": [
+        "be with",
+        "go with",
+        "figure out",
+        "find out"
+      ],
+      "answer": 1,
+      "word": "go with",
+      "explain": "這個紅包包和你的棕鞋不搭。go with＝搭配。"
+    },
+    {
+      "id": "U12L-E-18",
+      "paper": "extra",
+      "section": "mc-phrase",
+      "num": 18,
+      "stem": "Are you still ___ me? I can slow down.",
+      "options": [
+        "at",
+        "of",
+        "with",
+        "on"
+      ],
+      "answer": 2,
+      "word": "be with",
+      "explain": "你還跟得上我說的嗎？我可以說慢一點。be with sb.＝聽懂某人的話。"
+    },
+    {
+      "id": "U12L-E-19",
+      "paper": "extra",
+      "section": "dialogue",
+      "num": 19,
+      "stem": "A: How often do you play that game? B: ___",
+      "options": [
+        "Only on weekends.",
+        "For two hours.",
+        "It is really fun.",
+        "With my cousin."
+      ],
+      "answer": 0,
+      "word": "對話應答",
+      "explain": "問頻率，回答「只有週末」。"
+    },
+    {
+      "id": "U12L-E-20",
+      "paper": "extra",
+      "section": "dialogue",
+      "num": 20,
+      "stem": "A: How far is the MRT station? B: ___",
+      "options": [
+        "It opens at six.",
+        "Take the blue line.",
+        "Every five minutes.",
+        "About 300 meters."
+      ],
+      "answer": 3,
+      "word": "對話應答",
+      "explain": "問多遠，回答「大約 300 公尺」。"
+    },
+    {
+      "id": "U12L-E-21",
+      "paper": "extra",
+      "section": "dialogue",
+      "num": 21,
+      "stem": "A: How often do you go swimming? B: ___",
+      "options": [
+        "My father taught me.",
+        "Three times a month.",
+        "At the city pool.",
+        "For an hour."
+      ],
+      "answer": 1,
+      "word": "對話應答",
+      "explain": "問頻率，回答「一個月三次」。"
+    },
+    {
+      "id": "U12L-E-22",
+      "paper": "extra",
+      "section": "dialogue",
+      "num": 22,
+      "stem": "A: How far is it from Taipei to Tainan? B: ___",
+      "options": [
+        "I go there often.",
+        "Every day.",
+        "About 300 kilometers.",
+        "Two hours by train."
+      ],
+      "answer": 2,
+      "word": "對話應答",
+      "explain": "問距離，回答「大約 300 公里」。"
+    }
+  ]
+}

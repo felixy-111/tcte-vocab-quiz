@@ -1,0 +1,1572 @@
+{
+  "unit": 10,
+  "half": "upper",
+  "spec": {
+    "review": "v7",
+    "quiz": "v7"
+  },
+  "words": [
+    {
+      "en": "express",
+      "zh": "快遞；表達",
+      "derivatives": [
+        "expression"
+      ]
+    },
+    {
+      "en": "impress",
+      "zh": "使…印象深刻",
+      "derivatives": [
+        "impression",
+        "impressive"
+      ]
+    },
+    {
+      "en": "utter",
+      "zh": "說出；發聲"
+    },
+    {
+      "en": "favor",
+      "zh": "幫忙；好感",
+      "derivatives": [
+        "favorite",
+        "favorable"
+      ]
+    },
+    {
+      "en": "waste",
+      "zh": "浪費；消耗",
+      "derivatives": [
+        "wasteful"
+      ]
+    },
+    {
+      "en": "haste",
+      "zh": "匆忙；倉促",
+      "derivatives": [
+        "hasty",
+        "hurry"
+      ]
+    },
+    {
+      "en": "rapid",
+      "zh": "快速的"
+    },
+    {
+      "en": "balanced",
+      "zh": "均衡的；公平的",
+      "derivatives": [
+        "balance"
+      ]
+    },
+    {
+      "en": "cultural",
+      "zh": "文化的",
+      "derivatives": [
+        "culture"
+      ]
+    },
+    {
+      "en": "average",
+      "zh": "平均的；普通的"
+    },
+    {
+      "en": "century",
+      "zh": "世紀；一百年"
+    },
+    {
+      "en": "charge",
+      "zh": "索費；充電",
+      "derivatives": [
+        "charger",
+        "recharge"
+      ]
+    },
+    {
+      "en": "international",
+      "zh": "國際的",
+      "derivatives": [
+        "national",
+        "nation"
+      ]
+    },
+    {
+      "en": "rational",
+      "zh": "合理的；理性的"
+    },
+    {
+      "en": "accident",
+      "zh": "意外",
+      "derivatives": [
+        "accidental"
+      ]
+    }
+  ],
+  "phrases": [
+    {
+      "en": "along with",
+      "zh": "伴隨著；連同"
+    },
+    {
+      "en": "get along with",
+      "zh": "與…相處"
+    },
+    {
+      "en": "make friends with",
+      "zh": "與…交朋友"
+    }
+  ],
+  "readings": [
+    {
+      "id": "U10U-READ-1",
+      "title": "International Night",
+      "text": "Our school held an international night last Friday. Along with students from Japan and Vietnam, our class cooked a balanced meal of rice, meat, and vegetables. At first I was too shy to utter a word, but I soon made friends with two exchange students. They asked me about the cultural meaning of moon cakes, and I did my best to express the idea in English. One student took photos of every dish, so I asked him for a favor: to send them to our class group. In our haste to clean up, we almost had an accident with a pot of hot soup. Luckily nobody got hurt, and we did not waste any food. Our teacher said our class got along with the guests better than average."
+    }
+  ],
+  "questions": [
+    {
+      "id": "U10U-R-01",
+      "paper": "review",
+      "section": "matching",
+      "num": 1,
+      "word": "配合題",
+      "left": [
+        "century",
+        "impress",
+        "favor",
+        "rational",
+        "waste",
+        "cultural",
+        "accident",
+        "express",
+        "balanced",
+        "charge",
+        "utter",
+        "average",
+        "international",
+        "haste",
+        "rapid"
+      ],
+      "right": [
+        "意外",
+        "文化的",
+        "快遞；表達",
+        "平均的；普通的",
+        "使…印象深刻",
+        "快速的",
+        "世紀；一百年",
+        "幫忙；好感",
+        "國際的",
+        "說出；發聲",
+        "浪費；消耗",
+        "索費；充電",
+        "合理的；理性的",
+        "均衡的；公平的",
+        "匆忙；倉促"
+      ],
+      "answer": [
+        "G",
+        "E",
+        "H",
+        "M",
+        "K",
+        "B",
+        "A",
+        "C",
+        "N",
+        "L",
+        "J",
+        "D",
+        "I",
+        "O",
+        "F"
+      ],
+      "explain": "把每個英文字對到正確的中文意思。"
+    },
+    {
+      "id": "U10U-R-02",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 2,
+      "mode": "spell",
+      "prompt": "世紀",
+      "word": "century",
+      "explain": "century＝世紀；一百年。首 c 尾 y，共 7 個字母。"
+    },
+    {
+      "id": "U10U-R-03",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 3,
+      "mode": "spell",
+      "prompt": "浪費",
+      "word": "waste",
+      "explain": "waste＝浪費；消耗。首 w 尾 e，共 5 個字母。"
+    },
+    {
+      "id": "U10U-R-04",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 4,
+      "mode": "spell",
+      "prompt": "國際的",
+      "word": "international",
+      "explain": "international＝國際的。首 i 尾 l，共 13 個字母。"
+    },
+    {
+      "id": "U10U-R-05",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 5,
+      "mode": "spell",
+      "prompt": "說出",
+      "word": "utter",
+      "explain": "utter＝說出；發聲。首 u 尾 r，共 5 個字母。"
+    },
+    {
+      "id": "U10U-R-06",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 6,
+      "mode": "spell",
+      "prompt": "均衡的",
+      "word": "balanced",
+      "explain": "balanced＝均衡的；公平的。首 b 尾 d，共 8 個字母。"
+    },
+    {
+      "id": "U10U-R-07",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 7,
+      "mode": "spell",
+      "prompt": "意外",
+      "word": "accident",
+      "explain": "accident＝意外。首 a 尾 t，共 8 個字母。"
+    },
+    {
+      "id": "U10U-R-08",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 8,
+      "mode": "spell",
+      "prompt": "快速的",
+      "word": "rapid",
+      "explain": "rapid＝快速的。首 r 尾 d，共 5 個字母。"
+    },
+    {
+      "id": "U10U-R-09",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 9,
+      "mode": "spell",
+      "prompt": "幫忙；好感",
+      "word": "favor",
+      "explain": "favor＝幫忙；好感。首 f 尾 r，共 5 個字母。"
+    },
+    {
+      "id": "U10U-R-10",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 10,
+      "mode": "spell",
+      "prompt": "文化的",
+      "word": "cultural",
+      "explain": "cultural＝文化的。首 c 尾 l，共 8 個字母。"
+    },
+    {
+      "id": "U10U-R-11",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 11,
+      "mode": "spell",
+      "prompt": "快遞；表達",
+      "word": "express",
+      "explain": "express＝快遞；表達。首 e 尾 s，共 7 個字母。"
+    },
+    {
+      "id": "U10U-R-12",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 12,
+      "mode": "spell",
+      "prompt": "平均的",
+      "word": "average",
+      "explain": "average＝平均的；普通的。首 a 尾 e，共 7 個字母。"
+    },
+    {
+      "id": "U10U-R-13",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 13,
+      "mode": "spell",
+      "prompt": "匆忙",
+      "word": "haste",
+      "explain": "haste＝匆忙；倉促。首 h 尾 e，共 5 個字母。"
+    },
+    {
+      "id": "U10U-R-14",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 14,
+      "mode": "spell",
+      "prompt": "索費；充電",
+      "word": "charge",
+      "explain": "charge＝索費；充電。首 c 尾 e，共 6 個字母。"
+    },
+    {
+      "id": "U10U-R-15",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 15,
+      "mode": "spell",
+      "prompt": "合理的",
+      "word": "rational",
+      "explain": "rational＝合理的；理性的。首 r 尾 l，共 8 個字母。"
+    },
+    {
+      "id": "U10U-R-16",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 16,
+      "mode": "spell",
+      "prompt": "使…印象深刻",
+      "word": "impress",
+      "explain": "impress＝使…印象深刻。首 i 尾 s，共 7 個字母。"
+    },
+    {
+      "id": "U10U-R-17",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 17,
+      "mode": "mc",
+      "stem": "There was a happy ___ on her face after the test.",
+      "options": [
+        "express",
+        "expression",
+        "expresses",
+        "expressed"
+      ],
+      "answer": 1,
+      "word": "express",
+      "form": "expression",
+      "explain": "考完試後她臉上有開心的表情。名詞 expression＝表情；表達。"
+    },
+    {
+      "id": "U10U-R-18",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 18,
+      "mode": "mc",
+      "stem": "Her speech left a strong ___ on the judges.",
+      "options": [
+        "impression",
+        "impressed",
+        "impressive",
+        "impress"
+      ],
+      "answer": 0,
+      "word": "impress",
+      "form": "impression",
+      "explain": "她的演講給評審留下深刻的印象。leave an impression＝留下印象。"
+    },
+    {
+      "id": "U10U-R-19",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 19,
+      "mode": "mc",
+      "stem": "The night view of Taipei is really ___.",
+      "options": [
+        "impress",
+        "impression",
+        "impressive",
+        "impresses"
+      ],
+      "answer": 2,
+      "word": "impress",
+      "form": "impressive",
+      "explain": "台北的夜景真的令人印象深刻。be 動詞後面用形容詞 impressive。"
+    },
+    {
+      "id": "U10U-R-20",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 20,
+      "mode": "mc",
+      "stem": "Basketball is my ___ sport.",
+      "options": [
+        "favors",
+        "favor",
+        "favorable",
+        "favorite"
+      ],
+      "answer": 3,
+      "word": "favor",
+      "form": "favorite",
+      "explain": "籃球是我最愛的運動。favorite＝最愛的，修飾名詞 sport。"
+    },
+    {
+      "id": "U10U-R-21",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 21,
+      "mode": "mc",
+      "stem": "It is ___ to leave the lights on all night.",
+      "options": [
+        "waste",
+        "wastes",
+        "wasteful",
+        "wasted"
+      ],
+      "answer": 2,
+      "word": "waste",
+      "form": "wasteful",
+      "explain": "整晚開著燈很浪費。It is + 形容詞 wasteful。"
+    },
+    {
+      "id": "U10U-R-22",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 22,
+      "mode": "mc",
+      "stem": "He made a ___ decision and regretted it later.",
+      "options": [
+        "hasty",
+        "hastily",
+        "haste",
+        "hurry"
+      ],
+      "answer": 0,
+      "word": "haste",
+      "form": "hasty",
+      "explain": "他做了草率的決定，後來很後悔。修飾名詞 decision 要用形容詞 hasty。"
+    },
+    {
+      "id": "U10U-R-23",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 23,
+      "mode": "mc",
+      "stem": "Do not ___; we still have thirty minutes.",
+      "options": [
+        "hasty",
+        "hurried",
+        "hurry",
+        "haste"
+      ],
+      "answer": 2,
+      "word": "haste",
+      "form": "hurry",
+      "explain": "別急，我們還有三十分鐘。Do not 後面接原形動詞 hurry。"
+    },
+    {
+      "id": "U10U-R-24",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 24,
+      "mode": "mc",
+      "stem": "The little girl lost her ___ and fell off the bike.",
+      "options": [
+        "balanced",
+        "balances",
+        "balancing",
+        "balance"
+      ],
+      "answer": 3,
+      "word": "balanced",
+      "form": "balance",
+      "explain": "那個小女孩失去平衡從腳踏車上摔下來。lose one's balance＝失去平衡。"
+    },
+    {
+      "id": "U10U-R-25",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 25,
+      "mode": "mc",
+      "stem": "This old town has a rich ___.",
+      "options": [
+        "culturally",
+        "culture",
+        "cultures",
+        "cultural"
+      ],
+      "answer": 1,
+      "word": "cultural",
+      "form": "culture",
+      "explain": "這個古老小鎮有豐富的文化。a 後面接單數名詞 culture。"
+    },
+    {
+      "id": "U10U-R-26",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 26,
+      "mode": "mc",
+      "stem": "I forgot my phone ___ at home this morning.",
+      "options": [
+        "charger",
+        "charges",
+        "charge",
+        "charged"
+      ],
+      "answer": 0,
+      "word": "charge",
+      "form": "charger",
+      "explain": "我今天早上把手機充電器忘在家裡。charger＝充電器。"
+    },
+    {
+      "id": "U10U-R-27",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 27,
+      "mode": "mc",
+      "stem": "He plays for the ___ team of Taiwan.",
+      "options": [
+        "international",
+        "national",
+        "nation",
+        "nationally"
+      ],
+      "answer": 1,
+      "word": "international",
+      "form": "national",
+      "explain": "他為台灣的國家隊出賽。national team＝國家隊。"
+    },
+    {
+      "id": "U10U-R-28",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 28,
+      "mode": "mc",
+      "stem": "The police said the fire was ___, not on purpose.",
+      "options": [
+        "accidentally",
+        "accident",
+        "accidents",
+        "accidental"
+      ],
+      "answer": 3,
+      "word": "accident",
+      "form": "accidental",
+      "explain": "警方說那場火是意外的，不是故意的。be 動詞後面用形容詞 accidental。"
+    },
+    {
+      "id": "U10U-R-29",
+      "paper": "review",
+      "section": "mc-phrase",
+      "num": 29,
+      "stem": "The strong wind, ___ heavy rain, hit the village.",
+      "options": [
+        "make friends with",
+        "along with",
+        "look forward to",
+        "get along with"
+      ],
+      "answer": 1,
+      "word": "along with",
+      "explain": "強風伴隨著大雨侵襲那個村莊。along with＝伴隨著；連同。"
+    },
+    {
+      "id": "U10U-R-30",
+      "paper": "review",
+      "section": "mc-phrase",
+      "num": 30,
+      "stem": "She ___ her new classmates very well.",
+      "options": [
+        "gets along with",
+        "looks over",
+        "along with",
+        "checks in"
+      ],
+      "answer": 0,
+      "word": "get along with",
+      "explain": "她和新同學相處得很好。get along with＝與…相處。"
+    },
+    {
+      "id": "U10U-R-31",
+      "paper": "review",
+      "section": "mc-phrase",
+      "num": 31,
+      "stem": "It is easy to ___ people at the summer camp.",
+      "options": [
+        "along with",
+        "look into",
+        "make friends with",
+        "break into"
+      ],
+      "answer": 2,
+      "word": "make friends with",
+      "explain": "在夏令營很容易和人交朋友。make friends with＝與…交朋友。"
+    },
+    {
+      "id": "U10U-R-32",
+      "paper": "review",
+      "section": "dialogue",
+      "num": 32,
+      "stem": "A: How are you doing today? B: ___",
+      "options": [
+        "By bus.",
+        "I am doing fine.",
+        "At home.",
+        "I am seventeen."
+      ],
+      "answer": 1,
+      "word": "對話應答",
+      "explain": "How are you doing?＝你好嗎，回答自己的狀況。"
+    },
+    {
+      "id": "U10U-R-33",
+      "paper": "review",
+      "section": "dialogue",
+      "num": 33,
+      "stem": "A: How was your trip to Tainan? B: ___",
+      "options": [
+        "With my family.",
+        "It was terrific.",
+        "Next week.",
+        "For five days."
+      ],
+      "answer": 1,
+      "word": "對話應答",
+      "explain": "問「旅行如何」，回答感想「很棒」。"
+    },
+    {
+      "id": "U10U-R-34",
+      "paper": "review",
+      "section": "dialogue",
+      "num": 34,
+      "stem": "A: How is the weather in Taipei? B: ___",
+      "options": [
+        "About 30 minutes.",
+        "Twice a week.",
+        "It is far away.",
+        "It is cold and windy."
+      ],
+      "answer": 3,
+      "word": "對話應答",
+      "explain": "問天氣狀況，回答「又冷又多風」。"
+    },
+    {
+      "id": "U10U-R-35",
+      "paper": "review",
+      "section": "dialogue",
+      "num": 35,
+      "stem": "A: How do you go to school? B: ___",
+      "options": [
+        "By scooter.",
+        "It takes 20 minutes.",
+        "At seven o'clock.",
+        "With my sister."
+      ],
+      "answer": 0,
+      "word": "對話應答",
+      "explain": "問方法，回答「騎機車」。"
+    },
+    {
+      "id": "U10U-R-36",
+      "paper": "review",
+      "section": "dialogue",
+      "num": 36,
+      "stem": "A: How is your brother? B: ___",
+      "options": [
+        "He is twenty.",
+        "He is in Taichung.",
+        "He is fine, thanks.",
+        "He is a cook."
+      ],
+      "answer": 2,
+      "word": "對話應答",
+      "explain": "問身體或近況，回答「他很好」。"
+    },
+    {
+      "id": "U10U-R-37",
+      "paper": "review",
+      "section": "dialogue",
+      "num": 37,
+      "stem": "A: How was the movie last night? B: ___",
+      "options": [
+        "It was really boring.",
+        "With my classmates.",
+        "At the mall.",
+        "I watched it twice."
+      ],
+      "answer": 0,
+      "word": "對話應答",
+      "explain": "問感想，回答「真的很無聊」。"
+    },
+    {
+      "id": "U10U-R-38",
+      "paper": "review",
+      "section": "reading",
+      "num": 38,
+      "readingId": "U10U-READ-1",
+      "stem": "What is this reading mainly about?",
+      "options": [
+        "A trip to Japan with two classmates.",
+        "An international night at the writer's school.",
+        "A cooking test in a hot kitchen.",
+        "How to make moon cakes at home."
+      ],
+      "answer": 1,
+      "word": "閱讀理解",
+      "explain": "全文在講學校的國際之夜。"
+    },
+    {
+      "id": "U10U-R-39",
+      "paper": "review",
+      "section": "reading",
+      "num": 39,
+      "readingId": "U10U-READ-1",
+      "stem": "Why did the writer say little at first?",
+      "options": [
+        "Because the guests spoke Japanese only.",
+        "Because the writer was busy cooking.",
+        "Because the writer did not like the food.",
+        "Because the writer was too shy."
+      ],
+      "answer": 3,
+      "word": "閱讀理解",
+      "explain": "文中說一開始太害羞，說不出話（too shy to utter a word）。"
+    },
+    {
+      "id": "U10U-R-40",
+      "paper": "review",
+      "section": "reading",
+      "num": 40,
+      "readingId": "U10U-READ-1",
+      "stem": "What did the writer ask the student to do?",
+      "options": [
+        "To clean the pot of hot soup.",
+        "To cook a balanced meal.",
+        "To send the photos to the class group.",
+        "To teach the class Japanese."
+      ],
+      "answer": 2,
+      "word": "閱讀理解",
+      "explain": "文中說作者請他幫個忙，把照片傳到班群。"
+    },
+    {
+      "id": "U10U-R-41",
+      "paper": "review",
+      "section": "reading",
+      "num": 41,
+      "readingId": "U10U-READ-1",
+      "stem": "Which one is TRUE about that night?",
+      "options": [
+        "Nobody got hurt in the kitchen.",
+        "The class threw away a lot of food.",
+        "The students only ate moon cakes.",
+        "The teacher was angry with the class."
+      ],
+      "answer": 0,
+      "word": "閱讀理解",
+      "explain": "文中說幸好沒有人受傷，而且沒有浪費食物。"
+    },
+    {
+      "id": "U10U-Q-01",
+      "paper": "quiz",
+      "section": "matching",
+      "num": 1,
+      "word": "配合題",
+      "left": [
+        "waste",
+        "balanced",
+        "utter",
+        "charge",
+        "century",
+        "rational",
+        "impress",
+        "accident",
+        "rapid",
+        "cultural",
+        "express",
+        "average",
+        "favor",
+        "haste",
+        "international"
+      ],
+      "right": [
+        "匆忙；倉促",
+        "索費；充電",
+        "國際的",
+        "快速的",
+        "均衡的；公平的",
+        "世紀；一百年",
+        "快遞；表達",
+        "文化的",
+        "意外",
+        "幫忙；好感",
+        "浪費；消耗",
+        "合理的；理性的",
+        "使…印象深刻",
+        "平均的；普通的",
+        "說出；發聲"
+      ],
+      "answer": [
+        "K",
+        "E",
+        "O",
+        "B",
+        "F",
+        "L",
+        "M",
+        "I",
+        "D",
+        "H",
+        "G",
+        "N",
+        "J",
+        "A",
+        "C"
+      ],
+      "explain": "把每個英文字對到正確的中文意思。"
+    },
+    {
+      "id": "U10U-Q-02",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 2,
+      "mode": "spell",
+      "prompt": "意外",
+      "word": "accident",
+      "explain": "accident＝意外。首 a 尾 t，共 8 個字母。"
+    },
+    {
+      "id": "U10U-Q-03",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 3,
+      "mode": "spell",
+      "prompt": "文化的",
+      "word": "cultural",
+      "explain": "cultural＝文化的。首 c 尾 l，共 8 個字母。"
+    },
+    {
+      "id": "U10U-Q-04",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 4,
+      "mode": "spell",
+      "prompt": "匆忙",
+      "word": "haste",
+      "explain": "haste＝匆忙；倉促。首 h 尾 e，共 5 個字母。"
+    },
+    {
+      "id": "U10U-Q-05",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 5,
+      "mode": "spell",
+      "prompt": "快遞；表達",
+      "word": "express",
+      "explain": "express＝快遞；表達。首 e 尾 s，共 7 個字母。"
+    },
+    {
+      "id": "U10U-Q-06",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 6,
+      "mode": "spell",
+      "prompt": "快速的",
+      "word": "rapid",
+      "explain": "rapid＝快速的。首 r 尾 d，共 5 個字母。"
+    },
+    {
+      "id": "U10U-Q-07",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 7,
+      "mode": "spell",
+      "prompt": "世紀",
+      "word": "century",
+      "explain": "century＝世紀；一百年。首 c 尾 y，共 7 個字母。"
+    },
+    {
+      "id": "U10U-Q-08",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 8,
+      "mode": "spell",
+      "prompt": "使…印象深刻",
+      "word": "impress",
+      "explain": "impress＝使…印象深刻。首 i 尾 s，共 7 個字母。"
+    },
+    {
+      "id": "U10U-Q-09",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 9,
+      "mode": "spell",
+      "prompt": "索費；充電",
+      "word": "charge",
+      "explain": "charge＝索費；充電。首 c 尾 e，共 6 個字母。"
+    },
+    {
+      "id": "U10U-Q-10",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 10,
+      "mode": "spell",
+      "prompt": "平均的",
+      "word": "average",
+      "explain": "average＝平均的；普通的。首 a 尾 e，共 7 個字母。"
+    },
+    {
+      "id": "U10U-Q-11",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 11,
+      "mode": "spell",
+      "prompt": "浪費",
+      "word": "waste",
+      "explain": "waste＝浪費；消耗。首 w 尾 e，共 5 個字母。"
+    },
+    {
+      "id": "U10U-Q-12",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 12,
+      "mode": "spell",
+      "prompt": "合理的",
+      "word": "rational",
+      "explain": "rational＝合理的；理性的。首 r 尾 l，共 8 個字母。"
+    },
+    {
+      "id": "U10U-Q-13",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 13,
+      "mode": "spell",
+      "prompt": "均衡的",
+      "word": "balanced",
+      "explain": "balanced＝均衡的；公平的。首 b 尾 d，共 8 個字母。"
+    },
+    {
+      "id": "U10U-Q-14",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 14,
+      "mode": "spell",
+      "prompt": "幫忙；好感",
+      "word": "favor",
+      "explain": "favor＝幫忙；好感。首 f 尾 r，共 5 個字母。"
+    },
+    {
+      "id": "U10U-Q-15",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 15,
+      "mode": "spell",
+      "prompt": "國際的",
+      "word": "international",
+      "explain": "international＝國際的。首 i 尾 l，共 13 個字母。"
+    },
+    {
+      "id": "U10U-Q-16",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 16,
+      "mode": "spell",
+      "prompt": "說出",
+      "word": "utter",
+      "explain": "utter＝說出；發聲。首 u 尾 r，共 5 個字母。"
+    },
+    {
+      "id": "U10U-Q-17",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 17,
+      "mode": "mc",
+      "stem": "Do not use that rude ___ in a job interview.",
+      "options": [
+        "expressed",
+        "expresses",
+        "express",
+        "expression"
+      ],
+      "answer": 3,
+      "word": "express",
+      "form": "expression",
+      "explain": "面試時不要用那種無禮的措辭。expression 也有「措辭」的意思。"
+    },
+    {
+      "id": "U10U-Q-18",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 18,
+      "mode": "mc",
+      "stem": "The new teacher made a good ___ on us.",
+      "options": [
+        "impression",
+        "impressive",
+        "impress",
+        "impressed"
+      ],
+      "answer": 0,
+      "word": "impress",
+      "form": "impression",
+      "explain": "新老師給我們很好的印象。make a good impression＝留下好印象。"
+    },
+    {
+      "id": "U10U-Q-19",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 19,
+      "mode": "mc",
+      "stem": "The weather was ___ for the outdoor concert.",
+      "options": [
+        "favor",
+        "favorable",
+        "favorite",
+        "favors"
+      ],
+      "answer": 1,
+      "word": "favor",
+      "form": "favorable",
+      "explain": "天氣對戶外演唱會很有利。favorable＝有利的。"
+    },
+    {
+      "id": "U10U-Q-20",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 20,
+      "mode": "mc",
+      "stem": "A ___ answer is often a wrong answer.",
+      "options": [
+        "hasty",
+        "hurry",
+        "haste",
+        "hastily"
+      ],
+      "answer": 0,
+      "word": "haste",
+      "form": "hasty",
+      "explain": "倉促的答案常常是錯的答案。修飾名詞 answer 用形容詞 hasty。"
+    },
+    {
+      "id": "U10U-Q-21",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 21,
+      "mode": "mc",
+      "stem": "I need to ___ my phone before the trip.",
+      "options": [
+        "charges",
+        "recharge",
+        "charger",
+        "charging"
+      ],
+      "answer": 1,
+      "word": "charge",
+      "form": "recharge",
+      "explain": "出發前我需要幫手機再充電。to 後面接原形動詞 recharge＝再充電。"
+    },
+    {
+      "id": "U10U-Q-22",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 22,
+      "mode": "mc",
+      "stem": "Taiwan is a small but strong ___.",
+      "options": [
+        "international",
+        "national",
+        "nations",
+        "nation"
+      ],
+      "answer": 3,
+      "word": "international",
+      "form": "nation",
+      "explain": "台灣是個小而強的國家。a 後面接單數名詞 nation。"
+    },
+    {
+      "id": "U10U-Q-23",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 23,
+      "mode": "mc",
+      "stem": "A ___ meal keeps you healthy.",
+      "options": [
+        "balances",
+        "balance",
+        "balanced",
+        "balancing"
+      ],
+      "answer": 2,
+      "word": "balanced",
+      "form": "balanced",
+      "explain": "均衡的一餐讓你健康。修飾名詞 meal 用形容詞 balanced。"
+    },
+    {
+      "id": "U10U-Q-24",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 24,
+      "mode": "mc",
+      "stem": "The museum has many ___ activities for students.",
+      "options": [
+        "culture",
+        "culturally",
+        "cultural",
+        "cultures"
+      ],
+      "answer": 2,
+      "word": "cultural",
+      "form": "cultural",
+      "explain": "博物館有很多給學生的文化活動。修飾名詞 activities 用形容詞 cultural。"
+    },
+    {
+      "id": "U10U-Q-25",
+      "paper": "quiz",
+      "section": "mc-phrase",
+      "num": 25,
+      "stem": "My father, ___ my two uncles, went fishing last Sunday.",
+      "options": [
+        "along with",
+        "make friends with",
+        "get along with",
+        "look forward to"
+      ],
+      "answer": 0,
+      "word": "along with",
+      "explain": "我爸爸連同兩位叔叔上週日去釣魚。along with＝連同。"
+    },
+    {
+      "id": "U10U-Q-26",
+      "paper": "quiz",
+      "section": "mc-phrase",
+      "num": 26,
+      "stem": "My sister ___ our neighbors very well.",
+      "options": [
+        "checks up",
+        "gets along with",
+        "along with",
+        "looks up"
+      ],
+      "answer": 1,
+      "word": "get along with",
+      "explain": "我姐姐和鄰居們相處得很好。get along with＝與…相處。"
+    },
+    {
+      "id": "U10U-Q-27",
+      "paper": "quiz",
+      "section": "mc-phrase",
+      "num": 27,
+      "stem": "He ___ several classmates during the school trip.",
+      "options": [
+        "along with",
+        "passed out",
+        "made friends with",
+        "broke into"
+      ],
+      "answer": 2,
+      "word": "make friends with",
+      "explain": "他在校外教學時和幾位同學交了朋友。make friends with＝與…交朋友。"
+    },
+    {
+      "id": "U10U-Q-28",
+      "paper": "quiz",
+      "section": "dialogue",
+      "num": 28,
+      "stem": "A: How do you feel now? B: ___",
+      "options": [
+        "In the hospital.",
+        "Much better, thanks.",
+        "Since Monday.",
+        "By taxi."
+      ],
+      "answer": 1,
+      "word": "對話應答",
+      "explain": "問身體狀況，回答「好多了」。"
+    },
+    {
+      "id": "U10U-Q-29",
+      "paper": "quiz",
+      "section": "dialogue",
+      "num": 29,
+      "stem": "A: How was the food at the new shop? B: ___",
+      "options": [
+        "About 200 dollars.",
+        "For two people.",
+        "It tasted great.",
+        "At noon."
+      ],
+      "answer": 2,
+      "word": "對話應答",
+      "explain": "問感想，回答「味道很棒」。"
+    },
+    {
+      "id": "U10U-Q-30",
+      "paper": "quiz",
+      "section": "dialogue",
+      "num": 30,
+      "stem": "A: How can I get to the train station? B: ___",
+      "options": [
+        "It is very big.",
+        "In ten minutes.",
+        "Because it is fast.",
+        "Take bus number 12."
+      ],
+      "answer": 3,
+      "word": "對話應答",
+      "explain": "問方法，回答「搭 12 路公車」。"
+    },
+    {
+      "id": "U10U-Q-31",
+      "paper": "quiz",
+      "section": "dialogue",
+      "num": 31,
+      "stem": "A: How is your new school? B: ___",
+      "options": [
+        "It is busy but fun.",
+        "It is on the east coast.",
+        "For three years.",
+        "About 900 students."
+      ],
+      "answer": 0,
+      "word": "對話應答",
+      "explain": "問近況感想，回答「忙但有趣」。"
+    },
+    {
+      "id": "U10U-E-01",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 1,
+      "mode": "spell",
+      "prompt": "說出",
+      "word": "utter",
+      "explain": "utter＝說出；發聲。首 u 尾 r，共 5 個字母。"
+    },
+    {
+      "id": "U10U-E-02",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 2,
+      "mode": "spell",
+      "prompt": "快速的",
+      "word": "rapid",
+      "explain": "rapid＝快速的。首 r 尾 d，共 5 個字母。"
+    },
+    {
+      "id": "U10U-E-03",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 3,
+      "mode": "spell",
+      "prompt": "平均的",
+      "word": "average",
+      "explain": "average＝平均的；普通的。首 a 尾 e，共 7 個字母。"
+    },
+    {
+      "id": "U10U-E-04",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 4,
+      "mode": "spell",
+      "prompt": "世紀",
+      "word": "century",
+      "explain": "century＝世紀；一百年。首 c 尾 y，共 7 個字母。"
+    },
+    {
+      "id": "U10U-E-05",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 5,
+      "mode": "spell",
+      "prompt": "合理的",
+      "word": "rational",
+      "explain": "rational＝合理的；理性的。首 r 尾 l，共 8 個字母。"
+    },
+    {
+      "id": "U10U-E-06",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 6,
+      "mode": "mc",
+      "stem": "His ___ changed when he heard the bad news.",
+      "options": [
+        "expressed",
+        "express",
+        "expression",
+        "expresses"
+      ],
+      "answer": 2,
+      "word": "express",
+      "form": "expression",
+      "explain": "聽到壞消息時他的表情變了。expression＝表情。"
+    },
+    {
+      "id": "U10U-E-07",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 7,
+      "mode": "mc",
+      "stem": "The old temple is ___ in many ways.",
+      "options": [
+        "impressive",
+        "impress",
+        "impresses",
+        "impression"
+      ],
+      "answer": 0,
+      "word": "impress",
+      "form": "impressive",
+      "explain": "那座老廟在很多方面都令人印象深刻。be 動詞後接形容詞。"
+    },
+    {
+      "id": "U10U-E-08",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 8,
+      "mode": "mc",
+      "stem": "Milk tea is my sister's ___ drink.",
+      "options": [
+        "favors",
+        "favorable",
+        "favor",
+        "favorite"
+      ],
+      "answer": 3,
+      "word": "favor",
+      "form": "favorite",
+      "explain": "奶茶是我姐姐最愛的飲料。favorite 修飾名詞 drink。"
+    },
+    {
+      "id": "U10U-E-09",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 9,
+      "mode": "mc",
+      "stem": "Buying too much food is ___.",
+      "options": [
+        "wasted",
+        "wasteful",
+        "wastes",
+        "waste"
+      ],
+      "answer": 1,
+      "word": "waste",
+      "form": "wasteful",
+      "explain": "買太多食物很浪費。be 動詞後接形容詞 wasteful。"
+    },
+    {
+      "id": "U10U-E-10",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 10,
+      "mode": "mc",
+      "stem": "You should ___ or you will miss the bus.",
+      "options": [
+        "hurried",
+        "hasty",
+        "hurry",
+        "haste"
+      ],
+      "answer": 2,
+      "word": "haste",
+      "form": "hurry",
+      "explain": "你該快一點，不然會錯過公車。should 後面接原形動詞 hurry。"
+    },
+    {
+      "id": "U10U-E-11",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 11,
+      "mode": "mc",
+      "stem": "The old man kept his ___ on the wet floor.",
+      "options": [
+        "balance",
+        "balances",
+        "balancing",
+        "balanced"
+      ],
+      "answer": 0,
+      "word": "balanced",
+      "form": "balance",
+      "explain": "那位老先生在濕地板上保持平衡。keep one's balance＝保持平衡。"
+    },
+    {
+      "id": "U10U-E-12",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 12,
+      "mode": "mc",
+      "stem": "Food is an important part of a ___.",
+      "options": [
+        "culturally",
+        "culture",
+        "cultures",
+        "cultural"
+      ],
+      "answer": 1,
+      "word": "cultural",
+      "form": "culture",
+      "explain": "食物是一個文化重要的部分。a 後面接單數名詞 culture。"
+    },
+    {
+      "id": "U10U-E-13",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 13,
+      "mode": "mc",
+      "stem": "This ___ works for both phones.",
+      "options": [
+        "charged",
+        "charges",
+        "charge",
+        "charger"
+      ],
+      "answer": 3,
+      "word": "charge",
+      "form": "charger",
+      "explain": "這個充電器兩支手機都能用。charger＝充電器。"
+    },
+    {
+      "id": "U10U-E-14",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 14,
+      "mode": "mc",
+      "stem": "The ___ museum is closed on Mondays.",
+      "options": [
+        "nation",
+        "national",
+        "international",
+        "nationally"
+      ],
+      "answer": 1,
+      "word": "international",
+      "form": "national",
+      "explain": "國立博物館週一休館。national＝國家的；國立的。"
+    },
+    {
+      "id": "U10U-E-15",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 15,
+      "mode": "mc",
+      "stem": "The doctor said his fall was ___.",
+      "options": [
+        "accidental",
+        "accident",
+        "accidents",
+        "accidentally"
+      ],
+      "answer": 0,
+      "word": "accident",
+      "form": "accidental",
+      "explain": "醫生說他的跌倒是意外的。be 動詞後接形容詞 accidental。"
+    },
+    {
+      "id": "U10U-E-16",
+      "paper": "extra",
+      "section": "mc-phrase",
+      "num": 16,
+      "stem": "The math teacher, ___ two students, cleaned the lab.",
+      "options": [
+        "along with",
+        "make friends with",
+        "get along with",
+        "look into"
+      ],
+      "answer": 0,
+      "word": "along with",
+      "explain": "數學老師連同兩位學生打掃實驗室。along with＝連同。"
+    },
+    {
+      "id": "U10U-E-17",
+      "paper": "extra",
+      "section": "mc-phrase",
+      "num": 17,
+      "stem": "Ken ___ his workmates very well.",
+      "options": [
+        "along with",
+        "looks into",
+        "gets along with",
+        "checks up"
+      ],
+      "answer": 2,
+      "word": "get along with",
+      "explain": "肯和同事相處得很好。get along with＝與…相處。"
+    },
+    {
+      "id": "U10U-E-18",
+      "paper": "extra",
+      "section": "mc-phrase",
+      "num": 18,
+      "stem": "She is shy, but she still ___ two girls in the club.",
+      "options": [
+        "looked over",
+        "made friends with",
+        "broke out",
+        "along with"
+      ],
+      "answer": 1,
+      "word": "make friends with",
+      "explain": "她很害羞，但還是和社團裡兩個女生交了朋友。make friends with＝與…交朋友。"
+    },
+    {
+      "id": "U10U-E-19",
+      "paper": "extra",
+      "section": "dialogue",
+      "num": 19,
+      "stem": "A: How was your weekend? B: ___",
+      "options": [
+        "Every Sunday.",
+        "At my grandma's.",
+        "For two days.",
+        "It was great."
+      ],
+      "answer": 3,
+      "word": "對話應答",
+      "explain": "問週末如何，回答感想。"
+    },
+    {
+      "id": "U10U-E-20",
+      "paper": "extra",
+      "section": "dialogue",
+      "num": 20,
+      "stem": "A: How does your mother make this soup? B: ___",
+      "options": [
+        "In the kitchen.",
+        "It is very hot.",
+        "She uses fish and ginger.",
+        "She makes it often."
+      ],
+      "answer": 2,
+      "word": "對話應答",
+      "explain": "問方法，回答「用魚和薑」。"
+    },
+    {
+      "id": "U10U-E-21",
+      "paper": "extra",
+      "section": "dialogue",
+      "num": 21,
+      "stem": "A: How is your grandfather? B: ___",
+      "options": [
+        "He is eighty.",
+        "He is much better now.",
+        "He walks every day.",
+        "He lives in Hualien."
+      ],
+      "answer": 1,
+      "word": "對話應答",
+      "explain": "問身體狀況，回答「他好多了」。"
+    },
+    {
+      "id": "U10U-E-22",
+      "paper": "extra",
+      "section": "dialogue",
+      "num": 22,
+      "stem": "A: How did you fix the bike? B: ___",
+      "options": [
+        "I watched a video and tried.",
+        "It was broken.",
+        "Last Saturday.",
+        "In the garage."
+      ],
+      "answer": 0,
+      "word": "對話應答",
+      "explain": "問方法，回答「看影片自己試」。"
+    }
+  ]
+}

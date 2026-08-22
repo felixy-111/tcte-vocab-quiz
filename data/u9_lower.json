@@ -1,0 +1,1515 @@
+{
+  "unit": 9,
+  "half": "lower",
+  "spec": {
+    "review": "v7",
+    "quiz": "v7"
+  },
+  "words": [
+    {
+      "en": "bleed",
+      "zh": "流血",
+      "derivatives": [
+        "blood",
+        "bloody",
+        "bled"
+      ]
+    },
+    {
+      "en": "margin",
+      "zh": "邊緣；空白"
+    },
+    {
+      "en": "lodge",
+      "zh": "旅社；供住宿",
+      "derivatives": [
+        "lodging",
+        "board"
+      ]
+    },
+    {
+      "en": "border",
+      "zh": "國界；邊緣"
+    },
+    {
+      "en": "abroad",
+      "zh": "國外",
+      "derivatives": [
+        "aboard"
+      ]
+    },
+    {
+      "en": "broad",
+      "zh": "廣泛的；寬廣的",
+      "derivatives": [
+        "broadband"
+      ]
+    },
+    {
+      "en": "broadcast",
+      "zh": "廣播；散播"
+    },
+    {
+      "en": "forecast",
+      "zh": "預報；預測"
+    },
+    {
+      "en": "air-conditioner",
+      "zh": "空調；冷暖氣機"
+    },
+    {
+      "en": "battery",
+      "zh": "電池"
+    },
+    {
+      "en": "crazy",
+      "zh": "瘋狂的；狂熱的"
+    },
+    {
+      "en": "difficult",
+      "zh": "困難的",
+      "derivatives": [
+        "difficulty"
+      ]
+    },
+    {
+      "en": "squeeze",
+      "zh": "擠壓；壓榨"
+    },
+    {
+      "en": "score",
+      "zh": "得分；分數"
+    },
+    {
+      "en": "dam",
+      "zh": "水壩"
+    }
+  ],
+  "phrases": [
+    {
+      "en": "break out",
+      "zh": "爆發"
+    },
+    {
+      "en": "break through",
+      "zh": "突破；有重大發現"
+    },
+    {
+      "en": "pass out",
+      "zh": "昏倒；分發"
+    }
+  ],
+  "readings": [
+    {
+      "id": "U9L-READ-1",
+      "title": "The Typhoon Night",
+      "text": "Last September a strong typhoon hit our town. The weather forecast said it would come after midnight, and every TV station broadcast the news all day. At the supermarket, people squeezed into the aisles to buy food and batteries. That night the wind was crazy. The power went out at ten, so our air-conditioner stopped and the room got hot. A small fire broke out in a shop down the street, but the firemen put it out in ten minutes. My little brother cut his finger on a broken cup. He saw the blood and almost passed out. In the morning, the news said the water almost broke through the old dam near the border of our city. Cleaning the streets was difficult, but our neighbors shared their tools and finished the work by noon."
+    }
+  ],
+  "questions": [
+    {
+      "id": "U9L-R-01",
+      "paper": "review",
+      "section": "matching",
+      "num": 1,
+      "word": "配合題",
+      "left": [
+        "border",
+        "squeeze",
+        "bleed",
+        "forecast",
+        "dam",
+        "broad",
+        "battery",
+        "lodge",
+        "margin",
+        "crazy",
+        "score",
+        "abroad",
+        "difficult",
+        "broadcast",
+        "air-conditioner"
+      ],
+      "right": [
+        "水壩",
+        "流血",
+        "國外",
+        "電池",
+        "邊緣；空白",
+        "困難的",
+        "國界；邊緣",
+        "廣播；散播",
+        "瘋狂的；狂熱的",
+        "擠壓；壓榨",
+        "旅社；供住宿",
+        "空調；冷暖氣機",
+        "得分；分數",
+        "廣泛的；寬廣的",
+        "預報；預測"
+      ],
+      "answer": [
+        "G",
+        "J",
+        "B",
+        "O",
+        "A",
+        "N",
+        "D",
+        "K",
+        "E",
+        "I",
+        "M",
+        "C",
+        "F",
+        "H",
+        "L"
+      ],
+      "explain": "把每個英文字對到正確的中文意思。"
+    },
+    {
+      "id": "U9L-R-02",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 2,
+      "mode": "spell",
+      "prompt": "電池",
+      "word": "battery",
+      "explain": "battery＝電池。首 b 尾 y，共 7 個字母。"
+    },
+    {
+      "id": "U9L-R-03",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 3,
+      "mode": "spell",
+      "prompt": "國界",
+      "word": "border",
+      "explain": "border＝國界；邊緣。首 b 尾 r，共 6 個字母。"
+    },
+    {
+      "id": "U9L-R-04",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 4,
+      "mode": "spell",
+      "prompt": "瘋狂的",
+      "word": "crazy",
+      "explain": "crazy＝瘋狂的；狂熱的。首 c 尾 y，共 5 個字母。"
+    },
+    {
+      "id": "U9L-R-05",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 5,
+      "mode": "spell",
+      "prompt": "得分",
+      "word": "score",
+      "explain": "score＝得分；分數。首 s 尾 e，共 5 個字母。"
+    },
+    {
+      "id": "U9L-R-06",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 6,
+      "mode": "spell",
+      "prompt": "國外",
+      "word": "abroad",
+      "explain": "abroad＝國外。首 a 尾 d，共 6 個字母。"
+    },
+    {
+      "id": "U9L-R-07",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 7,
+      "mode": "spell",
+      "prompt": "困難的",
+      "word": "difficult",
+      "explain": "difficult＝困難的。首 d 尾 t，共 9 個字母。"
+    },
+    {
+      "id": "U9L-R-08",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 8,
+      "mode": "spell",
+      "prompt": "水壩",
+      "word": "dam",
+      "explain": "dam＝水壩。首 d 尾 m，共 3 個字母。"
+    },
+    {
+      "id": "U9L-R-09",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 9,
+      "mode": "spell",
+      "prompt": "廣播",
+      "word": "broadcast",
+      "explain": "broadcast＝廣播；散播。首 b 尾 t，共 9 個字母。"
+    },
+    {
+      "id": "U9L-R-10",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 10,
+      "mode": "spell",
+      "prompt": "流血（動詞）",
+      "word": "bleed",
+      "explain": "bleed＝流血。首 b 尾 d，共 5 個字母。"
+    },
+    {
+      "id": "U9L-R-11",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 11,
+      "mode": "spell",
+      "prompt": "邊緣；空白",
+      "word": "margin",
+      "explain": "margin＝邊緣；空白。首 m 尾 n，共 6 個字母。"
+    },
+    {
+      "id": "U9L-R-12",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 12,
+      "mode": "spell",
+      "prompt": "擠壓",
+      "word": "squeeze",
+      "explain": "squeeze＝擠壓；壓榨。首 s 尾 e，共 7 個字母。"
+    },
+    {
+      "id": "U9L-R-13",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 13,
+      "mode": "spell",
+      "prompt": "旅社",
+      "word": "lodge",
+      "explain": "lodge＝旅社；供住宿。首 l 尾 e，共 5 個字母。"
+    },
+    {
+      "id": "U9L-R-14",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 14,
+      "mode": "spell",
+      "prompt": "預報",
+      "word": "forecast",
+      "explain": "forecast＝預報；預測。首 f 尾 t，共 8 個字母。"
+    },
+    {
+      "id": "U9L-R-15",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 15,
+      "mode": "spell",
+      "prompt": "寬廣的",
+      "word": "broad",
+      "explain": "broad＝廣泛的；寬廣的。首 b 尾 d，共 5 個字母。"
+    },
+    {
+      "id": "U9L-R-16",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 16,
+      "mode": "spell",
+      "prompt": "冷暖氣機",
+      "word": "air-conditioner",
+      "explain": "air-conditioner＝空調；冷暖氣機。首 a 尾 r，共 15 個字母。"
+    },
+    {
+      "id": "U9L-R-17",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 17,
+      "mode": "mc",
+      "stem": "The nurse asked my father to give ___ at the hospital.",
+      "options": [
+        "bleed",
+        "bled",
+        "blood",
+        "bloody"
+      ],
+      "answer": 2,
+      "word": "bleed",
+      "form": "blood",
+      "explain": "護士請我爸爸在醫院捐血。give blood＝捐血，blood 是名詞。"
+    },
+    {
+      "id": "U9L-R-18",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 18,
+      "mode": "mc",
+      "stem": "His nose ___ after the ball hit his face yesterday.",
+      "options": [
+        "bled",
+        "bloody",
+        "blood",
+        "bleed"
+      ],
+      "answer": 0,
+      "word": "bleed",
+      "form": "bled",
+      "explain": "昨天球打到他的臉之後，他的鼻子流血了。bleed 的過去式是 bled。"
+    },
+    {
+      "id": "U9L-R-19",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 19,
+      "mode": "mc",
+      "stem": "The little boy came home with a ___ knee.",
+      "options": [
+        "blood",
+        "bleed",
+        "bloody",
+        "bled"
+      ],
+      "answer": 2,
+      "word": "bleed",
+      "form": "bloody",
+      "explain": "那個小男孩帶著血淋淋的膝蓋回家。修飾名詞 knee 要用形容詞 bloody。"
+    },
+    {
+      "id": "U9L-R-20",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 20,
+      "mode": "mc",
+      "stem": "Do not touch the cut, or it may ___ again.",
+      "options": [
+        "bloody",
+        "blood",
+        "bleed",
+        "bled"
+      ],
+      "answer": 2,
+      "word": "bleed",
+      "form": "bleed",
+      "explain": "不要碰那個傷口，不然它可能又會流血。may 後面接原形動詞 bleed。"
+    },
+    {
+      "id": "U9L-R-21",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 21,
+      "mode": "mc",
+      "stem": "The price includes three meals and ___.",
+      "options": [
+        "lodging",
+        "board",
+        "lodge",
+        "aboard"
+      ],
+      "answer": 0,
+      "word": "lodge",
+      "form": "lodging",
+      "explain": "價錢包含三餐和住宿。board 是「膳食」，和 meals 重複；lodging＝住宿。"
+    },
+    {
+      "id": "U9L-R-22",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 22,
+      "mode": "mc",
+      "stem": "All the passengers must ___ the ship before seven.",
+      "options": [
+        "abroad",
+        "aboard",
+        "broad",
+        "board"
+      ],
+      "answer": 3,
+      "word": "lodge",
+      "form": "board",
+      "explain": "所有乘客必須在七點前上船。board 當動詞是「上（船、機、車）」。"
+    },
+    {
+      "id": "U9L-R-23",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 23,
+      "mode": "mc",
+      "stem": "The hunters slept in a wooden ___ in the forest.",
+      "options": [
+        "border",
+        "lodging",
+        "board",
+        "lodge"
+      ],
+      "answer": 3,
+      "word": "lodge",
+      "form": "lodge",
+      "explain": "獵人們睡在森林裡一間木造小屋。lodge 當名詞是「旅社；小屋」。"
+    },
+    {
+      "id": "U9L-R-24",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 24,
+      "mode": "mc",
+      "stem": "My sister went ___ to study English last year.",
+      "options": [
+        "aboard",
+        "board",
+        "broad",
+        "abroad"
+      ],
+      "answer": 3,
+      "word": "abroad",
+      "form": "abroad",
+      "explain": "我姐姐去年出國念英文。go abroad＝出國。"
+    },
+    {
+      "id": "U9L-R-25",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 25,
+      "mode": "mc",
+      "stem": "Everyone ___ the small plane was safe.",
+      "options": [
+        "abroad",
+        "aboard",
+        "board",
+        "broad"
+      ],
+      "answer": 1,
+      "word": "abroad",
+      "form": "aboard",
+      "explain": "小飛機上的每個人都平安。aboard＝在（船、機）上。"
+    },
+    {
+      "id": "U9L-R-26",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 26,
+      "mode": "mc",
+      "stem": "The river near my hometown is very ___.",
+      "options": [
+        "board",
+        "broad",
+        "abroad",
+        "broadband"
+      ],
+      "answer": 1,
+      "word": "broad",
+      "form": "broad",
+      "explain": "我家鄉附近的那條河很寬。broad＝寬廣的。"
+    },
+    {
+      "id": "U9L-R-27",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 27,
+      "mode": "mc",
+      "stem": "We need a fast ___ service to watch videos.",
+      "options": [
+        "broadband",
+        "abroad",
+        "board",
+        "broad"
+      ],
+      "answer": 0,
+      "word": "broad",
+      "form": "broadband",
+      "explain": "我們需要快速的寬頻服務來看影片。broadband＝寬頻的。"
+    },
+    {
+      "id": "U9L-R-28",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 28,
+      "mode": "mc",
+      "stem": "This game has three levels of ___.",
+      "options": [
+        "hard",
+        "difficulty",
+        "difficulties",
+        "difficult"
+      ],
+      "answer": 1,
+      "word": "difficult",
+      "form": "difficulty",
+      "explain": "這款遊戲有三種難度。levels of difficulty＝難度等級，用單數不可數。"
+    },
+    {
+      "id": "U9L-R-29",
+      "paper": "review",
+      "section": "mc-phrase",
+      "num": 29,
+      "stem": "A big fire ___ in the old market last night.",
+      "options": [
+        "broke down",
+        "broke out",
+        "broke up",
+        "passed out"
+      ],
+      "answer": 1,
+      "word": "break out",
+      "explain": "昨晚舊市場發生了一場大火。break out＝爆發。"
+    },
+    {
+      "id": "U9L-R-30",
+      "paper": "review",
+      "section": "mc-phrase",
+      "num": 30,
+      "stem": "The sun ___ the clouds after the heavy rain.",
+      "options": [
+        "passed out",
+        "broke into",
+        "broke through",
+        "broke out"
+      ],
+      "answer": 2,
+      "word": "break through",
+      "explain": "大雨過後，太陽穿透了雲層。break through＝突破。"
+    },
+    {
+      "id": "U9L-R-31",
+      "paper": "review",
+      "section": "mc-phrase",
+      "num": 31,
+      "stem": "She ___ in the hot classroom yesterday afternoon.",
+      "options": [
+        "passed out",
+        "broke out",
+        "broke down",
+        "broke into"
+      ],
+      "answer": 0,
+      "word": "pass out",
+      "explain": "她昨天下午在悶熱的教室裡昏倒了。pass out＝昏倒。"
+    },
+    {
+      "id": "U9L-R-32",
+      "paper": "review",
+      "section": "dialogue",
+      "num": 32,
+      "stem": "A: Where did you park your scooter? B: ___",
+      "options": [
+        "Next to the bike stand.",
+        "At eight o'clock.",
+        "Because it is closer.",
+        "For two hours."
+      ],
+      "answer": 0,
+      "word": "對話應答",
+      "explain": "問「機車停在哪」，回答地點「在腳踏車架旁邊」。"
+    },
+    {
+      "id": "U9L-R-33",
+      "paper": "review",
+      "section": "dialogue",
+      "num": 33,
+      "stem": "A: Where does your uncle work? B: ___",
+      "options": [
+        "He is a mechanic.",
+        "In a factory in Taoyuan.",
+        "Since last year.",
+        "By train."
+      ],
+      "answer": 1,
+      "word": "對話應答",
+      "explain": "問「叔叔在哪工作」，回答地點「在桃園的工廠」。"
+    },
+    {
+      "id": "U9L-R-34",
+      "paper": "review",
+      "section": "dialogue",
+      "num": 34,
+      "stem": "A: Where can I get a cheap battery? B: ___",
+      "options": [
+        "It costs 100 dollars.",
+        "I bought one yesterday.",
+        "At the shop across the street.",
+        "In two days."
+      ],
+      "answer": 2,
+      "word": "對話應答",
+      "explain": "問「哪裡買得到便宜電池」，回答地點「對面那家店」。"
+    },
+    {
+      "id": "U9L-R-35",
+      "paper": "review",
+      "section": "dialogue",
+      "num": 35,
+      "stem": "A: Where are we going to meet? B: ___",
+      "options": [
+        "In front of the MRT exit.",
+        "For dinner.",
+        "About ten people.",
+        "At five thirty."
+      ],
+      "answer": 0,
+      "word": "對話應答",
+      "explain": "問「我們要在哪碰面」，回答地點「捷運出口前」。"
+    },
+    {
+      "id": "U9L-R-36",
+      "paper": "review",
+      "section": "dialogue",
+      "num": 36,
+      "stem": "A: Where did you learn to swim? B: ___",
+      "options": [
+        "Three times a week.",
+        "Two years ago.",
+        "From my father.",
+        "At the city pool."
+      ],
+      "answer": 3,
+      "word": "對話應答",
+      "explain": "問「在哪裡學游泳」，回答地點「在市立游泳池」。"
+    },
+    {
+      "id": "U9L-R-37",
+      "paper": "review",
+      "section": "dialogue",
+      "num": 37,
+      "stem": "A: Where is the typhoon now? B: ___",
+      "options": [
+        "Tomorrow morning.",
+        "Near the east coast.",
+        "It is very strong.",
+        "On the news."
+      ],
+      "answer": 1,
+      "word": "對話應答",
+      "explain": "問「颱風現在在哪」，回答地點「靠近東岸」。"
+    },
+    {
+      "id": "U9L-R-38",
+      "paper": "review",
+      "section": "reading",
+      "num": 38,
+      "readingId": "U9L-READ-1",
+      "stem": "What is this reading mainly about?",
+      "options": [
+        "How to save water in a big dam.",
+        "A night when a typhoon hit the writer's town.",
+        "A trip to the east coast in September.",
+        "A fire that burned down a supermarket."
+      ],
+      "answer": 1,
+      "word": "閱讀理解",
+      "explain": "全文在講颱風夜發生的事。"
+    },
+    {
+      "id": "U9L-R-39",
+      "paper": "review",
+      "section": "reading",
+      "num": 39,
+      "readingId": "U9L-READ-1",
+      "stem": "Why did the room get hot?",
+      "options": [
+        "Because the fire was very close to the house.",
+        "Because the windows were closed all day.",
+        "Because too many people came into the house.",
+        "Because the power went out and the air-conditioner stopped."
+      ],
+      "answer": 3,
+      "word": "閱讀理解",
+      "explain": "文中說十點停電，冷氣停了，房間就變熱。"
+    },
+    {
+      "id": "U9L-R-40",
+      "paper": "review",
+      "section": "reading",
+      "num": 40,
+      "readingId": "U9L-READ-1",
+      "stem": "What happened to the writer's little brother?",
+      "options": [
+        "He cut his finger and almost passed out.",
+        "He broke a window during the typhoon.",
+        "He helped the firemen put out the fire.",
+        "He went to the supermarket to buy batteries."
+      ],
+      "answer": 0,
+      "word": "閱讀理解",
+      "explain": "文中說弟弟被破杯子割傷手指，看到血差點昏倒。"
+    },
+    {
+      "id": "U9L-R-41",
+      "paper": "review",
+      "section": "reading",
+      "num": 41,
+      "readingId": "U9L-READ-1",
+      "stem": "Which one is TRUE about that night?",
+      "options": [
+        "Nobody could buy food at the supermarket.",
+        "The typhoon came before midnight.",
+        "The firemen put out the fire in ten minutes.",
+        "The old dam broke and water came in."
+      ],
+      "answer": 2,
+      "word": "閱讀理解",
+      "explain": "文中說消防員十分鐘內把火撲滅；水壩只是「差一點」被沖破。"
+    },
+    {
+      "id": "U9L-Q-01",
+      "paper": "quiz",
+      "section": "matching",
+      "num": 1,
+      "word": "配合題",
+      "left": [
+        "crazy",
+        "air-conditioner",
+        "score",
+        "margin",
+        "bleed",
+        "broad",
+        "lodge",
+        "dam",
+        "abroad",
+        "forecast",
+        "squeeze",
+        "border",
+        "battery",
+        "difficult",
+        "broadcast"
+      ],
+      "right": [
+        "廣播；散播",
+        "得分；分數",
+        "瘋狂的；狂熱的",
+        "旅社；供住宿",
+        "困難的",
+        "電池",
+        "國外",
+        "擠壓；壓榨",
+        "國界；邊緣",
+        "水壩",
+        "流血",
+        "邊緣；空白",
+        "預報；預測",
+        "空調；冷暖氣機",
+        "廣泛的；寬廣的"
+      ],
+      "answer": [
+        "C",
+        "N",
+        "B",
+        "L",
+        "K",
+        "O",
+        "D",
+        "J",
+        "G",
+        "M",
+        "H",
+        "I",
+        "F",
+        "E",
+        "A"
+      ],
+      "explain": "把每個英文字對到正確的中文意思。"
+    },
+    {
+      "id": "U9L-Q-02",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 2,
+      "mode": "spell",
+      "prompt": "預報",
+      "word": "forecast",
+      "explain": "forecast＝預報；預測。首 f 尾 t，共 8 個字母。"
+    },
+    {
+      "id": "U9L-Q-03",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 3,
+      "mode": "spell",
+      "prompt": "水壩",
+      "word": "dam",
+      "explain": "dam＝水壩。首 d 尾 m，共 3 個字母。"
+    },
+    {
+      "id": "U9L-Q-04",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 4,
+      "mode": "spell",
+      "prompt": "困難的",
+      "word": "difficult",
+      "explain": "difficult＝困難的。首 d 尾 t，共 9 個字母。"
+    },
+    {
+      "id": "U9L-Q-05",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 5,
+      "mode": "spell",
+      "prompt": "邊緣；空白",
+      "word": "margin",
+      "explain": "margin＝邊緣；空白。首 m 尾 n，共 6 個字母。"
+    },
+    {
+      "id": "U9L-Q-06",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 6,
+      "mode": "spell",
+      "prompt": "廣播",
+      "word": "broadcast",
+      "explain": "broadcast＝廣播；散播。首 b 尾 t，共 9 個字母。"
+    },
+    {
+      "id": "U9L-Q-07",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 7,
+      "mode": "spell",
+      "prompt": "國外",
+      "word": "abroad",
+      "explain": "abroad＝國外。首 a 尾 d，共 6 個字母。"
+    },
+    {
+      "id": "U9L-Q-08",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 8,
+      "mode": "spell",
+      "prompt": "得分",
+      "word": "score",
+      "explain": "score＝得分；分數。首 s 尾 e，共 5 個字母。"
+    },
+    {
+      "id": "U9L-Q-09",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 9,
+      "mode": "spell",
+      "prompt": "流血（動詞）",
+      "word": "bleed",
+      "explain": "bleed＝流血。首 b 尾 d，共 5 個字母。"
+    },
+    {
+      "id": "U9L-Q-10",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 10,
+      "mode": "spell",
+      "prompt": "瘋狂的",
+      "word": "crazy",
+      "explain": "crazy＝瘋狂的；狂熱的。首 c 尾 y，共 5 個字母。"
+    },
+    {
+      "id": "U9L-Q-11",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 11,
+      "mode": "spell",
+      "prompt": "冷暖氣機",
+      "word": "air-conditioner",
+      "explain": "air-conditioner＝空調；冷暖氣機。首 a 尾 r，共 15 個字母。"
+    },
+    {
+      "id": "U9L-Q-12",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 12,
+      "mode": "spell",
+      "prompt": "旅社",
+      "word": "lodge",
+      "explain": "lodge＝旅社；供住宿。首 l 尾 e，共 5 個字母。"
+    },
+    {
+      "id": "U9L-Q-13",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 13,
+      "mode": "spell",
+      "prompt": "電池",
+      "word": "battery",
+      "explain": "battery＝電池。首 b 尾 y，共 7 個字母。"
+    },
+    {
+      "id": "U9L-Q-14",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 14,
+      "mode": "spell",
+      "prompt": "寬廣的",
+      "word": "broad",
+      "explain": "broad＝廣泛的；寬廣的。首 b 尾 d，共 5 個字母。"
+    },
+    {
+      "id": "U9L-Q-15",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 15,
+      "mode": "spell",
+      "prompt": "擠壓",
+      "word": "squeeze",
+      "explain": "squeeze＝擠壓；壓榨。首 s 尾 e，共 7 個字母。"
+    },
+    {
+      "id": "U9L-Q-16",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 16,
+      "mode": "spell",
+      "prompt": "國界",
+      "word": "border",
+      "explain": "border＝國界；邊緣。首 b 尾 r，共 6 個字母。"
+    },
+    {
+      "id": "U9L-Q-17",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 17,
+      "mode": "mc",
+      "stem": "The doctor checked her ___ before the operation.",
+      "options": [
+        "bleed",
+        "blood",
+        "bled",
+        "bloody"
+      ],
+      "answer": 1,
+      "word": "bleed",
+      "form": "blood",
+      "explain": "醫生在手術前檢查她的血液。blood 是名詞「血液」。"
+    },
+    {
+      "id": "U9L-Q-18",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 18,
+      "mode": "mc",
+      "stem": "My finger ___ a lot when I cut it last night.",
+      "options": [
+        "bloody",
+        "bleed",
+        "blood",
+        "bled"
+      ],
+      "answer": 3,
+      "word": "bleed",
+      "form": "bled",
+      "explain": "昨晚我切到手指時流了很多血。過去的事用過去式 bled。"
+    },
+    {
+      "id": "U9L-Q-19",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 19,
+      "mode": "mc",
+      "stem": "He wiped his ___ nose with a tissue.",
+      "options": [
+        "bled",
+        "bloody",
+        "blood",
+        "bleed"
+      ],
+      "answer": 1,
+      "word": "bleed",
+      "form": "bloody",
+      "explain": "他用衛生紙擦他流血的鼻子。修飾名詞用形容詞 bloody。"
+    },
+    {
+      "id": "U9L-Q-20",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 20,
+      "mode": "mc",
+      "stem": "We will ___ the train at platform two.",
+      "options": [
+        "board",
+        "broad",
+        "aboard",
+        "abroad"
+      ],
+      "answer": 0,
+      "word": "lodge",
+      "form": "board",
+      "explain": "我們會在第二月台上車。board＝上（車、船、機）。"
+    },
+    {
+      "id": "U9L-Q-21",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 21,
+      "mode": "mc",
+      "stem": "The camp fee covers meals and ___ for three days.",
+      "options": [
+        "lodging",
+        "lodge",
+        "border",
+        "board"
+      ],
+      "answer": 0,
+      "word": "lodge",
+      "form": "lodging",
+      "explain": "營隊費用包含三天的餐點和住宿。lodging＝住宿。"
+    },
+    {
+      "id": "U9L-Q-22",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 22,
+      "mode": "mc",
+      "stem": "No one ___ the ship got hurt in the storm.",
+      "options": [
+        "abroad",
+        "board",
+        "aboard",
+        "broad"
+      ],
+      "answer": 2,
+      "word": "abroad",
+      "form": "aboard",
+      "explain": "暴風雨中船上沒有人受傷。aboard＝在船上。"
+    },
+    {
+      "id": "U9L-Q-23",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 23,
+      "mode": "mc",
+      "stem": "The basketball player has ___ shoulders.",
+      "options": [
+        "broadband",
+        "board",
+        "broad",
+        "abroad"
+      ],
+      "answer": 2,
+      "word": "broad",
+      "form": "broad",
+      "explain": "那位籃球員有寬闊的肩膀。broad shoulders＝寬肩。"
+    },
+    {
+      "id": "U9L-Q-24",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 24,
+      "mode": "mc",
+      "stem": "I had little ___ finding your house.",
+      "options": [
+        "difficulties",
+        "hard",
+        "difficult",
+        "difficulty"
+      ],
+      "answer": 3,
+      "word": "difficult",
+      "form": "difficulty",
+      "explain": "我幾乎沒花什麼力氣就找到你家。little 後面接不可數名詞 difficulty。"
+    },
+    {
+      "id": "U9L-Q-25",
+      "paper": "quiz",
+      "section": "mc-phrase",
+      "num": 25,
+      "stem": "The runner ___ right after he crossed the line.",
+      "options": [
+        "broke through",
+        "broke up",
+        "passed out",
+        "broke out"
+      ],
+      "answer": 2,
+      "word": "pass out",
+      "explain": "那位跑者一過終點線就昏倒了。pass out＝昏倒。"
+    },
+    {
+      "id": "U9L-Q-26",
+      "paper": "quiz",
+      "section": "mc-phrase",
+      "num": 26,
+      "stem": "A serious flu ___ in our school last winter.",
+      "options": [
+        "passed out",
+        "broke out",
+        "broke into",
+        "broke down"
+      ],
+      "answer": 1,
+      "word": "break out",
+      "explain": "去年冬天我們學校爆發了嚴重的流感。break out＝爆發。"
+    },
+    {
+      "id": "U9L-Q-27",
+      "paper": "quiz",
+      "section": "mc-phrase",
+      "num": 27,
+      "stem": "The team finally ___ and won the first game.",
+      "options": [
+        "broke through",
+        "broke up",
+        "broke out",
+        "passed out"
+      ],
+      "answer": 0,
+      "word": "break through",
+      "explain": "那支隊伍終於突破，贏了第一場比賽。break through＝突破。"
+    },
+    {
+      "id": "U9L-Q-28",
+      "paper": "quiz",
+      "section": "dialogue",
+      "num": 28,
+      "stem": "A: Where are you from? B: ___",
+      "options": [
+        "By high speed rail.",
+        "I am seventeen.",
+        "Last summer.",
+        "I am from Yilan."
+      ],
+      "answer": 3,
+      "word": "對話應答",
+      "explain": "問「你來自哪裡」，回答地點「我來自宜蘭」。"
+    },
+    {
+      "id": "U9L-Q-29",
+      "paper": "quiz",
+      "section": "dialogue",
+      "num": 29,
+      "stem": "A: Where should I put these boxes? B: ___",
+      "options": [
+        "Right now.",
+        "In the corner behind the door.",
+        "About ten kilos.",
+        "They are heavy."
+      ],
+      "answer": 1,
+      "word": "對話應答",
+      "explain": "問「箱子放哪」，回答地點「門後的角落」。"
+    },
+    {
+      "id": "U9L-Q-30",
+      "paper": "quiz",
+      "section": "dialogue",
+      "num": 30,
+      "stem": "A: Where did she go last night? B: ___",
+      "options": [
+        "She went to a night market.",
+        "She was very tired.",
+        "At nine o'clock.",
+        "With her cousin."
+      ],
+      "answer": 0,
+      "word": "對話應答",
+      "explain": "問「她昨晚去哪」，回答地點「她去夜市」。"
+    },
+    {
+      "id": "U9L-Q-31",
+      "paper": "quiz",
+      "section": "dialogue",
+      "num": 31,
+      "stem": "A: Where can I find a post office? B: ___",
+      "options": [
+        "You can send it today.",
+        "It opens at nine.",
+        "There is one near the school gate.",
+        "About 30 dollars."
+      ],
+      "answer": 2,
+      "word": "對話應答",
+      "explain": "問「哪裡有郵局」，回答地點「校門口附近有一間」。"
+    },
+    {
+      "id": "U9L-E-01",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 1,
+      "mode": "spell",
+      "prompt": "邊緣；空白",
+      "word": "margin",
+      "explain": "margin＝邊緣；空白。首 m 尾 n，共 6 個字母。"
+    },
+    {
+      "id": "U9L-E-02",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 2,
+      "mode": "spell",
+      "prompt": "國界",
+      "word": "border",
+      "explain": "border＝國界；邊緣。首 b 尾 r，共 6 個字母。"
+    },
+    {
+      "id": "U9L-E-03",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 3,
+      "mode": "spell",
+      "prompt": "廣播",
+      "word": "broadcast",
+      "explain": "broadcast＝廣播；散播。首 b 尾 t，共 9 個字母。"
+    },
+    {
+      "id": "U9L-E-04",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 4,
+      "mode": "spell",
+      "prompt": "預報",
+      "word": "forecast",
+      "explain": "forecast＝預報；預測。首 f 尾 t，共 8 個字母。"
+    },
+    {
+      "id": "U9L-E-05",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 5,
+      "mode": "spell",
+      "prompt": "冷暖氣機",
+      "word": "air-conditioner",
+      "explain": "air-conditioner＝空調；冷暖氣機。首 a 尾 r，共 15 個字母。"
+    },
+    {
+      "id": "U9L-E-06",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 6,
+      "mode": "spell",
+      "prompt": "電池",
+      "word": "battery",
+      "explain": "battery＝電池。首 b 尾 y，共 7 個字母。"
+    },
+    {
+      "id": "U9L-E-07",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 7,
+      "mode": "spell",
+      "prompt": "瘋狂的",
+      "word": "crazy",
+      "explain": "crazy＝瘋狂的；狂熱的。首 c 尾 y，共 5 個字母。"
+    },
+    {
+      "id": "U9L-E-08",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 8,
+      "mode": "spell",
+      "prompt": "擠壓",
+      "word": "squeeze",
+      "explain": "squeeze＝擠壓；壓榨。首 s 尾 e，共 7 個字母。"
+    },
+    {
+      "id": "U9L-E-09",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 9,
+      "mode": "spell",
+      "prompt": "得分",
+      "word": "score",
+      "explain": "score＝得分；分數。首 s 尾 e，共 5 個字母。"
+    },
+    {
+      "id": "U9L-E-10",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 10,
+      "mode": "spell",
+      "prompt": "水壩",
+      "word": "dam",
+      "explain": "dam＝水壩。首 d 尾 m，共 3 個字母。"
+    },
+    {
+      "id": "U9L-E-11",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 11,
+      "mode": "mc",
+      "stem": "The ___ on his shirt came from a small cut.",
+      "options": [
+        "blood",
+        "bleed",
+        "bloody",
+        "bled"
+      ],
+      "answer": 0,
+      "word": "bleed",
+      "form": "blood",
+      "explain": "他襯衫上的血來自一個小傷口。blood 是名詞。"
+    },
+    {
+      "id": "U9L-E-12",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 12,
+      "mode": "mc",
+      "stem": "We must ___ the bus at the front door.",
+      "options": [
+        "broad",
+        "aboard",
+        "abroad",
+        "board"
+      ],
+      "answer": 3,
+      "word": "lodge",
+      "form": "board",
+      "explain": "我們必須從前門上公車。board＝上車。"
+    },
+    {
+      "id": "U9L-E-13",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 13,
+      "mode": "mc",
+      "stem": "He works ___ and comes home once a year.",
+      "options": [
+        "board",
+        "abroad",
+        "broad",
+        "aboard"
+      ],
+      "answer": 1,
+      "word": "abroad",
+      "form": "abroad",
+      "explain": "他在國外工作，一年回家一次。abroad＝在國外。"
+    },
+    {
+      "id": "U9L-E-14",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 14,
+      "mode": "mc",
+      "stem": "Our new ___ line is much faster than the old one.",
+      "options": [
+        "broadband",
+        "broad",
+        "board",
+        "abroad"
+      ],
+      "answer": 0,
+      "word": "broad",
+      "form": "broadband",
+      "explain": "我們新的寬頻線路比舊的快很多。broadband＝寬頻的。"
+    },
+    {
+      "id": "U9L-E-15",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 15,
+      "mode": "mc",
+      "stem": "My brother had little ___ learning to swim.",
+      "options": [
+        "difficult",
+        "difficulties",
+        "difficulty",
+        "hard"
+      ],
+      "answer": 2,
+      "word": "difficult",
+      "form": "difficulty",
+      "explain": "我弟弟學游泳幾乎沒遇到困難。little＋不可數名詞 difficulty。"
+    },
+    {
+      "id": "U9L-E-16",
+      "paper": "extra",
+      "section": "mc-phrase",
+      "num": 16,
+      "stem": "War ___ between the two countries in 1939.",
+      "options": [
+        "broke into",
+        "broke out",
+        "broke down",
+        "passed out"
+      ],
+      "answer": 1,
+      "word": "break out",
+      "explain": "兩國在 1939 年爆發戰爭。break out＝爆發。"
+    },
+    {
+      "id": "U9L-E-17",
+      "paper": "extra",
+      "section": "mc-phrase",
+      "num": 17,
+      "stem": "Doctors ___ and found a new way to treat the disease.",
+      "options": [
+        "broke out",
+        "broke up",
+        "broke through",
+        "passed out"
+      ],
+      "answer": 2,
+      "word": "break through",
+      "explain": "醫生有了重大發現，找到治療這種病的新方法。break through＝有重大發現。"
+    },
+    {
+      "id": "U9L-E-18",
+      "paper": "extra",
+      "section": "mc-phrase",
+      "num": 18,
+      "stem": "The old man ___ in the hot sun and fell down.",
+      "options": [
+        "passed out",
+        "broke into",
+        "broke through",
+        "broke out"
+      ],
+      "answer": 0,
+      "word": "pass out",
+      "explain": "那位老人在大太陽下昏倒跌下去。pass out＝昏倒。"
+    },
+    {
+      "id": "U9L-E-19",
+      "paper": "extra",
+      "section": "dialogue",
+      "num": 19,
+      "stem": "A: Where do you want to go this weekend? B: ___",
+      "options": [
+        "For two days.",
+        "To the beach in Kenting.",
+        "With my brother.",
+        "Next Saturday."
+      ],
+      "answer": 1,
+      "word": "對話應答",
+      "explain": "問「這週末想去哪」，回答地點。"
+    },
+    {
+      "id": "U9L-E-20",
+      "paper": "extra",
+      "section": "dialogue",
+      "num": 20,
+      "stem": "A: Where is my phone? B: ___",
+      "options": [
+        "On the table in the kitchen.",
+        "At noon.",
+        "It is almost dead.",
+        "I called you twice."
+      ],
+      "answer": 0,
+      "word": "對話應答",
+      "explain": "問「我的手機在哪」，回答地點「在廚房桌上」。"
+    },
+    {
+      "id": "U9L-E-21",
+      "paper": "extra",
+      "section": "dialogue",
+      "num": 21,
+      "stem": "A: Where did you take this photo? B: ___",
+      "options": [
+        "With my new phone.",
+        "Last month.",
+        "In front of Taipei 101.",
+        "It looks great."
+      ],
+      "answer": 2,
+      "word": "對話應答",
+      "explain": "問「這張照片在哪拍的」，回答地點。"
+    },
+    {
+      "id": "U9L-E-22",
+      "paper": "extra",
+      "section": "dialogue",
+      "num": 22,
+      "stem": "A: Where does the bus stop? B: ___",
+      "options": [
+        "It is always late.",
+        "Around six.",
+        "Every ten minutes.",
+        "At the corner of the street."
+      ],
+      "answer": 3,
+      "word": "對話應答",
+      "explain": "問「公車在哪停」，回答地點「在街角」。"
+    }
+  ]
+}

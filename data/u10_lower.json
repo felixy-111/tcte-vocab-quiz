@@ -1,0 +1,1535 @@
+{
+  "unit": 10,
+  "half": "lower",
+  "spec": {
+    "review": "v7",
+    "quiz": "v7"
+  },
+  "words": [
+    {
+      "en": "mention",
+      "zh": "提及；說起"
+    },
+    {
+      "en": "awful",
+      "zh": "可怕的；糟糕的"
+    },
+    {
+      "en": "classical",
+      "zh": "古典的；典型的"
+    },
+    {
+      "en": "classified",
+      "zh": "分類的；機密的",
+      "derivatives": [
+        "classification"
+      ]
+    },
+    {
+      "en": "through",
+      "zh": "透過；經過",
+      "derivatives": [
+        "thorough"
+      ]
+    },
+    {
+      "en": "surround",
+      "zh": "圍繞；環繞",
+      "derivatives": [
+        "surroundings",
+        "surrounding"
+      ]
+    },
+    {
+      "en": "alter",
+      "zh": "改變；修改"
+    },
+    {
+      "en": "communicate",
+      "zh": "溝通；傳達",
+      "derivatives": [
+        "communication"
+      ]
+    },
+    {
+      "en": "course",
+      "zh": "課程；一道菜"
+    },
+    {
+      "en": "develop",
+      "zh": "發展；培養",
+      "derivatives": [
+        "development"
+      ]
+    },
+    {
+      "en": "blossom",
+      "zh": "開花；興盛"
+    },
+    {
+      "en": "master",
+      "zh": "主人；大師",
+      "derivatives": [
+        "masterpiece"
+      ]
+    },
+    {
+      "en": "total",
+      "zh": "總數；總額"
+    },
+    {
+      "en": "automatic",
+      "zh": "自動的",
+      "derivatives": [
+        "automatically"
+      ]
+    },
+    {
+      "en": "bet",
+      "zh": "打賭；確信"
+    }
+  ],
+  "phrases": [
+    {
+      "en": "get in touch with",
+      "zh": "與…聯絡"
+    },
+    {
+      "en": "show up",
+      "zh": "出現；出席"
+    },
+    {
+      "en": "show off",
+      "zh": "炫耀"
+    }
+  ],
+  "readings": [
+    {
+      "id": "U10L-READ-1",
+      "title": "The Cooking Class Dinner",
+      "text": "My cousin studies in the cooking course of a vocational high school. Last month his class made dinner for the parents. Their teacher is a master of Chinese food, and he never mentions his own awards. That morning the kitchen was awful: the automatic oven stopped working and the fish was not fresh. The students had to alter the menu through a quick meeting. They communicated in short sentences and finished on time. In total, they cooked six dishes for forty people. Classical music played, and cherry blossoms on the tables made the room pretty. Parents surrounded my cousin and asked for his recipes. The teacher told them to get in touch with him by e-mail. My cousin did not show off, but I could see he was proud."
+    }
+  ],
+  "questions": [
+    {
+      "id": "U10L-R-01",
+      "paper": "review",
+      "section": "matching",
+      "num": 1,
+      "word": "配合題",
+      "left": [
+        "total",
+        "surround",
+        "bet",
+        "classical",
+        "develop",
+        "mention",
+        "through",
+        "master",
+        "awful",
+        "communicate",
+        "course",
+        "automatic",
+        "blossom",
+        "classified",
+        "alter"
+      ],
+      "right": [
+        "可怕的；糟糕的",
+        "課程；一道菜",
+        "圍繞；環繞",
+        "打賭；確信",
+        "分類的；機密的",
+        "主人；大師",
+        "總數；總額",
+        "發展；培養",
+        "改變；修改",
+        "提及；說起",
+        "自動的",
+        "透過；經過",
+        "開花；興盛",
+        "溝通；傳達",
+        "古典的；典型的"
+      ],
+      "answer": [
+        "G",
+        "C",
+        "D",
+        "O",
+        "H",
+        "J",
+        "L",
+        "F",
+        "A",
+        "N",
+        "B",
+        "K",
+        "M",
+        "E",
+        "I"
+      ],
+      "explain": "把每個英文字對到正確的中文意思。"
+    },
+    {
+      "id": "U10L-R-02",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 2,
+      "mode": "spell",
+      "prompt": "打賭",
+      "word": "bet",
+      "explain": "bet＝打賭；確信。首 b 尾 t，共 3 個字母。"
+    },
+    {
+      "id": "U10L-R-03",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 3,
+      "mode": "spell",
+      "prompt": "課程；一道菜",
+      "word": "course",
+      "explain": "course＝課程；一道菜。首 c 尾 e，共 6 個字母。"
+    },
+    {
+      "id": "U10L-R-04",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 4,
+      "mode": "spell",
+      "prompt": "提及；說起",
+      "word": "mention",
+      "explain": "mention＝提及；說起。首 m 尾 n，共 7 個字母。"
+    },
+    {
+      "id": "U10L-R-05",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 5,
+      "mode": "spell",
+      "prompt": "總數",
+      "word": "total",
+      "explain": "total＝總數；總額。首 t 尾 l，共 5 個字母。"
+    },
+    {
+      "id": "U10L-R-06",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 6,
+      "mode": "spell",
+      "prompt": "開花",
+      "word": "blossom",
+      "explain": "blossom＝開花；興盛。首 b 尾 m，共 7 個字母。"
+    },
+    {
+      "id": "U10L-R-07",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 7,
+      "mode": "spell",
+      "prompt": "自動的",
+      "word": "automatic",
+      "explain": "automatic＝自動的。首 a 尾 c，共 9 個字母。"
+    },
+    {
+      "id": "U10L-R-08",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 8,
+      "mode": "spell",
+      "prompt": "可怕的",
+      "word": "awful",
+      "explain": "awful＝可怕的；糟糕的。首 a 尾 l，共 5 個字母。"
+    },
+    {
+      "id": "U10L-R-09",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 9,
+      "mode": "spell",
+      "prompt": "圍繞",
+      "word": "surround",
+      "explain": "surround＝圍繞；環繞。首 s 尾 d，共 8 個字母。"
+    },
+    {
+      "id": "U10L-R-10",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 10,
+      "mode": "spell",
+      "prompt": "古典的",
+      "word": "classical",
+      "explain": "classical＝古典的；典型的。首 c 尾 l，共 9 個字母。"
+    },
+    {
+      "id": "U10L-R-11",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 11,
+      "mode": "spell",
+      "prompt": "發展",
+      "word": "develop",
+      "explain": "develop＝發展；培養。首 d 尾 p，共 7 個字母。"
+    },
+    {
+      "id": "U10L-R-12",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 12,
+      "mode": "spell",
+      "prompt": "透過；經過",
+      "word": "through",
+      "explain": "through＝透過；經過。首 t 尾 h，共 7 個字母。"
+    },
+    {
+      "id": "U10L-R-13",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 13,
+      "mode": "spell",
+      "prompt": "主人；大師",
+      "word": "master",
+      "explain": "master＝主人；大師。首 m 尾 r，共 6 個字母。"
+    },
+    {
+      "id": "U10L-R-14",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 14,
+      "mode": "spell",
+      "prompt": "改變；修改",
+      "word": "alter",
+      "explain": "alter＝改變；修改。首 a 尾 r，共 5 個字母。"
+    },
+    {
+      "id": "U10L-R-15",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 15,
+      "mode": "spell",
+      "prompt": "分類的；機密的",
+      "word": "classified",
+      "explain": "classified＝分類的；機密的。首 c 尾 d，共 10 個字母。"
+    },
+    {
+      "id": "U10L-R-16",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 16,
+      "mode": "spell",
+      "prompt": "溝通",
+      "word": "communicate",
+      "explain": "communicate＝溝通；傳達。首 c 尾 e，共 11 個字母。"
+    },
+    {
+      "id": "U10L-R-17",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 17,
+      "mode": "mc",
+      "stem": "The library needs a new ___ for its books.",
+      "options": [
+        "classification",
+        "classify",
+        "classified",
+        "classifies"
+      ],
+      "answer": 0,
+      "word": "classified",
+      "form": "classification",
+      "explain": "圖書館需要新的分類方式。a 後面接單數名詞 classification。"
+    },
+    {
+      "id": "U10L-R-18",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 18,
+      "mode": "mc",
+      "stem": "You can find many jobs in the ___ ads.",
+      "options": [
+        "classified",
+        "classify",
+        "classification",
+        "classifies"
+      ],
+      "answer": 0,
+      "word": "classified",
+      "form": "classified",
+      "explain": "你可以在分類廣告裡找到很多工作。classified ads＝分類廣告。"
+    },
+    {
+      "id": "U10L-R-19",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 19,
+      "mode": "mc",
+      "stem": "The police did a ___ check of the whole building.",
+      "options": [
+        "thoroughly",
+        "throughout",
+        "thorough",
+        "through"
+      ],
+      "answer": 2,
+      "word": "through",
+      "form": "thorough",
+      "explain": "警方對整棟大樓做了徹底的檢查。修飾名詞 check 用形容詞 thorough＝徹底的。"
+    },
+    {
+      "id": "U10L-R-20",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 20,
+      "mode": "mc",
+      "stem": "The train goes ___ a long tunnel.",
+      "options": [
+        "thoroughly",
+        "through",
+        "throughout",
+        "thorough"
+      ],
+      "answer": 1,
+      "word": "through",
+      "form": "through",
+      "explain": "火車經過一條長隧道。through＝穿過；經過。"
+    },
+    {
+      "id": "U10L-R-21",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 21,
+      "mode": "mc",
+      "stem": "The hotel has beautiful ___ near the lake.",
+      "options": [
+        "surround",
+        "surrounding",
+        "surroundings",
+        "surrounded"
+      ],
+      "answer": 2,
+      "word": "surround",
+      "form": "surroundings",
+      "explain": "那家旅館湖邊的周遭環境很美。surroundings＝周遭環境，常用複數。"
+    },
+    {
+      "id": "U10L-R-22",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 22,
+      "mode": "mc",
+      "stem": "The ___ villages were flooded after the storm.",
+      "options": [
+        "surround",
+        "surrounding",
+        "surrounded",
+        "surroundings"
+      ],
+      "answer": 1,
+      "word": "surround",
+      "form": "surrounding",
+      "explain": "暴風雨後周圍的村莊都淹水了。修飾名詞用形容詞 surrounding＝周圍的。"
+    },
+    {
+      "id": "U10L-R-23",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 23,
+      "mode": "mc",
+      "stem": "Tall trees will ___ the new school.",
+      "options": [
+        "surrounding",
+        "surround",
+        "surroundings",
+        "surrounded"
+      ],
+      "answer": 1,
+      "word": "surround",
+      "form": "surround",
+      "explain": "高大的樹木將圍繞著新學校。will 後面接原形動詞 surround。"
+    },
+    {
+      "id": "U10L-R-24",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 24,
+      "mode": "mc",
+      "stem": "Good ___ helps a team win.",
+      "options": [
+        "communicated",
+        "communicate",
+        "communication",
+        "communicates"
+      ],
+      "answer": 2,
+      "word": "communicate",
+      "form": "communication",
+      "explain": "良好的溝通幫助團隊獲勝。主詞位置用名詞 communication。"
+    },
+    {
+      "id": "U10L-R-25",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 25,
+      "mode": "mc",
+      "stem": "The ___ of the new park took three years.",
+      "options": [
+        "develop",
+        "develops",
+        "developed",
+        "development"
+      ],
+      "answer": 3,
+      "word": "develop",
+      "form": "development",
+      "explain": "新公園的開發花了三年。the 後面接名詞 development。"
+    },
+    {
+      "id": "U10L-R-26",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 26,
+      "mode": "mc",
+      "stem": "This painting is a ___ of the young artist.",
+      "options": [
+        "master",
+        "masters",
+        "mastered",
+        "masterpiece"
+      ],
+      "answer": 3,
+      "word": "master",
+      "form": "masterpiece",
+      "explain": "這幅畫是那位年輕畫家的傑作。masterpiece＝傑作。"
+    },
+    {
+      "id": "U10L-R-27",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 27,
+      "mode": "mc",
+      "stem": "The lights turn on ___ at night.",
+      "options": [
+        "automatically",
+        "automate",
+        "automatic",
+        "automation"
+      ],
+      "answer": 0,
+      "word": "automatic",
+      "form": "automatically",
+      "explain": "晚上燈會自動亮起。修飾動詞 turn on 要用副詞 automatically。"
+    },
+    {
+      "id": "U10L-R-28",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 28,
+      "mode": "mc",
+      "stem": "The new store has an ___ door.",
+      "options": [
+        "automatically",
+        "automate",
+        "automation",
+        "automatic"
+      ],
+      "answer": 3,
+      "word": "automatic",
+      "form": "automatic",
+      "explain": "新的店有一扇自動門。修飾名詞 door 用形容詞 automatic。"
+    },
+    {
+      "id": "U10L-R-29",
+      "paper": "review",
+      "section": "mc-phrase",
+      "num": 29,
+      "stem": "Please ___ me when you get there.",
+      "options": [
+        "show up",
+        "make friends with",
+        "get in touch with",
+        "show off"
+      ],
+      "answer": 2,
+      "word": "get in touch with",
+      "explain": "你到那裡時請跟我聯絡。get in touch with＝與…聯絡。"
+    },
+    {
+      "id": "U10L-R-30",
+      "paper": "review",
+      "section": "mc-phrase",
+      "num": 30,
+      "stem": "Only ten people ___ at the meeting.",
+      "options": [
+        "showed up",
+        "looked into",
+        "showed off",
+        "got along with"
+      ],
+      "answer": 0,
+      "word": "show up",
+      "explain": "只有十個人出席那場會議。show up＝出現；出席。"
+    },
+    {
+      "id": "U10L-R-31",
+      "paper": "review",
+      "section": "mc-phrase",
+      "num": 31,
+      "stem": "The boy likes to ___ his new shoes.",
+      "options": [
+        "get in touch with",
+        "show off",
+        "look over",
+        "show up"
+      ],
+      "answer": 1,
+      "word": "show off",
+      "explain": "那個男孩喜歡炫耀他的新鞋。show off＝炫耀。"
+    },
+    {
+      "id": "U10L-R-32",
+      "paper": "review",
+      "section": "dialogue",
+      "num": 32,
+      "stem": "A: How have you been? B: ___",
+      "options": [
+        "By train.",
+        "Pretty good, thanks.",
+        "For three months.",
+        "In Kaohsiung."
+      ],
+      "answer": 1,
+      "word": "對話應答",
+      "explain": "問近況，回答「還不錯」。"
+    },
+    {
+      "id": "U10L-R-33",
+      "paper": "review",
+      "section": "dialogue",
+      "num": 33,
+      "stem": "A: How was your vacation? B: ___",
+      "options": [
+        "About ten days.",
+        "Next April.",
+        "So-so, nothing special.",
+        "With my cousin."
+      ],
+      "answer": 2,
+      "word": "對話應答",
+      "explain": "問感想，回答「馬馬虎虎」。"
+    },
+    {
+      "id": "U10L-R-34",
+      "paper": "review",
+      "section": "dialogue",
+      "num": 34,
+      "stem": "A: How is the weather today? B: ___",
+      "options": [
+        "Three times a week.",
+        "About 200 people.",
+        "It is two hours away.",
+        "It is warm and cloudy."
+      ],
+      "answer": 3,
+      "word": "對話應答",
+      "explain": "問天氣，回答「溫暖多雲」。"
+    },
+    {
+      "id": "U10L-R-35",
+      "paper": "review",
+      "section": "dialogue",
+      "num": 35,
+      "stem": "A: How did you learn to cook? B: ___",
+      "options": [
+        "My grandma taught me.",
+        "Every Sunday.",
+        "It tastes great.",
+        "In the kitchen."
+      ],
+      "answer": 0,
+      "word": "對話應答",
+      "explain": "問方法，回答「奶奶教我的」。"
+    },
+    {
+      "id": "U10L-R-36",
+      "paper": "review",
+      "section": "dialogue",
+      "num": 36,
+      "stem": "A: How is your leg now? B: ___",
+      "options": [
+        "It still hurts a little.",
+        "At the hospital.",
+        "Last Monday.",
+        "I fell off my bike."
+      ],
+      "answer": 0,
+      "word": "對話應答",
+      "explain": "問身體狀況，回答「還有點痛」。"
+    },
+    {
+      "id": "U10L-R-37",
+      "paper": "review",
+      "section": "dialogue",
+      "num": 37,
+      "stem": "A: How do I start this machine? B: ___",
+      "options": [
+        "It is very new.",
+        "Push the green button.",
+        "About 5,000 dollars.",
+        "In the office."
+      ],
+      "answer": 1,
+      "word": "對話應答",
+      "explain": "問方法，回答「按綠色按鈕」。"
+    },
+    {
+      "id": "U10L-R-38",
+      "paper": "review",
+      "section": "reading",
+      "num": 38,
+      "readingId": "U10L-READ-1",
+      "stem": "What is this reading mainly about?",
+      "options": [
+        "A teacher who often talks about his awards.",
+        "How to grow cherry trees at school.",
+        "A dinner that a cooking class made for parents.",
+        "A cooking test in an international contest."
+      ],
+      "answer": 2,
+      "word": "閱讀理解",
+      "explain": "全文在講餐飲科班級為家長辦的晚餐。"
+    },
+    {
+      "id": "U10L-R-39",
+      "paper": "review",
+      "section": "reading",
+      "num": 39,
+      "readingId": "U10L-READ-1",
+      "stem": "What went wrong in the morning?",
+      "options": [
+        "The students forgot the recipes.",
+        "The oven stopped and the fish was not fresh.",
+        "Too many parents came to the dinner.",
+        "The music player did not work."
+      ],
+      "answer": 1,
+      "word": "閱讀理解",
+      "explain": "文中說自動烤箱壞了、魚不新鮮。"
+    },
+    {
+      "id": "U10L-R-40",
+      "paper": "review",
+      "section": "reading",
+      "num": 40,
+      "readingId": "U10L-READ-1",
+      "stem": "How did the students change the menu?",
+      "options": [
+        "They held a quick meeting.",
+        "They asked the parents for ideas.",
+        "They called another school.",
+        "They looked it up on the Internet."
+      ],
+      "answer": 0,
+      "word": "閱讀理解",
+      "explain": "文中說他們透過一場快速的會議修改菜單。"
+    },
+    {
+      "id": "U10L-R-41",
+      "paper": "review",
+      "section": "reading",
+      "num": 41,
+      "readingId": "U10L-READ-1",
+      "stem": "Which one is TRUE about the cousin?",
+      "options": [
+        "He gave his recipes to every parent.",
+        "He was angry about the broken oven.",
+        "He cooked all six dishes by himself.",
+        "He did not show off after the dinner."
+      ],
+      "answer": 3,
+      "word": "閱讀理解",
+      "explain": "文中最後說他沒有炫耀，但看得出很驕傲。"
+    },
+    {
+      "id": "U10L-Q-01",
+      "paper": "quiz",
+      "section": "matching",
+      "num": 1,
+      "word": "配合題",
+      "left": [
+        "alter",
+        "course",
+        "classified",
+        "automatic",
+        "master",
+        "total",
+        "communicate",
+        "blossom",
+        "mention",
+        "through",
+        "awful",
+        "develop",
+        "bet",
+        "surround",
+        "classical"
+      ],
+      "right": [
+        "發展；培養",
+        "總數；總額",
+        "開花；興盛",
+        "透過；經過",
+        "古典的；典型的",
+        "改變；修改",
+        "圍繞；環繞",
+        "主人；大師",
+        "打賭；確信",
+        "溝通；傳達",
+        "可怕的；糟糕的",
+        "自動的",
+        "課程；一道菜",
+        "分類的；機密的",
+        "提及；說起"
+      ],
+      "answer": [
+        "F",
+        "M",
+        "N",
+        "L",
+        "H",
+        "B",
+        "J",
+        "C",
+        "O",
+        "D",
+        "K",
+        "A",
+        "I",
+        "G",
+        "E"
+      ],
+      "explain": "把每個英文字對到正確的中文意思。"
+    },
+    {
+      "id": "U10L-Q-02",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 2,
+      "mode": "spell",
+      "prompt": "總數",
+      "word": "total",
+      "explain": "total＝總數；總額。首 t 尾 l，共 5 個字母。"
+    },
+    {
+      "id": "U10L-Q-03",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 3,
+      "mode": "spell",
+      "prompt": "自動的",
+      "word": "automatic",
+      "explain": "automatic＝自動的。首 a 尾 c，共 9 個字母。"
+    },
+    {
+      "id": "U10L-Q-04",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 4,
+      "mode": "spell",
+      "prompt": "古典的",
+      "word": "classical",
+      "explain": "classical＝古典的；典型的。首 c 尾 l，共 9 個字母。"
+    },
+    {
+      "id": "U10L-Q-05",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 5,
+      "mode": "spell",
+      "prompt": "圍繞",
+      "word": "surround",
+      "explain": "surround＝圍繞；環繞。首 s 尾 d，共 8 個字母。"
+    },
+    {
+      "id": "U10L-Q-06",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 6,
+      "mode": "spell",
+      "prompt": "打賭",
+      "word": "bet",
+      "explain": "bet＝打賭；確信。首 b 尾 t，共 3 個字母。"
+    },
+    {
+      "id": "U10L-Q-07",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 7,
+      "mode": "spell",
+      "prompt": "改變；修改",
+      "word": "alter",
+      "explain": "alter＝改變；修改。首 a 尾 r，共 5 個字母。"
+    },
+    {
+      "id": "U10L-Q-08",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 8,
+      "mode": "spell",
+      "prompt": "課程；一道菜",
+      "word": "course",
+      "explain": "course＝課程；一道菜。首 c 尾 e，共 6 個字母。"
+    },
+    {
+      "id": "U10L-Q-09",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 9,
+      "mode": "spell",
+      "prompt": "溝通",
+      "word": "communicate",
+      "explain": "communicate＝溝通；傳達。首 c 尾 e，共 11 個字母。"
+    },
+    {
+      "id": "U10L-Q-10",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 10,
+      "mode": "spell",
+      "prompt": "可怕的",
+      "word": "awful",
+      "explain": "awful＝可怕的；糟糕的。首 a 尾 l，共 5 個字母。"
+    },
+    {
+      "id": "U10L-Q-11",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 11,
+      "mode": "spell",
+      "prompt": "主人；大師",
+      "word": "master",
+      "explain": "master＝主人；大師。首 m 尾 r，共 6 個字母。"
+    },
+    {
+      "id": "U10L-Q-12",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 12,
+      "mode": "spell",
+      "prompt": "開花",
+      "word": "blossom",
+      "explain": "blossom＝開花；興盛。首 b 尾 m，共 7 個字母。"
+    },
+    {
+      "id": "U10L-Q-13",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 13,
+      "mode": "spell",
+      "prompt": "透過；經過",
+      "word": "through",
+      "explain": "through＝透過；經過。首 t 尾 h，共 7 個字母。"
+    },
+    {
+      "id": "U10L-Q-14",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 14,
+      "mode": "spell",
+      "prompt": "分類的；機密的",
+      "word": "classified",
+      "explain": "classified＝分類的；機密的。首 c 尾 d，共 10 個字母。"
+    },
+    {
+      "id": "U10L-Q-15",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 15,
+      "mode": "spell",
+      "prompt": "提及；說起",
+      "word": "mention",
+      "explain": "mention＝提及；說起。首 m 尾 n，共 7 個字母。"
+    },
+    {
+      "id": "U10L-Q-16",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 16,
+      "mode": "spell",
+      "prompt": "發展",
+      "word": "develop",
+      "explain": "develop＝發展；培養。首 d 尾 p，共 7 個字母。"
+    },
+    {
+      "id": "U10L-Q-17",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 17,
+      "mode": "mc",
+      "stem": "Animals and plants have their own ___ in science.",
+      "options": [
+        "classification",
+        "classifies",
+        "classified",
+        "classify"
+      ],
+      "answer": 0,
+      "word": "classified",
+      "form": "classification",
+      "explain": "動物和植物在科學上有自己的分類。名詞 classification＝分類。"
+    },
+    {
+      "id": "U10L-Q-18",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 18,
+      "mode": "mc",
+      "stem": "My mother gives the kitchen a ___ cleaning every month.",
+      "options": [
+        "thoroughly",
+        "throughout",
+        "through",
+        "thorough"
+      ],
+      "answer": 3,
+      "word": "through",
+      "form": "thorough",
+      "explain": "我媽媽每個月把廚房徹底清掃一次。形容詞 thorough＝徹底的。"
+    },
+    {
+      "id": "U10L-Q-19",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 19,
+      "mode": "mc",
+      "stem": "Animals in a zoo need safe ___.",
+      "options": [
+        "surrounded",
+        "surround",
+        "surroundings",
+        "surrounding"
+      ],
+      "answer": 2,
+      "word": "surround",
+      "form": "surroundings",
+      "explain": "動物園裡的動物需要安全的周遭環境。surroundings 常用複數。"
+    },
+    {
+      "id": "U10L-Q-20",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 20,
+      "mode": "mc",
+      "stem": "The typhoon cut off all ___ on the island.",
+      "options": [
+        "communicated",
+        "communication",
+        "communicate",
+        "communicates"
+      ],
+      "answer": 1,
+      "word": "communicate",
+      "form": "communication",
+      "explain": "颱風切斷了島上所有的通訊。communication 也有「通訊」的意思。"
+    },
+    {
+      "id": "U10L-Q-21",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 21,
+      "mode": "mc",
+      "stem": "Reading is good for the ___ of children.",
+      "options": [
+        "develops",
+        "developed",
+        "develop",
+        "development"
+      ],
+      "answer": 3,
+      "word": "develop",
+      "form": "development",
+      "explain": "閱讀對孩子的發展有益。the 後面接名詞 development。"
+    },
+    {
+      "id": "U10L-Q-22",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 22,
+      "mode": "mc",
+      "stem": "That old temple is a ___ of Chinese building.",
+      "options": [
+        "mastered",
+        "masterpiece",
+        "masters",
+        "master"
+      ],
+      "answer": 1,
+      "word": "master",
+      "form": "masterpiece",
+      "explain": "那座老廟是中式建築的傑作。masterpiece＝傑作。"
+    },
+    {
+      "id": "U10L-Q-23",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 23,
+      "mode": "mc",
+      "stem": "The door closes ___ after ten seconds.",
+      "options": [
+        "automatic",
+        "automate",
+        "automatically",
+        "automation"
+      ],
+      "answer": 2,
+      "word": "automatic",
+      "form": "automatically",
+      "explain": "門在十秒後會自動關上。修飾動詞 closes 用副詞 automatically。"
+    },
+    {
+      "id": "U10L-Q-24",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 24,
+      "mode": "mc",
+      "stem": "Our town will ___ a new night market next year.",
+      "options": [
+        "develop",
+        "developed",
+        "develops",
+        "development"
+      ],
+      "answer": 0,
+      "word": "develop",
+      "form": "develop",
+      "explain": "我們鎮上明年將開發一個新夜市。will 後面接原形動詞 develop。"
+    },
+    {
+      "id": "U10L-Q-25",
+      "paper": "quiz",
+      "section": "mc-phrase",
+      "num": 25,
+      "stem": "The singer did not ___ until the show was over.",
+      "options": [
+        "break down",
+        "show off",
+        "show up",
+        "get in touch with"
+      ],
+      "answer": 2,
+      "word": "show up",
+      "explain": "那位歌手直到表演結束才出現。show up＝出現。"
+    },
+    {
+      "id": "U10L-Q-26",
+      "paper": "quiz",
+      "section": "mc-phrase",
+      "num": 26,
+      "stem": "The company will ___ you after the interview.",
+      "options": [
+        "get in touch with",
+        "show up",
+        "show off",
+        "along with"
+      ],
+      "answer": 0,
+      "word": "get in touch with",
+      "explain": "面試後公司會與你聯絡。get in touch with＝與…聯絡。"
+    },
+    {
+      "id": "U10L-Q-27",
+      "paper": "quiz",
+      "section": "mc-phrase",
+      "num": 27,
+      "stem": "She wore the ring to ___ it at the party.",
+      "options": [
+        "show up",
+        "show off",
+        "look up",
+        "get in touch with"
+      ],
+      "answer": 1,
+      "word": "show off",
+      "explain": "她戴那只戒指是為了在派對上炫耀。show off＝炫耀。"
+    },
+    {
+      "id": "U10L-Q-28",
+      "paper": "quiz",
+      "section": "dialogue",
+      "num": 28,
+      "stem": "A: How is everything going? B: ___",
+      "options": [
+        "Twice a month.",
+        "Everything is fine.",
+        "At six o'clock.",
+        "It goes to Tainan."
+      ],
+      "answer": 1,
+      "word": "對話應答",
+      "explain": "問近況，回答「一切都好」。"
+    },
+    {
+      "id": "U10L-Q-29",
+      "paper": "quiz",
+      "section": "dialogue",
+      "num": 29,
+      "stem": "A: How was the concert? B: ___",
+      "options": [
+        "In front of the city hall.",
+        "For two hours.",
+        "About 1,000 dollars.",
+        "It was amazing."
+      ],
+      "answer": 3,
+      "word": "對話應答",
+      "explain": "問感想，回答「很棒」。"
+    },
+    {
+      "id": "U10L-Q-30",
+      "paper": "quiz",
+      "section": "dialogue",
+      "num": 30,
+      "stem": "A: How can I open this file? B: ___",
+      "options": [
+        "Click the icon twice.",
+        "It is very big.",
+        "Yesterday afternoon.",
+        "On my computer."
+      ],
+      "answer": 0,
+      "word": "對話應答",
+      "explain": "問方法，回答「點兩下圖示」。"
+    },
+    {
+      "id": "U10L-Q-31",
+      "paper": "quiz",
+      "section": "dialogue",
+      "num": 31,
+      "stem": "A: How is your father feeling? B: ___",
+      "options": [
+        "He is fifty.",
+        "He works in Taipei.",
+        "He is getting better.",
+        "He is a driver."
+      ],
+      "answer": 2,
+      "word": "對話應答",
+      "explain": "問身體狀況，回答「他好轉了」。"
+    },
+    {
+      "id": "U10L-E-01",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 1,
+      "mode": "spell",
+      "prompt": "提及；說起",
+      "word": "mention",
+      "explain": "mention＝提及；說起。首 m 尾 n，共 7 個字母。"
+    },
+    {
+      "id": "U10L-E-02",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 2,
+      "mode": "spell",
+      "prompt": "可怕的",
+      "word": "awful",
+      "explain": "awful＝可怕的；糟糕的。首 a 尾 l，共 5 個字母。"
+    },
+    {
+      "id": "U10L-E-03",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 3,
+      "mode": "spell",
+      "prompt": "古典的",
+      "word": "classical",
+      "explain": "classical＝古典的；典型的。首 c 尾 l，共 9 個字母。"
+    },
+    {
+      "id": "U10L-E-04",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 4,
+      "mode": "spell",
+      "prompt": "改變；修改",
+      "word": "alter",
+      "explain": "alter＝改變；修改。首 a 尾 r，共 5 個字母。"
+    },
+    {
+      "id": "U10L-E-05",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 5,
+      "mode": "spell",
+      "prompt": "課程；一道菜",
+      "word": "course",
+      "explain": "course＝課程；一道菜。首 c 尾 e，共 6 個字母。"
+    },
+    {
+      "id": "U10L-E-06",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 6,
+      "mode": "spell",
+      "prompt": "開花",
+      "word": "blossom",
+      "explain": "blossom＝開花；興盛。首 b 尾 m，共 7 個字母。"
+    },
+    {
+      "id": "U10L-E-07",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 7,
+      "mode": "spell",
+      "prompt": "總數",
+      "word": "total",
+      "explain": "total＝總數；總額。首 t 尾 l，共 5 個字母。"
+    },
+    {
+      "id": "U10L-E-08",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 8,
+      "mode": "spell",
+      "prompt": "打賭",
+      "word": "bet",
+      "explain": "bet＝打賭；確信。首 b 尾 t，共 3 個字母。"
+    },
+    {
+      "id": "U10L-E-09",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 9,
+      "mode": "mc",
+      "stem": "The army keeps the ___ files in a safe room.",
+      "options": [
+        "classify",
+        "classified",
+        "classifies",
+        "classification"
+      ],
+      "answer": 1,
+      "word": "classified",
+      "form": "classified",
+      "explain": "軍方把機密檔案放在安全的房間。classified＝機密的。"
+    },
+    {
+      "id": "U10L-E-10",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 10,
+      "mode": "mc",
+      "stem": "The nurse gave the patient a ___ check.",
+      "options": [
+        "thoroughly",
+        "through",
+        "thorough",
+        "throughout"
+      ],
+      "answer": 2,
+      "word": "through",
+      "form": "thorough",
+      "explain": "護士替病人做了徹底的檢查。thorough＝徹底的。"
+    },
+    {
+      "id": "U10L-E-11",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 11,
+      "mode": "mc",
+      "stem": "The ___ hills keep the cold wind away.",
+      "options": [
+        "surrounded",
+        "surroundings",
+        "surround",
+        "surrounding"
+      ],
+      "answer": 3,
+      "word": "surround",
+      "form": "surrounding",
+      "explain": "周圍的山擋住了冷風。形容詞 surrounding＝周圍的。"
+    },
+    {
+      "id": "U10L-E-12",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 12,
+      "mode": "mc",
+      "stem": "E-mail is a fast way of ___.",
+      "options": [
+        "communicates",
+        "communicated",
+        "communication",
+        "communicate"
+      ],
+      "answer": 2,
+      "word": "communicate",
+      "form": "communication",
+      "explain": "電子郵件是快速的溝通方式。介系詞 of 後面接名詞。"
+    },
+    {
+      "id": "U10L-E-13",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 13,
+      "mode": "mc",
+      "stem": "The ___ of the phone changed our life.",
+      "options": [
+        "develops",
+        "development",
+        "develop",
+        "developed"
+      ],
+      "answer": 1,
+      "word": "develop",
+      "form": "development",
+      "explain": "手機的發展改變了我們的生活。the 後面接名詞。"
+    },
+    {
+      "id": "U10L-E-14",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 14,
+      "mode": "mc",
+      "stem": "The museum bought a ___ from Japan last year.",
+      "options": [
+        "masterpiece",
+        "masters",
+        "mastered",
+        "master"
+      ],
+      "answer": 0,
+      "word": "master",
+      "form": "masterpiece",
+      "explain": "博物館去年從日本買了一件傑作。a 後面接單數名詞 masterpiece。"
+    },
+    {
+      "id": "U10L-E-15",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 15,
+      "mode": "mc",
+      "stem": "The machine stops ___ when the box is full.",
+      "options": [
+        "automatically",
+        "automation",
+        "automatic",
+        "automate"
+      ],
+      "answer": 0,
+      "word": "automatic",
+      "form": "automatically",
+      "explain": "箱子滿了時機器會自動停止。修飾動詞用副詞。"
+    },
+    {
+      "id": "U10L-E-16",
+      "paper": "extra",
+      "section": "mc-phrase",
+      "num": 16,
+      "stem": "I lost his number, so I cannot ___ him.",
+      "options": [
+        "make friends with",
+        "show up",
+        "get in touch with",
+        "show off"
+      ],
+      "answer": 2,
+      "word": "get in touch with",
+      "explain": "我弄丟他的號碼，所以無法跟他聯絡。get in touch with＝與…聯絡。"
+    },
+    {
+      "id": "U10L-E-17",
+      "paper": "extra",
+      "section": "mc-phrase",
+      "num": 17,
+      "stem": "Half of the class did not ___ on the first day.",
+      "options": [
+        "show off",
+        "show up",
+        "pass out",
+        "get in touch with"
+      ],
+      "answer": 1,
+      "word": "show up",
+      "explain": "第一天有一半的同學沒出現。show up＝出現。"
+    },
+    {
+      "id": "U10L-E-18",
+      "paper": "extra",
+      "section": "mc-phrase",
+      "num": 18,
+      "stem": "He drove the new car slowly to ___ it.",
+      "options": [
+        "show off",
+        "show up",
+        "get in touch with",
+        "break into"
+      ],
+      "answer": 0,
+      "word": "show off",
+      "explain": "他把新車開得很慢是為了炫耀。show off＝炫耀。"
+    },
+    {
+      "id": "U10L-E-19",
+      "paper": "extra",
+      "section": "dialogue",
+      "num": 19,
+      "stem": "A: How is your new phone? B: ___",
+      "options": [
+        "It cost 8,000 dollars.",
+        "In a shop downtown.",
+        "Last month.",
+        "It works very well."
+      ],
+      "answer": 3,
+      "word": "對話應答",
+      "explain": "問使用狀況，回答「很好用」。"
+    },
+    {
+      "id": "U10L-E-20",
+      "paper": "extra",
+      "section": "dialogue",
+      "num": 20,
+      "stem": "A: How do you keep healthy? B: ___",
+      "options": [
+        "I swim every morning.",
+        "I am fine.",
+        "In the city pool.",
+        "Since last year."
+      ],
+      "answer": 0,
+      "word": "對話應答",
+      "explain": "問方法，回答「每天早上游泳」。"
+    },
+    {
+      "id": "U10L-E-21",
+      "paper": "extra",
+      "section": "dialogue",
+      "num": 21,
+      "stem": "A: How was the test this morning? B: ___",
+      "options": [
+        "For fifty minutes.",
+        "In the gym.",
+        "It was harder than I thought.",
+        "At nine o'clock."
+      ],
+      "answer": 2,
+      "word": "對話應答",
+      "explain": "問感想，回答「比我想的難」。"
+    },
+    {
+      "id": "U10L-E-22",
+      "paper": "extra",
+      "section": "dialogue",
+      "num": 22,
+      "stem": "A: How is the weather in Yilan? B: ___",
+      "options": [
+        "About an hour by train.",
+        "It rains almost every day.",
+        "It is in the northeast.",
+        "I like it."
+      ],
+      "answer": 1,
+      "word": "對話應答",
+      "explain": "問天氣，回答「幾乎每天下雨」。"
+    }
+  ]
+}
