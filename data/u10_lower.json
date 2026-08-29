@@ -2,7 +2,7 @@
   "unit": 10,
   "half": "lower",
   "spec": {
-    "review": "v7",
+    "review": "v8",
     "quiz": "v7"
   },
   "words": [
@@ -1175,7 +1175,7 @@
         "In front of the city hall.",
         "For two hours.",
         "About 1,000 dollars.",
-        "It was amazing."
+        "It was really great."
       ],
       "answer": 3,
       "word": "對話應答",
@@ -1188,14 +1188,14 @@
       "num": 30,
       "stem": "A: How can I open this file? B: ___",
       "options": [
-        "Click the icon twice.",
+        "Click the picture twice.",
         "It is very big.",
         "Yesterday afternoon.",
         "On my computer."
       ],
       "answer": 0,
       "word": "對話應答",
-      "explain": "問方法，回答「點兩下圖示」。"
+      "explain": "問方法，回答「點兩下圖片」。"
     },
     {
       "id": "U10L-Q-31",

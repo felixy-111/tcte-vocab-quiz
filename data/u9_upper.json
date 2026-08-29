@@ -2,7 +2,7 @@
   "unit": 9,
   "half": "upper",
   "spec": {
-    "review": "v7",
+    "review": "v8",
     "quiz": "v7"
   },
   "words": [
@@ -1148,7 +1148,7 @@
       "paper": "quiz",
       "section": "mc-phrase",
       "num": 27,
-      "stem": "My motorcycle ___ again on the way to school this morning.",
+      "stem": "My bike ___ again on the way to school this morning.",
       "options": [
         "broke down",
         "broke up",
@@ -1157,7 +1157,7 @@
       ],
       "answer": 0,
       "word": "break down",
-      "explain": "我的機車今天早上又在上學路上故障了。break down＝故障。"
+      "explain": "我的腳踏車今天早上又在上學路上故障了。break down＝故障。"
     },
     {
       "id": "U9U-Q-28",
@@ -1166,7 +1166,7 @@
       "num": 28,
       "stem": "A: Where are you going after school? B: ___",
       "options": [
-        "By scooter.",
+        "By bike.",
         "Once a month.",
         "For two hours.",
         "To the library near the park."
@@ -1215,13 +1215,13 @@
       "stem": "A: Where do you want to eat tonight? B: ___",
       "options": [
         "On May 5th.",
-        "At a hot pot restaurant.",
+        "At a night market.",
         "I am seventeen.",
         "With my family."
       ],
       "answer": 1,
       "word": "對話應答",
-      "explain": "問「今晚想去哪吃」，回答地點「火鍋店」。"
+      "explain": "問「今晚想去哪吃」，回答地點「夜市」。"
     },
     {
       "id": "U9U-E-01",

@@ -2,7 +2,7 @@
   "unit": 12,
   "half": "upper",
   "spec": {
-    "review": "v7",
+    "review": "v8",
     "quiz": "v7"
   },
   "words": [
@@ -331,11 +331,11 @@
       "stem": "The accident ___ near the school gate last night.",
       "options": [
         "occurring",
-        "occur",
         "occurred",
-        "occurs"
+        "occurs",
+        "occur"
       ],
-      "answer": 2,
+      "answer": 1,
       "word": "occur",
       "form": "occurred",
       "explain": "昨晚那場意外發生在校門口附近。occur 的過去式要雙寫 r：occurred。"
@@ -348,12 +348,12 @@
       "mode": "mc",
       "stem": "Such a mistake will not ___ again.",
       "options": [
-        "occur",
-        "occurred",
         "occurs",
-        "occurring"
+        "occurred",
+        "occurring",
+        "occur"
       ],
-      "answer": 0,
+      "answer": 3,
       "word": "occur",
       "form": "occur",
       "explain": "這種錯誤不會再發生了。will not 後面接原形動詞 occur。"
@@ -386,8 +386,8 @@
       "options": [
         "escape",
         "avoided",
-        "avoid",
-        "escaped"
+        "escaped",
+        "avoid"
       ],
       "answer": 0,
       "word": "escape",
@@ -402,10 +402,10 @@
       "mode": "mc",
       "stem": "The ___ of the concert made the fans angry.",
       "options": [
-        "cancel",
         "cancels",
+        "canceled",
         "cancellation",
-        "canceled"
+        "cancel"
       ],
       "answer": 2,
       "word": "cancel",
@@ -420,12 +420,12 @@
       "mode": "mc",
       "stem": "The school may ___ the trip because of the typhoon.",
       "options": [
+        "cancel",
         "canceled",
         "cancellation",
-        "cancels",
-        "cancel"
+        "cancels"
       ],
-      "answer": 3,
+      "answer": 0,
       "word": "cancel",
       "form": "cancel",
       "explain": "學校可能因為颱風取消旅行。may 後面接原形動詞 cancel。"
@@ -436,17 +436,17 @@
       "section": "mc-vocab",
       "num": 23,
       "mode": "mc",
-      "stem": "The doctor said this kind of illness is ___.",
+      "stem": "The doctor said this illness is ___, so we do not need to worry.",
       "options": [
-        "incurable",
-        "curable",
         "cure",
+        "curable",
+        "incurable",
         "cured"
       ],
       "answer": 1,
       "word": "cure",
       "form": "curable",
-      "explain": "醫生說這種病是可以治療的。be 動詞後接形容詞 curable＝可治癒的。"
+      "explain": "醫生說這種病可以治好，所以我們不必擔心。curable＝可治癒的。"
     },
     {
       "id": "U12U-R-24",
@@ -454,17 +454,17 @@
       "section": "mc-vocab",
       "num": 24,
       "mode": "mc",
-      "stem": "A hundred years ago, that disease was ___.",
+      "stem": "That disease was ___ a hundred years ago, but doctors can treat it now.",
       "options": [
-        "cured",
-        "curable",
         "cure",
+        "curable",
+        "cured",
         "incurable"
       ],
       "answer": 3,
       "word": "cure",
       "form": "incurable",
-      "explain": "一百年前那種病是治不好的。in- 是否定字首，incurable＝不可治癒的。"
+      "explain": "那種病一百年前治不好，但現在醫生能治療了。in- 是否定字首。"
     },
     {
       "id": "U12U-R-25",
@@ -474,12 +474,12 @@
       "mode": "mc",
       "stem": "The bus was going in the wrong ___.",
       "options": [
-        "indirect",
-        "direction",
+        "directly",
         "direct",
-        "directly"
+        "direction",
+        "indirect"
       ],
-      "answer": 1,
+      "answer": 2,
       "word": "direct",
       "form": "direction",
       "explain": "那班公車開錯方向了。in the wrong direction＝方向錯了，direction 是名詞。"
@@ -510,10 +510,10 @@
       "mode": "mc",
       "stem": "His answer was ___, so nobody knew his real idea.",
       "options": [
+        "directly",
         "direction",
-        "directed",
         "indirect",
-        "directly"
+        "directed"
       ],
       "answer": 2,
       "word": "direct",
@@ -529,9 +529,9 @@
       "stem": "They live in a ___ village in the mountains.",
       "options": [
         "distant",
-        "distance",
+        "distances",
         "distantly",
-        "distances"
+        "distance"
       ],
       "answer": 0,
       "word": "distance",
@@ -545,12 +545,12 @@
       "num": 29,
       "stem": "The small room ___ the smell of coffee.",
       "options": [
-        "found out",
-        "got along with",
         "was filled with",
-        "filled out"
+        "filled out",
+        "found out",
+        "got along with"
       ],
-      "answer": 2,
+      "answer": 0,
       "word": "be filled with",
       "explain": "那個小房間充滿咖啡的香味。be filled with＝充滿。"
     },
@@ -577,12 +577,12 @@
       "num": 31,
       "stem": "The police will ___ who took the money.",
       "options": [
-        "find out",
-        "be filled with",
         "fill out",
-        "put away"
+        "put away",
+        "find out",
+        "be filled with"
       ],
-      "answer": 0,
+      "answer": 2,
       "word": "find out",
       "explain": "警方會查出是誰拿走那筆錢。find out＝查明；找出。"
     },
@@ -593,12 +593,12 @@
       "num": 32,
       "stem": "A: How often do you play basketball? B: ___",
       "options": [
-        "With my classmates.",
-        "At the school gym.",
+        "Three times a week.",
         "For two hours.",
-        "Three times a week."
+        "At the school gym.",
+        "With my classmates."
       ],
-      "answer": 3,
+      "answer": 0,
       "word": "對話應答",
       "explain": "問頻率，回答「一週三次」。"
     },
@@ -610,9 +610,9 @@
       "stem": "A: How far is the post office? B: ___",
       "options": [
         "Every weekday.",
-        "By scooter.",
+        "It opens at nine.",
         "About five minutes on foot.",
-        "It opens at nine."
+        "By scooter."
       ],
       "answer": 2,
       "word": "對話應答",
@@ -625,9 +625,9 @@
       "num": 34,
       "stem": "A: How often does this bus come? B: ___",
       "options": [
-        "It is always late.",
-        "Every fifteen minutes.",
         "At the corner.",
+        "Every fifteen minutes.",
+        "It is always late.",
         "About 20 dollars."
       ],
       "answer": 1,
@@ -642,8 +642,8 @@
       "stem": "A: How far is your school from home? B: ___",
       "options": [
         "About two kilometers.",
-        "Since last year.",
         "I take the MRT.",
+        "Since last year.",
         "It takes 30 minutes."
       ],
       "answer": 0,
@@ -657,12 +657,12 @@
       "num": 36,
       "stem": "A: How often do you eat out? B: ___",
       "options": [
+        "At the night market.",
         "Once or twice a month.",
-        "With my family.",
         "It is not healthy.",
-        "At the night market."
+        "With my family."
       ],
-      "answer": 0,
+      "answer": 1,
       "word": "對話應答",
       "explain": "問頻率，回答「一個月一兩次」。"
     },
@@ -673,12 +673,12 @@
       "num": 37,
       "stem": "A: How far can you swim? B: ___",
       "options": [
-        "Twice a week.",
-        "About 200 meters.",
         "My father taught me.",
-        "In the school pool."
+        "Twice a week.",
+        "In the school pool.",
+        "About 200 meters."
       ],
-      "answer": 1,
+      "answer": 3,
       "word": "對話應答",
       "explain": "問多遠，回答「大約 200 公尺」。"
     },
@@ -690,10 +690,10 @@
       "readingId": "U12U-READ-1",
       "stem": "What is this reading mainly about?",
       "options": [
+        "A woman who could not pay her bill.",
         "A fire that burned down a hospital.",
-        "How to take medicine in the right way.",
         "A nurse's busy job in a small hospital.",
-        "A woman who could not pay her bill."
+        "How to take medicine in the right way."
       ],
       "answer": 2,
       "word": "閱讀理解",
@@ -707,12 +707,12 @@
       "readingId": "U12U-READ-1",
       "stem": "What did the woman's son have to do?",
       "options": [
-        "Drive his mother to the hospital.",
         "Fill out many forms.",
+        "Take five pills every morning.",
         "Call the fire station.",
-        "Take five pills every morning."
+        "Drive his mother to the hospital."
       ],
-      "answer": 1,
+      "answer": 0,
       "word": "閱讀理解",
       "explain": "文中說她兒子必須在櫃檯填很多表格。"
     },
@@ -724,12 +724,12 @@
       "readingId": "U12U-READ-1",
       "stem": "Why did the hospital cancel the meeting?",
       "options": [
-        "Because a fire alarm went off.",
-        "Because the doctors were too busy.",
         "Because too few people came.",
-        "Because a typhoon was coming."
+        "Because the doctors were too busy.",
+        "Because a typhoon was coming.",
+        "Because a fire alarm went off."
       ],
-      "answer": 0,
+      "answer": 3,
       "word": "閱讀理解",
       "explain": "文中說週五因為火警警報響了，醫院取消大會議。"
     },
@@ -742,11 +742,11 @@
       "stem": "Which one is TRUE about the aunt?",
       "options": [
         "She has a long lunch break every day.",
-        "She plans to change her job soon.",
+        "She thinks her hard job is worth doing.",
         "She left the building first during the alarm.",
-        "She thinks her hard job is worth doing."
+        "She plans to change her job soon."
       ],
-      "answer": 3,
+      "answer": 1,
       "word": "閱讀理解",
       "explain": "文中說工作辛苦，但實現了她助人的夢想；她也是最後一個離開的。"
     },
@@ -967,12 +967,12 @@
       "mode": "mc",
       "stem": "The fire ___ in the kitchen early this morning.",
       "options": [
+        "occurring",
         "occurs",
         "occur",
-        "occurred",
-        "occurring"
+        "occurred"
       ],
-      "answer": 2,
+      "answer": 3,
       "word": "occur",
       "form": "occurred",
       "explain": "火災在今天一大早發生於廚房。過去式 occurred 要雙寫 r。"
@@ -985,12 +985,12 @@
       "mode": "mc",
       "stem": "You can ___ getting sick by washing your hands.",
       "options": [
-        "avoid",
-        "escaped",
         "escape",
-        "avoided"
+        "avoided",
+        "escaped",
+        "avoid"
       ],
-      "answer": 0,
+      "answer": 3,
       "word": "escape",
       "form": "avoid",
       "explain": "洗手可以避免生病。avoid + Ving＝避免做…。"
@@ -1003,12 +1003,12 @@
       "mode": "mc",
       "stem": "We got a message about the ___ of the class.",
       "options": [
-        "canceled",
-        "cancels",
         "cancel",
-        "cancellation"
+        "canceled",
+        "cancellation",
+        "cancels"
       ],
-      "answer": 3,
+      "answer": 2,
       "word": "cancel",
       "form": "cancellation",
       "explain": "我們收到停課的通知。the 後面接名詞 cancellation。"
@@ -1019,17 +1019,17 @@
       "section": "mc-vocab",
       "num": 20,
       "mode": "mc",
-      "stem": "Most skin problems are ___ these days.",
+      "stem": "Most skin problems are ___, so do not worry too much.",
       "options": [
         "cure",
-        "cured",
         "curable",
+        "cured",
         "incurable"
       ],
-      "answer": 2,
+      "answer": 1,
       "word": "cure",
       "form": "curable",
-      "explain": "現在大部分皮膚問題都能治好。be 動詞後接形容詞 curable。"
+      "explain": "大部分皮膚問題都治得好，別太擔心。curable＝可治癒的。"
     },
     {
       "id": "U12U-Q-21",
@@ -1039,12 +1039,12 @@
       "mode": "mc",
       "stem": "Please send the report ___ to the manager.",
       "options": [
-        "indirect",
-        "directly",
+        "direct",
         "direction",
-        "direct"
+        "directly",
+        "indirect"
       ],
-      "answer": 1,
+      "answer": 2,
       "word": "direct",
       "form": "directly",
       "explain": "請把報告直接寄給經理。修飾動詞 send 用副詞 directly。"
@@ -1059,8 +1059,8 @@
       "options": [
         "direction",
         "directly",
-        "indirect",
-        "direct"
+        "direct",
+        "indirect"
       ],
       "answer": 0,
       "word": "direct",
@@ -1073,17 +1073,17 @@
       "section": "mc-vocab",
       "num": 23,
       "mode": "mc",
-      "stem": "We could hear a ___ sound of thunder.",
+      "stem": "We could hear a ___ sound of a train.",
       "options": [
-        "distance",
-        "distances",
         "distantly",
-        "distant"
+        "distant",
+        "distance",
+        "distances"
       ],
-      "answer": 3,
+      "answer": 1,
       "word": "distance",
       "form": "distant",
-      "explain": "我們聽到遠方的雷聲。修飾名詞 sound 用形容詞 distant。"
+      "explain": "我們聽到遠方傳來的火車聲。修飾名詞 sound 用形容詞 distant。"
     },
     {
       "id": "U12U-Q-24",
@@ -1093,12 +1093,12 @@
       "mode": "mc",
       "stem": "The singer stood under the ___ on the stage.",
       "options": [
-        "spot",
         "spotlight",
-        "spotted",
-        "spots"
+        "spot",
+        "spots",
+        "spotted"
       ],
-      "answer": 1,
+      "answer": 0,
       "word": "spot",
       "form": "spotlight",
       "explain": "歌手站在舞台的聚光燈下。spotlight＝聚光燈。"
@@ -1110,12 +1110,12 @@
       "num": 25,
       "stem": "You have to ___ this card at the airport.",
       "options": [
+        "be filled with",
         "find out",
         "fill out",
-        "put out",
-        "be filled with"
+        "put out"
       ],
-      "answer": 1,
+      "answer": 2,
       "word": "fill out",
       "explain": "在機場你必須填寫這張卡。fill out＝填寫。"
     },
@@ -1126,12 +1126,12 @@
       "num": 26,
       "stem": "The hall ___ students before the show.",
       "options": [
-        "found out",
         "filled out",
         "was filled with",
+        "found out",
         "showed off"
       ],
-      "answer": 2,
+      "answer": 1,
       "word": "be filled with",
       "explain": "表演前大廳擠滿了學生。be filled with＝充滿。"
     },
@@ -1143,9 +1143,9 @@
       "stem": "I want to ___ why the store closed.",
       "options": [
         "find out",
-        "blow out",
         "fill out",
-        "be filled with"
+        "be filled with",
+        "blow out"
       ],
       "answer": 0,
       "word": "find out",
@@ -1158,9 +1158,9 @@
       "num": 28,
       "stem": "A: How often do you clean your room? B: ___",
       "options": [
-        "For half an hour.",
         "It is quite big.",
         "With my brother.",
+        "For half an hour.",
         "Every Sunday."
       ],
       "answer": 3,
@@ -1174,10 +1174,10 @@
       "num": 29,
       "stem": "A: How far is the night market? B: ___",
       "options": [
-        "The food is cheap.",
+        "It opens at six.",
         "Just two blocks away.",
-        "Every weekend.",
-        "It opens at six."
+        "The food is cheap.",
+        "Every weekend."
       ],
       "answer": 1,
       "word": "對話應答",
@@ -1208,8 +1208,8 @@
       "options": [
         "Five kilometers.",
         "I felt tired.",
-        "In the park.",
-        "Before breakfast."
+        "Before breakfast.",
+        "In the park."
       ],
       "answer": 0,
       "word": "對話應答",
@@ -1321,12 +1321,12 @@
       "mode": "mc",
       "stem": "Try to ___ making noise after ten at night.",
       "options": [
-        "escape",
-        "avoid",
         "escaped",
-        "avoided"
+        "escape",
+        "avoided",
+        "avoid"
       ],
-      "answer": 1,
+      "answer": 3,
       "word": "escape",
       "form": "avoid",
       "explain": "晚上十點後盡量避免製造噪音。avoid + Ving。"
@@ -1340,11 +1340,11 @@
       "stem": "The ___ of the flight was because of the snow.",
       "options": [
         "cancels",
-        "canceled",
         "cancellation",
-        "cancel"
+        "cancel",
+        "canceled"
       ],
-      "answer": 2,
+      "answer": 1,
       "word": "cancel",
       "form": "cancellation",
       "explain": "班機取消是因為下雪。the 後面接名詞。"
@@ -1355,17 +1355,17 @@
       "section": "mc-vocab",
       "num": 12,
       "mode": "mc",
-      "stem": "Some old diseases are still ___ today.",
+      "stem": "Some diseases are still ___; doctors cannot treat them yet.",
       "options": [
-        "cure",
-        "incurable",
+        "cured",
         "curable",
-        "cured"
+        "incurable",
+        "cure"
       ],
-      "answer": 1,
+      "answer": 2,
       "word": "cure",
       "form": "incurable",
-      "explain": "有些老病到今天仍治不好。in- 為否定字首。"
+      "explain": "有些病仍然治不好，醫生還沒辦法治療。incurable＝不可治癒的。"
     },
     {
       "id": "U12U-E-13",
@@ -1375,12 +1375,12 @@
       "mode": "mc",
       "stem": "She gave an ___ answer to my question.",
       "options": [
-        "directed",
+        "indirect",
         "direction",
         "directly",
-        "indirect"
+        "directed"
       ],
-      "answer": 3,
+      "answer": 0,
       "word": "direct",
       "form": "indirect",
       "explain": "她對我的問題給了間接的回答。修飾名詞用形容詞 indirect。"
@@ -1393,12 +1393,12 @@
       "mode": "mc",
       "stem": "My father works in a ___ city.",
       "options": [
-        "distant",
-        "distantly",
         "distance",
-        "distances"
+        "distant",
+        "distances",
+        "distantly"
       ],
-      "answer": 0,
+      "answer": 1,
       "word": "distance",
       "form": "distant",
       "explain": "我爸爸在一個遙遠的城市工作。修飾名詞 city 用形容詞。"
@@ -1411,10 +1411,10 @@
       "mode": "mc",
       "stem": "A bright ___ shone on the dancer.",
       "options": [
-        "spotted",
+        "spot",
         "spots",
         "spotlight",
-        "spot"
+        "spotted"
       ],
       "answer": 2,
       "word": "spot",
@@ -1428,12 +1428,12 @@
       "num": 16,
       "stem": "Her eyes ___ tears when she read the letter.",
       "options": [
+        "found out",
         "were filled with",
-        "put away",
         "filled out",
-        "found out"
+        "put away"
       ],
-      "answer": 0,
+      "answer": 1,
       "word": "be filled with",
       "explain": "她讀信時眼中充滿淚水。be filled with＝充滿。"
     },
@@ -1444,12 +1444,12 @@
       "num": 17,
       "stem": "The nurse asked my mother to ___ two forms.",
       "options": [
+        "show up",
         "find out",
         "fill out",
-        "be filled with",
-        "show up"
+        "be filled with"
       ],
-      "answer": 1,
+      "answer": 2,
       "word": "fill out",
       "explain": "護士請我媽媽填兩張表。fill out＝填寫。"
     },
@@ -1460,12 +1460,12 @@
       "num": 18,
       "stem": "We must ___ the truth before we blame him.",
       "options": [
-        "break into",
-        "be filled with",
         "find out",
-        "fill out"
+        "be filled with",
+        "fill out",
+        "break into"
       ],
-      "answer": 2,
+      "answer": 0,
       "word": "find out",
       "explain": "怪他之前我們得先查明真相。find out＝查明。"
     },
@@ -1477,9 +1477,9 @@
       "stem": "A: How often do you take this medicine? B: ___",
       "options": [
         "Four times a day.",
-        "For one week.",
+        "After meals.",
         "It tastes bad.",
-        "After meals."
+        "For one week."
       ],
       "answer": 0,
       "word": "對話應答",
@@ -1492,12 +1492,12 @@
       "num": 20,
       "stem": "A: How far is the beach from the hotel? B: ___",
       "options": [
-        "The water is clean.",
         "About 300 dollars.",
-        "Every summer.",
-        "Ten minutes by bike."
+        "The water is clean.",
+        "Ten minutes by bike.",
+        "Every summer."
       ],
-      "answer": 3,
+      "answer": 2,
       "word": "對話應答",
       "explain": "問多遠，回答「騎腳踏車十分鐘」。"
     },
@@ -1508,12 +1508,12 @@
       "num": 21,
       "stem": "A: How often does it rain here in June? B: ___",
       "options": [
-        "In the afternoon.",
-        "Almost every day.",
         "For about an hour.",
-        "It is very hot."
+        "In the afternoon.",
+        "It is very hot.",
+        "Almost every day."
       ],
-      "answer": 1,
+      "answer": 3,
       "word": "對話應答",
       "explain": "問頻率，回答「幾乎每天」。"
     },
@@ -1524,12 +1524,12 @@
       "num": 22,
       "stem": "A: How far is the next gas station? B: ___",
       "options": [
-        "We need more oil.",
-        "In half an hour.",
+        "It is open all night.",
         "About twenty kilometers.",
-        "It is open all night."
+        "In half an hour.",
+        "We need more oil."
       ],
-      "answer": 2,
+      "answer": 1,
       "word": "對話應答",
       "explain": "問多遠，回答「大約二十公里」。"
     }

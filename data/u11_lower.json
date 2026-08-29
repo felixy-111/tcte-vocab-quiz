@@ -2,7 +2,7 @@
   "unit": 11,
   "half": "lower",
   "spec": {
-    "review": "v7",
+    "review": "v8",
     "quiz": "v7"
   },
   "words": [
@@ -337,12 +337,12 @@
       "mode": "mc",
       "stem": "The police found one ___ under the car.",
       "options": [
-        "weapons",
         "bullet",
         "weapon",
-        "bullets"
+        "bullets",
+        "weapons"
       ],
-      "answer": 1,
+      "answer": 0,
       "word": "weapon",
       "form": "bullet",
       "explain": "警方在車底下找到一顆子彈。one 後面接單數名詞 bullet＝子彈。"
@@ -355,9 +355,9 @@
       "mode": "mc",
       "stem": "Scientists can split an ___ to make huge energy.",
       "options": [
-        "nuclear",
-        "atomic",
         "atoms",
+        "atomic",
+        "nuclear",
         "atom"
       ],
       "answer": 3,
@@ -374,11 +374,11 @@
       "stem": "The judge treated the poor man ___, and everyone was angry.",
       "options": [
         "fair",
+        "unfair",
         "unfairly",
-        "fairly",
-        "unfair"
+        "fairly"
       ],
-      "answer": 1,
+      "answer": 2,
       "word": "fair",
       "form": "unfairly",
       "explain": "法官不公平地對待那個窮人，大家都很生氣。修飾動詞用副詞 unfairly。"
@@ -391,12 +391,12 @@
       "mode": "mc",
       "stem": "A dog is a ___ friend to people.",
       "options": [
-        "faithful",
-        "faith",
         "faiths",
-        "faithfully"
+        "faithfully",
+        "faithful",
+        "faith"
       ],
-      "answer": 0,
+      "answer": 2,
       "word": "faith",
       "form": "faithful",
       "explain": "狗是人類忠實的朋友。修飾名詞 friend 用形容詞 faithful。"
@@ -409,12 +409,12 @@
       "mode": "mc",
       "stem": "The new park is the ___ of a young designer.",
       "options": [
+        "creation",
         "create",
         "creature",
-        "creation",
         "creator"
       ],
-      "answer": 2,
+      "answer": 0,
       "word": "create",
       "form": "creation",
       "explain": "這座新公園是一位年輕設計師的作品。the 後面接名詞 creation＝創造物。"
@@ -445,12 +445,12 @@
       "mode": "mc",
       "stem": "Art class helps students show their ___.",
       "options": [
+        "creativity",
         "creature",
-        "create",
         "creative",
-        "creativity"
+        "create"
       ],
-      "answer": 3,
+      "answer": 0,
       "word": "creative",
       "form": "creativity",
       "explain": "美術課幫助學生展現創造力。their 後面接名詞 creativity。"
@@ -463,12 +463,12 @@
       "mode": "mc",
       "stem": "She has many ___ ideas for the show.",
       "options": [
-        "create",
         "creativity",
-        "creative",
-        "creature"
+        "create",
+        "creature",
+        "creative"
       ],
-      "answer": 2,
+      "answer": 3,
       "word": "creative",
       "form": "creative",
       "explain": "她對這場表演有很多有創意的點子。修飾名詞 ideas 用形容詞 creative。"
@@ -481,12 +481,12 @@
       "mode": "mc",
       "stem": "The ___ studies sea animals in Kenting.",
       "options": [
-        "biologist",
-        "biologists",
         "biology",
-        "biological"
+        "biological",
+        "biologist",
+        "biologists"
       ],
-      "answer": 0,
+      "answer": 2,
       "word": "biology",
       "form": "biologist",
       "explain": "那位生物學家在墾丁研究海洋動物。單數動詞 studies 配單數名詞 biologist。"
@@ -499,12 +499,12 @@
       "mode": "mc",
       "stem": "Please check your Internet ___ first.",
       "options": [
-        "link",
+        "links",
         "connections",
-        "connection",
-        "links"
+        "link",
+        "connection"
       ],
-      "answer": 2,
+      "answer": 3,
       "word": "link",
       "form": "connection",
       "explain": "請先檢查你的網路連線。Internet connection＝網路連線，是固定用法。"
@@ -517,12 +517,12 @@
       "mode": "mc",
       "stem": "That was the ___ day of my life.",
       "options": [
-        "worse",
         "badly",
+        "worst",
         "bad",
-        "worst"
+        "worse"
       ],
-      "answer": 3,
+      "answer": 1,
       "word": "worse",
       "form": "worst",
       "explain": "那是我人生中最糟的一天。the 加最高級 worst＝最糟的。"
@@ -533,17 +533,17 @@
       "section": "mc-vocab",
       "num": 28,
       "mode": "mc",
-      "stem": "He is a ___ winner of the prize.",
+      "stem": "He worked hard for years, so he is a ___ winner.",
       "options": [
-        "worthy",
-        "worst",
         "worthless",
-        "worth"
+        "worthy",
+        "worth",
+        "worst"
       ],
-      "answer": 0,
+      "answer": 1,
       "word": "worth",
       "form": "worthy",
-      "explain": "他是這個獎項當之無愧的贏家。修飾名詞 winner 用形容詞 worthy＝值得的。"
+      "explain": "他努力了好幾年，是當之無愧的贏家。修飾名詞 winner 用形容詞 worthy。"
     },
     {
       "id": "U11L-R-29",
@@ -552,12 +552,12 @@
       "num": 29,
       "stem": "Please ___ your books before dinner.",
       "options": [
-        "blow up",
         "put away",
+        "blow up",
         "put up with",
         "put out"
       ],
-      "answer": 1,
+      "answer": 0,
       "word": "put away",
       "explain": "晚餐前請把書收好。put away＝收拾；整理。"
     },
@@ -568,12 +568,12 @@
       "num": 30,
       "stem": "I cannot ___ his loud music every night.",
       "options": [
-        "put up with",
+        "put out",
         "put away",
-        "show off",
-        "put out"
+        "put up with",
+        "show off"
       ],
-      "answer": 0,
+      "answer": 2,
       "word": "put up with",
       "explain": "我無法忍受他每晚的大聲音樂。put up with＝忍受。"
     },
@@ -585,11 +585,11 @@
       "stem": "His room is always ___ after a game night.",
       "options": [
         "in the end",
-        "in danger",
         "in a mess",
-        "in a hurry"
+        "in a hurry",
+        "in danger"
       ],
-      "answer": 2,
+      "answer": 1,
       "word": "in a mess",
       "explain": "他打完遊戲後房間總是亂七八糟。in a mess＝亂七八糟。"
     },
@@ -600,12 +600,12 @@
       "num": 32,
       "stem": "A: How long is your lunch break? B: ___",
       "options": [
-        "At twelve o'clock.",
         "About fifty minutes.",
+        "I bring my own lunch.",
         "In the classroom.",
-        "I bring my own lunch."
+        "At twelve o'clock."
       ],
-      "answer": 1,
+      "answer": 0,
       "word": "對話應答",
       "explain": "問時間多久，回答「大約五十分鐘」。"
     },
@@ -616,12 +616,12 @@
       "num": 33,
       "stem": "A: How tall is the tower? B: ___",
       "options": [
-        "It is very old.",
         "It was built in 1990.",
         "It is about 60 meters.",
+        "It is very old.",
         "Near the train station."
       ],
-      "answer": 2,
+      "answer": 1,
       "word": "對話應答",
       "explain": "問高度，回答「大約 60 公尺」。"
     },
@@ -632,12 +632,12 @@
       "num": 34,
       "stem": "A: How long will you stay in Japan? B: ___",
       "options": [
-        "By plane.",
-        "With my parents.",
+        "For five days.",
         "Next winter.",
-        "For five days."
+        "By plane.",
+        "With my parents."
       ],
-      "answer": 3,
+      "answer": 0,
       "word": "對話應答",
       "explain": "問停留多久，回答「五天」。"
     },
@@ -648,12 +648,12 @@
       "num": 35,
       "stem": "A: How long is the swimming pool? B: ___",
       "options": [
-        "Twenty-five meters.",
         "It opens at six.",
+        "About 100 dollars.",
         "Two meters deep.",
-        "About 100 dollars."
+        "Twenty-five meters."
       ],
-      "answer": 0,
+      "answer": 3,
       "word": "對話應答",
       "explain": "問長度，回答「二十五公尺」。"
     },
@@ -664,12 +664,12 @@
       "num": 36,
       "stem": "A: How tall was the player? B: ___",
       "options": [
-        "He was two meters tall.",
-        "He scored 30 points.",
+        "He is from Japan.",
         "He was very fast.",
-        "He is from Japan."
+        "He was two meters tall.",
+        "He scored 30 points."
       ],
-      "answer": 0,
+      "answer": 2,
       "word": "對話應答",
       "explain": "問身高，回答「兩公尺高」。"
     },
@@ -682,8 +682,8 @@
       "options": [
         "In the oven.",
         "About three hours.",
-        "My aunt taught me.",
-        "It smells great."
+        "It smells great.",
+        "My aunt taught me."
       ],
       "answer": 1,
       "word": "對話應答",
@@ -698,8 +698,8 @@
       "stem": "What is this reading mainly about?",
       "options": [
         "How to keep a bedroom clean.",
-        "A real battle in a foreign country.",
         "A computer class at a high school.",
+        "A real battle in a foreign country.",
         "A cousin who loves a war game."
       ],
       "answer": 3,
@@ -714,12 +714,12 @@
       "readingId": "U11L-READ-1",
       "stem": "Why does the writer say the game is fair?",
       "options": [
-        "Because every player uses the same weapon.",
-        "Because nobody can capture the base.",
         "Because every player starts with the same money.",
-        "Because the battles are very short."
+        "Because every player uses the same weapon.",
+        "Because the battles are very short.",
+        "Because nobody can capture the base."
       ],
-      "answer": 2,
+      "answer": 0,
       "word": "閱讀理解",
       "explain": "文中說遊戲公平，因為每個人一開始的錢都一樣。"
     },
@@ -731,12 +731,12 @@
       "readingId": "U11L-READ-1",
       "stem": "What did the cousin do last week?",
       "options": [
-        "He sold his old game.",
-        "He made his own map.",
         "He cleaned his room.",
-        "He joined a real army."
+        "He joined a real army.",
+        "He made his own map.",
+        "He sold his old game."
       ],
-      "answer": 1,
+      "answer": 2,
       "word": "閱讀理解",
       "explain": "文中說上週表哥自己做了一張地圖。"
     },
@@ -748,12 +748,12 @@
       "readingId": "U11L-READ-1",
       "stem": "Which one is TRUE about the cousin?",
       "options": [
-        "His mother cannot stand the noise.",
-        "Other players said the old maps were better.",
         "He keeps his room clean when he plays.",
-        "He wants to be a soldier in the future."
+        "His mother cannot stand the noise.",
+        "He wants to be a soldier in the future.",
+        "Other players said the old maps were better."
       ],
-      "answer": 0,
+      "answer": 1,
       "word": "閱讀理解",
       "explain": "文中說媽媽受不了噪音（cannot put up with the noise）。"
     },
@@ -974,10 +974,10 @@
       "mode": "mc",
       "stem": "A single ___ is too small to see.",
       "options": [
+        "nuclear",
         "atoms",
-        "atomic",
         "atom",
-        "nuclear"
+        "atomic"
       ],
       "answer": 2,
       "word": "nuclear",
@@ -993,9 +993,9 @@
       "stem": "He was ___ to the same team for ten years.",
       "options": [
         "faithful",
-        "faiths",
+        "faith",
         "faithfully",
-        "faith"
+        "faiths"
       ],
       "answer": 0,
       "word": "faith",
@@ -1011,11 +1011,11 @@
       "stem": "The ___ of this comic book is only twenty years old.",
       "options": [
         "creation",
+        "create",
         "creator",
-        "creature",
-        "create"
+        "creature"
       ],
-      "answer": 1,
+      "answer": 2,
       "word": "create",
       "form": "creator",
       "explain": "這本漫畫的創作者只有二十歲。creator＝創作者，指人。"
@@ -1029,8 +1029,8 @@
       "stem": "This is the ___ traffic jam of the year.",
       "options": [
         "worse",
-        "bad",
         "badly",
+        "bad",
         "worst"
       ],
       "answer": 3,
@@ -1044,7 +1044,7 @@
       "section": "mc-vocab",
       "num": 21,
       "mode": "mc",
-      "stem": "The old man is a ___ leader of the village.",
+      "stem": "The people in the village all trust him; he is a ___ leader.",
       "options": [
         "worthless",
         "worth",
@@ -1054,7 +1054,7 @@
       "answer": 3,
       "word": "worth",
       "form": "worthy",
-      "explain": "那位老先生是村裡值得敬重的領袖。修飾名詞用形容詞 worthy。"
+      "explain": "村民都信任他，他是值得敬重的領袖。修飾名詞 leader 用形容詞 worthy。"
     },
     {
       "id": "U11L-Q-22",
@@ -1064,12 +1064,12 @@
       "mode": "mc",
       "stem": "The new road will ___ the two towns.",
       "options": [
+        "links",
         "link",
         "connection",
-        "connections",
-        "links"
+        "connections"
       ],
-      "answer": 0,
+      "answer": 1,
       "word": "link",
       "form": "link",
       "explain": "新的道路將連接這兩個鎮。will 後面接原形動詞 link。"
@@ -1082,10 +1082,10 @@
       "mode": "mc",
       "stem": "The teacher praised his ___ in the drawing.",
       "options": [
-        "creature",
+        "creative",
         "creativity",
-        "create",
-        "creative"
+        "creature",
+        "create"
       ],
       "answer": 1,
       "word": "creative",
@@ -1100,12 +1100,12 @@
       "mode": "mc",
       "stem": "My cousin wants to be a ___ in the future.",
       "options": [
+        "biologist",
         "biology",
         "biologists",
-        "biologist",
         "biological"
       ],
-      "answer": 2,
+      "answer": 0,
       "word": "biology",
       "form": "biologist",
       "explain": "我表姐將來想當生物學家。a 後面接單數名詞 biologist。"
@@ -1117,12 +1117,12 @@
       "num": 25,
       "stem": "She cannot ___ the noise from the night market.",
       "options": [
-        "put up with",
         "blow out",
+        "put up with",
         "put out",
         "put away"
       ],
-      "answer": 0,
+      "answer": 1,
       "word": "put up with",
       "explain": "她無法忍受夜市的噪音。put up with＝忍受。"
     },
@@ -1133,10 +1133,10 @@
       "num": 26,
       "stem": "The workers ___ their tools after work.",
       "options": [
-        "blow up",
+        "put out",
         "put up with",
         "put away",
-        "put out"
+        "blow up"
       ],
       "answer": 2,
       "word": "put away",
@@ -1149,12 +1149,12 @@
       "num": 27,
       "stem": "The kitchen was ___ after the party.",
       "options": [
-        "in a hurry",
         "in a mess",
         "in danger",
+        "in a hurry",
         "in the end"
       ],
-      "answer": 1,
+      "answer": 0,
       "word": "in a mess",
       "explain": "派對後廚房亂七八糟。in a mess＝亂七八糟。"
     },
@@ -1165,8 +1165,8 @@
       "num": 28,
       "stem": "A: How long is the war movie? B: ___",
       "options": [
-        "At the new theater.",
         "It is about World War II.",
+        "At the new theater.",
         "Almost three hours.",
         "I watched it twice."
       ],
@@ -1198,8 +1198,8 @@
       "stem": "A: How long did you study last night? B: ___",
       "options": [
         "Until I was tired.",
-        "Math and English.",
         "In my bedroom.",
+        "Math and English.",
         "For two hours."
       ],
       "answer": 3,
@@ -1213,10 +1213,10 @@
       "num": 31,
       "stem": "A: How long is that wall? B: ___",
       "options": [
-        "It is made of stone.",
+        "Behind the school.",
         "About four meters.",
         "Ten years old.",
-        "Behind the school."
+        "It is made of stone."
       ],
       "answer": 1,
       "word": "對話應答",
@@ -1281,8 +1281,8 @@
       "stem": "A ___ went through the window of the shop.",
       "options": [
         "bullet",
-        "weapon",
         "weapons",
+        "weapon",
         "bullets"
       ],
       "answer": 0,
@@ -1299,11 +1299,11 @@
       "stem": "Water is made of very small ___.",
       "options": [
         "atomic",
-        "nuclear",
         "atom",
-        "atoms"
+        "atoms",
+        "nuclear"
       ],
-      "answer": 3,
+      "answer": 2,
       "word": "nuclear",
       "form": "atom",
       "explain": "水是由很小的原子組成的。very small 後面用複數 atoms。"
@@ -1317,11 +1317,11 @@
       "stem": "The coach chose the players ___, so the team was angry.",
       "options": [
         "unfair",
-        "unfairly",
         "fairly",
-        "fair"
+        "fair",
+        "unfairly"
       ],
-      "answer": 1,
+      "answer": 3,
       "word": "fair",
       "form": "unfairly",
       "explain": "教練不公平地挑選球員，隊員很生氣。修飾動詞用副詞。"
@@ -1334,12 +1334,12 @@
       "mode": "mc",
       "stem": "She is a ___ reader of that magazine.",
       "options": [
+        "faith",
         "faithful",
-        "faithfully",
         "faiths",
-        "faith"
+        "faithfully"
       ],
-      "answer": 0,
+      "answer": 1,
       "word": "faith",
       "form": "faithful",
       "explain": "她是那本雜誌忠實的讀者。修飾名詞用形容詞。"
@@ -1352,12 +1352,12 @@
       "mode": "mc",
       "stem": "This song is his best ___ so far.",
       "options": [
-        "creature",
         "creation",
         "create",
-        "creator"
+        "creator",
+        "creature"
       ],
-      "answer": 1,
+      "answer": 0,
       "word": "create",
       "form": "creation",
       "explain": "這首歌是他目前最好的創作。his best 後面接名詞 creation。"
@@ -1390,10 +1390,10 @@
       "options": [
         "biologists",
         "biological",
-        "biologist",
-        "biology"
+        "biology",
+        "biologist"
       ],
-      "answer": 2,
+      "answer": 3,
       "word": "biology",
       "form": "biologist",
       "explain": "一位生物學家在森林裡發現新種青蛙。a 後面接單數名詞。"
@@ -1407,9 +1407,9 @@
       "stem": "The phone ___ was bad during the storm.",
       "options": [
         "connection",
-        "connections",
         "link",
-        "links"
+        "links",
+        "connections"
       ],
       "answer": 0,
       "word": "link",
@@ -1424,12 +1424,12 @@
       "mode": "mc",
       "stem": "That test was the ___ one this term.",
       "options": [
-        "bad",
         "badly",
-        "worse",
-        "worst"
+        "worst",
+        "bad",
+        "worse"
       ],
-      "answer": 3,
+      "answer": 1,
       "word": "worse",
       "form": "worst",
       "explain": "那次考試是這學期最糟的一次。the 加最高級 worst。"
@@ -1440,17 +1440,17 @@
       "section": "mc-vocab",
       "num": 15,
       "mode": "mc",
-      "stem": "The temple is a ___ place for a visit.",
+      "stem": "The temple is old and beautiful; it is ___ a visit.",
       "options": [
-        "worth",
-        "worthy",
         "worst",
-        "worthless"
+        "worth",
+        "worthless",
+        "worthy"
       ],
       "answer": 1,
       "word": "worth",
-      "form": "worthy",
-      "explain": "那座廟是值得參觀的地方。修飾名詞 place 用形容詞 worthy。"
+      "form": "worth",
+      "explain": "那座廟又老又美，值得一遊。be worth + 名詞／Ving＝值得…。"
     },
     {
       "id": "U11L-E-16",
@@ -1459,10 +1459,10 @@
       "num": 16,
       "stem": "My mother asked me to ___ the clean clothes.",
       "options": [
-        "blow out",
+        "put up with",
         "put away",
         "put out",
-        "put up with"
+        "blow out"
       ],
       "answer": 1,
       "word": "put away",
@@ -1475,12 +1475,12 @@
       "num": 17,
       "stem": "Good teachers ___ many silly questions.",
       "options": [
-        "put up with",
-        "put out",
+        "show up",
         "put away",
-        "show up"
+        "put up with",
+        "put out"
       ],
-      "answer": 0,
+      "answer": 2,
       "word": "put up with",
       "explain": "好老師忍受很多蠢問題。put up with＝忍受。"
     },
@@ -1491,12 +1491,12 @@
       "num": 18,
       "stem": "The desk was ___ before the exam week.",
       "options": [
-        "in the end",
-        "in danger",
         "in a mess",
-        "in a hurry"
+        "in a hurry",
+        "in danger",
+        "in the end"
       ],
-      "answer": 2,
+      "answer": 0,
       "word": "in a mess",
       "explain": "考試週前桌子亂七八糟。in a mess＝亂七八糟。"
     },
@@ -1507,12 +1507,12 @@
       "num": 19,
       "stem": "A: How long is the summer camp? B: ___",
       "options": [
-        "For high school students.",
-        "In Nantou.",
         "Six days.",
-        "It costs 5,000 dollars."
+        "In Nantou.",
+        "It costs 5,000 dollars.",
+        "For high school students."
       ],
-      "answer": 2,
+      "answer": 0,
       "word": "對話應答",
       "explain": "問幾天，回答「六天」。"
     },
@@ -1523,12 +1523,12 @@
       "num": 20,
       "stem": "A: How tall is that building? B: ___",
       "options": [
-        "It is a hospital.",
         "It was built last year.",
-        "Across the street.",
-        "About forty meters."
+        "It is a hospital.",
+        "About forty meters.",
+        "Across the street."
       ],
-      "answer": 3,
+      "answer": 2,
       "word": "對話應答",
       "explain": "問高度，回答「大約四十公尺」。"
     },
@@ -1539,12 +1539,12 @@
       "num": 21,
       "stem": "A: How long do you sleep every night? B: ___",
       "options": [
-        "About seven hours.",
-        "In my own room.",
+        "Before eleven.",
         "I sleep well.",
-        "Before eleven."
+        "In my own room.",
+        "About seven hours."
       ],
-      "answer": 0,
+      "answer": 3,
       "word": "對話應答",
       "explain": "問睡多久，回答「大約七小時」。"
     },
@@ -1555,10 +1555,10 @@
       "num": 22,
       "stem": "A: How long is the new MRT line? B: ___",
       "options": [
-        "By the river.",
+        "It opens next year.",
         "Almost twenty kilometers.",
         "It has ten stations.",
-        "It opens next year."
+        "By the river."
       ],
       "answer": 1,
       "word": "對話應答",

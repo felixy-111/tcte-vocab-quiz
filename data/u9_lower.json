@@ -2,7 +2,7 @@
   "unit": 9,
   "half": "lower",
   "spec": {
-    "review": "v7",
+    "review": "v8",
     "quiz": "v7"
   },
   "words": [
@@ -959,7 +959,7 @@
       "section": "mc-vocab",
       "num": 17,
       "mode": "mc",
-      "stem": "The doctor checked her ___ before the operation.",
+      "stem": "The doctor checked her ___ before the test.",
       "options": [
         "bleed",
         "blood",
@@ -969,7 +969,7 @@
       "answer": 1,
       "word": "bleed",
       "form": "blood",
-      "explain": "醫生在手術前檢查她的血液。blood 是名詞「血液」。"
+      "explain": "醫生在檢查前先驗她的血。blood 是名詞「血液」。"
     },
     {
       "id": "U9L-Q-18",
@@ -995,7 +995,7 @@
       "section": "mc-vocab",
       "num": 19,
       "mode": "mc",
-      "stem": "He wiped his ___ nose with a tissue.",
+      "stem": "He cleaned his ___ nose with paper.",
       "options": [
         "bled",
         "bloody",
@@ -1005,7 +1005,7 @@
       "answer": 1,
       "word": "bleed",
       "form": "bloody",
-      "explain": "他用衛生紙擦他流血的鼻子。修飾名詞用形容詞 bloody。"
+      "explain": "他用紙把流血的鼻子擦乾淨。修飾名詞用形容詞 bloody。"
     },
     {
       "id": "U9L-Q-20",
@@ -1013,7 +1013,7 @@
       "section": "mc-vocab",
       "num": 20,
       "mode": "mc",
-      "stem": "We will ___ the train at platform two.",
+      "stem": "We will ___ the train at nine in the morning.",
       "options": [
         "board",
         "broad",
@@ -1023,7 +1023,7 @@
       "answer": 0,
       "word": "lodge",
       "form": "board",
-      "explain": "我們會在第二月台上車。board＝上（車、船、機）。"
+      "explain": "我們早上九點上火車。board＝上（車、船、機）。"
     },
     {
       "id": "U9L-Q-21",
@@ -1118,7 +1118,7 @@
       "paper": "quiz",
       "section": "mc-phrase",
       "num": 26,
-      "stem": "A serious flu ___ in our school last winter.",
+      "stem": "A bad cold ___ in our school last winter.",
       "options": [
         "passed out",
         "broke out",
@@ -1127,7 +1127,7 @@
       ],
       "answer": 1,
       "word": "break out",
-      "explain": "去年冬天我們學校爆發了嚴重的流感。break out＝爆發。"
+      "explain": "去年冬天我們學校爆發了嚴重的重感冒。break out＝爆發。"
     },
     {
       "id": "U9L-Q-27",
@@ -1152,7 +1152,7 @@
       "num": 28,
       "stem": "A: Where are you from? B: ___",
       "options": [
-        "By high speed rail.",
+        "By train.",
         "I am seventeen.",
         "Last summer.",
         "I am from Yilan."

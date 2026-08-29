@@ -2,7 +2,7 @@
   "unit": 11,
   "half": "upper",
   "spec": {
-    "review": "v7",
+    "review": "v8",
     "quiz": "v7"
   },
   "words": [
@@ -1135,7 +1135,7 @@
       "paper": "quiz",
       "section": "mc-phrase",
       "num": 26,
-      "stem": "The gas tank ___ in the accident yesterday.",
+      "stem": "The old car ___ in the accident yesterday.",
       "options": [
         "broke out",
         "showed off",
@@ -1144,7 +1144,7 @@
       ],
       "answer": 2,
       "word": "blow up",
-      "explain": "昨天意外中瓦斯桶爆炸了。blow up＝爆炸。"
+      "explain": "昨天意外中那台舊車爆炸了。blow up＝爆炸。"
     },
     {
       "id": "U11U-Q-27",
