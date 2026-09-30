@@ -1,0 +1,1561 @@
+{
+  "unit": 8,
+  "half": "lower",
+  "spec": {
+    "review": "v8",
+    "quiz": "v7"
+  },
+  "words": [
+    {
+      "en": "affect",
+      "zh": "影響（動詞）",
+      "derivatives": [
+        "affection"
+      ]
+    },
+    {
+      "en": "effect",
+      "zh": "效果；結果",
+      "derivatives": [
+        "effective",
+        "ineffective"
+      ]
+    },
+    {
+      "en": "effort",
+      "zh": "努力"
+    },
+    {
+      "en": "decrease",
+      "zh": "減少；降低",
+      "derivatives": [
+        "increase"
+      ]
+    },
+    {
+      "en": "decline",
+      "zh": "下降；婉拒"
+    },
+    {
+      "en": "gather",
+      "zh": "聚集；收集",
+      "derivatives": [
+        "gathering"
+      ]
+    },
+    {
+      "en": "memory",
+      "zh": "記憶；回憶",
+      "derivatives": [
+        "memorize",
+        "memorable",
+        "memorial"
+      ]
+    },
+    {
+      "en": "plane",
+      "zh": "飛機"
+    },
+    {
+      "en": "planet",
+      "zh": "行星"
+    },
+    {
+      "en": "plan",
+      "zh": "計畫；打算",
+      "derivatives": [
+        "planned"
+      ]
+    },
+    {
+      "en": "plant",
+      "zh": "植物；種植",
+      "derivatives": [
+        "planted"
+      ]
+    },
+    {
+      "en": "plain",
+      "zh": "平原；樸素的"
+    },
+    {
+      "en": "paint",
+      "zh": "油漆；繪畫",
+      "derivatives": [
+        "painting",
+        "painter"
+      ]
+    },
+    {
+      "en": "puzzle",
+      "zh": "難題；困惑"
+    },
+    {
+      "en": "soften",
+      "zh": "軟化；使柔和",
+      "derivatives": [
+        "soft",
+        "software"
+      ]
+    }
+  ],
+  "phrases": [
+    {
+      "en": "go after",
+      "zh": "追求；追逐"
+    },
+    {
+      "en": "take care of",
+      "zh": "照顧；照料"
+    },
+    {
+      "en": "take after",
+      "zh": "與…相像"
+    }
+  ],
+  "readings": [
+    {
+      "id": "U8L-READ-1",
+      "title": "Kevin's Big Lunch",
+      "text": "Kevin is a student in the food program at a high school in Tainan. He takes after his mother. She is a great cook, and he wants to go after his dream of opening a small restaurant. Last month his class planned a lunch for the old people in town. The students gathered in the school kitchen early in the morning. Kevin made soup with plants from the school garden. He cooked the beef slowly to soften it. His friend Amy painted the menu on a plain white board. At first, one thing puzzled them: how could they make the food less salty? They decreased the salt and used more fresh vegetables. Their effort had a good effect. The old people loved the meal, and one man said it brought back a happy memory. Kevin will take care of the kitchen again next month."
+    }
+  ],
+  "questions": [
+    {
+      "id": "U8L-R-01",
+      "paper": "review",
+      "section": "matching",
+      "num": 1,
+      "word": "配合題",
+      "left": [
+        "puzzle",
+        "plan",
+        "plane",
+        "plant",
+        "paint",
+        "decline",
+        "planet",
+        "plain",
+        "effect",
+        "affect",
+        "soften",
+        "effort",
+        "memory",
+        "gather",
+        "decrease"
+      ],
+      "right": [
+        "下降；婉拒",
+        "油漆；繪畫",
+        "飛機",
+        "軟化；使柔和",
+        "計畫；打算",
+        "效果；結果",
+        "難題；困惑",
+        "努力",
+        "植物；種植",
+        "影響（動詞）",
+        "記憶；回憶",
+        "行星",
+        "聚集；收集",
+        "減少；降低",
+        "平原；樸素的"
+      ],
+      "answer": [
+        "G",
+        "E",
+        "C",
+        "I",
+        "B",
+        "A",
+        "L",
+        "O",
+        "F",
+        "J",
+        "D",
+        "H",
+        "K",
+        "M",
+        "N"
+      ],
+      "explain": "把每個英文字對到正確的中文意思。"
+    },
+    {
+      "id": "U8L-R-02",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 2,
+      "mode": "spell",
+      "prompt": "油漆",
+      "word": "paint",
+      "explain": "paint＝油漆；繪畫。首 p 尾 t，共 5 個字母。"
+    },
+    {
+      "id": "U8L-R-03",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 3,
+      "mode": "spell",
+      "prompt": "聚集",
+      "word": "gather",
+      "explain": "gather＝聚集；收集。首 g 尾 r，共 6 個字母。"
+    },
+    {
+      "id": "U8L-R-04",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 4,
+      "mode": "spell",
+      "prompt": "努力",
+      "word": "effort",
+      "explain": "effort＝努力。首 e 尾 t，共 6 個字母。"
+    },
+    {
+      "id": "U8L-R-05",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 5,
+      "mode": "spell",
+      "prompt": "影響（動詞）",
+      "word": "affect",
+      "explain": "affect＝影響（動詞）。首 a 尾 t，共 6 個字母。"
+    },
+    {
+      "id": "U8L-R-06",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 6,
+      "mode": "spell",
+      "prompt": "平原；樸素的",
+      "word": "plain",
+      "explain": "plain＝平原；樸素的。首 p 尾 n，共 5 個字母。"
+    },
+    {
+      "id": "U8L-R-07",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 7,
+      "mode": "spell",
+      "prompt": "計畫；打算",
+      "word": "plan",
+      "explain": "plan＝計畫；打算。首 p 尾 n，共 4 個字母。"
+    },
+    {
+      "id": "U8L-R-08",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 8,
+      "mode": "spell",
+      "prompt": "減少",
+      "word": "decrease",
+      "explain": "decrease＝減少；降低。首 d 尾 e，共 8 個字母。"
+    },
+    {
+      "id": "U8L-R-09",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 9,
+      "mode": "spell",
+      "prompt": "軟化；使柔和",
+      "word": "soften",
+      "explain": "soften＝軟化；使柔和。首 s 尾 n，共 6 個字母。"
+    },
+    {
+      "id": "U8L-R-10",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 10,
+      "mode": "spell",
+      "prompt": "植物；種植",
+      "word": "plant",
+      "explain": "plant＝植物；種植。首 p 尾 t，共 5 個字母。"
+    },
+    {
+      "id": "U8L-R-11",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 11,
+      "mode": "spell",
+      "prompt": "婉拒；下降",
+      "word": "decline",
+      "explain": "decline＝下降；婉拒。首 d 尾 e，共 7 個字母。"
+    },
+    {
+      "id": "U8L-R-12",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 12,
+      "mode": "spell",
+      "prompt": "效果；結果",
+      "word": "effect",
+      "explain": "effect＝效果；結果。首 e 尾 t，共 6 個字母。"
+    },
+    {
+      "id": "U8L-R-13",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 13,
+      "mode": "spell",
+      "prompt": "難題",
+      "word": "puzzle",
+      "explain": "puzzle＝難題；困惑。首 p 尾 e，共 6 個字母。"
+    },
+    {
+      "id": "U8L-R-14",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 14,
+      "mode": "spell",
+      "prompt": "飛機",
+      "word": "plane",
+      "explain": "plane＝飛機。首 p 尾 e，共 5 個字母。"
+    },
+    {
+      "id": "U8L-R-15",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 15,
+      "mode": "spell",
+      "prompt": "記憶；回憶",
+      "word": "memory",
+      "explain": "memory＝記憶；回憶。首 m 尾 y，共 6 個字母。"
+    },
+    {
+      "id": "U8L-R-16",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 16,
+      "mode": "spell",
+      "prompt": "行星",
+      "word": "planet",
+      "explain": "planet＝行星。首 p 尾 t，共 6 個字母。"
+    },
+    {
+      "id": "U8L-R-17",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 17,
+      "mode": "mc",
+      "stem": "She feels deep ___ for her little dog.",
+      "options": [
+        "effect",
+        "affect",
+        "affection",
+        "effort"
+      ],
+      "answer": 2,
+      "word": "affect",
+      "form": "affection",
+      "explain": "她對她的小狗有很深的感情。feel affection for＝對…有感情；affect 是動詞、effect 是「效果」。"
+    },
+    {
+      "id": "U8L-R-18",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 18,
+      "mode": "mc",
+      "stem": "Practicing English ten minutes a day is very ___.",
+      "options": [
+        "affect",
+        "effect",
+        "effective",
+        "affection"
+      ],
+      "answer": 2,
+      "word": "effect",
+      "form": "effective",
+      "explain": "每天練英文十分鐘非常有效。be 動詞＋very 後面接形容詞 effective＝有效的。"
+    },
+    {
+      "id": "U8L-R-19",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 19,
+      "mode": "mc",
+      "stem": "The typhoon had a big ___ on vegetable prices.",
+      "options": [
+        "effort",
+        "effect",
+        "affect",
+        "effective"
+      ],
+      "answer": 1,
+      "word": "effect",
+      "form": "effect",
+      "explain": "颱風對菜價有很大的影響。have an effect on＝對…有影響，a big 後面要名詞 effect；affect 是動詞。"
+    },
+    {
+      "id": "U8L-R-20",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 20,
+      "mode": "mc",
+      "stem": "Sales ___ last month, so the shop lost money.",
+      "options": [
+        "planned",
+        "gathered",
+        "increased",
+        "decreased"
+      ],
+      "answer": 3,
+      "word": "decrease",
+      "form": "decrease",
+      "explain": "上個月銷售量下降，所以那家店賠錢了。賠錢是因為賣得少，用 decreased＝減少了。"
+    },
+    {
+      "id": "U8L-R-21",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 21,
+      "mode": "mc",
+      "stem": "The number of club members ___ from 20 to 50 this year.",
+      "options": [
+        "increased",
+        "gathered",
+        "painted",
+        "decreased"
+      ],
+      "answer": 0,
+      "word": "decrease",
+      "form": "increase",
+      "explain": "今年社團人數從 20 人增加到 50 人。從 20 變 50 是變多，用 increased＝增加了。"
+    },
+    {
+      "id": "U8L-R-22",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 22,
+      "mode": "mc",
+      "stem": "My family has a big ___ at New Year.",
+      "options": [
+        "gather",
+        "gathers",
+        "gathering",
+        "gathered"
+      ],
+      "answer": 2,
+      "word": "gather",
+      "form": "gathering",
+      "explain": "我們家過年時有一場大型聚會。a big 後面接名詞 gathering＝聚會。"
+    },
+    {
+      "id": "U8L-R-23",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 23,
+      "mode": "mc",
+      "stem": "I need to ___ fifty new words before the test.",
+      "options": [
+        "memorable",
+        "memory",
+        "memorial",
+        "memorize"
+      ],
+      "answer": 3,
+      "word": "memory",
+      "form": "memorize",
+      "explain": "考試前我需要背五十個新單字。need to 後面接原形動詞 memorize＝背誦、記住。"
+    },
+    {
+      "id": "U8L-R-24",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 24,
+      "mode": "mc",
+      "stem": "Our class trip to Kenting was really ___.",
+      "options": [
+        "memorial",
+        "memorize",
+        "memory",
+        "memorable"
+      ],
+      "answer": 3,
+      "word": "memory",
+      "form": "memorable",
+      "explain": "我們班的墾丁之旅真的很難忘。be 動詞＋really 後面接形容詞 memorable＝難忘的。"
+    },
+    {
+      "id": "U8L-R-25",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 25,
+      "mode": "mc",
+      "stem": "We ___ a trip to Hualien last week.",
+      "options": [
+        "planned",
+        "planted",
+        "plans",
+        "planed"
+      ],
+      "answer": 0,
+      "word": "plan",
+      "form": "planned",
+      "explain": "我們上週計畫了一趟花蓮之旅。plan 的過去式要雙寫 n：planned；planted 是「種植了」。"
+    },
+    {
+      "id": "U8L-R-26",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 26,
+      "mode": "mc",
+      "stem": "My class ___ ten small trees at school last spring.",
+      "options": [
+        "planted",
+        "plants",
+        "planned",
+        "plant"
+      ],
+      "answer": 0,
+      "word": "plant",
+      "form": "planted",
+      "explain": "我們班去年春天在學校種了十棵小樹。last spring 是過去，用過去式 planted＝種了。"
+    },
+    {
+      "id": "U8L-R-27",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 27,
+      "mode": "mc",
+      "stem": "Mom bought a ___ of flowers for the living room.",
+      "options": [
+        "painter",
+        "painting",
+        "painted",
+        "paint"
+      ],
+      "answer": 1,
+      "word": "paint",
+      "form": "painting",
+      "explain": "媽媽為客廳買了一幅花的畫。a painting of…＝一幅…的畫；painter 是畫家。"
+    },
+    {
+      "id": "U8L-R-28",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 28,
+      "mode": "mc",
+      "stem": "I need new ___ to play this game on my computer.",
+      "options": [
+        "soft",
+        "software",
+        "soften",
+        "softly"
+      ],
+      "answer": 1,
+      "word": "soften",
+      "form": "software",
+      "explain": "我需要新的軟體才能在電腦上玩這款遊戲。software＝軟體，是名詞。"
+    },
+    {
+      "id": "U8L-R-29",
+      "paper": "review",
+      "section": "mc-phrase",
+      "num": 29,
+      "stem": "The dog ___ the cat into the yard.",
+      "options": [
+        "took after",
+        "gave up",
+        "went after",
+        "took care of"
+      ],
+      "answer": 2,
+      "word": "go after",
+      "explain": "那隻狗追著貓跑進院子。go after＝追逐。"
+    },
+    {
+      "id": "U8L-R-30",
+      "paper": "review",
+      "section": "mc-phrase",
+      "num": 30,
+      "stem": "I have to ___ my little sister after school.",
+      "options": [
+        "take care of",
+        "give up",
+        "take after",
+        "get up"
+      ],
+      "answer": 0,
+      "word": "take care of",
+      "explain": "我放學後得照顧我的妹妹。take care of＝照顧。"
+    },
+    {
+      "id": "U8L-R-31",
+      "paper": "review",
+      "section": "mc-phrase",
+      "num": 31,
+      "stem": "Tom ___ his father. They both have big eyes.",
+      "options": [
+        "looks for",
+        "takes after",
+        "goes after",
+        "takes care of"
+      ],
+      "answer": 1,
+      "word": "take after",
+      "explain": "湯姆像他爸爸，他們都有一雙大眼睛。take after＝與…相像。"
+    },
+    {
+      "id": "U8L-R-32",
+      "paper": "review",
+      "section": "dialogue",
+      "num": 32,
+      "stem": "A: Which do you want, bread or rice? B: ___",
+      "options": [
+        "By bus.",
+        "Twice a week.",
+        "At the night market.",
+        "Rice, please."
+      ],
+      "answer": 3,
+      "word": "對話應答",
+      "explain": "問「麵包和飯你要哪一個」，二選一回答「請給我飯」。"
+    },
+    {
+      "id": "U8L-R-33",
+      "paper": "review",
+      "section": "dialogue",
+      "num": 33,
+      "stem": "A: Which color do you like, red or blue? B: ___",
+      "options": [
+        "It costs 500 dollars.",
+        "Blue looks better on me.",
+        "At the mall.",
+        "Last Sunday."
+      ],
+      "answer": 1,
+      "word": "對話應答",
+      "explain": "問「紅色和藍色喜歡哪個」，回答「藍色我穿比較好看」。"
+    },
+    {
+      "id": "U8L-R-34",
+      "paper": "review",
+      "section": "dialogue",
+      "num": 34,
+      "stem": "A: Which MRT line goes to Taipei Zoo? B: ___",
+      "options": [
+        "It is very crowded.",
+        "At six in the morning.",
+        "The Brown Line.",
+        "It takes 30 minutes."
+      ],
+      "answer": 2,
+      "word": "對話應答",
+      "explain": "問「哪條捷運線到動物園」，回答「文湖線（棕線）」。"
+    },
+    {
+      "id": "U8L-R-35",
+      "paper": "review",
+      "section": "dialogue",
+      "num": 35,
+      "stem": "A: Which club did you join this year? B: ___",
+      "options": [
+        "The dance club.",
+        "Because it is fun.",
+        "With my classmates.",
+        "On Friday afternoons."
+      ],
+      "answer": 0,
+      "word": "對話應答",
+      "explain": "問「今年參加哪個社團」，回答「熱舞社」。"
+    },
+    {
+      "id": "U8L-R-36",
+      "paper": "review",
+      "section": "dialogue",
+      "num": 36,
+      "stem": "A: Which character do you use in this game? B: ___",
+      "options": [
+        "For three hours.",
+        "The tall man in black.",
+        "On my phone.",
+        "Every night."
+      ],
+      "answer": 1,
+      "word": "對話應答",
+      "explain": "問「這款遊戲你用哪個角色」，回答「穿黑衣服的高個子男生」。"
+    },
+    {
+      "id": "U8L-R-37",
+      "paper": "review",
+      "section": "dialogue",
+      "num": 37,
+      "stem": "A: Would you like milk tea or juice? B: ___",
+      "options": [
+        "Either will do.",
+        "Yes, it is.",
+        "In the fridge.",
+        "Ten minutes ago."
+      ],
+      "answer": 0,
+      "word": "對話應答",
+      "explain": "問「奶茶還是果汁」，回答「都可以」；A or B 的問句不能用 Yes/No 回答。"
+    },
+    {
+      "id": "U8L-R-38",
+      "paper": "review",
+      "section": "reading",
+      "num": 38,
+      "readingId": "U8L-READ-1",
+      "stem": "What is this reading mainly about?",
+      "options": [
+        "How to plant vegetables in a school garden.",
+        "A cooking contest in Tainan.",
+        "Kevin's mother and her restaurant.",
+        "A lunch that Kevin's class cooked for old people."
+      ],
+      "answer": 3,
+      "word": "閱讀理解",
+      "explain": "全文在講凱文班上為鎮上長者做午餐的經過。"
+    },
+    {
+      "id": "U8L-R-39",
+      "paper": "review",
+      "section": "reading",
+      "num": 39,
+      "readingId": "U8L-READ-1",
+      "stem": "Why did Kevin cook the beef slowly?",
+      "options": [
+        "To make it salty.",
+        "To make it soft.",
+        "Because the kitchen was too small.",
+        "Because the old people asked him to."
+      ],
+      "answer": 1,
+      "word": "閱讀理解",
+      "explain": "文中說他慢慢煮牛肉是為了讓它變軟（soften it）。"
+    },
+    {
+      "id": "U8L-R-40",
+      "paper": "review",
+      "section": "reading",
+      "num": 40,
+      "readingId": "U8L-READ-1",
+      "stem": "Which one is TRUE?",
+      "options": [
+        "Amy painted the menu on a plain white board.",
+        "The old people did not like the meal.",
+        "Kevin's father is a great cook.",
+        "The students used more salt in the food."
+      ],
+      "answer": 0,
+      "word": "閱讀理解",
+      "explain": "文中說 Amy 把菜單畫在一塊素白的板子上；鹽是減少、會煮菜的是媽媽、長者很喜歡。"
+    },
+    {
+      "id": "U8L-R-41",
+      "paper": "review",
+      "section": "reading",
+      "num": 41,
+      "readingId": "U8L-READ-1",
+      "stem": "What does Kevin want to do in the future?",
+      "options": [
+        "Teach old people to cook.",
+        "Work in a school garden.",
+        "Open a small restaurant.",
+        "Become a painter."
+      ],
+      "answer": 2,
+      "word": "閱讀理解",
+      "explain": "文中說他想追求開一家小餐廳的夢想。"
+    },
+    {
+      "id": "U8L-Q-01",
+      "paper": "quiz",
+      "section": "matching",
+      "num": 1,
+      "word": "配合題",
+      "left": [
+        "plant",
+        "plan",
+        "paint",
+        "soften",
+        "memory",
+        "affect",
+        "decline",
+        "effort",
+        "puzzle",
+        "planet",
+        "plane",
+        "effect",
+        "plain",
+        "decrease",
+        "gather"
+      ],
+      "right": [
+        "飛機",
+        "植物；種植",
+        "聚集；收集",
+        "難題；困惑",
+        "計畫；打算",
+        "軟化；使柔和",
+        "下降；婉拒",
+        "影響（動詞）",
+        "記憶；回憶",
+        "效果；結果",
+        "平原；樸素的",
+        "努力",
+        "行星",
+        "減少；降低",
+        "油漆；繪畫"
+      ],
+      "answer": [
+        "B",
+        "E",
+        "O",
+        "F",
+        "I",
+        "H",
+        "G",
+        "L",
+        "D",
+        "M",
+        "A",
+        "J",
+        "K",
+        "N",
+        "C"
+      ],
+      "explain": "把每個英文字對到正確的中文意思。"
+    },
+    {
+      "id": "U8L-Q-02",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 2,
+      "mode": "spell",
+      "prompt": "植物；種植",
+      "word": "plant",
+      "explain": "plant＝植物；種植。首 p 尾 t，共 5 個字母。"
+    },
+    {
+      "id": "U8L-Q-03",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 3,
+      "mode": "spell",
+      "prompt": "影響（動詞）",
+      "word": "affect",
+      "explain": "affect＝影響（動詞）。首 a 尾 t，共 6 個字母。"
+    },
+    {
+      "id": "U8L-Q-04",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 4,
+      "mode": "spell",
+      "prompt": "計畫；打算",
+      "word": "plan",
+      "explain": "plan＝計畫；打算。首 p 尾 n，共 4 個字母。"
+    },
+    {
+      "id": "U8L-Q-05",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 5,
+      "mode": "spell",
+      "prompt": "婉拒；下降",
+      "word": "decline",
+      "explain": "decline＝下降；婉拒。首 d 尾 e，共 7 個字母。"
+    },
+    {
+      "id": "U8L-Q-06",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 6,
+      "mode": "spell",
+      "prompt": "記憶；回憶",
+      "word": "memory",
+      "explain": "memory＝記憶；回憶。首 m 尾 y，共 6 個字母。"
+    },
+    {
+      "id": "U8L-Q-07",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 7,
+      "mode": "spell",
+      "prompt": "效果；結果",
+      "word": "effect",
+      "explain": "effect＝效果；結果。首 e 尾 t，共 6 個字母。"
+    },
+    {
+      "id": "U8L-Q-08",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 8,
+      "mode": "spell",
+      "prompt": "努力",
+      "word": "effort",
+      "explain": "effort＝努力。首 e 尾 t，共 6 個字母。"
+    },
+    {
+      "id": "U8L-Q-09",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 9,
+      "mode": "spell",
+      "prompt": "減少",
+      "word": "decrease",
+      "explain": "decrease＝減少；降低。首 d 尾 e，共 8 個字母。"
+    },
+    {
+      "id": "U8L-Q-10",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 10,
+      "mode": "spell",
+      "prompt": "軟化；使柔和",
+      "word": "soften",
+      "explain": "soften＝軟化；使柔和。首 s 尾 n，共 6 個字母。"
+    },
+    {
+      "id": "U8L-Q-11",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 11,
+      "mode": "spell",
+      "prompt": "飛機",
+      "word": "plane",
+      "explain": "plane＝飛機。首 p 尾 e，共 5 個字母。"
+    },
+    {
+      "id": "U8L-Q-12",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 12,
+      "mode": "spell",
+      "prompt": "油漆",
+      "word": "paint",
+      "explain": "paint＝油漆；繪畫。首 p 尾 t，共 5 個字母。"
+    },
+    {
+      "id": "U8L-Q-13",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 13,
+      "mode": "spell",
+      "prompt": "難題",
+      "word": "puzzle",
+      "explain": "puzzle＝難題；困惑。首 p 尾 e，共 6 個字母。"
+    },
+    {
+      "id": "U8L-Q-14",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 14,
+      "mode": "spell",
+      "prompt": "聚集",
+      "word": "gather",
+      "explain": "gather＝聚集；收集。首 g 尾 r，共 6 個字母。"
+    },
+    {
+      "id": "U8L-Q-15",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 15,
+      "mode": "spell",
+      "prompt": "平原；樸素的",
+      "word": "plain",
+      "explain": "plain＝平原；樸素的。首 p 尾 n，共 5 個字母。"
+    },
+    {
+      "id": "U8L-Q-16",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 16,
+      "mode": "spell",
+      "prompt": "行星",
+      "word": "planet",
+      "explain": "planet＝行星。首 p 尾 t，共 6 個字母。"
+    },
+    {
+      "id": "U8L-Q-17",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 17,
+      "mode": "mc",
+      "stem": "Loud music at night can ___ your sleep.",
+      "options": [
+        "affect",
+        "effect",
+        "effort",
+        "affection"
+      ],
+      "answer": 0,
+      "word": "affect",
+      "form": "affect",
+      "explain": "晚上大聲的音樂會影響你的睡眠。can 後面接原形動詞 affect＝影響；effect 是名詞「效果」。"
+    },
+    {
+      "id": "U8L-Q-18",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 18,
+      "mode": "mc",
+      "stem": "The medicine was ___, so I still felt sick.",
+      "options": [
+        "ineffective",
+        "effective",
+        "affection",
+        "effect"
+      ],
+      "answer": 0,
+      "word": "effect",
+      "form": "ineffective",
+      "explain": "那個藥沒有效，所以我還是覺得不舒服。吃了藥還不舒服＝藥沒效，用 ineffective＝無效的。"
+    },
+    {
+      "id": "U8L-Q-19",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 19,
+      "mode": "mc",
+      "stem": "I ate less sugar, and my weight ___ by three kg.",
+      "options": [
+        "increased",
+        "painted",
+        "decreased",
+        "gathered"
+      ],
+      "answer": 2,
+      "word": "decrease",
+      "form": "decrease",
+      "explain": "我少吃糖，體重減少了三公斤。少吃糖→體重變少，用 decreased＝減少了。"
+    },
+    {
+      "id": "U8L-Q-20",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 20,
+      "mode": "mc",
+      "stem": "We visited the Chiang Kai-shek ___ Hall in Taipei.",
+      "options": [
+        "memory",
+        "memorial",
+        "memorize",
+        "memorable"
+      ],
+      "answer": 1,
+      "word": "memory",
+      "form": "memorial",
+      "explain": "我們去參觀了台北的中正紀念堂。memorial＝紀念的；紀念館。"
+    },
+    {
+      "id": "U8L-Q-21",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 21,
+      "mode": "mc",
+      "stem": "What is your ___ for the summer vacation?",
+      "options": [
+        "planet",
+        "plane",
+        "plant",
+        "plan"
+      ],
+      "answer": 3,
+      "word": "plan",
+      "form": "plan",
+      "explain": "你暑假的計畫是什麼？plan＝計畫；plant 植物、plane 飛機、planet 行星。"
+    },
+    {
+      "id": "U8L-Q-22",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 22,
+      "mode": "mc",
+      "stem": "Please water the ___ on the desk every day.",
+      "options": [
+        "plan",
+        "plant",
+        "plane",
+        "planet"
+      ],
+      "answer": 1,
+      "word": "plant",
+      "form": "plant",
+      "explain": "請每天幫桌上的植物澆水。會被澆水的是 plant＝植物。"
+    },
+    {
+      "id": "U8L-Q-23",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 23,
+      "mode": "mc",
+      "stem": "My uncle is a ___, and he paints pictures of the sea.",
+      "options": [
+        "painting",
+        "paint",
+        "painter",
+        "painted"
+      ],
+      "answer": 2,
+      "word": "paint",
+      "form": "painter",
+      "explain": "我叔叔是畫家，他畫大海的圖。a ___ 指人，用 painter＝畫家。"
+    },
+    {
+      "id": "U8L-Q-24",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 24,
+      "mode": "mc",
+      "stem": "Leave the butter on the table to ___ it.",
+      "options": [
+        "soft",
+        "softly",
+        "software",
+        "soften"
+      ],
+      "answer": 3,
+      "word": "soften",
+      "form": "soften",
+      "explain": "把奶油放在桌上讓它變軟。to 後面接動詞 soften＝使變軟；soft 是形容詞。"
+    },
+    {
+      "id": "U8L-Q-25",
+      "paper": "quiz",
+      "section": "mc-phrase",
+      "num": 25,
+      "stem": "You should ___ your dream and never give up.",
+      "options": [
+        "get off",
+        "take after",
+        "go after",
+        "put on"
+      ],
+      "answer": 2,
+      "word": "go after",
+      "explain": "你應該追求你的夢想，永不放棄。go after＝追求。"
+    },
+    {
+      "id": "U8L-Q-26",
+      "paper": "quiz",
+      "section": "mc-phrase",
+      "num": 26,
+      "stem": "Who will ___ your dog when you travel?",
+      "options": [
+        "take care of",
+        "take after",
+        "go after",
+        "turn on"
+      ],
+      "answer": 0,
+      "word": "take care of",
+      "explain": "你去旅行時誰會照顧你的狗？take care of＝照顧。"
+    },
+    {
+      "id": "U8L-Q-27",
+      "paper": "quiz",
+      "section": "mc-phrase",
+      "num": 27,
+      "stem": "Amy ___ her grandmother. They have the same smile.",
+      "options": [
+        "takes care of",
+        "takes after",
+        "gets on",
+        "goes after"
+      ],
+      "answer": 1,
+      "word": "take after",
+      "explain": "Amy 很像她的奶奶，她們有一樣的笑容。take after＝與…相像。"
+    },
+    {
+      "id": "U8L-Q-28",
+      "paper": "quiz",
+      "section": "dialogue",
+      "num": 28,
+      "stem": "A: Which drink do you want, black tea or green tea? B: ___",
+      "options": [
+        "Green tea, please.",
+        "Yes, I do.",
+        "Fifty dollars.",
+        "At the corner store."
+      ],
+      "answer": 0,
+      "word": "對話應答",
+      "explain": "問「紅茶和綠茶要哪個」，二選一回答「請給我綠茶」。"
+    },
+    {
+      "id": "U8L-Q-29",
+      "paper": "quiz",
+      "section": "dialogue",
+      "num": 29,
+      "stem": "A: Which T-shirt should I buy? B: ___",
+      "options": [
+        "Last weekend.",
+        "At the night market.",
+        "The white one looks nice.",
+        "With my credit card."
+      ],
+      "answer": 2,
+      "word": "對話應答",
+      "explain": "問「該買哪件 T 恤」，回答「白色那件好看」。"
+    },
+    {
+      "id": "U8L-Q-30",
+      "paper": "quiz",
+      "section": "dialogue",
+      "num": 30,
+      "stem": "A: Which MRT line should I take to Tamsui? B: ___",
+      "options": [
+        "About 40 minutes.",
+        "It is 30 dollars.",
+        "Every five minutes.",
+        "Take the Red Line."
+      ],
+      "answer": 3,
+      "word": "對話應答",
+      "explain": "問「去淡水搭哪條捷運線」，回答「搭紅線」。"
+    },
+    {
+      "id": "U8L-Q-31",
+      "paper": "quiz",
+      "section": "dialogue",
+      "num": 31,
+      "stem": "A: Which one is your seat? B: ___",
+      "options": [
+        "Yes, it is.",
+        "The one by the window.",
+        "At seven o'clock.",
+        "I sit down."
+      ],
+      "answer": 1,
+      "word": "對話應答",
+      "explain": "問「哪一個是你的座位」，回答「靠窗那個」。"
+    },
+    {
+      "id": "U8L-E-01",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 1,
+      "mode": "spell",
+      "prompt": "努力",
+      "word": "effort",
+      "explain": "effort＝努力。首 e 尾 t，共 6 個字母。"
+    },
+    {
+      "id": "U8L-E-02",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 2,
+      "mode": "spell",
+      "prompt": "婉拒；下降",
+      "word": "decline",
+      "explain": "decline＝下降；婉拒。首 d 尾 e，共 7 個字母。"
+    },
+    {
+      "id": "U8L-E-03",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 3,
+      "mode": "spell",
+      "prompt": "飛機",
+      "word": "plane",
+      "explain": "plane＝飛機。首 p 尾 e，共 5 個字母。"
+    },
+    {
+      "id": "U8L-E-04",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 4,
+      "mode": "spell",
+      "prompt": "行星",
+      "word": "planet",
+      "explain": "planet＝行星。首 p 尾 t，共 6 個字母。"
+    },
+    {
+      "id": "U8L-E-05",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 5,
+      "mode": "spell",
+      "prompt": "平原；樸素的",
+      "word": "plain",
+      "explain": "plain＝平原；樸素的。首 p 尾 n，共 5 個字母。"
+    },
+    {
+      "id": "U8L-E-06",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 6,
+      "mode": "spell",
+      "prompt": "難題",
+      "word": "puzzle",
+      "explain": "puzzle＝難題；困惑。首 p 尾 e，共 6 個字母。"
+    },
+    {
+      "id": "U8L-E-07",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 7,
+      "mode": "mc",
+      "stem": "Grandma shows her ___ by cooking for us.",
+      "options": [
+        "affect",
+        "effective",
+        "effect",
+        "affection"
+      ],
+      "answer": 3,
+      "word": "affect",
+      "form": "affection",
+      "explain": "奶奶用煮飯給我們吃來表達她的關愛。her 後面接名詞 affection＝關愛、感情。"
+    },
+    {
+      "id": "U8L-E-08",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 8,
+      "mode": "mc",
+      "stem": "This app is ___ for learning new words.",
+      "options": [
+        "effective",
+        "affection",
+        "affect",
+        "effect"
+      ],
+      "answer": 0,
+      "word": "effect",
+      "form": "effective",
+      "explain": "這個 app 對學新單字很有效。be 動詞後面接形容詞 effective＝有效的。"
+    },
+    {
+      "id": "U8L-E-09",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 9,
+      "mode": "mc",
+      "stem": "The ticket price ___ from 15 to 20 dollars.",
+      "options": [
+        "planted",
+        "gathered",
+        "increased",
+        "decreased"
+      ],
+      "answer": 2,
+      "word": "decrease",
+      "form": "increase",
+      "explain": "票價從 15 元漲到 20 元。從 15 變 20 是變多，用 increased＝增加了。"
+    },
+    {
+      "id": "U8L-E-10",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 10,
+      "mode": "mc",
+      "stem": "The kids ___ shells on the beach yesterday.",
+      "options": [
+        "gather",
+        "gathered",
+        "gathers",
+        "gathering"
+      ],
+      "answer": 1,
+      "word": "gather",
+      "form": "gather",
+      "explain": "孩子們昨天在海灘上撿貝殼。yesterday 是過去，用過去式 gathered＝收集了。"
+    },
+    {
+      "id": "U8L-E-11",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 11,
+      "mode": "mc",
+      "stem": "I have a bad ___. I often forget names.",
+      "options": [
+        "memorize",
+        "memorial",
+        "memory",
+        "memorable"
+      ],
+      "answer": 2,
+      "word": "memory",
+      "form": "memory",
+      "explain": "我記性很差，常常忘記別人的名字。a bad 後面接名詞 memory＝記憶力。"
+    },
+    {
+      "id": "U8L-E-12",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 12,
+      "mode": "mc",
+      "stem": "Ben ___ a birthday party for his mom last Sunday.",
+      "options": [
+        "planned",
+        "planted",
+        "plans",
+        "planed"
+      ],
+      "answer": 0,
+      "word": "plan",
+      "form": "planned",
+      "explain": "Ben 上週日為媽媽籌劃了一場生日派對。plan 過去式雙寫 n：planned。"
+    },
+    {
+      "id": "U8L-E-13",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 13,
+      "mode": "mc",
+      "stem": "Dad ___ tomatoes in the garden last spring.",
+      "options": [
+        "plants",
+        "planned",
+        "plant",
+        "planted"
+      ],
+      "answer": 3,
+      "word": "plant",
+      "form": "planted",
+      "explain": "爸爸去年春天在花園裡種了番茄。last spring 是過去，用 planted＝種了。"
+    },
+    {
+      "id": "U8L-E-14",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 14,
+      "mode": "mc",
+      "stem": "Dad bought a can of white ___ for the wall.",
+      "options": [
+        "painter",
+        "paint",
+        "painting",
+        "painted"
+      ],
+      "answer": 1,
+      "word": "paint",
+      "form": "paint",
+      "explain": "爸爸買了一罐白色油漆要漆牆壁。a can of paint＝一罐油漆，paint 當名詞＝油漆。"
+    },
+    {
+      "id": "U8L-E-15",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 15,
+      "mode": "mc",
+      "stem": "This bed is very ___ and comfortable.",
+      "options": [
+        "soft",
+        "software",
+        "soften",
+        "softly"
+      ],
+      "answer": 0,
+      "word": "soften",
+      "form": "soft",
+      "explain": "這張床很柔軟又舒服。be 動詞＋very 後面接形容詞 soft＝柔軟的。"
+    },
+    {
+      "id": "U8L-E-16",
+      "paper": "extra",
+      "section": "mc-phrase",
+      "num": 16,
+      "stem": "The boy ___ the ball into the street.",
+      "options": [
+        "went after",
+        "took care of",
+        "took after",
+        "looked like"
+      ],
+      "answer": 0,
+      "word": "go after",
+      "explain": "那個男孩追著球跑到街上。go after＝追逐。"
+    },
+    {
+      "id": "U8L-E-17",
+      "paper": "extra",
+      "section": "mc-phrase",
+      "num": 17,
+      "stem": "Can you ___ my plants when I am away?",
+      "options": [
+        "go after",
+        "take care of",
+        "take after",
+        "get off"
+      ],
+      "answer": 1,
+      "word": "take care of",
+      "explain": "我不在的時候你可以幫我照顧植物嗎？take care of＝照料。"
+    },
+    {
+      "id": "U8L-E-18",
+      "paper": "extra",
+      "section": "mc-phrase",
+      "num": 18,
+      "stem": "The two boys ___ their dad. Both are very tall.",
+      "options": [
+        "take care of",
+        "give up",
+        "take after",
+        "go after"
+      ],
+      "answer": 2,
+      "word": "take after",
+      "explain": "那兩個男孩很像他們的爸爸，兩個都很高。take after＝與…相像。"
+    },
+    {
+      "id": "U8L-E-19",
+      "paper": "extra",
+      "section": "dialogue",
+      "num": 19,
+      "stem": "A: Do you prefer hamburgers or fried rice? B: ___",
+      "options": [
+        "I prefer the fried rice.",
+        "At lunch time.",
+        "In the kitchen.",
+        "It is very hot."
+      ],
+      "answer": 0,
+      "word": "對話應答",
+      "explain": "問「漢堡和炒飯比較喜歡哪個」，回答「我比較喜歡炒飯」。"
+    },
+    {
+      "id": "U8L-E-20",
+      "paper": "extra",
+      "section": "dialogue",
+      "num": 20,
+      "stem": "A: Which bus goes to the train station? B: ___",
+      "options": [
+        "It is 15 dollars.",
+        "At the bus stop.",
+        "Every ten minutes.",
+        "Bus 20."
+      ],
+      "answer": 3,
+      "word": "對話應答",
+      "explain": "問「哪一班公車到火車站」，回答「20 號公車」。"
+    },
+    {
+      "id": "U8L-E-21",
+      "paper": "extra",
+      "section": "dialogue",
+      "num": 21,
+      "stem": "A: Which team do you want to join, red or blue? B: ___",
+      "options": [
+        "Next Monday.",
+        "On the playground.",
+        "Blue, please.",
+        "Yes, I do."
+      ],
+      "answer": 2,
+      "word": "對話應答",
+      "explain": "問「紅隊藍隊想加入哪隊」，二選一回答「藍隊」。"
+    },
+    {
+      "id": "U8L-E-22",
+      "paper": "extra",
+      "section": "dialogue",
+      "num": 22,
+      "stem": "A: Which one is your bag? B: ___",
+      "options": [
+        "Yesterday.",
+        "The black one on the chair.",
+        "It is new.",
+        "My mom bought it."
+      ],
+      "answer": 1,
+      "word": "對話應答",
+      "explain": "問「哪一個是你的包包」，回答「椅子上黑色那個」。"
+    }
+  ]
+}

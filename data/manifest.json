@@ -140,6 +140,26 @@
     ]
   },
   {
+    "file": "u8_upper.json",
+    "unit": 8,
+    "half": "upper",
+    "label": "Unit 8（上）",
+    "papers": [
+      "review",
+      "quiz"
+    ]
+  },
+  {
+    "file": "u8_lower.json",
+    "unit": 8,
+    "half": "lower",
+    "label": "Unit 8（下）",
+    "papers": [
+      "review",
+      "quiz"
+    ]
+  },
+  {
     "file": "u9_upper.json",
     "unit": 9,
     "half": "upper",

@@ -1,0 +1,1573 @@
+{
+  "unit": 8,
+  "half": "upper",
+  "spec": {
+    "review": "v8",
+    "quiz": "v7"
+  },
+  "words": [
+    {
+      "en": "check",
+      "zh": "核對；檢查"
+    },
+    {
+      "en": "guide",
+      "zh": "引導；導遊",
+      "derivatives": [
+        "guidance",
+        "guard"
+      ]
+    },
+    {
+      "en": "height",
+      "zh": "高度；身高",
+      "derivatives": [
+        "high"
+      ]
+    },
+    {
+      "en": "weight",
+      "zh": "重量；體重",
+      "derivatives": [
+        "weigh"
+      ]
+    },
+    {
+      "en": "realize",
+      "zh": "領悟；了解"
+    },
+    {
+      "en": "disturb",
+      "zh": "打擾；妨礙",
+      "derivatives": [
+        "disturbance",
+        "bother"
+      ]
+    },
+    {
+      "en": "ability",
+      "zh": "能力",
+      "derivatives": [
+        "able",
+        "unable",
+        "disabled",
+        "enable"
+      ]
+    },
+    {
+      "en": "capable",
+      "zh": "有能力的",
+      "derivatives": [
+        "capacity",
+        "incapable"
+      ]
+    },
+    {
+      "en": "adventure",
+      "zh": "冒險"
+    },
+    {
+      "en": "risk",
+      "zh": "風險；冒險"
+    },
+    {
+      "en": "challenge",
+      "zh": "挑戰",
+      "derivatives": [
+        "challenging"
+      ]
+    },
+    {
+      "en": "advice",
+      "zh": "建議；忠告",
+      "derivatives": [
+        "advise"
+      ]
+    },
+    {
+      "en": "suggest",
+      "zh": "建議；暗示",
+      "derivatives": [
+        "suggestion"
+      ]
+    },
+    {
+      "en": "influence",
+      "zh": "影響",
+      "derivatives": [
+        "influenza"
+      ]
+    },
+    {
+      "en": "impact",
+      "zh": "衝擊；影響"
+    }
+  ],
+  "phrases": [
+    {
+      "en": "be made (up) of",
+      "zh": "由…組成"
+    },
+    {
+      "en": "consist of",
+      "zh": "包含；由…組成"
+    },
+    {
+      "en": "be composed of",
+      "zh": "由…組成"
+    }
+  ],
+  "readings": [
+    {
+      "id": "U8U-READ-1",
+      "title": "Our New Coach",
+      "text": "Our school basketball team is made up of twelve players. Last month, a new coach came to guide us. He is not very tall, but his height is not a problem. He has the ability to find every small mistake. On the first day, he checked our weight and gave us some advice about food. He suggested more fish, eggs, and fruit. Our practices consist of running, shooting, and passing, and every practice is a big challenge. At first, some players wanted to quit. Then we won three games in a row, and we realized the coach was right. His influence on the team is really big. Before every game, he says, \"Don't be afraid to take a risk.\" Now we are capable of beating the best team in our city. For us, every season is a new adventure."
+    }
+  ],
+  "questions": [
+    {
+      "id": "U8U-R-01",
+      "paper": "review",
+      "section": "matching",
+      "num": 1,
+      "word": "配合題",
+      "left": [
+        "height",
+        "advice",
+        "weight",
+        "realize",
+        "guide",
+        "check",
+        "risk",
+        "suggest",
+        "ability",
+        "challenge",
+        "impact",
+        "disturb",
+        "capable",
+        "influence",
+        "adventure"
+      ],
+      "right": [
+        "風險；冒險",
+        "衝擊；影響",
+        "挑戰",
+        "建議；暗示",
+        "建議；忠告",
+        "高度；身高",
+        "能力",
+        "重量；體重",
+        "有能力的",
+        "領悟；了解",
+        "影響",
+        "打擾；妨礙",
+        "引導；導遊",
+        "核對；檢查",
+        "冒險"
+      ],
+      "answer": [
+        "F",
+        "E",
+        "H",
+        "J",
+        "M",
+        "N",
+        "A",
+        "D",
+        "G",
+        "C",
+        "B",
+        "L",
+        "I",
+        "K",
+        "O"
+      ],
+      "explain": "把每個英文字對到正確的中文意思。"
+    },
+    {
+      "id": "U8U-R-02",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 2,
+      "mode": "spell",
+      "prompt": "風險",
+      "word": "risk",
+      "explain": "risk＝風險；冒險。首 r 尾 k，共 4 個字母。"
+    },
+    {
+      "id": "U8U-R-03",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 3,
+      "mode": "spell",
+      "prompt": "引導；導遊",
+      "word": "guide",
+      "explain": "guide＝引導；導遊。首 g 尾 e，共 5 個字母。"
+    },
+    {
+      "id": "U8U-R-04",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 4,
+      "mode": "spell",
+      "prompt": "衝擊",
+      "word": "impact",
+      "explain": "impact＝衝擊；影響。首 i 尾 t，共 6 個字母。"
+    },
+    {
+      "id": "U8U-R-05",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 5,
+      "mode": "spell",
+      "prompt": "重量；體重",
+      "word": "weight",
+      "explain": "weight＝重量；體重。首 w 尾 t，共 6 個字母。"
+    },
+    {
+      "id": "U8U-R-06",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 6,
+      "mode": "spell",
+      "prompt": "核對；檢查",
+      "word": "check",
+      "explain": "check＝核對；檢查。首 c 尾 k，共 5 個字母。"
+    },
+    {
+      "id": "U8U-R-07",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 7,
+      "mode": "spell",
+      "prompt": "冒險",
+      "word": "adventure",
+      "explain": "adventure＝冒險。首 a 尾 e，共 9 個字母。"
+    },
+    {
+      "id": "U8U-R-08",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 8,
+      "mode": "spell",
+      "prompt": "建議；暗示",
+      "word": "suggest",
+      "explain": "suggest＝建議；暗示。首 s 尾 t，共 7 個字母。"
+    },
+    {
+      "id": "U8U-R-09",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 9,
+      "mode": "spell",
+      "prompt": "能力",
+      "word": "ability",
+      "explain": "ability＝能力。首 a 尾 y，共 7 個字母。"
+    },
+    {
+      "id": "U8U-R-10",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 10,
+      "mode": "spell",
+      "prompt": "領悟；了解",
+      "word": "realize",
+      "explain": "realize＝領悟；了解。首 r 尾 e，共 7 個字母。"
+    },
+    {
+      "id": "U8U-R-11",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 11,
+      "mode": "spell",
+      "prompt": "影響",
+      "word": "influence",
+      "explain": "influence＝影響。首 i 尾 e，共 9 個字母。"
+    },
+    {
+      "id": "U8U-R-12",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 12,
+      "mode": "spell",
+      "prompt": "高度；身高",
+      "word": "height",
+      "explain": "height＝高度；身高。首 h 尾 t，共 6 個字母。"
+    },
+    {
+      "id": "U8U-R-13",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 13,
+      "mode": "spell",
+      "prompt": "挑戰",
+      "word": "challenge",
+      "explain": "challenge＝挑戰。首 c 尾 e，共 9 個字母。"
+    },
+    {
+      "id": "U8U-R-14",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 14,
+      "mode": "spell",
+      "prompt": "打擾；妨礙",
+      "word": "disturb",
+      "explain": "disturb＝打擾；妨礙。首 d 尾 b，共 7 個字母。"
+    },
+    {
+      "id": "U8U-R-15",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 15,
+      "mode": "spell",
+      "prompt": "有能力的",
+      "word": "capable",
+      "explain": "capable＝有能力的。首 c 尾 e，共 7 個字母。"
+    },
+    {
+      "id": "U8U-R-16",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 16,
+      "mode": "spell",
+      "prompt": "忠告（名詞）",
+      "word": "advice",
+      "explain": "advice＝建議；忠告。首 a 尾 e，共 6 個字母。"
+    },
+    {
+      "id": "U8U-R-17",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 17,
+      "mode": "mc",
+      "stem": "With the coach's ___, our team played much better.",
+      "options": [
+        "guidance",
+        "guard",
+        "guided",
+        "guarded"
+      ],
+      "answer": 0,
+      "word": "guide",
+      "form": "guidance",
+      "explain": "在教練的指導下，我們球隊打得好多了。所有格 coach's 後面接名詞 guidance＝指導。"
+    },
+    {
+      "id": "U8U-R-18",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 18,
+      "mode": "mc",
+      "stem": "The wall is too ___ for the cat to jump over.",
+      "options": [
+        "height",
+        "highly",
+        "high",
+        "heights"
+      ],
+      "answer": 2,
+      "word": "height",
+      "form": "high",
+      "explain": "那面牆太高了，貓跳不過去。too 後面接形容詞 high＝高的；height 是名詞「高度」。"
+    },
+    {
+      "id": "U8U-R-19",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 19,
+      "mode": "mc",
+      "stem": "How much do you ___ now?",
+      "options": [
+        "weigh",
+        "weighed",
+        "weights",
+        "weight"
+      ],
+      "answer": 0,
+      "word": "weight",
+      "form": "weigh",
+      "explain": "你現在體重多少？do 後面接原形動詞 weigh＝秤重；weight 是名詞。"
+    },
+    {
+      "id": "U8U-R-20",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 20,
+      "mode": "mc",
+      "stem": "The noise from the street caused a ___ in class.",
+      "options": [
+        "disturbance",
+        "disturb",
+        "disturbs",
+        "disturbed"
+      ],
+      "answer": 0,
+      "word": "disturb",
+      "form": "disturbance",
+      "explain": "街上的噪音在課堂上造成了干擾。a 後面接名詞 disturbance＝干擾。"
+    },
+    {
+      "id": "U8U-R-21",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 21,
+      "mode": "mc",
+      "stem": "Tom was sick, so he was ___ to come to school.",
+      "options": [
+        "ability",
+        "enable",
+        "unable",
+        "disabled"
+      ],
+      "answer": 2,
+      "word": "ability",
+      "form": "unable",
+      "explain": "湯姆生病了，所以不能來上學。be unable to＋V＝不能…。"
+    },
+    {
+      "id": "U8U-R-22",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 22,
+      "mode": "mc",
+      "stem": "This bathroom is for old and ___ people.",
+      "options": [
+        "disable",
+        "enable",
+        "ability",
+        "disabled"
+      ],
+      "answer": 3,
+      "word": "ability",
+      "form": "disabled",
+      "explain": "這間廁所是給老人和身障人士用的。修飾名詞 people 用形容詞 disabled＝身障的。"
+    },
+    {
+      "id": "U8U-R-23",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 23,
+      "mode": "mc",
+      "stem": "This map app can ___ you to find the shop fast.",
+      "options": [
+        "ability",
+        "able",
+        "enable",
+        "unable"
+      ],
+      "answer": 2,
+      "word": "ability",
+      "form": "enable",
+      "explain": "這個地圖 app 能讓你很快找到那家店。can 後面接原形動詞 enable＝使能夠。"
+    },
+    {
+      "id": "U8U-R-24",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 24,
+      "mode": "mc",
+      "stem": "This small room has a ___ of twenty people.",
+      "options": [
+        "capably",
+        "incapable",
+        "capable",
+        "capacity"
+      ],
+      "answer": 3,
+      "word": "capable",
+      "form": "capacity",
+      "explain": "這間小房間可容納二十人。a 後面接名詞 capacity＝容量。"
+    },
+    {
+      "id": "U8U-R-25",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 25,
+      "mode": "mc",
+      "stem": "Math is ___ for me, but I still like it.",
+      "options": [
+        "challenges",
+        "challenging",
+        "challenge",
+        "challenged"
+      ],
+      "answer": 1,
+      "word": "challenge",
+      "form": "challenging",
+      "explain": "數學對我來說很有挑戰性，但我還是喜歡它。be 動詞後接形容詞 challenging＝有挑戰性的。"
+    },
+    {
+      "id": "U8U-R-26",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 26,
+      "mode": "mc",
+      "stem": "I ___ you to take the MRT to the zoo.",
+      "options": [
+        "advising",
+        "advises",
+        "advice",
+        "advise"
+      ],
+      "answer": 3,
+      "word": "advice",
+      "form": "advise",
+      "explain": "我建議你搭捷運去動物園。主詞 I 後面要動詞 advise；advice 是名詞。"
+    },
+    {
+      "id": "U8U-R-27",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 27,
+      "mode": "mc",
+      "stem": "Do you have any ___ for our class trip?",
+      "options": [
+        "suggest",
+        "suggestions",
+        "suggested",
+        "suggests"
+      ],
+      "answer": 1,
+      "word": "suggest",
+      "form": "suggestion",
+      "explain": "你對我們的班遊有什麼建議嗎？any 後面接名詞 suggestions＝建議。"
+    },
+    {
+      "id": "U8U-R-28",
+      "paper": "review",
+      "section": "mc-vocab",
+      "num": 28,
+      "mode": "mc",
+      "stem": "I got the ___, so I stayed home for three days.",
+      "options": [
+        "influenced",
+        "influenza",
+        "influence",
+        "influences"
+      ],
+      "answer": 1,
+      "word": "influence",
+      "form": "influenza",
+      "explain": "我得了流感，所以在家待了三天。influenza＝流感；influence 是「影響」。"
+    },
+    {
+      "id": "U8U-R-29",
+      "paper": "review",
+      "section": "mc-phrase",
+      "num": 29,
+      "stem": "This small bag ___ old jeans.",
+      "options": [
+        "is made of",
+        "looks for",
+        "takes after",
+        "goes after"
+      ],
+      "answer": 0,
+      "word": "be made (up) of",
+      "explain": "這個小包包是用舊牛仔褲做的。be made of＝由…做成。"
+    },
+    {
+      "id": "U8U-R-30",
+      "paper": "review",
+      "section": "mc-phrase",
+      "num": 30,
+      "stem": "A week ___ seven days.",
+      "options": [
+        "looks into",
+        "consists of",
+        "drops by",
+        "takes after"
+      ],
+      "answer": 1,
+      "word": "consist of",
+      "explain": "一個星期由七天組成。consist of＝由…組成。"
+    },
+    {
+      "id": "U8U-R-31",
+      "paper": "review",
+      "section": "mc-phrase",
+      "num": 31,
+      "stem": "This fruit salad ___ apples, bananas, and grapes.",
+      "options": [
+        "stands for",
+        "calls off",
+        "is composed of",
+        "takes after"
+      ],
+      "answer": 2,
+      "word": "be composed of",
+      "explain": "這份水果沙拉由蘋果、香蕉和葡萄組成。be composed of＝由…組成。"
+    },
+    {
+      "id": "U8U-R-32",
+      "paper": "review",
+      "section": "dialogue",
+      "num": 32,
+      "stem": "A: Which do you like better, tea or milk? B: ___",
+      "options": [
+        "About 50 dollars.",
+        "Tea. I do not like milk.",
+        "Twice a day.",
+        "At the coffee shop."
+      ],
+      "answer": 1,
+      "word": "對話應答",
+      "explain": "問「茶和牛奶比較喜歡哪個」，回答選項之一「茶」。"
+    },
+    {
+      "id": "U8U-R-33",
+      "paper": "review",
+      "section": "dialogue",
+      "num": 33,
+      "stem": "A: Which floor is your classroom on? B: ___",
+      "options": [
+        "It's on the 4th floor.",
+        "With my friends.",
+        "By bike.",
+        "Next Monday."
+      ],
+      "answer": 0,
+      "word": "對話應答",
+      "explain": "問「教室在哪一樓」，回答樓層「四樓」。"
+    },
+    {
+      "id": "U8U-R-34",
+      "paper": "review",
+      "section": "dialogue",
+      "num": 34,
+      "stem": "A: Which bus goes to the train station? B: ___",
+      "options": [
+        "It takes an hour.",
+        "At seven in the morning.",
+        "It is very crowded.",
+        "Bus 25."
+      ],
+      "answer": 3,
+      "word": "對話應答",
+      "explain": "問「哪一班公車到火車站」，回答「25 號公車」。"
+    },
+    {
+      "id": "U8U-R-35",
+      "paper": "review",
+      "section": "dialogue",
+      "num": 35,
+      "stem": "A: Which shirt do you want, the red one or the blue one? B: ___",
+      "options": [
+        "The blue one, please.",
+        "I bought it yesterday.",
+        "It's 300 dollars.",
+        "Yes, I do."
+      ],
+      "answer": 0,
+      "word": "對話應答",
+      "explain": "問「要紅的還是藍的」，回答「藍的」。Which 問句不能用 Yes 回答。"
+    },
+    {
+      "id": "U8U-R-36",
+      "paper": "review",
+      "section": "dialogue",
+      "num": 36,
+      "stem": "A: Do you prefer rice or bread? B: ___",
+      "options": [
+        "Yes, I do.",
+        "Bread, please.",
+        "At the night market.",
+        "Last night."
+      ],
+      "answer": 1,
+      "word": "對話應答",
+      "explain": "問「比較喜歡飯還是麵包」，要二選一，回答「麵包」；A or B 選擇問句不能用 Yes 回答。"
+    },
+    {
+      "id": "U8U-R-37",
+      "paper": "review",
+      "section": "dialogue",
+      "num": 37,
+      "stem": "A: Which team do you think will win? B: ___",
+      "options": [
+        "Because I'm tired.",
+        "On TV.",
+        "I think the Lakers will.",
+        "At eight tonight."
+      ],
+      "answer": 2,
+      "word": "對話應答",
+      "explain": "問「你覺得哪一隊會贏」，回答「湖人隊」。"
+    },
+    {
+      "id": "U8U-R-38",
+      "paper": "review",
+      "section": "reading",
+      "num": 38,
+      "readingId": "U8U-READ-1",
+      "stem": "What is this reading mainly about?",
+      "options": [
+        "A player who left the team.",
+        "How to cook healthy food at home.",
+        "The best team in the city.",
+        "How a new coach helped a basketball team."
+      ],
+      "answer": 3,
+      "word": "閱讀理解",
+      "explain": "全文在講新教練怎麼帶領、改變了籃球隊。"
+    },
+    {
+      "id": "U8U-R-39",
+      "paper": "review",
+      "section": "reading",
+      "num": 39,
+      "readingId": "U8U-READ-1",
+      "stem": "How many players are on the team?",
+      "options": [
+        "Three.",
+        "Twelve.",
+        "Five.",
+        "Ten."
+      ],
+      "answer": 1,
+      "word": "閱讀理解",
+      "explain": "文章第一句：球隊由十二名球員組成（is made up of twelve players）。"
+    },
+    {
+      "id": "U8U-R-40",
+      "paper": "review",
+      "section": "reading",
+      "num": 40,
+      "readingId": "U8U-READ-1",
+      "stem": "Which one is TRUE?",
+      "options": [
+        "The team lost three games in a row.",
+        "All the players wanted to quit.",
+        "The coach gave the players advice about food.",
+        "The coach is very tall."
+      ],
+      "answer": 2,
+      "word": "閱讀理解",
+      "explain": "文中說教練在第一天量體重並給了飲食建議；他不高、球隊是連贏三場、只有部分球員想放棄。"
+    },
+    {
+      "id": "U8U-R-41",
+      "paper": "review",
+      "section": "reading",
+      "num": 41,
+      "readingId": "U8U-READ-1",
+      "stem": "What does the coach say before every game?",
+      "options": [
+        "Don't be afraid to take a risk.",
+        "We are the best team in the city.",
+        "Eat more fish and eggs.",
+        "Practice running every day."
+      ],
+      "answer": 0,
+      "word": "閱讀理解",
+      "explain": "文中說每場比賽前教練都說「不要害怕冒險」。"
+    },
+    {
+      "id": "U8U-Q-01",
+      "paper": "quiz",
+      "section": "matching",
+      "num": 1,
+      "word": "配合題",
+      "left": [
+        "risk",
+        "guide",
+        "suggest",
+        "check",
+        "ability",
+        "weight",
+        "capable",
+        "challenge",
+        "influence",
+        "realize",
+        "advice",
+        "disturb",
+        "impact",
+        "height",
+        "adventure"
+      ],
+      "right": [
+        "衝擊；影響",
+        "引導；導遊",
+        "挑戰",
+        "核對；檢查",
+        "領悟；了解",
+        "有能力的",
+        "能力",
+        "建議；忠告",
+        "重量；體重",
+        "風險；冒險",
+        "打擾；妨礙",
+        "高度；身高",
+        "建議；暗示",
+        "冒險",
+        "影響"
+      ],
+      "answer": [
+        "J",
+        "B",
+        "M",
+        "D",
+        "G",
+        "I",
+        "F",
+        "C",
+        "O",
+        "E",
+        "H",
+        "K",
+        "A",
+        "L",
+        "N"
+      ],
+      "explain": "把每個英文字對到正確的中文意思。"
+    },
+    {
+      "id": "U8U-Q-02",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 2,
+      "mode": "spell",
+      "prompt": "忠告（名詞）",
+      "word": "advice",
+      "explain": "advice＝建議；忠告。首 a 尾 e，共 6 個字母。"
+    },
+    {
+      "id": "U8U-Q-03",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 3,
+      "mode": "spell",
+      "prompt": "有能力的",
+      "word": "capable",
+      "explain": "capable＝有能力的。首 c 尾 e，共 7 個字母。"
+    },
+    {
+      "id": "U8U-Q-04",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 4,
+      "mode": "spell",
+      "prompt": "領悟；了解",
+      "word": "realize",
+      "explain": "realize＝領悟；了解。首 r 尾 e，共 7 個字母。"
+    },
+    {
+      "id": "U8U-Q-05",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 5,
+      "mode": "spell",
+      "prompt": "衝擊",
+      "word": "impact",
+      "explain": "impact＝衝擊；影響。首 i 尾 t，共 6 個字母。"
+    },
+    {
+      "id": "U8U-Q-06",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 6,
+      "mode": "spell",
+      "prompt": "能力",
+      "word": "ability",
+      "explain": "ability＝能力。首 a 尾 y，共 7 個字母。"
+    },
+    {
+      "id": "U8U-Q-07",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 7,
+      "mode": "spell",
+      "prompt": "核對；檢查",
+      "word": "check",
+      "explain": "check＝核對；檢查。首 c 尾 k，共 5 個字母。"
+    },
+    {
+      "id": "U8U-Q-08",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 8,
+      "mode": "spell",
+      "prompt": "打擾；妨礙",
+      "word": "disturb",
+      "explain": "disturb＝打擾；妨礙。首 d 尾 b，共 7 個字母。"
+    },
+    {
+      "id": "U8U-Q-09",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 9,
+      "mode": "spell",
+      "prompt": "高度；身高",
+      "word": "height",
+      "explain": "height＝高度；身高。首 h 尾 t，共 6 個字母。"
+    },
+    {
+      "id": "U8U-Q-10",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 10,
+      "mode": "spell",
+      "prompt": "風險",
+      "word": "risk",
+      "explain": "risk＝風險；冒險。首 r 尾 k，共 4 個字母。"
+    },
+    {
+      "id": "U8U-Q-11",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 11,
+      "mode": "spell",
+      "prompt": "影響",
+      "word": "influence",
+      "explain": "influence＝影響。首 i 尾 e，共 9 個字母。"
+    },
+    {
+      "id": "U8U-Q-12",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 12,
+      "mode": "spell",
+      "prompt": "引導；導遊",
+      "word": "guide",
+      "explain": "guide＝引導；導遊。首 g 尾 e，共 5 個字母。"
+    },
+    {
+      "id": "U8U-Q-13",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 13,
+      "mode": "spell",
+      "prompt": "建議；暗示",
+      "word": "suggest",
+      "explain": "suggest＝建議；暗示。首 s 尾 t，共 7 個字母。"
+    },
+    {
+      "id": "U8U-Q-14",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 14,
+      "mode": "spell",
+      "prompt": "重量；體重",
+      "word": "weight",
+      "explain": "weight＝重量；體重。首 w 尾 t，共 6 個字母。"
+    },
+    {
+      "id": "U8U-Q-15",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 15,
+      "mode": "spell",
+      "prompt": "冒險",
+      "word": "adventure",
+      "explain": "adventure＝冒險。首 a 尾 e，共 9 個字母。"
+    },
+    {
+      "id": "U8U-Q-16",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 16,
+      "mode": "spell",
+      "prompt": "挑戰",
+      "word": "challenge",
+      "explain": "challenge＝挑戰。首 c 尾 e，共 9 個字母。"
+    },
+    {
+      "id": "U8U-Q-17",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 17,
+      "mode": "mc",
+      "stem": "A ___ stands at the bank door to keep it safe.",
+      "options": [
+        "guide",
+        "guard",
+        "guidance",
+        "guided"
+      ],
+      "answer": 1,
+      "word": "guide",
+      "form": "guard",
+      "explain": "一名警衛站在銀行門口保護安全。guard＝守衛；guide 是「導遊」，不是看守的人。"
+    },
+    {
+      "id": "U8U-Q-18",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 18,
+      "mode": "mc",
+      "stem": "What is the ___ of that building?",
+      "options": [
+        "height",
+        "highly",
+        "high",
+        "higher"
+      ],
+      "answer": 0,
+      "word": "height",
+      "form": "height",
+      "explain": "那棟建築物的高度是多少？the ___ of 要用名詞 height＝高度。"
+    },
+    {
+      "id": "U8U-Q-19",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 19,
+      "mode": "mc",
+      "stem": "The doctor said my ___ is too high.",
+      "options": [
+        "weighs",
+        "weighed",
+        "weight",
+        "weigh"
+      ],
+      "answer": 2,
+      "word": "weight",
+      "form": "weight",
+      "explain": "醫生說我的體重太高了。所有格 my 後面接名詞 weight＝體重。"
+    },
+    {
+      "id": "U8U-Q-20",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 20,
+      "mode": "mc",
+      "stem": "Please do not ___ Grandpa. He is sleeping.",
+      "options": [
+        "disturbing",
+        "disturbed",
+        "disturbance",
+        "disturb"
+      ],
+      "answer": 3,
+      "word": "disturb",
+      "form": "disturb",
+      "explain": "請不要打擾爺爺，他在睡覺。do not 後面接原形動詞 disturb＝打擾。"
+    },
+    {
+      "id": "U8U-Q-21",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 21,
+      "mode": "mc",
+      "stem": "My little brother is ___ to ride a bike now.",
+      "options": [
+        "able",
+        "disabled",
+        "enable",
+        "ability"
+      ],
+      "answer": 0,
+      "word": "ability",
+      "form": "able",
+      "explain": "我弟弟現在會騎腳踏車了。be able to＋V＝能夠…。"
+    },
+    {
+      "id": "U8U-Q-22",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 22,
+      "mode": "mc",
+      "stem": "The baby is only two months old and ___ of walking.",
+      "options": [
+        "capacity",
+        "capably",
+        "ability",
+        "incapable"
+      ],
+      "answer": 3,
+      "word": "capable",
+      "form": "incapable",
+      "explain": "那個嬰兒才兩個月大，還不會走路。be incapable of＝不能…；才兩個月大所以是「不能」。"
+    },
+    {
+      "id": "U8U-Q-23",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 23,
+      "mode": "mc",
+      "stem": "Can you give me some ___ about the English test?",
+      "options": [
+        "advised",
+        "advices",
+        "advice",
+        "advise"
+      ],
+      "answer": 2,
+      "word": "advice",
+      "form": "advice",
+      "explain": "你可以給我一些關於英文考試的建議嗎？advice 是不可數名詞，不能加 s。"
+    },
+    {
+      "id": "U8U-Q-24",
+      "paper": "quiz",
+      "section": "mc-vocab",
+      "num": 24,
+      "mode": "mc",
+      "stem": "My older brother has a big ___ on me.",
+      "options": [
+        "influenced",
+        "influence",
+        "influences",
+        "influenza"
+      ],
+      "answer": 1,
+      "word": "influence",
+      "form": "influence",
+      "explain": "我哥哥對我影響很大。have an influence on＝對…有影響；a big 後面接單數名詞。"
+    },
+    {
+      "id": "U8U-Q-25",
+      "paper": "quiz",
+      "section": "mc-phrase",
+      "num": 25,
+      "stem": "The lunch box ___ rice, fish, and vegetables.",
+      "options": [
+        "takes after",
+        "stands out",
+        "consists of",
+        "goes after"
+      ],
+      "answer": 2,
+      "word": "consist of",
+      "explain": "這個便當裡有飯、魚和青菜。consist of＝包含；由…組成。"
+    },
+    {
+      "id": "U8U-Q-26",
+      "paper": "quiz",
+      "section": "mc-phrase",
+      "num": 26,
+      "stem": "The old house ___ wood and stone.",
+      "options": [
+        "is made of",
+        "looks over",
+        "goes after",
+        "takes after"
+      ],
+      "answer": 0,
+      "word": "be made (up) of",
+      "explain": "那間老房子是用木頭和石頭蓋的。be made of＝由…做成。"
+    },
+    {
+      "id": "U8U-Q-27",
+      "paper": "quiz",
+      "section": "mc-phrase",
+      "num": 27,
+      "stem": "Our basketball team ___ ten players.",
+      "options": [
+        "puts off",
+        "is composed of",
+        "drops by",
+        "takes after"
+      ],
+      "answer": 1,
+      "word": "be composed of",
+      "explain": "我們籃球隊由十名球員組成。be composed of＝由…組成。"
+    },
+    {
+      "id": "U8U-Q-28",
+      "paper": "quiz",
+      "section": "dialogue",
+      "num": 28,
+      "stem": "A: Which one do you want, the cake or the cookie? B: ___",
+      "options": [
+        "Two hours ago.",
+        "In the box.",
+        "It was very sweet.",
+        "Either is OK. I like both."
+      ],
+      "answer": 3,
+      "word": "對話應答",
+      "explain": "問「蛋糕和餅乾要哪一個」，回答「哪個都可以」。either＝兩者任一。"
+    },
+    {
+      "id": "U8U-Q-29",
+      "paper": "quiz",
+      "section": "dialogue",
+      "num": 29,
+      "stem": "A: Which is your seat? B: ___",
+      "options": [
+        "I'm fine, thanks.",
+        "Yes, please sit down.",
+        "The one by the window.",
+        "At eight o'clock."
+      ],
+      "answer": 2,
+      "word": "對話應答",
+      "explain": "問「哪一個是你的座位」，回答「靠窗那個」。"
+    },
+    {
+      "id": "U8U-Q-30",
+      "paper": "quiz",
+      "section": "dialogue",
+      "num": 30,
+      "stem": "A: Which subject do you like best? B: ___",
+      "options": [
+        "English. It's fun.",
+        "My teacher is Mr. Lin.",
+        "In Room 302.",
+        "Every Monday."
+      ],
+      "answer": 0,
+      "word": "對話應答",
+      "explain": "問「最喜歡哪一科」，回答科目「英文」。"
+    },
+    {
+      "id": "U8U-Q-31",
+      "paper": "quiz",
+      "section": "dialogue",
+      "num": 31,
+      "stem": "A: Which way is the MRT station? B: ___",
+      "options": [
+        "Yes, it is.",
+        "Go straight and turn left.",
+        "About 20 dollars.",
+        "It opens at six."
+      ],
+      "answer": 1,
+      "word": "對話應答",
+      "explain": "問「捷運站往哪邊走」，回答方向「直走再左轉」。"
+    },
+    {
+      "id": "U8U-E-01",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 1,
+      "mode": "spell",
+      "prompt": "核對；檢查",
+      "word": "check",
+      "explain": "check＝核對；檢查。首 c 尾 k，共 5 個字母。"
+    },
+    {
+      "id": "U8U-E-02",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 2,
+      "mode": "spell",
+      "prompt": "領悟；了解",
+      "word": "realize",
+      "explain": "realize＝領悟；了解。首 r 尾 e，共 7 個字母。"
+    },
+    {
+      "id": "U8U-E-03",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 3,
+      "mode": "spell",
+      "prompt": "冒險",
+      "word": "adventure",
+      "explain": "adventure＝冒險。首 a 尾 e，共 9 個字母。"
+    },
+    {
+      "id": "U8U-E-04",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 4,
+      "mode": "spell",
+      "prompt": "風險",
+      "word": "risk",
+      "explain": "risk＝風險；冒險。首 r 尾 k，共 4 個字母。"
+    },
+    {
+      "id": "U8U-E-05",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 5,
+      "mode": "spell",
+      "prompt": "衝擊",
+      "word": "impact",
+      "explain": "impact＝衝擊；影響。首 i 尾 t，共 6 個字母。"
+    },
+    {
+      "id": "U8U-E-06",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 6,
+      "mode": "mc",
+      "stem": "Our ___ told us about every food at the night market.",
+      "options": [
+        "guide",
+        "guidance",
+        "guard",
+        "guided"
+      ],
+      "answer": 0,
+      "word": "guide",
+      "form": "guide",
+      "explain": "我們的導遊跟我們介紹夜市的每一樣食物。guide＝導遊，指人；guard 是看守的警衛。"
+    },
+    {
+      "id": "U8U-E-07",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 7,
+      "mode": "mc",
+      "stem": "How ___ is Taipei 101?",
+      "options": [
+        "height",
+        "highly",
+        "high",
+        "heights"
+      ],
+      "answer": 2,
+      "word": "height",
+      "form": "high",
+      "explain": "台北 101 有多高？How high＝多高，用形容詞 high。"
+    },
+    {
+      "id": "U8U-E-08",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 8,
+      "mode": "mc",
+      "stem": "This box of apples ___ ten kg.",
+      "options": [
+        "weigh",
+        "weighs",
+        "weight",
+        "weights"
+      ],
+      "answer": 1,
+      "word": "weight",
+      "form": "weigh",
+      "explain": "這箱蘋果重十公斤。主詞是單數，動詞用 weighs；weight 是名詞。"
+    },
+    {
+      "id": "U8U-E-09",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 9,
+      "mode": "mc",
+      "stem": "Don't ___ to wait for me. I will be late.",
+      "options": [
+        "disturbed",
+        "disturbance",
+        "disturb",
+        "bother"
+      ],
+      "answer": 3,
+      "word": "disturb",
+      "form": "bother",
+      "explain": "不用費心等我，我會晚到。don't bother to＋V＝不必費心做…；disturb 後面不接 to＋V。"
+    },
+    {
+      "id": "U8U-E-10",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 10,
+      "mode": "mc",
+      "stem": "Everyone has the ___ to learn English well.",
+      "options": [
+        "ability",
+        "enable",
+        "unable",
+        "able"
+      ],
+      "answer": 0,
+      "word": "ability",
+      "form": "ability",
+      "explain": "每個人都有學好英文的能力。the 後面接名詞 ability＝能力。"
+    },
+    {
+      "id": "U8U-E-11",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 11,
+      "mode": "mc",
+      "stem": "My sister is ___ of cooking for the whole family.",
+      "options": [
+        "ability",
+        "capably",
+        "capacity",
+        "capable"
+      ],
+      "answer": 3,
+      "word": "capable",
+      "form": "capable",
+      "explain": "我姐姐有能力為全家人煮飯。be capable of＝有能力做…。"
+    },
+    {
+      "id": "U8U-E-12",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 12,
+      "mode": "mc",
+      "stem": "Climbing Jade Mountain was a big ___ for us.",
+      "options": [
+        "challenge",
+        "challenged",
+        "challenges",
+        "challenging"
+      ],
+      "answer": 0,
+      "word": "challenge",
+      "form": "challenge",
+      "explain": "爬玉山對我們來說是很大的挑戰。a big 後面接單數名詞 challenge。"
+    },
+    {
+      "id": "U8U-E-13",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 13,
+      "mode": "mc",
+      "stem": "Mom ___ me to bring an umbrella this morning.",
+      "options": [
+        "advices",
+        "advised",
+        "advise",
+        "advice"
+      ],
+      "answer": 1,
+      "word": "advice",
+      "form": "advise",
+      "explain": "媽媽今天早上建議我帶雨傘。過去的事用 advised（動詞）；advice 是名詞。"
+    },
+    {
+      "id": "U8U-E-14",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 14,
+      "mode": "mc",
+      "stem": "Can you ___ a good place for lunch?",
+      "options": [
+        "suggestions",
+        "suggested",
+        "suggest",
+        "suggestion"
+      ],
+      "answer": 2,
+      "word": "suggest",
+      "form": "suggest",
+      "explain": "你可以推薦一個吃午餐的好地方嗎？can 後面接原形動詞 suggest。"
+    },
+    {
+      "id": "U8U-E-15",
+      "paper": "extra",
+      "section": "mc-vocab",
+      "num": 15,
+      "mode": "mc",
+      "stem": "Many students caught ___ last winter, so the school closed.",
+      "options": [
+        "influenced",
+        "influenza",
+        "influence",
+        "influences"
+      ],
+      "answer": 1,
+      "word": "influence",
+      "form": "influenza",
+      "explain": "去年冬天很多學生得了流感，所以學校停課。influenza＝流感。"
+    },
+    {
+      "id": "U8U-E-16",
+      "paper": "extra",
+      "section": "mc-phrase",
+      "num": 16,
+      "stem": "The toy car ___ plastic.",
+      "options": [
+        "calls on",
+        "is made of",
+        "takes after",
+        "goes after"
+      ],
+      "answer": 1,
+      "word": "be made (up) of",
+      "explain": "那台玩具車是塑膠做的。be made of＝由…做成。"
+    },
+    {
+      "id": "U8U-E-17",
+      "paper": "extra",
+      "section": "mc-phrase",
+      "num": 17,
+      "stem": "The test ___ forty questions.",
+      "options": [
+        "consists of",
+        "looks for",
+        "takes after",
+        "puts off"
+      ],
+      "answer": 0,
+      "word": "consist of",
+      "explain": "這次考試包含四十題。consist of＝包含；由…組成。"
+    },
+    {
+      "id": "U8U-E-18",
+      "paper": "extra",
+      "section": "mc-phrase",
+      "num": 18,
+      "stem": "The school band ___ thirty students.",
+      "options": [
+        "takes after",
+        "calls off",
+        "is composed of",
+        "turns on"
+      ],
+      "answer": 2,
+      "word": "be composed of",
+      "explain": "學校樂隊由三十個學生組成。be composed of＝由…組成。"
+    },
+    {
+      "id": "U8U-E-19",
+      "paper": "extra",
+      "section": "dialogue",
+      "num": 19,
+      "stem": "A: Which color do you like, pink or black? B: ___",
+      "options": [
+        "Last Sunday.",
+        "At the mall.",
+        "Black. It looks cool.",
+        "It's on sale."
+      ],
+      "answer": 2,
+      "word": "對話應答",
+      "explain": "問「粉紅和黑色喜歡哪個」，回答「黑色」。"
+    },
+    {
+      "id": "U8U-E-20",
+      "paper": "extra",
+      "section": "dialogue",
+      "num": 20,
+      "stem": "A: Which game do you play most? B: ___",
+      "options": [
+        "With my brother.",
+        "Call of Duty.",
+        "Every night.",
+        "About two hours."
+      ],
+      "answer": 1,
+      "word": "對話應答",
+      "explain": "問「最常玩哪一款遊戲」，回答遊戲名稱「決勝時刻」。"
+    },
+    {
+      "id": "U8U-E-21",
+      "paper": "extra",
+      "section": "dialogue",
+      "num": 21,
+      "stem": "A: Which do you want to drink, juice or milk? B: ___",
+      "options": [
+        "After lunch.",
+        "In the fridge.",
+        "Yes, I would.",
+        "Juice, please."
+      ],
+      "answer": 3,
+      "word": "對話應答",
+      "explain": "問「果汁和牛奶要喝哪個」，回答「果汁」。"
+    },
+    {
+      "id": "U8U-E-22",
+      "paper": "extra",
+      "section": "dialogue",
+      "num": 22,
+      "stem": "A: Which bag is yours? B: ___",
+      "options": [
+        "The black one on the chair.",
+        "Yes, it's mine.",
+        "It's very heavy.",
+        "I bought it last week."
+      ],
+      "answer": 0,
+      "word": "對話應答",
+      "explain": "問「哪個包包是你的」，回答「椅子上那個黑的」。"
+    }
+  ]
+}
